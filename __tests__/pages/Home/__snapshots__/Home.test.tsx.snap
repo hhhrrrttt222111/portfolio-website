@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Home matches snapshot 1`] = `
+<div>
+  <div>
+    CursorFollower
+  </div>
+  <nav>
+    Navbar
+  </nav>
+  <section>
+    HeroSection
+  </section>
+  <section>
+    Services
+  </section>
+  <section>
+    TechStack
+  </section>
+  <section>
+    Projects
+  </section>
+  <section>
+    BlogPreview
+  </section>
+  <footer>
+    Footer
+  </footer>
+</div>
+`;

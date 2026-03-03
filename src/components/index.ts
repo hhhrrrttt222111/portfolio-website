@@ -1,0 +1,8 @@
+export { default as Navbar } from "./Navbar/Navbar";
+export { default as HeroSection } from "./HeroSection/HeroSection";
+export { default as Services } from "./Services/Services";
+export { default as TechStack } from "./TechStack/TechStack";
+export { default as Projects } from "./Projects/Projects";
+export { default as BlogPreview } from "./BlogPreview/BlogPreview";
+export { default as Footer } from "./Footer/Footer";
+export { default as CursorFollower } from "./CursorFollower/CursorFollower";
