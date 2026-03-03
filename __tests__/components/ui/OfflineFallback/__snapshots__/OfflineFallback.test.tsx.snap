@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`OfflineFallback matches snapshot 1`] = `
+<div>
+  <div
+    class="MuiStack-root css-1nm84b1-MuiStack-root"
+  >
+    <div
+      class="MuiStack-root css-1hyf038-MuiStack-root"
+    >
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ax5a8z-MuiSvgIcon-root"
+        data-testid="WifiOffIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M22.99 9C19.15 5.16 13.8 3.76 8.84 4.78l2.52 2.52c3.47-.17 6.99 1.05 9.63 3.7zm-4 4c-1.29-1.29-2.84-2.13-4.49-2.56l3.53 3.53zM2 3.05 5.07 6.1C3.6 6.82 2.22 7.78 1 9l1.99 2c1.24-1.24 2.67-2.16 4.2-2.77l2.24 2.24C7.81 10.89 6.27 11.73 5 13v.01L6.99 15c1.36-1.36 3.14-2.04 4.92-2.06L18.98 20l1.27-1.26L3.29 1.79zM9 17l3 3 3-3c-1.65-1.66-4.34-1.66-6 0"
+        />
+      </svg>
+      <h6
+        class="MuiTypography-root MuiTypography-h6 css-167mvrx-MuiTypography-root"
+      >
+        You're offline
+      </h6>
+    </div>
+    <h3
+      class="MuiTypography-root MuiTypography-h3 css-1p8lhl3-MuiTypography-root"
+    >
+      <span
+        class="MuiBox-root css-81iyw9"
+      >
+        X
+      </span>
+       
+      vs
+       
+      <span
+        class="MuiBox-root css-1d4fafe"
+      >
+        O
+      </span>
+    </h3>
+    <p
+      class="MuiTypography-root MuiTypography-body2 css-1wle3ir-MuiTypography-root"
+    >
+      You are 
+      <strong>
+        X
+      </strong>
+      . Beat the bot while you wait!
+    </p>
+    <div
+      class="MuiStack-root css-1xcvc1q-MuiStack-root"
+    >
+      <div
+        class="MuiStack-root css-163ljxj-MuiStack-root"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5 css-1a265nu-MuiTypography-root"
+        >
+          0
+        </h5>
+        <span
+          class="MuiTypography-root MuiTypography-caption css-10zzx3g-MuiTypography-root"
+        >
+          Wins
+        </span>
+      </div>
+      <div
+        class="MuiStack-root css-163ljxj-MuiStack-root"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5 css-4s7gkb-MuiTypography-root"
+        >
+          0
+        </h5>
+        <span
+          class="MuiTypography-root MuiTypography-caption css-10zzx3g-MuiTypography-root"
+        >
+          Draws
+        </span>
+      </div>
+      <div
+        class="MuiStack-root css-163ljxj-MuiStack-root"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5 css-i27rbg-MuiTypography-root"
+        >
+          0
+        </h5>
+        <span
+          class="MuiTypography-root MuiTypography-caption css-10zzx3g-MuiTypography-root"
+        >
+          Losses
+        </span>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root css-724csk"
+    >
+      <div>
+        <div
+          class="MuiBox-root css-1nv3k7a"
+        />
+      </div>
+      <div>
+        <div
+          class="MuiBox-root css-1nv3k7a"
+        />
+      </div>
+      <div>
+        <div
+          class="MuiBox-root css-1nv3k7a"
+        />
+      </div>
+      <div>
+        <div
+          class="MuiBox-root css-1nv3k7a"
+        />
+      </div>
+      <div>
+        <div
+          class="MuiBox-root css-1nv3k7a"
+        />
+      </div>
+      <div>
+        <div
+          class="MuiBox-root css-1nv3k7a"
+        />
+      </div>
+      <div>
+        <div
+          class="MuiBox-root css-1nv3k7a"
+        />
+      </div>
+      <div>
+        <div
+          class="MuiBox-root css-1nv3k7a"
+        />
+      </div>
+      <div>
+        <div
+          class="MuiBox-root css-1nv3k7a"
+        />
+      </div>
+    </div>
+    <div
+      class="MuiStack-root css-1bszby4-MuiStack-root"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary css-176gtqm-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-icon MuiButton-startIcon MuiButton-iconSizeMedium css-1sh91j5-MuiButton-startIcon"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+            data-testid="ReplayIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8"
+            />
+          </svg>
+        </span>
+        Reset
+      </button>
+    </div>
+  </div>
+</div>
+`;
