@@ -15,7 +15,7 @@ const renderApp = (initialRoute = "/") =>
 describe("App", () => {
   it("renders the Home page at root route", () => {
     renderApp("/");
-    expect(screen.getByText("Portfolio")).toBeInTheDocument();
+    expect(screen.getByText("HRT")).toBeInTheDocument();
     expect(screen.getByText("Footer")).toBeInTheDocument();
   });
 

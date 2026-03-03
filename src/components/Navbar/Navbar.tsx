@@ -1,25 +1,62 @@
-import AppBar from "@mui/material/AppBar";
-import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
+import { useState, useCallback } from "react";
+import Stack from "@mui/material/Stack";
+import Box from "@mui/material/Box";
+import useMediaQuery from "@mui/material/useMediaQuery";
+import { useTheme } from "@mui/material/styles";
+import MenuIcon from "@mui/icons-material/Menu";
+import MobileNav from "./MobileNav";
+import {
+  NavbarRoot,
+  NavbarToolbar,
+  Logo,
+  NavLink,
+  ContactButton,
+  HamburgerButton,
+} from "./Navbar.styles";
+
+const NAV_LINKS = [
+  { label: "About", path: "/about" },
+  { label: "Blog", path: "/blog" },
+] as const;
 
 const Navbar = () => {
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
+
+  const toggleMobile = useCallback(() => {
+    setMobileOpen((prev) => !prev);
+  }, []);
+
   return (
-    <AppBar
-      position="fixed"
-      elevation={0}
-      sx={{
-        bgcolor: "transparent",
-        backdropFilter: "none",
-        borderBottom: "none",
-        zIndex: (theme) => theme.zIndex.appBar,
-      }}
-    >
-      <Toolbar sx={{ px: { xs: 2, md: 4, lg: 12 } }}>
-        <Typography variant="h6" sx={{ color: "primary.main", fontWeight: 700 }}>
-          Portfolio
-        </Typography>
-      </Toolbar>
-    </AppBar>
+    <>
+      <NavbarRoot position="fixed" elevation={0}>
+        <NavbarToolbar disableGutters>
+          <Logo to="/">HRT</Logo>
+
+          <Box sx={{ flexGrow: 1 }} />
+
+          {!isMobile && (
+            <Stack direction="row" alignItems="center" spacing={1}>
+              {NAV_LINKS.map((link) => (
+                <NavLink key={link.path} to={link.path}>
+                  {link.label}
+                </NavLink>
+              ))}
+              <ContactButton to="/contact">Contact Me</ContactButton>
+            </Stack>
+          )}
+
+          {isMobile && (
+            <HamburgerButton onClick={toggleMobile} aria-label="open menu" size="medium">
+              <MenuIcon />
+            </HamburgerButton>
+          )}
+        </NavbarToolbar>
+      </NavbarRoot>
+
+      {isMobile && <MobileNav open={mobileOpen} onClose={toggleMobile} links={[...NAV_LINKS]} />}
+    </>
   );
 };
 

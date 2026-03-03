@@ -11,7 +11,6 @@ export const LandingRoot = styled(Box)<BoxProps & { component?: ElementType }>((
   overflow: "hidden",
   display: "flex",
   alignItems: "center",
-  padding: theme.spacing(10, 3, 0),
   [theme.breakpoints.up("md")]: {
     padding: theme.spacing(0, 0, 0, 8),
   },

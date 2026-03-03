@@ -3,17 +3,47 @@
 exports[`Navbar matches snapshot 1`] = `
 <div>
   <header
-    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-1299myc-MuiPaper-root-MuiAppBar-root"
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-wxda8f-MuiPaper-root-MuiAppBar-root"
     style="--Paper-shadow: none;"
   >
     <div
-      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1tr5t7h-MuiToolbar-root"
+      class="MuiToolbar-root MuiToolbar-regular css-10a6tuy-MuiToolbar-root"
     >
-      <h6
-        class="MuiTypography-root MuiTypography-h6 css-i61mfg-MuiTypography-root"
+      <a
+        class="css-1k9tq37"
+        data-discover="true"
+        href="/"
       >
-        Portfolio
-      </h6>
+        HRT
+      </a>
+      <div
+        class="MuiBox-root css-i9gxme"
+      />
+      <div
+        class="MuiStack-root css-kdc3n8-MuiStack-root"
+      >
+        <a
+          class="css-63pkle"
+          data-discover="true"
+          href="/about"
+        >
+          About
+        </a>
+        <a
+          class="css-63pkle"
+          data-discover="true"
+          href="/blog"
+        >
+          Blog
+        </a>
+        <a
+          class="css-zcpcnx"
+          data-discover="true"
+          href="/contact"
+        >
+          Contact Me
+        </a>
+      </div>
     </div>
   </header>
 </div>
