@@ -8,3 +8,4 @@ export { default as Footer } from "./Footer/Footer";
 export { default as CursorFollower } from "./ui/CursorFollower/CursorFollower";
 export { default as Landing } from "./home/Landing/Landing";
 export { default as DarkModeToggle } from "./ui/DarkModeToggle/DarkModeToggle";
+export { default as OfflineFallback } from "./ui/OfflineFallback/OfflineFallback";
