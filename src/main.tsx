@@ -3,9 +3,9 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
-import { ColorModeContext } from "./context";
-import useColorMode from "./hooks/useColorMode";
-import App from "./App";
+import { ColorModeContext } from "@/context";
+import useColorMode from "@/hooks/useColorMode";
+import App from "@/App";
 
 const Root = () => {
   const { theme, toggleColorMode } = useColorMode();

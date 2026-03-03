@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Box from "@mui/material/Box";
-import { CursorFollower, DarkModeToggle } from "./components";
-import { Home } from "./pages";
+import { CursorFollower, DarkModeToggle } from "@/components";
+import { Home } from "@/pages";
 
 const App = () => {
   return (

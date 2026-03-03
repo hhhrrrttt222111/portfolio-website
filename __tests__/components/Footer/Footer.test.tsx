@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import { Footer } from "../../../src/components";
+import { Footer } from "@/components";
 
 describe("Footer", () => {
   it("renders without crashing", () => {

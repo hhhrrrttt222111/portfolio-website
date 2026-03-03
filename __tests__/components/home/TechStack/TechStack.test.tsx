@@ -1,20 +1,20 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import { BlogPreview } from "../../../src/components";
+import { TechStack } from "@/components";
 
-describe("BlogPreview", () => {
+describe("TechStack", () => {
   it("renders without crashing", () => {
-    const { container } = render(<BlogPreview />);
+    const { container } = render(<TechStack />);
     expect(container.firstChild).toBeTruthy();
   });
 
   it("renders a section element", () => {
-    const { container } = render(<BlogPreview />);
+    const { container } = render(<TechStack />);
     expect(container.querySelector("section")).toBeInTheDocument();
   });
 
   it("matches snapshot", () => {
-    const { container } = render(<BlogPreview />);
+    const { container } = render(<TechStack />);
     expect(container).toMatchSnapshot();
   });
 });

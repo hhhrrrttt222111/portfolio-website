@@ -3,7 +3,7 @@ import { styled, useTheme } from "@mui/material/styles";
 import IconButton from "@mui/material/IconButton";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
-import { ColorModeContext } from "../../context";
+import { ColorModeContext } from "@/context";
 
 const StyledToggleButton = styled(IconButton)(({ theme }) => ({
   position: "fixed",

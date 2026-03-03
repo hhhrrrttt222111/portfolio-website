@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import { CursorFollower } from "../../../src/components";
+import { CursorFollower } from "@/components";
 
 describe("CursorFollower", () => {
   it("renders without crashing", () => {

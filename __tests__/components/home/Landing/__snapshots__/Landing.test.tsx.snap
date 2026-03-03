@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Landing matches snapshot 1`] = `
+<div>
+  <section
+    class="MuiBox-root css-h0jd88"
+  >
+    <div
+      class="MuiBox-root css-15q6k31"
+    >
+      <div
+        animate="[object Object]"
+        style="position: absolute; left: 10%; top: 15%; width: 500px; height: 500px; border-radius: 50%; background: radial-gradient(circle, rgba(46, 125, 50, 0.17) 0%, transparent 70%); filter: blur(60px); will-change: transform;"
+        transition="[object Object]"
+      />
+      <div
+        animate="[object Object]"
+        style="position: absolute; left: 65%; top: 60%; width: 400px; height: 400px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 137, 123, 0.16) 0%, transparent 70%); filter: blur(60px); will-change: transform;"
+        transition="[object Object]"
+      />
+      <div
+        animate="[object Object]"
+        style="position: absolute; left: 80%; top: 10%; width: 350px; height: 350px; border-radius: 50%; background: radial-gradient(circle, rgba(76, 175, 80, 0.15) 0%, transparent 70%); filter: blur(60px); will-change: transform;"
+        transition="[object Object]"
+      />
+      <div
+        animate="[object Object]"
+        style="position: absolute; left: 30%; top: 70%; width: 300px; height: 300px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 105, 92, 0.15) 0%, transparent 70%); filter: blur(60px); will-change: transform;"
+        transition="[object Object]"
+      />
+      <div
+        animate="[object Object]"
+        style="position: absolute; left: 50%; top: 30%; width: 250px; height: 250px; border-radius: 50%; background: radial-gradient(circle, rgba(46, 125, 50, 0.14) 0%, transparent 70%); filter: blur(60px); will-change: transform;"
+        transition="[object Object]"
+      />
+      <div
+        class="MuiBox-root css-2dtx34"
+      />
+    </div>
+    <div
+      class="MuiStack-root css-1wrrns3-MuiStack-root"
+    >
+      <div
+        class="MuiStack-root css-12lrk8f-MuiStack-root"
+      >
+        <div
+          class="MuiStack-root css-1sazv7p-MuiStack-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-1ank361-MuiTypography-root"
+          >
+            Hey, I'm a
+          </p>
+          <h1
+            class="MuiTypography-root MuiTypography-body1 css-19m5y83-MuiTypography-root"
+          >
+            Creative 
+            <br
+              class="MuiBox-root css-130f8nx"
+            />
+            <span
+              class="highlight"
+            >
+              Director
+            </span>
+          </h1>
+        </div>
+        <div
+          class="MuiStack-root css-dp9xmh-MuiStack-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-hfl0md-MuiTypography-root"
+          >
+            Great design should feel 
+            <span
+              class="accent"
+            >
+              invisible.
+            </span>
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-1c89c8k-MuiTypography-root"
+          >
+            From logo to language, I build brands that connect and convert.
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-oavodi"
+      >
+        <img
+          alt="Portrait"
+          loading="eager"
+          src="test-file-stub"
+        />
+      </div>
+    </div>
+  </section>
+</div>
+`;

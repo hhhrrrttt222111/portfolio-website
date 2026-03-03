@@ -1,20 +1,20 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import { TechStack } from "../../../src/components";
+import { Projects } from "@/components";
 
-describe("TechStack", () => {
+describe("Projects", () => {
   it("renders without crashing", () => {
-    const { container } = render(<TechStack />);
+    const { container } = render(<Projects />);
     expect(container.firstChild).toBeTruthy();
   });
 
   it("renders a section element", () => {
-    const { container } = render(<TechStack />);
+    const { container } = render(<Projects />);
     expect(container.querySelector("section")).toBeInTheDocument();
   });
 
   it("matches snapshot", () => {
-    const { container } = render(<TechStack />);
+    const { container } = render(<Projects />);
     expect(container).toMatchSnapshot();
   });
 });

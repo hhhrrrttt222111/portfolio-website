@@ -1,6 +1,7 @@
 import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
-import landingImage from "../../assets/png/landing-bg-removed.png";
+import landingImage from "@/assets/png/landing-bg-removed.png";
+import FlowingBackground from "@/components/ui/FlowingBackground/FlowingBackground";
 import {
   LandingRoot,
   HeroHeading,
@@ -13,13 +14,13 @@ import {
 const Landing = () => {
   return (
     <LandingRoot component="section">
+      <FlowingBackground />
       <Stack
         direction={{ xs: "column", md: "row" }}
         alignItems="center"
         justifyContent="space-between"
         sx={{ width: "100%", position: "relative", zIndex: 1, height: "100%" }}
       >
-        {/* Left — All text content */}
         <Stack justifyContent="center" spacing={4} sx={{ flex: 1, maxWidth: { md: 560 } }}>
           <Stack spacing={2}>
             <Subtitle>Hey, I&apos;m a</Subtitle>
@@ -39,7 +40,6 @@ const Landing = () => {
           </Stack>
         </Stack>
 
-        {/* Right — Portrait */}
         <ImageWrapper>
           <img src={landingImage} alt="Portrait" loading="eager" />
         </ImageWrapper>

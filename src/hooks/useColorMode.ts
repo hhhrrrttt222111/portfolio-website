@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import type { PaletteMode } from "@mui/material";
-import { createAppTheme } from "../theme";
+import { createAppTheme } from "@/theme";
 
 const STORAGE_KEY = "color-mode";
 

@@ -8,7 +8,7 @@ import {
   Projects,
   BlogPreview,
   Footer,
-} from "../../components";
+} from "@/components";
 
 const Home = () => {
   return (

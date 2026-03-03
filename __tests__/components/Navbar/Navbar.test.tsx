@@ -1,7 +1,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
-import { Navbar } from "../../../src/components";
+import { Navbar } from "@/components";
 
 const renderNavbar = () =>
   render(

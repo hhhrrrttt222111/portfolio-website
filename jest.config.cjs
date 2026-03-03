@@ -7,6 +7,9 @@ module.exports = {
       '^.+\\.tsx?$': ['ts-jest', { tsconfig: 'tsconfig.test.json' }],
     },
     moduleNameMapper: {
+      '^@/(.+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2))$': '<rootDir>/__mocks__/fileMock.js',
+      '^@/(.+\\.(css|less|scss|sass))$': 'identity-obj-proxy',
+      '^@/(.*)$': '<rootDir>/src/$1',
       '\\.(css|less|scss|sass)$': 'identity-obj-proxy',
       '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2)$': '<rootDir>/__mocks__/fileMock.js',
     },

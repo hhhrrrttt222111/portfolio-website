@@ -1,20 +1,20 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import { HeroSection } from "../../../src/components";
+import { Services } from "@/components";
 
-describe("HeroSection", () => {
+describe("Services", () => {
   it("renders without crashing", () => {
-    const { container } = render(<HeroSection />);
+    const { container } = render(<Services />);
     expect(container.firstChild).toBeTruthy();
   });
 
   it("renders a section element", () => {
-    const { container } = render(<HeroSection />);
+    const { container } = render(<Services />);
     expect(container.querySelector("section")).toBeInTheDocument();
   });
 
   it("matches snapshot", () => {
-    const { container } = render(<HeroSection />);
+    const { container } = render(<Services />);
     expect(container).toMatchSnapshot();
   });
 });
