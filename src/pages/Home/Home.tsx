@@ -1,26 +1,27 @@
+import { Box } from "@mui/material";
 import {
   Navbar,
+  Landing,
   HeroSection,
   Services,
   TechStack,
   Projects,
   BlogPreview,
   Footer,
-  CursorFollower,
 } from "../../components";
 
 const Home = () => {
   return (
-    <>
-      <CursorFollower />
+    <Box>
       <Navbar />
+      <Landing />
       <HeroSection />
       <Services />
       <TechStack />
       <Projects />
       <BlogPreview />
       <Footer />
-    </>
+    </Box>
   );
 };
 

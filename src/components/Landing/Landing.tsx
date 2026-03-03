@@ -1,0 +1,51 @@
+import Stack from "@mui/material/Stack";
+import Box from "@mui/material/Box";
+import landingImage from "../../assets/png/landing-bg-removed.png";
+import {
+  LandingRoot,
+  HeroHeading,
+  Subtitle,
+  TagLine,
+  TagDescription,
+  ImageWrapper,
+} from "./Landing.styles";
+
+const Landing = () => {
+  return (
+    <LandingRoot component="section">
+      <Stack
+        direction={{ xs: "column", md: "row" }}
+        alignItems="center"
+        justifyContent="space-between"
+        sx={{ width: "100%", position: "relative", zIndex: 1, height: "100%" }}
+      >
+        {/* Left — All text content */}
+        <Stack justifyContent="center" spacing={4} sx={{ flex: 1, maxWidth: { md: 560 } }}>
+          <Stack spacing={2}>
+            <Subtitle>Hey, I&apos;m a</Subtitle>
+            <HeroHeading component="h1">
+              Creative <Box component="br" sx={{ display: { xs: "none", sm: "block" } }} />
+              <span className="highlight">Director</span>
+            </HeroHeading>
+          </Stack>
+
+          <Stack spacing={1.5} sx={{ maxWidth: 380 }}>
+            <TagLine component="p">
+              Great design should feel <span className="accent">invisible.</span>
+            </TagLine>
+            <TagDescription>
+              From logo to language, I build brands that connect and convert.
+            </TagDescription>
+          </Stack>
+        </Stack>
+
+        {/* Right — Portrait */}
+        <ImageWrapper>
+          <img src={landingImage} alt="Portrait" loading="eager" />
+        </ImageWrapper>
+      </Stack>
+    </LandingRoot>
+  );
+};
+
+export default Landing;

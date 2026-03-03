@@ -2,29 +2,133 @@
 
 exports[`App matches snapshot 1`] = `
 <div>
-  <div>
-    CursorFollower
+  <div
+    class="MuiBox-root css-0"
+  >
+    <header
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-1299myc-MuiPaper-root-MuiAppBar-root"
+      style="--Paper-shadow: none;"
+    >
+      <div
+        class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1tr5t7h-MuiToolbar-root"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-i61mfg-MuiTypography-root"
+        >
+          Portfolio
+        </h6>
+      </div>
+    </header>
+    <section
+      class="MuiBox-root css-zg3843"
+    >
+      <div
+        class="MuiStack-root css-1wrrns3-MuiStack-root"
+      >
+        <div
+          class="MuiStack-root css-12lrk8f-MuiStack-root"
+        >
+          <div
+            class="MuiStack-root css-1sazv7p-MuiStack-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1ank361-MuiTypography-root"
+            >
+              Hey, I'm a
+            </p>
+            <h1
+              class="MuiTypography-root MuiTypography-body1 css-19m5y83-MuiTypography-root"
+            >
+              Creative 
+              <br
+                class="MuiBox-root css-130f8nx"
+              />
+              <span
+                class="highlight"
+              >
+                Director
+              </span>
+            </h1>
+          </div>
+          <div
+            class="MuiStack-root css-dp9xmh-MuiStack-root"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-hfl0md-MuiTypography-root"
+            >
+              Great design should feel 
+              <span
+                class="accent"
+              >
+                invisible.
+              </span>
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1c89c8k-MuiTypography-root"
+            >
+              From logo to language, I build brands that connect and convert.
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-oavodi"
+        >
+          <img
+            alt="Portrait"
+            loading="eager"
+            src="test-file-stub"
+          />
+        </div>
+      </div>
+    </section>
+    <section
+      class="MuiBox-root css-13g25so"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+      />
+    </section>
+    <section
+      class="MuiBox-root css-13g25so"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+      />
+    </section>
+    <section
+      class="MuiBox-root css-13g25so"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+      />
+    </section>
+    <section
+      class="MuiBox-root css-13g25so"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+      />
+    </section>
+    <section
+      class="MuiBox-root css-13g25so"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+      />
+    </section>
+    <footer
+      class="MuiBox-root css-z55cnt"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-49k58m-MuiTypography-root"
+        >
+          Footer
+        </p>
+      </div>
+    </footer>
   </div>
-  <nav>
-    Navbar
-  </nav>
-  <section>
-    HeroSection
-  </section>
-  <section>
-    Services
-  </section>
-  <section>
-    TechStack
-  </section>
-  <section>
-    Projects
-  </section>
-  <section>
-    BlogPreview
-  </section>
-  <footer>
-    Footer
-  </footer>
 </div>
 `;

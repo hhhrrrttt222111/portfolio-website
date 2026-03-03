@@ -2,8 +2,19 @@
 
 exports[`Navbar matches snapshot 1`] = `
 <div>
-  <nav>
-    Navbar
-  </nav>
+  <header
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-1299myc-MuiPaper-root-MuiAppBar-root"
+    style="--Paper-shadow: none;"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1tr5t7h-MuiToolbar-root"
+    >
+      <h6
+        class="MuiTypography-root MuiTypography-h6 css-i61mfg-MuiTypography-root"
+      >
+        Portfolio
+      </h6>
+    </div>
+  </header>
 </div>
 `;

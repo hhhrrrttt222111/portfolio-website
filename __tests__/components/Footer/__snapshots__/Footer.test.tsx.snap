@@ -2,8 +2,18 @@
 
 exports[`Footer matches snapshot 1`] = `
 <div>
-  <footer>
-    Footer
+  <footer
+    class="MuiBox-root css-z55cnt"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+    >
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-49k58m-MuiTypography-root"
+      >
+        Footer
+      </p>
+    </div>
   </footer>
 </div>
 `;

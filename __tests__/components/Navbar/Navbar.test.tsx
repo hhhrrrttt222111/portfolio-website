@@ -5,12 +5,12 @@ import { Navbar } from "../../../src/components";
 describe("Navbar", () => {
   it("renders without crashing", () => {
     render(<Navbar />);
-    expect(screen.getByText("Navbar")).toBeInTheDocument();
+    expect(screen.getByText("Portfolio")).toBeInTheDocument();
   });
 
-  it("renders a nav element", () => {
+  it("renders a header element", () => {
     const { container } = render(<Navbar />);
-    expect(container.querySelector("nav")).toBeInTheDocument();
+    expect(container.querySelector("header")).toBeInTheDocument();
   });
 
   it("matches snapshot", () => {

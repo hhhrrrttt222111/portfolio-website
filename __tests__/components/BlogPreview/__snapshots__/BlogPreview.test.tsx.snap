@@ -2,8 +2,12 @@
 
 exports[`BlogPreview matches snapshot 1`] = `
 <div>
-  <section>
-    BlogPreview
+  <section
+    class="MuiBox-root css-13g25so"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+    />
   </section>
 </div>
 `;

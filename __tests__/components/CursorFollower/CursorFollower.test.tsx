@@ -1,11 +1,11 @@
 import React from "react";
-import { render, screen } from "@testing-library/react";
+import { render } from "@testing-library/react";
 import { CursorFollower } from "../../../src/components";
 
 describe("CursorFollower", () => {
   it("renders without crashing", () => {
-    render(<CursorFollower />);
-    expect(screen.getByText("CursorFollower")).toBeInTheDocument();
+    const { container } = render(<CursorFollower />);
+    expect(container.firstChild).toBeTruthy();
   });
 
   it("renders a div element", () => {

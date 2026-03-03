@@ -1,1 +1,7 @@
-/* Empty file to satisfy the linter */
+@media (pointer: fine) {
+  *,
+  *::before,
+  *::after {
+    cursor: none;
+  }
+}

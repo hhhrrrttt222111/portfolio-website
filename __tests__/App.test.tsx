@@ -15,8 +15,7 @@ const renderApp = (initialRoute = "/") =>
 describe("App", () => {
   it("renders the Home page at root route", () => {
     renderApp("/");
-    expect(screen.getByText("Navbar")).toBeInTheDocument();
-    expect(screen.getByText("HeroSection")).toBeInTheDocument();
+    expect(screen.getByText("Portfolio")).toBeInTheDocument();
     expect(screen.getByText("Footer")).toBeInTheDocument();
   });
 

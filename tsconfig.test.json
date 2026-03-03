@@ -9,7 +9,7 @@
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
-    "types": ["jest", "@testing-library/jest-dom/types/jest-globals", "node"]
+    "types": ["jest", "@testing-library/jest-dom/types/jest-globals", "node", "vite/client"]
   },
   "include": ["src", "__tests__"]
 }

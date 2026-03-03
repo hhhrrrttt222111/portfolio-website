@@ -6,3 +6,5 @@ export { default as Projects } from "./Projects/Projects";
 export { default as BlogPreview } from "./BlogPreview/BlogPreview";
 export { default as Footer } from "./Footer/Footer";
 export { default as CursorFollower } from "./CursorFollower/CursorFollower";
+export { default as Landing } from "./Landing/Landing";
+export { default as DarkModeToggle } from "./DarkModeToggle/DarkModeToggle";
