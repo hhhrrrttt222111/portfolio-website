@@ -1,5 +1,6 @@
 export { default as Navbar } from "./Navbar/Navbar";
 export { default as HeroSection } from "./home/HeroSection/HeroSection";
+export { default as WhatIDo } from "./home/WhatIDo/WhatIDo";
 export { default as Services } from "./home/Services/Services";
 export { default as TechStack } from "./home/TechStack/TechStack";
 export { default as Projects } from "./home/Projects/Projects";
@@ -9,3 +10,4 @@ export { default as CursorFollower } from "./ui/CursorFollower/CursorFollower";
 export { default as Landing } from "./home/Landing/Landing";
 export { default as DarkModeToggle } from "./ui/DarkModeToggle/DarkModeToggle";
 export { default as OfflineFallback } from "./ui/OfflineFallback/OfflineFallback";
+export { default as ScrollIndicator } from "./ui/ScrollIndicator/ScrollIndicator";

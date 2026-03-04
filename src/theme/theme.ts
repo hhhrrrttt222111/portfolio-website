@@ -1,6 +1,33 @@
 import { createTheme } from "@mui/material/styles";
 import type { PaletteMode } from "@mui/material";
 
+const scrollbar = (mode: PaletteMode) => {
+  const isLight = mode === "light";
+  const track = isLight ? "#e8f0e0" : "#0d1f14";
+  const thumb = isLight ? "#2e7d32" : "#66bb6a";
+  const thumbHover = isLight ? "#1b5e20" : "#43a047";
+
+  return {
+    "*::-webkit-scrollbar": {
+      width: 8,
+    },
+    "*::-webkit-scrollbar-track": {
+      background: track,
+    },
+    "*::-webkit-scrollbar-thumb": {
+      background: thumb,
+      borderRadius: 4,
+      "&:hover": {
+        background: thumbHover,
+      },
+    },
+    "*": {
+      scrollbarWidth: "thin",
+      scrollbarColor: `${thumb} ${track}`,
+    },
+  };
+};
+
 const getDesignTokens = (mode: PaletteMode) => ({
   palette: {
     mode,
@@ -56,6 +83,11 @@ const getDesignTokens = (mode: PaletteMode) => ({
     h4: { fontWeight: 600 },
     h5: { fontWeight: 500 },
     h6: { fontWeight: 500 },
+  },
+  components: {
+    MuiCssBaseline: {
+      styleOverrides: scrollbar(mode),
+    },
   },
   shape: {
     borderRadius: 8,

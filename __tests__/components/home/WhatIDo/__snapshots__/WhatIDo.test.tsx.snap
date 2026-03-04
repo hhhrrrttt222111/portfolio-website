@@ -1,0 +1,399 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`WhatIDo matches snapshot (dark mode) 1`] = `
+<div>
+  <section
+    class="MuiBox-root css-1n82w5p"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+    >
+      <div>
+        <h3
+          class="MuiTypography-root MuiTypography-h3 css-1losiiu-MuiTypography-root"
+        >
+          What I Do
+        </h3>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1mq14fp-MuiTypography-root"
+        >
+          I specialize in building exceptional digital experiences — from architecting scalable frontends to crafting performant backend services.
+        </p>
+      </div>
+      <div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 css-1u8xl8z-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3 css-17hq2y0-MuiGrid-root"
+          >
+            <div
+              style="perspective: 800px; transform-style: preserve-3d;"
+            >
+              <div
+                class="MuiBox-root css-1p3s8ny"
+              >
+                <div>
+                  <div
+                    class="MuiBox-root css-15qp7ey"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                      data-testid="CodeIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M9.4 16.6 4.8 12l4.6-4.6L8 6l-6 6 6 6zm5.2 0 4.6-4.6-4.6-4.6L16 6l6 6-6 6z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <h6
+                  class="MuiTypography-root MuiTypography-h6 css-1yikh0b-MuiTypography-root"
+                >
+                  Frontend Architecture
+                </h6>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1lwt8yp-MuiTypography-root"
+                >
+                  Designing scalable, maintainable frontend systems with modular patterns, state management strategies, and clean component hierarchies.
+                </p>
+                <div
+                  class="accent-bar MuiBox-root css-16m4m1a"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3 css-17hq2y0-MuiGrid-root"
+          >
+            <div
+              style="perspective: 800px; transform-style: preserve-3d;"
+            >
+              <div
+                class="MuiBox-root css-1p3s8ny"
+              >
+                <div>
+                  <div
+                    class="MuiBox-root css-15qp7ey"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                      data-testid="BrushIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M7 14c-1.66 0-3 1.34-3 3 0 1.31-1.16 2-2 2 .92 1.22 2.49 2 4 2 2.21 0 4-1.79 4-4 0-1.66-1.34-3-3-3m13.71-9.37-1.34-1.34a.996.996 0 0 0-1.41 0L9 12.25 11.75 15l8.96-8.96c.39-.39.39-1.02 0-1.41"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <h6
+                  class="MuiTypography-root MuiTypography-h6 css-1yikh0b-MuiTypography-root"
+                >
+                  UI Engineering
+                </h6>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1lwt8yp-MuiTypography-root"
+                >
+                  Crafting pixel-perfect interfaces with fluid animations, responsive layouts, and accessible design that delights users across every device.
+                </p>
+                <div
+                  class="accent-bar MuiBox-root css-16m4m1a"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3 css-17hq2y0-MuiGrid-root"
+          >
+            <div
+              style="perspective: 800px; transform-style: preserve-3d;"
+            >
+              <div
+                class="MuiBox-root css-1p3s8ny"
+              >
+                <div>
+                  <div
+                    class="MuiBox-root css-15qp7ey"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                      data-testid="SpeedIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m20.38 8.57-1.23 1.85a8 8 0 0 1-.22 7.58H5.07A8 8 0 0 1 15.58 6.85l1.85-1.23A10 10 0 0 0 3.35 19a2 2 0 0 0 1.72 1h13.85a2 2 0 0 0 1.74-1 10 10 0 0 0-.27-10.44zm-9.79 6.84a2 2 0 0 0 2.83 0l5.66-8.49-8.49 5.66a2 2 0 0 0 0 2.83"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <h6
+                  class="MuiTypography-root MuiTypography-h6 css-1yikh0b-MuiTypography-root"
+                >
+                  Performance Optimization
+                </h6>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1lwt8yp-MuiTypography-root"
+                >
+                  Squeezing every millisecond out of load times through code splitting, lazy loading, caching strategies, and runtime profiling.
+                </p>
+                <div
+                  class="accent-bar MuiBox-root css-16m4m1a"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3 css-17hq2y0-MuiGrid-root"
+          >
+            <div
+              style="perspective: 800px; transform-style: preserve-3d;"
+            >
+              <div
+                class="MuiBox-root css-1p3s8ny"
+              >
+                <div>
+                  <div
+                    class="MuiBox-root css-15qp7ey"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                      data-testid="StorageIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M2 20h20v-4H2zm2-3h2v2H4zM2 4v4h20V4zm4 3H4V5h2zm-4 7h20v-4H2zm2-3h2v2H4z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <h6
+                  class="MuiTypography-root MuiTypography-h6 css-1yikh0b-MuiTypography-root"
+                >
+                  Backend APIs
+                </h6>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1lwt8yp-MuiTypography-root"
+                >
+                  Building robust RESTful and GraphQL APIs with clean architecture, authentication layers, and efficient database interactions.
+                </p>
+                <div
+                  class="accent-bar MuiBox-root css-16m4m1a"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`WhatIDo matches snapshot (light mode) 1`] = `
+<div>
+  <section
+    class="MuiBox-root css-nqg67i"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+    >
+      <div>
+        <h3
+          class="MuiTypography-root MuiTypography-h3 css-f1ndno-MuiTypography-root"
+        >
+          What I Do
+        </h3>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-mn7d9c-MuiTypography-root"
+        >
+          I specialize in building exceptional digital experiences — from architecting scalable frontends to crafting performant backend services.
+        </p>
+      </div>
+      <div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-3 css-1u8xl8z-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3 css-17hq2y0-MuiGrid-root"
+          >
+            <div
+              style="perspective: 800px; transform-style: preserve-3d;"
+            >
+              <div
+                class="MuiBox-root css-bb94tu"
+              >
+                <div>
+                  <div
+                    class="MuiBox-root css-frjhu3"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                      data-testid="CodeIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M9.4 16.6 4.8 12l4.6-4.6L8 6l-6 6 6 6zm5.2 0 4.6-4.6-4.6-4.6L16 6l6 6-6 6z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <h6
+                  class="MuiTypography-root MuiTypography-h6 css-1iwt43r-MuiTypography-root"
+                >
+                  Frontend Architecture
+                </h6>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-8swjgc-MuiTypography-root"
+                >
+                  Designing scalable, maintainable frontend systems with modular patterns, state management strategies, and clean component hierarchies.
+                </p>
+                <div
+                  class="accent-bar MuiBox-root css-aerzn4"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3 css-17hq2y0-MuiGrid-root"
+          >
+            <div
+              style="perspective: 800px; transform-style: preserve-3d;"
+            >
+              <div
+                class="MuiBox-root css-bb94tu"
+              >
+                <div>
+                  <div
+                    class="MuiBox-root css-frjhu3"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                      data-testid="BrushIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M7 14c-1.66 0-3 1.34-3 3 0 1.31-1.16 2-2 2 .92 1.22 2.49 2 4 2 2.21 0 4-1.79 4-4 0-1.66-1.34-3-3-3m13.71-9.37-1.34-1.34a.996.996 0 0 0-1.41 0L9 12.25 11.75 15l8.96-8.96c.39-.39.39-1.02 0-1.41"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <h6
+                  class="MuiTypography-root MuiTypography-h6 css-1iwt43r-MuiTypography-root"
+                >
+                  UI Engineering
+                </h6>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-8swjgc-MuiTypography-root"
+                >
+                  Crafting pixel-perfect interfaces with fluid animations, responsive layouts, and accessible design that delights users across every device.
+                </p>
+                <div
+                  class="accent-bar MuiBox-root css-aerzn4"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3 css-17hq2y0-MuiGrid-root"
+          >
+            <div
+              style="perspective: 800px; transform-style: preserve-3d;"
+            >
+              <div
+                class="MuiBox-root css-bb94tu"
+              >
+                <div>
+                  <div
+                    class="MuiBox-root css-frjhu3"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                      data-testid="SpeedIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m20.38 8.57-1.23 1.85a8 8 0 0 1-.22 7.58H5.07A8 8 0 0 1 15.58 6.85l1.85-1.23A10 10 0 0 0 3.35 19a2 2 0 0 0 1.72 1h13.85a2 2 0 0 0 1.74-1 10 10 0 0 0-.27-10.44zm-9.79 6.84a2 2 0 0 0 2.83 0l5.66-8.49-8.49 5.66a2 2 0 0 0 0 2.83"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <h6
+                  class="MuiTypography-root MuiTypography-h6 css-1iwt43r-MuiTypography-root"
+                >
+                  Performance Optimization
+                </h6>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-8swjgc-MuiTypography-root"
+                >
+                  Squeezing every millisecond out of load times through code splitting, lazy loading, caching strategies, and runtime profiling.
+                </p>
+                <div
+                  class="accent-bar MuiBox-root css-aerzn4"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3 css-17hq2y0-MuiGrid-root"
+          >
+            <div
+              style="perspective: 800px; transform-style: preserve-3d;"
+            >
+              <div
+                class="MuiBox-root css-bb94tu"
+              >
+                <div>
+                  <div
+                    class="MuiBox-root css-frjhu3"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                      data-testid="StorageIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M2 20h20v-4H2zm2-3h2v2H4zM2 4v4h20V4zm4 3H4V5h2zm-4 7h20v-4H2zm2-3h2v2H4z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <h6
+                  class="MuiTypography-root MuiTypography-h6 css-1iwt43r-MuiTypography-root"
+                >
+                  Backend APIs
+                </h6>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-8swjgc-MuiTypography-root"
+                >
+                  Building robust RESTful and GraphQL APIs with clean architecture, authentication layers, and efficient database interactions.
+                </p>
+                <div
+                  class="accent-bar MuiBox-root css-aerzn4"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

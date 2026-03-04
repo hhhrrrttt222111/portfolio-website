@@ -3,6 +3,7 @@ import {
   Navbar,
   Landing,
   HeroSection,
+  WhatIDo,
   Services,
   TechStack,
   Projects,
@@ -16,6 +17,7 @@ const Home = () => {
       <Navbar />
       <Landing />
       <HeroSection />
+      <WhatIDo />
       <Services />
       <TechStack />
       <Projects />

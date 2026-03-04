@@ -1,11 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Box from "@mui/material/Box";
-import { CursorFollower, DarkModeToggle, OfflineFallback } from "@/components";
+import { CursorFollower, DarkModeToggle, OfflineFallback, ScrollIndicator } from "@/components";
 import { useNetwork } from "@/hooks";
+// import { useDevToolsWarning, useNetwork } from "@/hooks";
 import { Home } from "@/pages";
 
 const App = () => {
   const isOnline = useNetwork();
+  // useDevToolsWarning();
 
   if (!isOnline) {
     return <OfflineFallback />;
@@ -20,6 +22,7 @@ const App = () => {
         transition: "background-color 0.3s ease, color 0.3s ease",
       }}
     >
+      <ScrollIndicator />
       <BrowserRouter>
         <CursorFollower />
         <DarkModeToggle />
