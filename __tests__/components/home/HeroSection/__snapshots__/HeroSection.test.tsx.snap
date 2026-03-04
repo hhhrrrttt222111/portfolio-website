@@ -1,13 +1,213 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
-exports[`HeroSection matches snapshot 1`] = `
+exports[`HeroSection matches snapshot (dark mode) 1`] = `
 <div>
   <section
-    class="MuiBox-root css-13g25so"
+    class="MuiBox-root css-hwio76"
+    data-testid="hero-section"
   >
     <div
-      class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
-    />
+      style="position: absolute; inset: 0;"
+    >
+      <div
+        class="MuiBox-root css-9h3oll"
+      >
+        <div>
+          <div
+            style="transform-origin: top center; rotate: [object Object]; cursor: grab; user-select: none;"
+          >
+            <div
+              class="MuiBox-root css-1uuba7l"
+            >
+              <div
+                style="transform-origin: top center;"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="css-rx7gz4"
+                  viewBox="0 0 4 140"
+                >
+                  <path
+                    d="M2 0 C0 10, 4 20, 2 30 C0 40, 4 50, 2 60 C0 70, 4 80, 2 90 C0 100, 4 110, 2 120 C0 130, 4 140, 2 140"
+                    fill="none"
+                    opacity="0.7"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                </svg>
+              </div>
+              <div>
+                <div
+                  class="MuiBox-root css-4p6g02"
+                >
+                  <svg
+                    aria-hidden="true"
+                    fill="currentColor"
+                    height="64"
+                    viewBox="0 0 470 470"
+                    width="64"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M445,115c4.143,0,7.5-3.357,7.5-7.5V7.5c0-4.143-3.357-7.5-7.5-7.5H285c-4.143,0-7.5,3.357-7.5,7.5v100 c0,4.143,3.357,7.5,7.5,7.5h22.5v62.5h-145V115H185c4.143,0,7.5-3.357,7.5-7.5V7.5c0-4.143-3.357-7.5-7.5-7.5H25 c-4.143,0-7.5,3.357-7.5,7.5v100c0,4.143,3.357,7.5,7.5,7.5h22.5v240H25c-4.143,0-7.5,3.357-7.5,7.5v100c0,4.143,3.357,7.5,7.5,7.5 h160c4.143,0,7.5-3.357,7.5-7.5v-100c0-4.143-3.357-7.5-7.5-7.5h-22.5v-62.5h145V355H285c-4.143,0-7.5,3.357-7.5,7.5v100 c0,4.143,3.357,7.5,7.5,7.5h160c4.143,0,7.5-3.357,7.5-7.5v-100c0-4.143-3.357-7.5-7.5-7.5h-22.5V115H445z M415,370h22.5v85h-145 v-85H315c4.143,0,7.5-3.357,7.5-7.5V285c0-4.143-3.357-7.5-7.5-7.5H155c-4.143,0-7.5,3.357-7.5,7.5v77.5c0,4.143,3.357,7.5,7.5,7.5 h22.5v85h-145v-85H55c4.143,0,7.5-3.357,7.5-7.5v-255c0-4.143-3.357-7.5-7.5-7.5H32.5V15h145v85H155c-4.143,0-7.5,3.357-7.5,7.5 V185c0,4.143,3.357,7.5,7.5,7.5h160c4.143,0,7.5-3.357,7.5-7.5v-77.5c0-4.143-3.357-7.5-7.5-7.5h-22.5V15h145v85H415 c-4.143,0-7.5,3.357-7.5,7.5v255C407.5,366.643,410.857,370,415,370z"
+                    />
+                    <path
+                      d="M422.5,77.5v-40c0-4.143-3.357-7.5-7.5-7.5H315c-4.143,0-7.5,3.357-7.5,7.5v40c0,4.143,3.357,7.5,7.5,7.5h22.5v122.5H185 c-4.143,0-7.5,3.357-7.5,7.5s3.357,7.5,7.5,7.5h160c4.143,0,7.5-3.357,7.5-7.5V77.5c0-4.143-3.357-7.5-7.5-7.5h-22.5V45h85v25H385 c-4.143,0-7.5,3.357-7.5,7.5v255c0,4.143,3.357,7.5,7.5,7.5s7.5-3.357,7.5-7.5V85H415C419.143,85,422.5,81.643,422.5,77.5z"
+                    />
+                    <path
+                      d="M392.5,362.5c0-4.143-3.357-7.5-7.5-7.5s-7.5,3.357-7.5,7.5v30c0,4.143,3.357,7.5,7.5,7.5h22.5v25h-85v-25H345 c4.143,0,7.5-3.357,7.5-7.5V255c0-4.143-3.357-7.5-7.5-7.5H125c-4.143,0-7.5,3.357-7.5,7.5v137.5c0,4.143,3.357,7.5,7.5,7.5h22.5 v25h-85v-25H85c4.143,0,7.5-3.357,7.5-7.5v-315c0-4.143-3.357-7.5-7.5-7.5H62.5V45h85v25H125c-4.143,0-7.5,3.357-7.5,7.5V215 c0,4.143,3.357,7.5,7.5,7.5h30c4.143,0,7.5-3.357,7.5-7.5s-3.357-7.5-7.5-7.5h-22.5V85H155c4.143,0,7.5-3.357,7.5-7.5v-40 c0-4.143-3.357-7.5-7.5-7.5H55c-4.143,0-7.5,3.357-7.5,7.5v40c0,4.143,3.357,7.5,7.5,7.5h22.5v300H55c-4.143,0-7.5,3.357-7.5,7.5 v40c0,4.143,3.357,7.5,7.5,7.5h100c4.143,0,7.5-3.357,7.5-7.5v-40c0-4.143-3.357-7.5-7.5-7.5h-22.5V262.5h205V385H315 c-4.143,0-7.5,3.357-7.5,7.5v40c0,4.143,3.357,7.5,7.5,7.5h100c4.143,0,7.5-3.357,7.5-7.5v-40c0-4.143-3.357-7.5-7.5-7.5h-22.5 V362.5z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-tiqhkf"
+      >
+        <div
+          class="MuiBox-root css-ud02da"
+        >
+          <div>
+            <h1
+              class="MuiTypography-root MuiTypography-h1 css-lyy5nl-MuiTypography-root"
+            >
+              portfólio
+            </h1>
+          </div>
+          <div>
+            <span
+              class="MuiTypography-root MuiTypography-body1 css-171j3n7-MuiTypography-root"
+            >
+              2026
+            </span>
+          </div>
+        </div>
+        <div>
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-lndemx-MuiTypography-root"
+          >
+            [ Hemanth R ]
+          </p>
+        </div>
+      </div>
+      <div>
+        <div
+          class="MuiBox-root css-1xl0wpg"
+        />
+      </div>
+      <div
+        class="MuiBox-root css-1w66cfj"
+      />
+    </div>
+  </section>
+</div>
+`;
+
+exports[`HeroSection matches snapshot (light mode) 1`] = `
+<div>
+  <section
+    class="MuiBox-root css-wuuzvu"
+    data-testid="hero-section"
+  >
+    <div
+      style="position: absolute; inset: 0;"
+    >
+      <div
+        class="MuiBox-root css-9h3oll"
+      >
+        <div>
+          <div
+            style="transform-origin: top center; rotate: [object Object]; cursor: grab; user-select: none;"
+          >
+            <div
+              class="MuiBox-root css-1uuba7l"
+            >
+              <div
+                style="transform-origin: top center;"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="css-rx7gz4"
+                  viewBox="0 0 4 140"
+                >
+                  <path
+                    d="M2 0 C0 10, 4 20, 2 30 C0 40, 4 50, 2 60 C0 70, 4 80, 2 90 C0 100, 4 110, 2 120 C0 130, 4 140, 2 140"
+                    fill="none"
+                    opacity="0.7"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                </svg>
+              </div>
+              <div>
+                <div
+                  class="MuiBox-root css-4p6g02"
+                >
+                  <svg
+                    aria-hidden="true"
+                    fill="currentColor"
+                    height="64"
+                    viewBox="0 0 470 470"
+                    width="64"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M445,115c4.143,0,7.5-3.357,7.5-7.5V7.5c0-4.143-3.357-7.5-7.5-7.5H285c-4.143,0-7.5,3.357-7.5,7.5v100 c0,4.143,3.357,7.5,7.5,7.5h22.5v62.5h-145V115H185c4.143,0,7.5-3.357,7.5-7.5V7.5c0-4.143-3.357-7.5-7.5-7.5H25 c-4.143,0-7.5,3.357-7.5,7.5v100c0,4.143,3.357,7.5,7.5,7.5h22.5v240H25c-4.143,0-7.5,3.357-7.5,7.5v100c0,4.143,3.357,7.5,7.5,7.5 h160c4.143,0,7.5-3.357,7.5-7.5v-100c0-4.143-3.357-7.5-7.5-7.5h-22.5v-62.5h145V355H285c-4.143,0-7.5,3.357-7.5,7.5v100 c0,4.143,3.357,7.5,7.5,7.5h160c4.143,0,7.5-3.357,7.5-7.5v-100c0-4.143-3.357-7.5-7.5-7.5h-22.5V115H445z M415,370h22.5v85h-145 v-85H315c4.143,0,7.5-3.357,7.5-7.5V285c0-4.143-3.357-7.5-7.5-7.5H155c-4.143,0-7.5,3.357-7.5,7.5v77.5c0,4.143,3.357,7.5,7.5,7.5 h22.5v85h-145v-85H55c4.143,0,7.5-3.357,7.5-7.5v-255c0-4.143-3.357-7.5-7.5-7.5H32.5V15h145v85H155c-4.143,0-7.5,3.357-7.5,7.5 V185c0,4.143,3.357,7.5,7.5,7.5h160c4.143,0,7.5-3.357,7.5-7.5v-77.5c0-4.143-3.357-7.5-7.5-7.5h-22.5V15h145v85H415 c-4.143,0-7.5,3.357-7.5,7.5v255C407.5,366.643,410.857,370,415,370z"
+                    />
+                    <path
+                      d="M422.5,77.5v-40c0-4.143-3.357-7.5-7.5-7.5H315c-4.143,0-7.5,3.357-7.5,7.5v40c0,4.143,3.357,7.5,7.5,7.5h22.5v122.5H185 c-4.143,0-7.5,3.357-7.5,7.5s3.357,7.5,7.5,7.5h160c4.143,0,7.5-3.357,7.5-7.5V77.5c0-4.143-3.357-7.5-7.5-7.5h-22.5V45h85v25H385 c-4.143,0-7.5,3.357-7.5,7.5v255c0,4.143,3.357,7.5,7.5,7.5s7.5-3.357,7.5-7.5V85H415C419.143,85,422.5,81.643,422.5,77.5z"
+                    />
+                    <path
+                      d="M392.5,362.5c0-4.143-3.357-7.5-7.5-7.5s-7.5,3.357-7.5,7.5v30c0,4.143,3.357,7.5,7.5,7.5h22.5v25h-85v-25H345 c4.143,0,7.5-3.357,7.5-7.5V255c0-4.143-3.357-7.5-7.5-7.5H125c-4.143,0-7.5,3.357-7.5,7.5v137.5c0,4.143,3.357,7.5,7.5,7.5h22.5 v25h-85v-25H85c4.143,0,7.5-3.357,7.5-7.5v-315c0-4.143-3.357-7.5-7.5-7.5H62.5V45h85v25H125c-4.143,0-7.5,3.357-7.5,7.5V215 c0,4.143,3.357,7.5,7.5,7.5h30c4.143,0,7.5-3.357,7.5-7.5s-3.357-7.5-7.5-7.5h-22.5V85H155c4.143,0,7.5-3.357,7.5-7.5v-40 c0-4.143-3.357-7.5-7.5-7.5H55c-4.143,0-7.5,3.357-7.5,7.5v40c0,4.143,3.357,7.5,7.5,7.5h22.5v300H55c-4.143,0-7.5,3.357-7.5,7.5 v40c0,4.143,3.357,7.5,7.5,7.5h100c4.143,0,7.5-3.357,7.5-7.5v-40c0-4.143-3.357-7.5-7.5-7.5h-22.5V262.5h205V385H315 c-4.143,0-7.5,3.357-7.5,7.5v40c0,4.143,3.357,7.5,7.5,7.5h100c4.143,0,7.5-3.357,7.5-7.5v-40c0-4.143-3.357-7.5-7.5-7.5h-22.5 V362.5z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-tiqhkf"
+      >
+        <div
+          class="MuiBox-root css-ud02da"
+        >
+          <div>
+            <h1
+              class="MuiTypography-root MuiTypography-h1 css-ad5x7j-MuiTypography-root"
+            >
+              portfólio
+            </h1>
+          </div>
+          <div>
+            <span
+              class="MuiTypography-root MuiTypography-body1 css-1am2ene-MuiTypography-root"
+            >
+              2026
+            </span>
+          </div>
+        </div>
+        <div>
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-kb9epu-MuiTypography-root"
+          >
+            [ Hemanth R ]
+          </p>
+        </div>
+      </div>
+      <div>
+        <div
+          class="MuiBox-root css-1xl0wpg"
+        />
+      </div>
+      <div
+        class="MuiBox-root css-y19wkk"
+      />
+    </div>
   </section>
 </div>
 `;

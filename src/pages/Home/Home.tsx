@@ -8,6 +8,7 @@ import {
   TechStack,
   Projects,
   BlogPreview,
+  Contact,
   Footer,
 } from "@/components";
 
@@ -22,6 +23,7 @@ const Home = () => {
       <TechStack />
       <Projects />
       <BlogPreview />
+      <Contact />
       <Footer />
     </Box>
   );

@@ -5,6 +5,7 @@ export { default as Services } from "./home/Services/Services";
 export { default as TechStack } from "./home/TechStack/TechStack";
 export { default as Projects } from "./home/Projects/Projects";
 export { default as BlogPreview } from "./home/BlogPreview/BlogPreview";
+export { default as Contact } from "./home/Contact/Contact";
 export { default as Footer } from "./Footer/Footer";
 export { default as CursorFollower } from "./ui/CursorFollower/CursorFollower";
 export { default as Landing } from "./home/Landing/Landing";
