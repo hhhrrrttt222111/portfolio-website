@@ -9,7 +9,7 @@ interface Particle {
   y: number;
 }
 
-const RING_SIZE = 40;
+const RING_SIZE = 30;
 const DOT_SIZE = 8;
 const PARTICLE_LIFETIME = 600;
 const PARTICLE_SPAWN_INTERVAL = 40;

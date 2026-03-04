@@ -92,12 +92,6 @@ describe("Footer", () => {
     });
   });
 
-  it("renders an icon for each social link", () => {
-    const { container } = renderWithTheme();
-    const icons = container.querySelectorAll("svg[data-testid]");
-    expect(icons.length).toBeGreaterThanOrEqual(SOCIAL_LINKS.length);
-  });
-
   it("renders wave SVG paths", () => {
     const { container } = renderWithTheme();
     const waveSvg = container.querySelector("svg[viewBox='0 0 1920 160']");

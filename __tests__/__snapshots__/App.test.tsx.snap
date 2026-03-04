@@ -436,11 +436,1992 @@ exports[`App matches snapshot 1`] = `
       />
     </section>
     <section
-      class="MuiBox-root css-7rgp0i"
+      class="MuiBox-root css-k2nxig"
+      data-testid="tech-stack"
     >
       <div
-        class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+        class="MuiBox-root css-6c5n81"
       />
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg css-15xfbvd-MuiContainer-root"
+      >
+        <div>
+          <div>
+            <h2
+              class="MuiTypography-root MuiTypography-h2 css-o6ymyt-MuiTypography-root"
+            >
+              &gt;
+               Tech Stack
+            </h2>
+          </div>
+          <div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-sid8rk-MuiTypography-root"
+            >
+              39
+               tools & technologies across 
+              9
+               domains.
+              <br />
+              Here's what powers my builds.
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-1xt0pxy"
+        >
+          <div
+            class="MuiBox-root css-79elbk"
+          >
+            <div
+              style="position: relative;"
+            >
+              <div
+                class="MuiBox-root css-e3j3ia"
+              >
+                <div
+                  class="MuiBox-root css-1ucd4b4"
+                >
+                  <div
+                    class="MuiBox-root css-bc68kq"
+                  >
+                    <span
+                      class="MuiBox-root css-1a4qaj3"
+                    />
+                    <span />
+                    <span
+                      class="MuiBox-root css-c84ehy"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1rv1adc-MuiTypography-root"
+                  >
+                    Programming Languages
+                  </p>
+                </div>
+                <div
+                  class="MuiBox-root css-c6l5x9"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1rr7402-MuiTypography-root"
+                  >
+                    <span
+                      class="prompt"
+                    >
+                      $
+                    </span>
+                    <span>
+                      ls ~/languages
+                    </span>
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1w0djw6-MuiTypography-root"
+                  >
+                    Programming Languages
+                  </p>
+                  <div
+                    class="MuiBox-root css-1hdbc19"
+                  >
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="0"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #e573732e, #e5737317); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="0"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-cskzsw"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                C/C++
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="1"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #e573732e, #e5737317); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="1"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-cskzsw"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                Python
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="2"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #e573732e, #e5737317); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="2"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-cskzsw"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                Java
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="3"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #e573732e, #e5737317); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="3"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-cskzsw"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                Dart
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="4"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #e573732e, #e5737317); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="4"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-cskzsw"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                Ruby
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-vsu8a6-MuiTypography-root"
+                  >
+                    5
+                     
+                    items
+                     found
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-79elbk"
+          >
+            <div
+              style="position: relative;"
+            >
+              <div
+                class="MuiBox-root css-1mwaybs"
+              >
+                <div
+                  class="MuiBox-root css-1ucd4b4"
+                >
+                  <div
+                    class="MuiBox-root css-bc68kq"
+                  >
+                    <span
+                      class="MuiBox-root css-1a4qaj3"
+                    />
+                    <span />
+                    <span
+                      class="MuiBox-root css-c84ehy"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1rv1adc-MuiTypography-root"
+                  >
+                    Web Development
+                  </p>
+                </div>
+                <div
+                  class="MuiBox-root css-c6l5x9"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1rr7402-MuiTypography-root"
+                  >
+                    <span
+                      class="prompt"
+                    >
+                      $
+                    </span>
+                    <span>
+                      ls ~/webdev
+                    </span>
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-aavr1y-MuiTypography-root"
+                  >
+                    Web Development
+                  </p>
+                  <div
+                    class="MuiBox-root css-1hdbc19"
+                  >
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="0"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #64b5f62e, #64b5f617); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="0"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-3h6hj7"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                HTML/CSS/Javascript
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="1"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #64b5f62e, #64b5f617); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="1"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-3h6hj7"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                ReactJS, Vite
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="2"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #64b5f62e, #64b5f617); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="2"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-3h6hj7"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                TailwindCSS, Material-UI
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="3"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #64b5f62e, #64b5f617); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="3"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-3h6hj7"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                Node.js
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="4"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #64b5f62e, #64b5f617); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="4"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-3h6hj7"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                GraphQL
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="5"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #64b5f62e, #64b5f617); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="5"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-3h6hj7"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                Angular
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-vsu8a6-MuiTypography-root"
+                  >
+                    6
+                     
+                    items
+                     found
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-79elbk"
+          >
+            <div
+              style="position: relative;"
+            >
+              <div
+                class="MuiBox-root css-1k5aokf"
+              >
+                <div
+                  class="MuiBox-root css-1ucd4b4"
+                >
+                  <div
+                    class="MuiBox-root css-bc68kq"
+                  >
+                    <span
+                      class="MuiBox-root css-1a4qaj3"
+                    />
+                    <span />
+                    <span
+                      class="MuiBox-root css-c84ehy"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1rv1adc-MuiTypography-root"
+                  >
+                    App Development
+                  </p>
+                </div>
+                <div
+                  class="MuiBox-root css-c6l5x9"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1rr7402-MuiTypography-root"
+                  >
+                    <span
+                      class="prompt"
+                    >
+                      $
+                    </span>
+                    <span>
+                      ls ~/appdev
+                    </span>
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1i6p7of-MuiTypography-root"
+                  >
+                    App Development
+                  </p>
+                  <div
+                    class="MuiBox-root css-1hdbc19"
+                  >
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="0"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #4dd0e12e, #4dd0e117); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="0"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-1ajke8d"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                Flutter
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="1"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #4dd0e12e, #4dd0e117); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="1"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-1ajke8d"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                React Native
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-vsu8a6-MuiTypography-root"
+                  >
+                    2
+                     
+                    items
+                     found
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-79elbk"
+          >
+            <div
+              style="position: relative;"
+            >
+              <div
+                class="MuiBox-root css-2gbie8"
+              >
+                <div
+                  class="MuiBox-root css-1ucd4b4"
+                >
+                  <div
+                    class="MuiBox-root css-bc68kq"
+                  >
+                    <span
+                      class="MuiBox-root css-1a4qaj3"
+                    />
+                    <span />
+                    <span
+                      class="MuiBox-root css-c84ehy"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1rv1adc-MuiTypography-root"
+                  >
+                    Databases
+                  </p>
+                </div>
+                <div
+                  class="MuiBox-root css-c6l5x9"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1rr7402-MuiTypography-root"
+                  >
+                    <span
+                      class="prompt"
+                    >
+                      $
+                    </span>
+                    <span>
+                      ls ~/databases
+                    </span>
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1pavki6-MuiTypography-root"
+                  >
+                    Databases
+                  </p>
+                  <div
+                    class="MuiBox-root css-1hdbc19"
+                  >
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="0"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #ffb74d2e, #ffb74d17); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="0"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-m5u7r8"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                MySQL
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="1"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #ffb74d2e, #ffb74d17); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="1"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-m5u7r8"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                MongoDB
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="2"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #ffb74d2e, #ffb74d17); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="2"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-m5u7r8"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                SQLite3
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="3"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #ffb74d2e, #ffb74d17); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="3"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-m5u7r8"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                Firebase
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="4"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #ffb74d2e, #ffb74d17); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="4"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-m5u7r8"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                Supabase
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="5"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #ffb74d2e, #ffb74d17); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="5"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-m5u7r8"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                PostgresSQL
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-vsu8a6-MuiTypography-root"
+                  >
+                    6
+                     
+                    items
+                     found
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-79elbk"
+          >
+            <div
+              style="position: relative;"
+            >
+              <div
+                class="MuiBox-root css-ev0c30"
+              >
+                <div
+                  class="MuiBox-root css-1ucd4b4"
+                >
+                  <div
+                    class="MuiBox-root css-bc68kq"
+                  >
+                    <span
+                      class="MuiBox-root css-1a4qaj3"
+                    />
+                    <span />
+                    <span
+                      class="MuiBox-root css-c84ehy"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1rv1adc-MuiTypography-root"
+                  >
+                    Machine Learning
+                  </p>
+                </div>
+                <div
+                  class="MuiBox-root css-c6l5x9"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1rr7402-MuiTypography-root"
+                  >
+                    <span
+                      class="prompt"
+                    >
+                      $
+                    </span>
+                    <span>
+                      ls ~/machine-learning
+                    </span>
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1rcbxcj-MuiTypography-root"
+                  >
+                    Machine Learning
+                  </p>
+                  <div
+                    class="MuiBox-root css-1hdbc19"
+                  >
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="0"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #ba68c82e, #ba68c817); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="0"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-3sq9h5"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                scikit-learn
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="1"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #ba68c82e, #ba68c817); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="1"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-3sq9h5"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                TensorFlow
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="2"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #ba68c82e, #ba68c817); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="2"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-3sq9h5"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                Keras
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="3"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #ba68c82e, #ba68c817); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="3"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-3sq9h5"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                PyTorch
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="4"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #ba68c82e, #ba68c817); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="4"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-3sq9h5"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                OpenCV
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-vsu8a6-MuiTypography-root"
+                  >
+                    5
+                     
+                    items
+                     found
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-79elbk"
+          >
+            <div
+              style="position: relative;"
+            >
+              <div
+                class="MuiBox-root css-qgxrk4"
+              >
+                <div
+                  class="MuiBox-root css-1ucd4b4"
+                >
+                  <div
+                    class="MuiBox-root css-bc68kq"
+                  >
+                    <span
+                      class="MuiBox-root css-1a4qaj3"
+                    />
+                    <span />
+                    <span
+                      class="MuiBox-root css-c84ehy"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1rv1adc-MuiTypography-root"
+                  >
+                    Data Visualization
+                  </p>
+                </div>
+                <div
+                  class="MuiBox-root css-c6l5x9"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1rr7402-MuiTypography-root"
+                  >
+                    <span
+                      class="prompt"
+                    >
+                      $
+                    </span>
+                    <span>
+                      ls ~/dataviz
+                    </span>
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1k4oldh-MuiTypography-root"
+                  >
+                    Data Visualization
+                  </p>
+                  <div
+                    class="MuiBox-root css-1hdbc19"
+                  >
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="0"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #f062922e, #f0629217); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="0"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-1f3r773"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                Matplotlib
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="1"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #f062922e, #f0629217); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="1"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-1f3r773"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                Seaborn
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-vsu8a6-MuiTypography-root"
+                  >
+                    2
+                     
+                    items
+                     found
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-79elbk"
+          >
+            <div
+              style="position: relative;"
+            >
+              <div
+                class="MuiBox-root css-pxy77c"
+              >
+                <div
+                  class="MuiBox-root css-1ucd4b4"
+                >
+                  <div
+                    class="MuiBox-root css-bc68kq"
+                  >
+                    <span
+                      class="MuiBox-root css-1a4qaj3"
+                    />
+                    <span />
+                    <span
+                      class="MuiBox-root css-c84ehy"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1rv1adc-MuiTypography-root"
+                  >
+                    DevOps & Cloud
+                  </p>
+                </div>
+                <div
+                  class="MuiBox-root css-c6l5x9"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1rr7402-MuiTypography-root"
+                  >
+                    <span
+                      class="prompt"
+                    >
+                      $
+                    </span>
+                    <span>
+                      ls ~/devops
+                    </span>
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1haebx0-MuiTypography-root"
+                  >
+                    DevOps & Cloud
+                  </p>
+                  <div
+                    class="MuiBox-root css-1hdbc19"
+                  >
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="0"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #aed5812e, #aed58117); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="0"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-1yogpow"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                Git
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="1"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #aed5812e, #aed58117); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="1"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-1yogpow"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                AWS
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="2"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #aed5812e, #aed58117); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="2"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-1yogpow"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                Docker
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="3"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #aed5812e, #aed58117); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="3"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-1yogpow"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                Kubernetes
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="4"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #aed5812e, #aed58117); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="4"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-1yogpow"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                Jenkins
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="5"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #aed5812e, #aed58117); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="5"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-1yogpow"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                CI/CD
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="6"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #aed5812e, #aed58117); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="6"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-1yogpow"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                Linux
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="7"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #aed5812e, #aed58117); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="7"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-1yogpow"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                Shell Scripting
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-vsu8a6-MuiTypography-root"
+                  >
+                    8
+                     
+                    items
+                     found
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-79elbk"
+          >
+            <div
+              style="position: relative;"
+            >
+              <div
+                class="MuiBox-root css-16payll"
+              >
+                <div
+                  class="MuiBox-root css-1ucd4b4"
+                >
+                  <div
+                    class="MuiBox-root css-bc68kq"
+                  >
+                    <span
+                      class="MuiBox-root css-1a4qaj3"
+                    />
+                    <span />
+                    <span
+                      class="MuiBox-root css-c84ehy"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1rv1adc-MuiTypography-root"
+                  >
+                    Operating Systems
+                  </p>
+                </div>
+                <div
+                  class="MuiBox-root css-c6l5x9"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1rr7402-MuiTypography-root"
+                  >
+                    <span
+                      class="prompt"
+                    >
+                      $
+                    </span>
+                    <span>
+                      ls ~/os
+                    </span>
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-9574jk-MuiTypography-root"
+                  >
+                    Operating Systems
+                  </p>
+                  <div
+                    class="MuiBox-root css-1hdbc19"
+                  >
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="0"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #90a4ae2e, #90a4ae17); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="0"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-wjx2fk"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                Ubuntu
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="1"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #90a4ae2e, #90a4ae17); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="1"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-wjx2fk"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                Kali Linux
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="2"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #90a4ae2e, #90a4ae17); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="2"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-wjx2fk"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                Windows
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="3"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #90a4ae2e, #90a4ae17); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="3"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-wjx2fk"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                Parrot OS
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-vsu8a6-MuiTypography-root"
+                  >
+                    4
+                     
+                    items
+                     found
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-79elbk"
+          >
+            <div
+              style="position: relative;"
+            >
+              <div
+                class="MuiBox-root css-1ber5yw"
+              >
+                <div
+                  class="MuiBox-root css-1ucd4b4"
+                >
+                  <div
+                    class="MuiBox-root css-bc68kq"
+                  >
+                    <span
+                      class="MuiBox-root css-1a4qaj3"
+                    />
+                    <span />
+                    <span
+                      class="MuiBox-root css-c84ehy"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1rv1adc-MuiTypography-root"
+                  >
+                    Applications
+                  </p>
+                </div>
+                <div
+                  class="MuiBox-root css-c6l5x9"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1rr7402-MuiTypography-root"
+                  >
+                    <span
+                      class="prompt"
+                    >
+                      $
+                    </span>
+                    <span>
+                      ls ~/apps
+                    </span>
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1cnvo4s-MuiTypography-root"
+                  >
+                    Applications
+                  </p>
+                  <div
+                    class="MuiBox-root css-1hdbc19"
+                  >
+                    <div
+                      class="MuiBox-root css-0"
+                    >
+                      <div
+                        class="MuiBox-root css-16zh53x"
+                      >
+                        <div
+                          class="skill-fill"
+                          custom="0"
+                          style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #a1887f2e, #a1887f17); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
+                        />
+                        <div
+                          class="MuiBox-root css-mqp1b6"
+                        >
+                          <div
+                            custom="0"
+                            style="display: flex; align-items: center; width: 100%;"
+                          >
+                            <p
+                              class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
+                            >
+                              <span
+                                class="skill-dot MuiBox-root css-bv41pk"
+                              />
+                              <span
+                                class="skill-label"
+                                style="transition: letter-spacing 0.45s ease;"
+                              >
+                                Microsoft Office
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-vsu8a6-MuiTypography-root"
+                  >
+                    1
+                     
+                    item
+                     found
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section
       class="MuiBox-root css-hkdkug"
@@ -450,11 +2431,189 @@ exports[`App matches snapshot 1`] = `
       />
     </section>
     <section
-      class="MuiBox-root css-7rgp0i"
+      class="MuiBox-root css-8hy28g"
+      data-testid="blog-preview"
     >
       <div
-        class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
-      />
+        class="MuiContainer-root MuiContainer-maxWidthLg css-15xfbvd-MuiContainer-root"
+      >
+        <div>
+          <div>
+            <h2
+              class="MuiTypography-root MuiTypography-h2 css-1phcqpb-MuiTypography-root"
+            >
+              From the Desk
+            </h2>
+          </div>
+          <div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1lhdy0z-MuiTypography-root"
+            >
+              Musings on cybersecurity, hacking tools, and the books that shaped my thinking. Here are a few recent pieces.
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-1u32zg0"
+        >
+          <div
+            custom="0"
+            style="perspective: 600px;"
+          >
+            <a
+              class="MuiBox-root css-1c7iavw"
+              href="https://hackzism.blogspot.com/2020/08/instagram-phishing-using-hiddeneye.html"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                class="MuiBox-root css-14inuc3"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 blog-tag css-x7d1o0-MuiTypography-root"
+                >
+                  Security
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1jcp4h1-MuiTypography-root"
+                >
+                  Instagram phishing using Hiddeneye
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1yn4w5t-MuiTypography-root"
+                >
+                  August 03, 2020
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 blog-arrow css-1d7bx5r-MuiTypography-root"
+                >
+                  read article →
+                </p>
+              </div>
+            </a>
+          </div>
+          <div
+            custom="1"
+            style="perspective: 600px;"
+          >
+            <a
+              class="MuiBox-root css-1c7iavw"
+              href="https://hackzism.blogspot.com/2020/06/fsociety-hacking-tools-from-mr-robot.html"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                class="MuiBox-root css-14inuc3"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 blog-tag css-x7d1o0-MuiTypography-root"
+                >
+                  Tools
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1jcp4h1-MuiTypography-root"
+                >
+                  FSOCIETY hacking tools from Mr. Robot
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1yn4w5t-MuiTypography-root"
+                >
+                  June 28, 2020
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 blog-arrow css-1d7bx5r-MuiTypography-root"
+                >
+                  read article →
+                </p>
+              </div>
+            </a>
+          </div>
+          <div
+            custom="2"
+            style="perspective: 600px;"
+          >
+            <a
+              class="MuiBox-root css-1c7iavw"
+              href="https://hackzism.blogspot.com/2020/06/see-previously-connected-wifi-passwords.html"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                class="MuiBox-root css-14inuc3"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 blog-tag css-x7d1o0-MuiTypography-root"
+                >
+                  Networking
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1jcp4h1-MuiTypography-root"
+                >
+                  See previously connected wifi passwords using cmd
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1yn4w5t-MuiTypography-root"
+                >
+                  June 09, 2020
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 blog-arrow css-1d7bx5r-MuiTypography-root"
+                >
+                  read article →
+                </p>
+              </div>
+            </a>
+          </div>
+          <div
+            custom="3"
+            style="perspective: 600px;"
+          >
+            <a
+              class="MuiBox-root css-1c7iavw"
+              href="https://hackzism.blogspot.com/2020/05/keylogger-with-python.html"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <div
+                class="MuiBox-root css-14inuc3"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 blog-tag css-x7d1o0-MuiTypography-root"
+                >
+                  Python
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1jcp4h1-MuiTypography-root"
+                >
+                  Keylogger with Python — capture every keystroke
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1yn4w5t-MuiTypography-root"
+                >
+                  May 15, 2020
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 blog-arrow css-1d7bx5r-MuiTypography-root"
+                >
+                  read article →
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div>
+          <div
+            class="MuiBox-root css-xp4z8t"
+          >
+            <a
+              data-discover="true"
+              href="/blogs"
+            >
+              View all articles
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
     <section
       class="MuiBox-root css-1xpw8um"
@@ -550,8 +2709,8 @@ exports[`App matches snapshot 1`] = `
                     <label
                       class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-eg7vkx-MuiFormLabel-root-MuiInputLabel-root"
                       data-shrink="false"
-                      for="_r_d_"
-                      id="_r_d_-label"
+                      for="_r_v_"
+                      id="_r_v_-label"
                     >
                       Name
                       <span
@@ -568,7 +2727,7 @@ exports[`App matches snapshot 1`] = `
                       <input
                         aria-invalid="false"
                         class="MuiInputBase-input MuiOutlinedInput-input css-16wblaj-MuiInputBase-input-MuiOutlinedInput-input"
-                        id="_r_d_"
+                        id="_r_v_"
                         name="name"
                         required=""
                         type="text"
@@ -600,8 +2759,8 @@ exports[`App matches snapshot 1`] = `
                     <label
                       class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-eg7vkx-MuiFormLabel-root-MuiInputLabel-root"
                       data-shrink="false"
-                      for="_r_e_"
-                      id="_r_e_-label"
+                      for="_r_10_"
+                      id="_r_10_-label"
                     >
                       Email
                       <span
@@ -618,7 +2777,7 @@ exports[`App matches snapshot 1`] = `
                       <input
                         aria-invalid="false"
                         class="MuiInputBase-input MuiOutlinedInput-input css-16wblaj-MuiInputBase-input-MuiOutlinedInput-input"
-                        id="_r_e_"
+                        id="_r_10_"
                         name="email"
                         required=""
                         type="email"
@@ -650,8 +2809,8 @@ exports[`App matches snapshot 1`] = `
                     <label
                       class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-eg7vkx-MuiFormLabel-root-MuiInputLabel-root"
                       data-shrink="false"
-                      for="_r_f_"
-                      id="_r_f_-label"
+                      for="_r_11_"
+                      id="_r_11_-label"
                     >
                       Message
                       <span
@@ -668,7 +2827,7 @@ exports[`App matches snapshot 1`] = `
                       <textarea
                         aria-invalid="false"
                         class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline css-w4nesw-MuiInputBase-input-MuiOutlinedInput-input"
-                        id="_r_f_"
+                        id="_r_11_"
                         name="message"
                         required=""
                         rows="5"

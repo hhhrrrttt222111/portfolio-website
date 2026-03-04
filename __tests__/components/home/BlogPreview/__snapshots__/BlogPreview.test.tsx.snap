@@ -1,13 +1,373 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
-exports[`BlogPreview matches snapshot 1`] = `
+exports[`BlogPreview matches snapshot (dark mode) 1`] = `
 <div>
   <section
-    class="MuiBox-root css-13g25so"
+    class="MuiBox-root css-10lz8ib"
+    data-testid="blog-preview"
   >
     <div
-      class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
-    />
+      class="MuiContainer-root MuiContainer-maxWidthLg css-15xfbvd-MuiContainer-root"
+    >
+      <div>
+        <div>
+          <h2
+            class="MuiTypography-root MuiTypography-h2 css-1lx3q8e-MuiTypography-root"
+          >
+            From the Desk
+          </h2>
+        </div>
+        <div>
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-z4wa32-MuiTypography-root"
+          >
+            Musings on cybersecurity, hacking tools, and the books that shaped my thinking. Here are a few recent pieces.
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-1u32zg0"
+      >
+        <div
+          style="perspective: 600px;"
+        >
+          <a
+            class="MuiBox-root css-991l7"
+            href="https://hackzism.blogspot.com/2020/08/instagram-phishing-using-hiddeneye.html"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="MuiBox-root css-14inuc3"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 blog-tag css-1qxdwxa-MuiTypography-root"
+              >
+                Security
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1sxvrjk-MuiTypography-root"
+              >
+                Instagram phishing using Hiddeneye
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-2dkwy2-MuiTypography-root"
+              >
+                August 03, 2020
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 blog-arrow css-1x18ccq-MuiTypography-root"
+              >
+                read article →
+              </p>
+            </div>
+          </a>
+        </div>
+        <div
+          style="perspective: 600px;"
+        >
+          <a
+            class="MuiBox-root css-991l7"
+            href="https://hackzism.blogspot.com/2020/06/fsociety-hacking-tools-from-mr-robot.html"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="MuiBox-root css-14inuc3"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 blog-tag css-1qxdwxa-MuiTypography-root"
+              >
+                Tools
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1sxvrjk-MuiTypography-root"
+              >
+                FSOCIETY hacking tools from Mr. Robot
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-2dkwy2-MuiTypography-root"
+              >
+                June 28, 2020
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 blog-arrow css-1x18ccq-MuiTypography-root"
+              >
+                read article →
+              </p>
+            </div>
+          </a>
+        </div>
+        <div
+          style="perspective: 600px;"
+        >
+          <a
+            class="MuiBox-root css-991l7"
+            href="https://hackzism.blogspot.com/2020/06/see-previously-connected-wifi-passwords.html"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="MuiBox-root css-14inuc3"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 blog-tag css-1qxdwxa-MuiTypography-root"
+              >
+                Networking
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1sxvrjk-MuiTypography-root"
+              >
+                See previously connected wifi passwords using cmd
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-2dkwy2-MuiTypography-root"
+              >
+                June 09, 2020
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 blog-arrow css-1x18ccq-MuiTypography-root"
+              >
+                read article →
+              </p>
+            </div>
+          </a>
+        </div>
+        <div
+          style="perspective: 600px;"
+        >
+          <a
+            class="MuiBox-root css-991l7"
+            href="https://hackzism.blogspot.com/2020/05/keylogger-with-python.html"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="MuiBox-root css-14inuc3"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 blog-tag css-1qxdwxa-MuiTypography-root"
+              >
+                Python
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1sxvrjk-MuiTypography-root"
+              >
+                Keylogger with Python — capture every keystroke
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-2dkwy2-MuiTypography-root"
+              >
+                May 15, 2020
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 blog-arrow css-1x18ccq-MuiTypography-root"
+              >
+                read article →
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div>
+        <div
+          class="MuiBox-root css-ngoail"
+        >
+          <a
+            data-discover="true"
+            href="/blogs"
+          >
+            View all articles
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`BlogPreview matches snapshot (light mode) 1`] = `
+<div>
+  <section
+    class="MuiBox-root css-8hy28g"
+    data-testid="blog-preview"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-15xfbvd-MuiContainer-root"
+    >
+      <div>
+        <div>
+          <h2
+            class="MuiTypography-root MuiTypography-h2 css-1phcqpb-MuiTypography-root"
+          >
+            From the Desk
+          </h2>
+        </div>
+        <div>
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-1lhdy0z-MuiTypography-root"
+          >
+            Musings on cybersecurity, hacking tools, and the books that shaped my thinking. Here are a few recent pieces.
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-1u32zg0"
+      >
+        <div
+          style="perspective: 600px;"
+        >
+          <a
+            class="MuiBox-root css-1c7iavw"
+            href="https://hackzism.blogspot.com/2020/08/instagram-phishing-using-hiddeneye.html"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="MuiBox-root css-14inuc3"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 blog-tag css-x7d1o0-MuiTypography-root"
+              >
+                Security
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1jcp4h1-MuiTypography-root"
+              >
+                Instagram phishing using Hiddeneye
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1yn4w5t-MuiTypography-root"
+              >
+                August 03, 2020
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 blog-arrow css-1d7bx5r-MuiTypography-root"
+              >
+                read article →
+              </p>
+            </div>
+          </a>
+        </div>
+        <div
+          style="perspective: 600px;"
+        >
+          <a
+            class="MuiBox-root css-1c7iavw"
+            href="https://hackzism.blogspot.com/2020/06/fsociety-hacking-tools-from-mr-robot.html"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="MuiBox-root css-14inuc3"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 blog-tag css-x7d1o0-MuiTypography-root"
+              >
+                Tools
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1jcp4h1-MuiTypography-root"
+              >
+                FSOCIETY hacking tools from Mr. Robot
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1yn4w5t-MuiTypography-root"
+              >
+                June 28, 2020
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 blog-arrow css-1d7bx5r-MuiTypography-root"
+              >
+                read article →
+              </p>
+            </div>
+          </a>
+        </div>
+        <div
+          style="perspective: 600px;"
+        >
+          <a
+            class="MuiBox-root css-1c7iavw"
+            href="https://hackzism.blogspot.com/2020/06/see-previously-connected-wifi-passwords.html"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="MuiBox-root css-14inuc3"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 blog-tag css-x7d1o0-MuiTypography-root"
+              >
+                Networking
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1jcp4h1-MuiTypography-root"
+              >
+                See previously connected wifi passwords using cmd
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1yn4w5t-MuiTypography-root"
+              >
+                June 09, 2020
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 blog-arrow css-1d7bx5r-MuiTypography-root"
+              >
+                read article →
+              </p>
+            </div>
+          </a>
+        </div>
+        <div
+          style="perspective: 600px;"
+        >
+          <a
+            class="MuiBox-root css-1c7iavw"
+            href="https://hackzism.blogspot.com/2020/05/keylogger-with-python.html"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="MuiBox-root css-14inuc3"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 blog-tag css-x7d1o0-MuiTypography-root"
+              >
+                Python
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1jcp4h1-MuiTypography-root"
+              >
+                Keylogger with Python — capture every keystroke
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1yn4w5t-MuiTypography-root"
+              >
+                May 15, 2020
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 blog-arrow css-1d7bx5r-MuiTypography-root"
+              >
+                read article →
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div>
+        <div
+          class="MuiBox-root css-xp4z8t"
+        >
+          <a
+            data-discover="true"
+            href="/blogs"
+          >
+            View all articles
+          </a>
+        </div>
+      </div>
+    </div>
   </section>
 </div>
 `;
