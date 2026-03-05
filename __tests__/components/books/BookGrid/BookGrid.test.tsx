@@ -24,6 +24,21 @@ const FRAMER_PROPS = new Set([
 const filterProps = (props: Record<string, unknown>) =>
   Object.fromEntries(Object.entries(props).filter(([key]) => !FRAMER_PROPS.has(key)));
 
+const mockObserve = jest.fn();
+const mockDisconnect = jest.fn();
+
+beforeEach(() => {
+  global.IntersectionObserver = jest.fn(() => ({
+    observe: mockObserve,
+    disconnect: mockDisconnect,
+    unobserve: jest.fn(),
+    root: null,
+    rootMargin: "",
+    thresholds: [],
+    takeRecords: () => [],
+  })) as unknown as typeof IntersectionObserver;
+});
+
 jest.mock("framer-motion", () => ({
   motion: {
     div: React.forwardRef<HTMLDivElement, Record<string, unknown>>((props, ref) => (
@@ -33,6 +48,7 @@ jest.mock("framer-motion", () => ({
       <span ref={ref} {...filterProps(props)} />
     )),
   },
+  useReducedMotion: () => false,
   AnimatePresence: ({ children }: { children: React.ReactNode }) => <>{children}</>,
 }));
 
@@ -56,6 +72,18 @@ const mockBooks: Book[] = [
     link: "https://goodreads.com/book/2",
   },
 ];
+
+function generateBooks(count: number): Book[] {
+  return Array.from({ length: count }, (_, i) => ({
+    title: `Book ${i + 1}`,
+    author: `Author ${i + 1}`,
+    cover: `https://example.com/cover${i}.jpg`,
+    rating: (i % 5) + 1,
+    avgRating: 4.0,
+    readDate: `2025-01-${String(i + 1).padStart(2, "0")}`,
+    link: `https://goodreads.com/book/${i}`,
+  }));
+}
 
 const renderComponent = (books: Book[] = mockBooks, mode: "light" | "dark" = "light") =>
   render(
@@ -97,6 +125,28 @@ describe("BookGrid", () => {
   it("shows empty state icon", () => {
     renderComponent([]);
     expect(screen.getByText("📚")).toBeInTheDocument();
+  });
+
+  it("only renders first page of books initially", () => {
+    renderComponent(generateBooks(30));
+    const cards = screen.getAllByTestId("book-card");
+    expect(cards).toHaveLength(20);
+  });
+
+  it("shows load-more sentinel when more books exist", () => {
+    renderComponent(generateBooks(30));
+    expect(screen.getByTestId("load-more-sentinel")).toBeInTheDocument();
+  });
+
+  it("does not show sentinel when all books visible", () => {
+    renderComponent(generateBooks(5));
+    expect(screen.queryByTestId("load-more-sentinel")).not.toBeInTheDocument();
+  });
+
+  it("sets up IntersectionObserver for lazy loading", () => {
+    renderComponent(generateBooks(30));
+    expect(global.IntersectionObserver).toHaveBeenCalled();
+    expect(mockObserve).toHaveBeenCalled();
   });
 
   it("renders correctly in dark mode", () => {

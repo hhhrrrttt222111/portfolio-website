@@ -40,9 +40,17 @@ function extractText(xml, tag) {
   return match ? (match[1] ?? match[2] ?? "").trim() : "";
 }
 
-function extractImageSrc(xml) {
-  const match = xml.match(/<img[^>]+src="([^"]+)"/);
-  return match ? match[1].replace(/\._\w+_\./, ".") : "";
+function extractCover(itemXml) {
+  const large = extractText(itemXml, "book_large_image_url");
+  if (large) return large.replace(/\._\w+_\./, ".");
+
+  const medium = extractText(itemXml, "book_medium_image_url");
+  if (medium) return medium.replace(/\._\w+_\./, ".");
+
+  const small = extractText(itemXml, "book_image_url");
+  if (small) return small.replace(/\._\w+_\./, ".");
+
+  return "";
 }
 
 function parseItem(itemXml) {
@@ -52,9 +60,8 @@ function parseItem(itemXml) {
   const avgRating = parseFloat(extractText(itemXml, "average_rating")) || 0;
   const readDate = extractText(itemXml, "user_read_at");
   const link = extractText(itemXml, "link");
-  const bookDescription = extractText(itemXml, "book_description");
 
-  const cover = extractImageSrc(bookDescription || extractText(itemXml, "description"));
+  const cover = extractCover(itemXml);
 
   let formattedDate = "";
   if (readDate) {

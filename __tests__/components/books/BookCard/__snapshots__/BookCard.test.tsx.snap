@@ -5,7 +5,7 @@ exports[`BookCard matches snapshot (dark mode) 1`] = `
   <div>
     <div
       aria-label="Atomic Habits by James Clear on Goodreads"
-      class="MuiBox-root css-md987m"
+      class="MuiBox-root css-juqqx6"
       data-testid="book-card"
       role="link"
     >
@@ -24,12 +24,12 @@ exports[`BookCard matches snapshot (dark mode) 1`] = `
         class="MuiBox-root css-1hdogsu"
       >
         <p
-          class="MuiTypography-root MuiTypography-body1 css-1dmnofy-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-body1 css-14su6af-MuiTypography-root"
         >
           Atomic Habits
         </p>
         <p
-          class="MuiTypography-root MuiTypography-body1 css-1f3q1nn-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-body1 css-108gb5v-MuiTypography-root"
         >
           James Clear
         </p>
@@ -127,7 +127,7 @@ exports[`BookCard matches snapshot (light mode) 1`] = `
   <div>
     <div
       aria-label="Atomic Habits by James Clear on Goodreads"
-      class="MuiBox-root css-1l2tm4f"
+      class="MuiBox-root css-1pslrmu"
       data-testid="book-card"
       role="link"
     >
@@ -146,12 +146,12 @@ exports[`BookCard matches snapshot (light mode) 1`] = `
         class="MuiBox-root css-1hdogsu"
       >
         <p
-          class="MuiTypography-root MuiTypography-body1 css-1hon4yy-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-body1 css-dm6j92-MuiTypography-root"
         >
           Atomic Habits
         </p>
         <p
-          class="MuiTypography-root MuiTypography-body1 css-e99om8-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-body1 css-pnxyaq-MuiTypography-root"
         >
           James Clear
         </p>

@@ -1,92 +1,1955 @@
 [
   {
-    "title": "Atomic Habits",
-    "author": "James Clear",
-    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1655988385i/40121378.jpg",
+    "title": "Hangwoman",
+    "author": "കെ.ആർ.മീര | K.R.Meera",
+    "cover": "",
     "rating": 5,
-    "avgRating": 4.35,
-    "readDate": "2025-01-12",
-    "link": "https://www.goodreads.com/book/show/40121378-atomic-habits"
+    "avgRating": 4.03,
+    "readDate": "2026-02-28",
+    "link": "https://www.goodreads.com/review/show/8375189487?utm_medium=api&utm_source=rss"
   },
   {
-    "title": "Deep Work",
-    "author": "Cal Newport",
-    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1484248295i/25744928.jpg",
+    "title": "The Last Beekeeper",
+    "author": "Siya Turabi",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.12,
+    "readDate": "2026-02-19",
+    "link": "https://www.goodreads.com/review/show/8363576780?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Anarchy: The East India Company, Corporate Violence, and the Pillage of an Empire",
+    "author": "William Dalrymple",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.17,
+    "readDate": "2026-02-15",
+    "link": "https://www.goodreads.com/review/show/8291332561?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Star of the North",
+    "author": "D.B. John",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 4.17,
+    "readDate": "2026-01-31",
+    "link": "https://www.goodreads.com/review/show/8267757949?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "A Good Girl's Guide to Murder (A Good Girl's Guide to Murder, #1)",
+    "author": "Holly  Jackson",
+    "cover": "",
+    "rating": 3,
+    "avgRating": 4.28,
+    "readDate": "2026-01-27",
+    "link": "https://www.goodreads.com/review/show/8294419914?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Azadi: Freedom. Fascism. Fiction.",
+    "author": "Arundhati Roy",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.11,
+    "readDate": "2026-01-23",
+    "link": "https://www.goodreads.com/review/show/8281775517?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "cover": "",
+    "rating": 3,
+    "avgRating": 4.11,
+    "readDate": "2026-01-20",
+    "link": "https://www.goodreads.com/review/show/8281767062?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Secret History",
+    "author": "Donna Tartt",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 4.16,
+    "readDate": "2026-01-17",
+    "link": "https://www.goodreads.com/review/show/8270283869?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Men Without Women",
+    "author": "Haruki Murakami",
+    "cover": "",
+    "rating": 3,
+    "avgRating": 3.74,
+    "readDate": "2026-01-12",
+    "link": "https://www.goodreads.com/review/show/8245224403?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Good Data: An Optimist's Guide to Our Digital Future",
+    "author": "Sam  Gilbert",
+    "cover": "",
+    "rating": 3,
+    "avgRating": 3.29,
+    "readDate": "2026-01-08",
+    "link": "https://www.goodreads.com/review/show/8231134400?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Stranger Things: One Way or Another (Stranger Things, #10)",
+    "author": "Caitlin Schneiderhan",
+    "cover": "",
+    "rating": 3,
+    "avgRating": 3.76,
+    "readDate": "2026-01-06",
+    "link": "https://www.goodreads.com/review/show/8216073251?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Kafka on the Shore",
+    "author": "Haruki Murakami",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.08,
+    "readDate": "2026-01-03",
+    "link": "https://www.goodreads.com/review/show/8203705853?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The God of Small Things",
+    "author": "Arundhati Roy",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.97,
+    "readDate": "2025-12-27",
+    "link": "https://www.goodreads.com/review/show/8155979435?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Setting Sun",
+    "author": "Osamu Dazai",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 4,
+    "readDate": "2025-12-17",
+    "link": "https://www.goodreads.com/review/show/8150447762?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "No Longer Human",
+    "author": "Osamu Dazai",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.97,
+    "readDate": "2025-12-16",
+    "link": "https://www.goodreads.com/review/show/8145355450?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Library Cat",
+    "author": "Alex   Howard",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.47,
+    "readDate": "2025-12-13",
+    "link": "https://www.goodreads.com/review/show/8141718789?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Coming Wave: Technology, Power, and the Twenty-first Century's Greatest Dilemma",
+    "author": "Mustafa Suleyman",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.75,
+    "readDate": "2025-12-12",
+    "link": "https://www.goodreads.com/review/show/8130850823?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Only Human",
+    "author": "Diane   Chandler",
+    "cover": "",
+    "rating": 3,
+    "avgRating": 3.66,
+    "readDate": "2025-12-08",
+    "link": "https://www.goodreads.com/review/show/8128226661?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Yellowface",
+    "author": "R.F. Kuang",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.68,
+    "readDate": "2025-11-30",
+    "link": "https://www.goodreads.com/review/show/8109660812?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Julius Caesar",
+    "author": "William Shakespeare",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.7,
+    "readDate": "2025-11-28",
+    "link": "https://www.goodreads.com/review/show/8109660048?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Interpreter of Maladies",
+    "author": "Jhumpa Lahiri",
+    "cover": "",
     "rating": 5,
     "avgRating": 4.19,
-    "readDate": "2025-02-20",
-    "link": "https://www.goodreads.com/book/show/25744928-deep-work"
+    "readDate": "2025-11-25",
+    "link": "https://www.goodreads.com/review/show/8086462439?utm_medium=api&utm_source=rss"
   },
   {
-    "title": "The Pragmatic Programmer",
-    "author": "David Thomas",
-    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1401446128i/4099.jpg",
+    "title": "Hamlet",
+    "author": "William Shakespeare",
+    "cover": "",
     "rating": 5,
-    "avgRating": 4.33,
-    "readDate": "2024-11-05",
-    "link": "https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer"
+    "avgRating": 4.02,
+    "readDate": "2025-11-20",
+    "link": "https://www.goodreads.com/review/show/8074710307?utm_medium=api&utm_source=rss"
   },
   {
-    "title": "Sapiens",
-    "author": "Yuval Noah Harari",
-    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1595674533i/23692271.jpg",
+    "title": "The Bell Jar",
+    "author": "Sylvia Plath",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.03,
+    "readDate": "2025-11-15",
+    "link": "https://www.goodreads.com/review/show/8070064319?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Psychopathology of Everyday Life",
+    "author": "Sigmund Freud",
+    "cover": "",
     "rating": 4,
+    "avgRating": 3.87,
+    "readDate": "2025-11-13",
+    "link": "https://www.goodreads.com/review/show/8062084810?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Nine Lives: In Search of the Sacred in Modern India",
+    "author": "William Dalrymple",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.06,
+    "readDate": "2025-11-09",
+    "link": "https://www.goodreads.com/review/show/8046518996?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Macbeth",
+    "author": "William Shakespeare",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.86,
+    "readDate": "2025-10-27",
+    "link": "https://www.goodreads.com/review/show/7996556030?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.23,
+    "readDate": "2025-10-26",
+    "link": "https://www.goodreads.com/review/show/8016733065?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Cider House Rules",
+    "author": "John Irving",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 4.16,
+    "readDate": "2025-10-22",
+    "link": "https://www.goodreads.com/review/show/8016731981?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Before We Forget Kindness (Before the Coffee Gets Cold, #5)",
+    "author": "Toshikazu Kawaguchi",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.88,
+    "readDate": "2025-10-16",
+    "link": "https://www.goodreads.com/review/show/7988731243?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Liar Liar (Detective Harriet Blue, #3)",
+    "author": "James  Patterson",
+    "cover": "",
+    "rating": 3,
+    "avgRating": 3.8,
+    "readDate": "2025-10-12",
+    "link": "https://www.goodreads.com/review/show/6895128983?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "City of Djinns: A Year in Delhi",
+    "author": "William Dalrymple",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.12,
+    "readDate": "2025-10-10",
+    "link": "https://www.goodreads.com/review/show/7966012218?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Hunchback of Notre-Dame",
+    "author": "Victor Hugo",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.02,
+    "readDate": "2025-09-30",
+    "link": "https://www.goodreads.com/review/show/7937708809?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Holding",
+    "author": "Graham Norton",
+    "cover": "",
+    "rating": 3,
+    "avgRating": 3.69,
+    "readDate": "2025-09-19",
+    "link": "https://www.goodreads.com/review/show/7913975098?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Never Somewhere Else (DCI Lorimer, #1)",
+    "author": "Alex Gray",
+    "cover": "",
+    "rating": 3,
+    "avgRating": 3.63,
+    "readDate": "2025-09-14",
+    "link": "https://www.goodreads.com/review/show/7911014070?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Cometh the Hour (The Clifton Chronicles, #6)",
+    "author": "Jeffrey Archer",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.12,
+    "readDate": "2025-09-12",
+    "link": "https://www.goodreads.com/review/show/6893586082?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Fifty Fifty (Detective Harriet Blue, #2)",
+    "author": "James  Patterson",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.83,
+    "readDate": "2025-09-10",
+    "link": "https://www.goodreads.com/review/show/6895129433?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Black Hawk Down: A Story of Modern War",
+    "author": "Mark Bowden",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 4.3,
+    "readDate": "2025-09-09",
+    "link": "https://www.goodreads.com/review/show/7885556391?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Mightier Than the Sword (The Clifton Chronicles, #5)",
+    "author": "Jeffrey Archer",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.1,
+    "readDate": "2025-09-08",
+    "link": "https://www.goodreads.com/review/show/7895193659?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Curtain (Hercule Poirot, #44)",
+    "author": "Agatha Christie",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.09,
+    "readDate": "2025-09-06",
+    "link": "https://www.goodreads.com/review/show/6884035129?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Never Never (Detective Harriet Blue, #1)",
+    "author": "James  Patterson",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.57,
+    "readDate": "2025-09-03",
+    "link": "https://www.goodreads.com/review/show/6895129434?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Devotion of Suspect X (Detective Galileo, #1)",
+    "author": "Keigo Higashino",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.16,
+    "readDate": "2025-08-31",
+    "link": "https://www.goodreads.com/review/show/7873387979?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Before Your Memory Fades (Before the Coffee Gets Cold, #3)",
+    "author": "Toshikazu Kawaguchi",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.88,
+    "readDate": "2025-08-29",
+    "link": "https://www.goodreads.com/review/show/7865149915?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Essence of Evil (DI Dani Stephens, #1)",
+    "author": "Rob   Sinclair",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.17,
+    "readDate": "2025-08-27",
+    "link": "https://www.goodreads.com/review/show/7853598830?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Days at the Morisaki Bookshop (Days at the Morisaki Bookshop, #1)",
+    "author": "Satoshi Yagisawa",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.65,
+    "readDate": "2025-08-22",
+    "link": "https://www.goodreads.com/review/show/7848534732?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Pistols For Two",
+    "author": "Georgette Heyer",
+    "cover": "",
+    "rating": 3,
+    "avgRating": 3.85,
+    "readDate": "2025-08-21",
+    "link": "https://www.goodreads.com/review/show/7686918988?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Black Moth",
+    "author": "Georgette Heyer",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.63,
+    "readDate": "2025-08-19",
+    "link": "https://www.goodreads.com/review/show/7829299237?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Bad Luck and Trouble (Jack Reacher, #11)",
+    "author": "Lee Child",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.16,
+    "readDate": "2025-08-15",
+    "link": "https://www.goodreads.com/review/show/7828601434?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Circe",
+    "author": "Madeline Miller",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.21,
+    "readDate": "2025-08-13",
+    "link": "https://www.goodreads.com/review/show/7819396273?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Song of Achilles",
+    "author": "Madeline Miller",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.29,
+    "readDate": "2025-08-09",
+    "link": "https://www.goodreads.com/review/show/7784157998?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Color Purple",
+    "author": "Alice Walker",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 4.4,
+    "readDate": "2025-07-29",
+    "link": "https://www.goodreads.com/review/show/7775539603?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Three Daughters of Eve",
+    "author": "Elif Shafak",
+    "cover": "",
+    "rating": 3,
+    "avgRating": 3.86,
+    "readDate": "2025-07-27",
+    "link": "https://www.goodreads.com/review/show/7725568745?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Alex Ferguson: My Autobiography",
+    "author": "Alex Ferguson",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.93,
+    "readDate": "2025-07-23",
+    "link": "https://www.goodreads.com/review/show/7767129153?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Palace of Illusions",
+    "author": "Chitra Banerjee Divakaruni",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.2,
+    "readDate": "2025-07-13",
+    "link": "https://www.goodreads.com/review/show/7055599005?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "My Next Breath",
+    "author": "Jeremy Renner",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.15,
+    "readDate": "2025-07-05",
+    "link": "https://www.goodreads.com/review/show/7705646305?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Man V. Nature",
+    "author": "Diane  Cook",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.99,
+    "readDate": "2025-07-03",
+    "link": "https://www.goodreads.com/review/show/7699035528?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "My Sister, the Serial Killer",
+    "author": "Oyinkan Braithwaite",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.63,
+    "readDate": "2025-06-28",
+    "link": "https://www.goodreads.com/review/show/7686920018?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Chessmen (Lewis Trilogy, #3)",
+    "author": "Peter  May",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 4.05,
+    "readDate": "2025-06-26",
+    "link": "https://www.goodreads.com/review/show/7668860869?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "An Era of Darkness: The British Empire in India",
+    "author": "Shashi Tharoor",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.18,
+    "readDate": "2025-06-23",
+    "link": "https://www.goodreads.com/review/show/7657991094?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Trial",
+    "author": "Franz Kafka",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.99,
+    "readDate": "2025-06-16",
+    "link": "https://www.goodreads.com/review/show/7649046561?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Questions for a Dead Man (DSI William Lorimer, #20)",
+    "author": "Alex Gray",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 4.25,
+    "readDate": "2025-06-12",
+    "link": "https://www.goodreads.com/review/show/7642764368?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Shall We Tell the President? (Kane & Abel, #3)",
+    "author": "Jeffrey Archer",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.73,
+    "readDate": "2025-06-08",
+    "link": "https://www.goodreads.com/review/show/6884041559?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Boyfriend",
+    "author": "Freida McFadden",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.95,
+    "readDate": "2025-06-06",
+    "link": "https://www.goodreads.com/review/show/7629251139?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Revolution",
+    "author": "Russell Brand",
+    "cover": "",
+    "rating": 3,
+    "avgRating": 3.66,
+    "readDate": "2025-06-05",
+    "link": "https://www.goodreads.com/review/show/7617458840?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "My Life In Black And White",
+    "author": "Kim Izzo",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.32,
+    "readDate": "2025-05-31",
+    "link": "https://www.goodreads.com/review/show/7579465288?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Hit Refresh: The Quest to Rediscover Microsoft's Soul and Imagine a Better Future for Everyone",
+    "author": "Satya Nadella",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.73,
+    "readDate": "2025-05-29",
+    "link": "https://www.goodreads.com/review/show/7608975322?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Elephant, the Tiger, and the Cell Phone: Reflections on India, the Emerging 21st-Century Power",
+    "author": "Shashi Tharoor",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.58,
+    "readDate": "2025-05-27",
+    "link": "https://www.goodreads.com/review/show/7589774865?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Then She Was Gone",
+    "author": "Lisa Jewell",
+    "cover": "",
+    "rating": 3,
+    "avgRating": 4.01,
+    "readDate": "2025-05-25",
+    "link": "https://www.goodreads.com/review/show/7376759455?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Falling",
+    "author": "Jane Green",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.4,
+    "readDate": "2025-05-18",
+    "link": "https://www.goodreads.com/review/show/7579220531?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "This is Going to Hurt: Secret Diaries of a Junior Doctor",
+    "author": "Adam Kay",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.4,
+    "readDate": "2025-05-13",
+    "link": "https://www.goodreads.com/review/show/7562428566?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Why Mars and Venus Collide",
+    "author": "John  Gray",
+    "cover": "",
+    "rating": 3,
+    "avgRating": 3.85,
+    "readDate": "2025-05-12",
+    "link": "https://www.goodreads.com/review/show/7559346041?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Men Are from Mars, Women Are from Venus",
+    "author": "John  Gray",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.59,
+    "readDate": "2025-05-10",
+    "link": "https://www.goodreads.com/review/show/7508673375?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Bookless in Baghdad: Reflections on Writing and Writers",
+    "author": "Shashi Tharoor",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.58,
+    "readDate": "2025-05-08",
+    "link": "https://www.goodreads.com/review/show/7544597489?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Song of Solomon",
+    "author": "Toni Morrison",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 4.16,
+    "readDate": "2025-05-04",
+    "link": "https://www.goodreads.com/review/show/7539486160?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Carrie",
+    "author": "Stephen  King",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 4,
+    "readDate": "2025-05-03",
+    "link": "https://www.goodreads.com/review/show/7533727150?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Lost (Jonah Colley #1)",
+    "author": "Simon Beckett",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.71,
+    "readDate": "2025-04-30",
+    "link": "https://www.goodreads.com/review/show/7497711353?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Godfather (The Godfather, #1)",
+    "author": "Mario Puzo",
+    "cover": "",
+    "rating": 5,
     "avgRating": 4.39,
-    "readDate": "2024-09-18",
-    "link": "https://www.goodreads.com/book/show/23692271-sapiens"
+    "readDate": "2025-04-29",
+    "link": "https://www.goodreads.com/review/show/7528116444?utm_medium=api&utm_source=rss"
   },
   {
-    "title": "The Design of Everyday Things",
-    "author": "Don Norman",
-    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442460745i/840.jpg",
+    "title": "Read People Like a Book: How to Analyze, Understand, and Predict People’s Emotions, Thoughts, Intentions, and Behaviors",
+    "author": "Patrick King",
+    "cover": "",
     "rating": 4,
-    "avgRating": 4.18,
-    "readDate": "2024-07-30",
-    "link": "https://www.goodreads.com/book/show/840.The_Design_of_Everyday_Things"
+    "avgRating": 3.42,
+    "readDate": "2025-04-20",
+    "link": "https://www.goodreads.com/review/show/7501519295?utm_medium=api&utm_source=rss"
   },
   {
-    "title": "Thinking, Fast and Slow",
-    "author": "Daniel Kahneman",
-    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1317793965i/11468377.jpg",
+    "title": "And the Mountains Echoed",
+    "author": "Khaled Hosseini",
+    "cover": "",
     "rating": 4,
-    "avgRating": 4.18,
-    "readDate": "2024-06-15",
-    "link": "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow"
+    "avgRating": 4.07,
+    "readDate": "2025-04-17",
+    "link": "https://www.goodreads.com/review/show/7486973047?utm_medium=api&utm_source=rss"
   },
   {
-    "title": "Clean Code",
-    "author": "Robert C. Martin",
-    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1436202607i/3735293.jpg",
-    "rating": 4,
-    "avgRating": 4.08,
-    "readDate": "2024-04-22",
-    "link": "https://www.goodreads.com/book/show/3735293-clean-code"
+    "title": "The Teacher",
+    "author": "Freida McFadden",
+    "cover": "",
+    "rating": 3,
+    "avgRating": 3.81,
+    "readDate": "2025-04-06",
+    "link": "https://www.goodreads.com/review/show/7463452422?utm_medium=api&utm_source=rss"
   },
   {
-    "title": "Meditations",
-    "author": "Marcus Aurelius",
-    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1421618636i/30659.jpg",
+    "title": "Who Killed Piet Barol?",
+    "author": "Richard       Mason",
+    "cover": "",
+    "rating": 3,
+    "avgRating": 3.78,
+    "readDate": "2025-04-05",
+    "link": "https://www.goodreads.com/review/show/7164686822?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Global Discontents: Conversations on the Rising Threats to Democracy (The American Empire Project)",
+    "author": "Noam Chomsky",
+    "cover": "",
     "rating": 5,
+    "avgRating": 4.17,
+    "readDate": "2025-04-04",
+    "link": "https://www.goodreads.com/review/show/7455926151?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Better Small Talk: Talk to Anyone, Avoid Awkwardness, Generate Deep Conversations, and Make Real Friends",
+    "author": "Patrick King",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.49,
+    "readDate": "2025-03-30",
+    "link": "https://www.goodreads.com/review/show/7446761049?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "That Night",
+    "author": "Nidhi  Upadhyay",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.68,
+    "readDate": "2025-03-30",
+    "link": "https://www.goodreads.com/review/show/7322152174?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Housemaid is Watching (The Housemaid, #3)",
+    "author": "Freida McFadden",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.77,
+    "readDate": "2025-03-26",
+    "link": "https://www.goodreads.com/review/show/7428013087?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Bluest Eye",
+    "author": "Toni Morrison",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.14,
+    "readDate": "2025-03-22",
+    "link": "https://www.goodreads.com/review/show/7415952625?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Tales from the Cafe (Before the Coffee Gets Cold, #2)",
+    "author": "Toshikazu Kawaguchi",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.96,
+    "readDate": "2025-03-19",
+    "link": "https://www.goodreads.com/review/show/7401577714?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 4.27,
+    "readDate": "2025-03-18",
+    "link": "https://www.goodreads.com/review/show/7379588733?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Before the Coffee Gets Cold (Before the Coffee Gets Cold, #1)",
+    "author": "Toshikazu Kawaguchi",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.64,
+    "readDate": "2025-03-12",
+    "link": "https://www.goodreads.com/review/show/7055598842?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Christmas Train",
+    "author": "David Baldacci",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.56,
+    "readDate": "2025-03-05",
+    "link": "https://www.goodreads.com/review/show/7367667064?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Redbreast (Harry Hole, #3)",
+    "author": "Jo Nesbø",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.94,
+    "readDate": "2025-02-28",
+    "link": "https://www.goodreads.com/review/show/6966413214?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Money Trap: Lost Illusions Inside the Tech Bubble",
+    "author": "Alok Sama",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 4.04,
+    "readDate": "2025-02-23",
+    "link": "https://www.goodreads.com/review/show/7320812447?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Rainmaker",
+    "author": "John Grisham",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.01,
+    "readDate": "2025-02-23",
+    "link": "https://www.goodreads.com/review/show/6895127118?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Meek One (Penguin Little Black Classics, #44)",
+    "author": "Fyodor Dostoevsky",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.83,
+    "readDate": "2025-02-21",
+    "link": "https://www.goodreads.com/review/show/7338299165?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Richest Man in Babylon",
+    "author": "George S. Clason",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 4.16,
+    "readDate": "2025-02-17",
+    "link": "https://www.goodreads.com/review/show/7325860503?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Metamorphosis",
+    "author": "Franz Kafka",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.91,
+    "readDate": "2025-02-16",
+    "link": "https://www.goodreads.com/review/show/6884085280?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Nine Lives",
+    "author": "Danielle Steel",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 4.19,
+    "readDate": "2025-02-14",
+    "link": "https://www.goodreads.com/review/show/6966424770?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Crush It!: Why Now Is the Time to Cash In on Your Passion",
+    "author": "Gary Vaynerchuk",
+    "cover": "",
+    "rating": 3,
+    "avgRating": 3.87,
+    "readDate": "2025-02-11",
+    "link": "https://www.goodreads.com/review/show/7301538511?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Drowning",
+    "author": "Nidhi  Upadhyay",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.09,
+    "readDate": "2025-02-10",
+    "link": "https://www.goodreads.com/review/show/7301096886?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "My Sister&apos;s Bones",
+    "author": "Nuala Ellwood",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.81,
+    "readDate": "2025-02-08",
+    "link": "https://www.goodreads.com/review/show/7164676134?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Death du Jour (Temperance Brennan, #2)",
+    "author": "Kathy Reichs",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.97,
+    "readDate": "2025-02-06",
+    "link": "https://www.goodreads.com/review/show/6966455756?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "How I Invest My Money: Finance Experts Reveal How They Save, Spend, and Invest",
+    "author": "Joshua Brown",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.72,
+    "readDate": "2025-01-28",
+    "link": "https://www.goodreads.com/review/show/7257935689?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Fourth Protocol",
+    "author": "Frederick Forsyth",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 4.04,
+    "readDate": "2025-01-28",
+    "link": "https://www.goodreads.com/review/show/7250344650?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Prodigal Daughter (Kane & Abel, #2)",
+    "author": "Jeffrey Archer",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.95,
+    "readDate": "2025-01-24",
+    "link": "https://www.goodreads.com/review/show/6884039556?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Magic of Reality: How We Know What's Really True",
+    "author": "Richard Dawkins",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.04,
+    "readDate": "2025-01-19",
+    "link": "https://www.goodreads.com/review/show/7227760843?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Inmate",
+    "author": "Freida McFadden",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.01,
+    "readDate": "2025-01-17",
+    "link": "https://www.goodreads.com/review/show/6966401362?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Bat (Harry Hole, #1)",
+    "author": "Jo Nesbø",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.43,
+    "readDate": "2025-01-13",
+    "link": "https://www.goodreads.com/review/show/6966411598?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Supremacy: AI, ChatGPT, and the Race That Will Change the World",
+    "author": "Parmy Olson",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4,
+    "readDate": "2025-01-04",
+    "link": "https://www.goodreads.com/review/show/7157678679?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The King of Torts",
+    "author": "John Grisham",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.71,
+    "readDate": "2025-01-02",
+    "link": "https://www.goodreads.com/review/show/6895127517?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Small Wins Every Day: 100 Powerful Ways to Transform Your Life and Health",
+    "author": "Luke Coutinho",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 4.21,
+    "readDate": "2024-12-09",
+    "link": "https://www.goodreads.com/review/show/7052879188?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Zahir",
+    "author": "Paulo Coelho",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.61,
+    "readDate": "2024-12-09",
+    "link": "https://www.goodreads.com/review/show/7052879856?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Truth About You",
+    "author": "Melissa Hill",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.99,
+    "readDate": "2024-12-01",
+    "link": "https://www.goodreads.com/review/show/7098750771?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Verity",
+    "author": "Colleen Hoover",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 4.28,
+    "readDate": "2024-12-01",
+    "link": "https://www.goodreads.com/review/show/7064032408?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Testament",
+    "author": "John Grisham",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.88,
+    "readDate": "2024-12-01",
+    "link": "https://www.goodreads.com/review/show/6895127202?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Last Juror",
+    "author": "John Grisham",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.57,
+    "readDate": "2024-12-01",
+    "link": "https://www.goodreads.com/review/show/6905913080?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Veronika Decides to Die",
+    "author": "Paulo Coelho",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 3.87,
+    "readDate": "2024-11-01",
+    "link": "https://www.goodreads.com/review/show/6966394038?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Still Me (Me Before You, #3)",
+    "author": "Jojo Moyes",
+    "cover": "",
+    "rating": 3,
+    "avgRating": 4.03,
+    "readDate": "2024-11-01",
+    "link": "https://www.goodreads.com/review/show/6966388947?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "فيرونيكا تقرر أن تموت",
+    "author": "Paulo Coelho",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.76,
+    "readDate": "2024-11-01",
+    "link": "https://www.goodreads.com/review/show/7052847797?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Locked Door",
+    "author": "Freida McFadden",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.99,
+    "readDate": "2024-11-01",
+    "link": "https://www.goodreads.com/review/show/7157143967?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Chronicle of a Death Foretold",
+    "author": "Gabriel García Márquez",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.98,
+    "readDate": "2024-11-01",
+    "link": "https://www.goodreads.com/review/show/7148893852?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Shoemaker: The Untold Story of the British Family Firm that Became a Global Brand",
+    "author": "Joe Foster",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.11,
+    "readDate": "2024-11-01",
+    "link": "https://www.goodreads.com/review/show/7007410771?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Origin (Robert Langdon, #5)",
+    "author": "Dan    Brown",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.87,
+    "readDate": "2024-10-30",
+    "link": "https://www.goodreads.com/review/show/6884049768?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Truths and Triumphs of Grace Atherton",
+    "author": "Anstey Harris",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.83,
+    "readDate": "2024-10-01",
+    "link": "https://www.goodreads.com/review/show/6906048501?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Without a Trace",
+    "author": "Danielle Steel",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.85,
+    "readDate": "2024-10-01",
+    "link": "https://www.goodreads.com/review/show/6966423786?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Housemaid's Secret (The Housemaid, #2)",
+    "author": "Freida McFadden",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.17,
+    "readDate": "2024-10-01",
+    "link": "https://www.goodreads.com/review/show/6885279385?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "After You (Me Before You, #2)",
+    "author": "Jojo Moyes",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.75,
+    "readDate": "2024-10-01",
+    "link": "https://www.goodreads.com/review/show/6966388251?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Over My Dead Body (William Warwick, #4)",
+    "author": "Jeffrey Archer",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.79,
+    "readDate": "2024-09-01",
+    "link": "https://www.goodreads.com/review/show/6884042124?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Dune Messiah (Dune #2)",
+    "author": "Frank Herbert",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.89,
+    "readDate": "2024-09-01",
+    "link": "https://www.goodreads.com/review/show/6884023213?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Last Man in Tower",
+    "author": "Aravind Adiga",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.52,
+    "readDate": "2024-09-01",
+    "link": "https://www.goodreads.com/review/show/6895125068?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Sins of the Father (The Clifton Chronicles, #2)",
+    "author": "Jeffrey Archer",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.05,
+    "readDate": "2024-08-01",
+    "link": "https://www.goodreads.com/review/show/6893585384?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.17,
+    "readDate": "2024-08-01",
+    "link": "https://www.goodreads.com/review/show/6884013362?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Orphans of the Storm",
+    "author": "Celia Imrie",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.85,
+    "readDate": "2024-08-01",
+    "link": "https://www.goodreads.com/review/show/6895125504?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "How to Kill Your Family",
+    "author": "Bella Mackie",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.49,
+    "readDate": "2024-08-01",
+    "link": "https://www.goodreads.com/review/show/6895126097?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Housemaid (The Housemaid, #1)",
+    "author": "Freida McFadden",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.28,
+    "readDate": "2024-07-01",
+    "link": "https://www.goodreads.com/review/show/6884012764?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Best Kept Secret (The Clifton Chronicles, #3)",
+    "author": "Jeffrey Archer",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.95,
+    "readDate": "2024-07-01",
+    "link": "https://www.goodreads.com/review/show/6884040196?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Only Time Will Tell (The Clifton Chronicles, #1)",
+    "author": "Jeffrey Archer",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.08,
+    "readDate": "2024-07-01",
+    "link": "https://www.goodreads.com/review/show/6884038529?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "As the Crow Flies",
+    "author": "Jeffrey Archer",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.1,
+    "readDate": "2024-07-01",
+    "link": "https://www.goodreads.com/review/show/6884041324?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Lethal White (Cormoran Strike, #4)",
+    "author": "Robert Galbraith",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.23,
+    "readDate": "2024-06-01",
+    "link": "https://www.goodreads.com/review/show/7157140856?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Me Before You (Me Before You, #1)",
+    "author": "Jojo Moyes",
+    "cover": "",
+    "rating": 4,
     "avgRating": 4.26,
-    "readDate": "2024-03-10",
-    "link": "https://www.goodreads.com/book/show/30659.Meditations"
+    "readDate": "2024-05-01",
+    "link": "https://www.goodreads.com/review/show/6966388149?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness",
+    "author": "Morgan Housel",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 4.26,
+    "readDate": "2024-04-01",
+    "link": "https://www.goodreads.com/review/show/7157139076?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Doomsday Conspiracy",
+    "author": "Sidney Sheldon",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 3.67,
+    "readDate": "2024-03-01",
+    "link": "https://www.goodreads.com/review/show/7157136212?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Shutdown: How Covid Shook the World's Economy",
+    "author": "Adam Tooze",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.8,
+    "readDate": "2024-01-01",
+    "link": "https://www.goodreads.com/review/show/7148900176?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Revolution That Wasn't: GameStop, Reddit, and the Fleecing of Small Investors",
+    "author": "Spencer Jakab",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.74,
+    "readDate": "2024-01-01",
+    "link": "https://www.goodreads.com/review/show/7148898369?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Girl from Venice",
+    "author": "Martin Cruz Smith",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.31,
+    "readDate": "2024-01-01",
+    "link": "https://www.goodreads.com/review/show/6952918880?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Casual Vacancy",
+    "author": "J.K. Rowling",
+    "cover": "",
+    "rating": 3,
+    "avgRating": 3.28,
+    "readDate": "2024-01-01",
+    "link": "https://www.goodreads.com/review/show/6881850998?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Leader Who Had No Title (With CD)",
+    "author": "Robin Sharma",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.94,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/7362023780?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Think Like a Monk: Train Your Mind for Peace and Purpose Every Day",
+    "author": "Jay Shetty",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 4.17,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/7362022953?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
+    "author": "Ashlee Vance",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 4.11,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/7361689480?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Throne of Fire: The Graphic Novel  (The Kane Chronicles: The Graphic Novels, #2)",
+    "author": "Orpheus Collar",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.46,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884020112?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Death in the Clouds (Hercule Poirot, #12)",
+    "author": "Agatha Christie",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.84,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884027673?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Cards on the Table (Hercule Poirot, #15)",
+    "author": "Agatha Christie",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.94,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884028151?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The A.B.C. Murders (Hercule Poirot, #13)",
+    "author": "Agatha Christie",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.03,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884027932?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Murder in Mesopotamia (Hercule Poirot, #14)",
+    "author": "Agatha Christie",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.92,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884031766?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Evil Under the Sun (Hercule Poirot, #24)",
+    "author": "Agatha Christie",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.98,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884034504?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Murder in the Mews (Hercule Poirot, #16)",
+    "author": "Agatha Christie",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.81,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884032140?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Lost World (Jurassic Park, #2)",
+    "author": "Michael Crichton",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.86,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884065790?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Red Pyramid (The Kane Chronicles, #1)",
+    "author": "Rick Riordan",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.1,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884070297?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Honor Among Thieves",
+    "author": "Jeffrey Archer",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.87,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884041791?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Cuckoo's Calling (Cormoran Strike, #1)",
+    "author": "Robert Galbraith",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.88,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884022179?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Dombey and Son",
+    "author": "Charles Dickens",
+    "cover": "",
+    "rating": 3,
+    "avgRating": 3.94,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884082857?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Hercule Poirot's Christmas (Hercule Poirot, #20)",
+    "author": "Agatha Christie",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.95,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884029370?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Mysterious Affair at Styles (Hercule Poirot, #1)",
+    "author": "Agatha Christie",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.05,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884024658?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 4.07,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884082142?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Call of the Wild",
+    "author": "Jack London",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 3.89,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884087777?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Matilda",
+    "author": "Roald Dahl",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 4.33,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884086764?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 4.14,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884085715?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "David Copperfield",
+    "author": "Charles Dickens",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 4.03,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884084523?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Oliver Twist",
+    "author": "Charles Dickens",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 3.88,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884082406?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 3.86,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884081941?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Little Women (Little Women, #1)",
+    "author": "Louisa May Alcott",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 4.17,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884080621?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Rebecca",
+    "author": "Daphne du Maurier",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.28,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884076027?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 4.34,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884075171?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Serpent's Shadow (The Kane Chronicles, #3)",
+    "author": "Rick Riordan",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.27,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884072326?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Throne of Fire (The Kane Chronicles, #2)",
+    "author": "Rick Riordan",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.18,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884071192?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Blood of Olympus (The Heroes of Olympus, #5)",
+    "author": "Rick Riordan",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.41,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884070808?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The House of Hades (The Heroes of Olympus, #4)",
+    "author": "Rick Riordan",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.56,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884070069?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Son of Neptune (The Heroes of Olympus, #2)",
+    "author": "Rick Riordan",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.4,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884069773?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Mark of Athena (The Heroes of Olympus, #3)",
+    "author": "Rick Riordan",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.47,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884069516?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Last Olympian (Percy Jackson and the Olympians, #5)",
+    "author": "Rick Riordan",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.59,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884069355?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Titan’s Curse (Percy Jackson and the Olympians, #3)",
+    "author": "Rick Riordan",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 4.37,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884069185?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Battle of the Labyrinth (Percy Jackson and the Olympians, #4)",
+    "author": "Rick Riordan",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.44,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884068933?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Sea of Monsters (Percy Jackson and the Olympians, #2)",
+    "author": "Rick Riordan",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.23,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884068725?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Lightning Thief (Percy Jackson and the Olympians, #1)",
+    "author": "Rick Riordan",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.31,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884068572?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Magician’s Nephew (Chronicles of Narnia, #6)",
+    "author": "C.S. Lewis",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 4.07,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884063815?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Silver Chair (Chronicles of Narnia, #4)",
+    "author": "C.S. Lewis",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 3.96,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884063568?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Voyage of the Dawn Treader (Chronicles of Narnia, #3)",
+    "author": "C.S. Lewis",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 4.1,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884063390?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Prince Caspian (Chronicles of Narnia, #2)",
+    "author": "C.S. Lewis",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 3.99,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884063233?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Lion, the Witch and the Wardrobe (Chronicles of Narnia, #1)",
+    "author": "C.S. Lewis",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 4.24,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884063000?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Harry Potter and the Cursed Child: Parts One and Two (Harry Potter, #8)",
+    "author": "J.K. Rowling",
+    "cover": "",
+    "rating": 3,
+    "avgRating": 3.42,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884061862?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Harry Potter and the Deathly Hallows (Harry Potter, #7)",
+    "author": "J.K. Rowling",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 4.61,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884061520?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Harry Potter and the Half-Blood Prince (Harry Potter, #6)",
+    "author": "J.K. Rowling",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 4.57,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884061243?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Harry Potter and the Order of the Phoenix (Harry Potter, #5)",
+    "author": "J.K. Rowling",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 4.5,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884061035?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Harry Potter and the Goblet of Fire (Harry Potter, #4)",
+    "author": "J.K. Rowling",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 4.56,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884060777?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)",
+    "author": "J.K. Rowling",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 4.57,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884060635?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Harry Potter and the Chamber of Secrets (Harry Potter, #2)",
+    "author": "J.K. Rowling",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 4.42,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884060462?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Harry Potter and the Philosopher's Stone (Harry Potter, #1)",
+    "author": "J.K. Rowling",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 4.45,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884060209?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Invisible Man",
+    "author": "H.G. Wells",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 3.63,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884059386?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Time Machine",
+    "author": "H.G. Wells",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 3.9,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884057694?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Lost Symbol (Robert Langdon, #3)",
+    "author": "Dan    Brown",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.75,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884050330?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Inferno (Robert Langdon, #4)",
+    "author": "Dan    Brown",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.88,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884049929?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Digital Fortress",
+    "author": "Dan    Brown",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.71,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884049131?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Deception Point",
+    "author": "Dan    Brown",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.76,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884048684?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Da Vinci Code (Robert Langdon, #2)",
+    "author": "Dan    Brown",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.92,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884048435?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Lost Hero (The Heroes of Olympus, #1)",
+    "author": "Rick Riordan",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.27,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/1205256676?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Not a Penny More, Not a Penny Less",
+    "author": "Jeffrey Archer",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.04,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884042835?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Kane &amp; Abel (Kane &amp; Abel, #1)",
+    "author": "Jeffrey Archer",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.32,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884038109?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "N or M? (Tommy & Tuppence Mysteries, #3)",
+    "author": "Agatha Christie",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.81,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884035974?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Appointment with Death (Hercule Poirot, #19)",
+    "author": "Agatha Christie",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 3.87,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884029073?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Death on the Nile (Hercule Poirot, #18)",
+    "author": "Agatha Christie",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.13,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884028498?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Mystery of the Blue Train (Hercule Poirot, #6)",
+    "author": "Agatha Christie",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 3.84,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884027255?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Murder on the Links (Hercule Poirot, #2)",
+    "author": "Agatha Christie",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 3.83,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884026478?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Murder of Roger Ackroyd (Hercule Poirot, #4)",
+    "author": "Agatha Christie",
+    "cover": "",
+    "rating": 4,
+    "avgRating": 4.26,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884025718?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Murder on the Orient Express (Hercule Poirot, #10)",
+    "author": "Agatha Christie",
+    "cover": "",
+    "rating": 0,
+    "avgRating": 4.22,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884025133?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.38,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884023650?utm_medium=api&utm_source=rss"
   },
   {
     "title": "The Alchemist",
     "author": "Paulo Coelho",
-    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654371463i/18144590.jpg",
-    "rating": 3,
-    "avgRating": 3.90,
-    "readDate": "2024-01-08",
-    "link": "https://www.goodreads.com/book/show/18144590-the-alchemist"
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.01,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884021152?utm_medium=api&utm_source=rss"
   },
   {
-    "title": "Refactoring",
-    "author": "Martin Fowler",
-    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386925632i/44936.jpg",
-    "rating": 4,
-    "avgRating": 4.24,
-    "readDate": "2023-12-01",
-    "link": "https://www.goodreads.com/book/show/44936.Refactoring"
+    "title": "And Then There Were None",
+    "author": "Agatha Christie",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.27,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884020493?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Lightning Thief: The Graphic Novel (Percy Jackson and the Olympians: The Graphic Novels, #1)",
+    "author": "Robert Venditti",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 4.43,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/6884019216?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Angels & Demons (Robert Langdon, #1)",
+    "author": "Dan    Brown",
+    "cover": "",
+    "rating": 5,
+    "avgRating": 3.95,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/1205255219?utm_medium=api&utm_source=rss"
   }
 ]

@@ -1,22 +1,17 @@
-import { memo } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { memo, useReducer, useEffect, useRef } from "react";
+import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import type { Book } from "@/types";
 import BookCard from "../BookCard/BookCard";
 import { GridRoot, EmptyState, EmptyIcon, EmptyTitle, EmptyDescription } from "./BookGrid.styles";
+
+const PAGE_SIZE = 20;
 
 interface BookGridProps {
   books: Book[];
 }
 
-const containerVariants = {
-  hidden: {},
-  visible: {
-    transition: { staggerChildren: 0.06 },
-  },
-};
-
 const itemVariants = {
-  hidden: { opacity: 0, y: 24, scale: 0.97 },
+  hidden: { opacity: 0, y: 30, scale: 0.96 },
   visible: {
     opacity: 1,
     y: 0,
@@ -30,11 +25,41 @@ const itemVariants = {
   },
 };
 
+function pageReducer(state: number, action: "more" | "reset") {
+  return action === "reset" ? PAGE_SIZE : state + PAGE_SIZE;
+}
+
 const BookGrid = memo(({ books }: BookGridProps) => {
+  const prefersReduced = useReducedMotion();
+  const skip = !!prefersReduced;
+  const [visibleCount, dispatch] = useReducer(pageReducer, PAGE_SIZE);
+  const sentinelRef = useRef<HTMLDivElement>(null);
+
+  const capped = Math.min(visibleCount, books.length);
+
+  useEffect(() => {
+    dispatch("reset");
+  }, [books]);
+
+  useEffect(() => {
+    const sentinel = sentinelRef.current;
+    if (!sentinel) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) dispatch("more");
+      },
+      { rootMargin: "200px" },
+    );
+
+    observer.observe(sentinel);
+    return () => observer.disconnect();
+  }, [capped, books.length]);
+
   if (books.length === 0) {
     return (
       <motion.div
-        initial={{ opacity: 0, y: 20 }}
+        initial={skip ? false : { opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4 }}
       >
@@ -49,28 +74,39 @@ const BookGrid = memo(({ books }: BookGridProps) => {
     );
   }
 
+  const visibleBooks = books.slice(0, capped);
+  const hasMore = capped < books.length;
+
   return (
-    <motion.div
-      variants={containerVariants}
-      initial="hidden"
-      animate="visible"
-      data-testid="book-grid"
-    >
+    <div data-testid="book-grid">
       <GridRoot>
         <AnimatePresence mode="popLayout">
-          {books.map((book) => (
+          {visibleBooks.map((book, i) => (
             <motion.div
               key={`${book.title}-${book.author}`}
-              variants={itemVariants}
+              variants={skip ? undefined : itemVariants}
+              initial={skip ? false : "hidden"}
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.15 }}
               exit="exit"
               layout
+              style={{ height: "100%" }}
+              custom={i}
             >
               <BookCard book={book} />
             </motion.div>
           ))}
         </AnimatePresence>
       </GridRoot>
-    </motion.div>
+
+      {hasMore && (
+        <div
+          ref={sentinelRef}
+          data-testid="load-more-sentinel"
+          style={{ height: 1, width: "100%" }}
+        />
+      )}
+    </div>
   );
 });
 

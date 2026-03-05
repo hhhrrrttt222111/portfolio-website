@@ -23,6 +23,7 @@ export const CardRoot = styled(Box)<BoxProps & { component?: ElementType }>(({ t
     overflow: "hidden",
     display: "flex",
     flexDirection: "column",
+    height: "100%",
     cursor: "pointer",
     transition: "border-color 0.3s, box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1)",
     "&:hover": {
@@ -102,19 +103,23 @@ export const CardTitle = styled(Typography)(({ theme }) => ({
   WebkitLineClamp: 2,
   WebkitBoxOrient: "vertical",
   overflow: "hidden",
+  minHeight: `calc(0.95rem * 1.35 * 2)`,
   [theme.breakpoints.up("md")]: {
     fontSize: "1.05rem",
+    minHeight: `calc(1.05rem * 1.35 * 2)`,
   },
 }));
 
 export const CardAuthor = styled(Typography)(({ theme }) => ({
   fontSize: "0.8rem",
   fontWeight: 500,
+  lineHeight: 1.4,
   color: theme.palette.text.secondary,
   display: "-webkit-box",
   WebkitLineClamp: 1,
   WebkitBoxOrient: "vertical",
   overflow: "hidden",
+  minHeight: `calc(0.8rem * 1.4)`,
 }));
 
 export const CardMeta = styled(Box)(({ theme }) => ({

@@ -1,24 +1,17 @@
-import { useState, useEffect, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback } from "react";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import { Navbar, Footer } from "@/components";
+import { useGoodreadsData } from "@/hooks";
 import BooksHero from "@/components/books/BooksHero/BooksHero";
 import BookFilters, { type SortOrder } from "@/components/books/BookFilters/BookFilters";
 import BookGrid from "@/components/books/BookGrid/BookGrid";
-import type { Book } from "@/types";
 
 const Books = () => {
-  const [books, setBooks] = useState<Book[]>([]);
+  const { books } = useGoodreadsData();
   const [search, setSearch] = useState("");
   const [ratingFilter, setRatingFilter] = useState<number | null>(null);
   const [sortOrder, setSortOrder] = useState<SortOrder>("newest");
-
-  useEffect(() => {
-    fetch("/data/books.json")
-      .then((res) => res.json())
-      .then((data: Book[]) => setBooks(data))
-      .catch(() => setBooks([]));
-  }, []);
 
   const handleSearchChange = useCallback((value: string) => setSearch(value), []);
   const handleRatingChange = useCallback((r: number | null) => setRatingFilter(r), []);

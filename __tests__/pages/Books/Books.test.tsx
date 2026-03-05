@@ -1,5 +1,5 @@
 import React from "react";
-import { render, screen, waitFor } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import { ThemeProvider } from "@mui/material/styles";
 import { MemoryRouter } from "react-router-dom";
 import { createAppTheme } from "@/theme";
@@ -52,101 +52,102 @@ jest.mock("framer-motion", () => ({
   useInView: () => true,
 }));
 
-const mockBooks = [
-  {
-    title: "Atomic Habits",
-    author: "James Clear",
-    cover: "https://example.com/cover.jpg",
-    rating: 5,
-    avgRating: 4.35,
-    readDate: "2025-01-12",
-    link: "https://goodreads.com/book/1",
-  },
-];
+jest.mock("@/hooks/useGoodreadsData", () => ({
+  __esModule: true,
+  default: () => ({
+    books: [
+      {
+        title: "Atomic Habits",
+        author: "James Clear",
+        cover: "https://example.com/cover.jpg",
+        rating: 5,
+        avgRating: 4.35,
+        readDate: "2025-01-12",
+        link: "https://goodreads.com/book/1",
+      },
+    ],
+    loading: false,
+    error: null,
+  }),
+}));
+
+const mockObserve = jest.fn();
+const mockDisconnect = jest.fn();
 
 beforeEach(() => {
-  global.fetch = jest.fn(() =>
-    Promise.resolve({
-      json: () => Promise.resolve(mockBooks),
-    }),
-  ) as jest.Mock;
+  global.IntersectionObserver = jest.fn(() => ({
+    observe: mockObserve,
+    disconnect: mockDisconnect,
+    unobserve: jest.fn(),
+    root: null,
+    rootMargin: "",
+    thresholds: [],
+    takeRecords: () => [],
+  })) as unknown as typeof IntersectionObserver;
 });
 
-afterEach(() => {
-  jest.restoreAllMocks();
-});
-
-const renderBooks = async (mode: "light" | "dark" = "light") => {
-  const result = render(
+const renderBooks = (mode: "light" | "dark" = "light") =>
+  render(
     <ThemeProvider theme={createAppTheme(mode)}>
       <MemoryRouter>
         <Books />
       </MemoryRouter>
     </ThemeProvider>,
   );
-  await waitFor(() => {
-    expect(global.fetch).toHaveBeenCalledWith("/data/books.json");
-  });
-  return result;
-};
 
 describe("Books Page", () => {
-  it("renders without crashing", async () => {
-    const { container } = await renderBooks();
+  it("renders without crashing", () => {
+    const { container } = renderBooks();
     expect(container.firstChild).toBeTruthy();
   });
 
-  it("renders the hero section", async () => {
-    await renderBooks();
+  it("renders the hero section", () => {
+    renderBooks();
     expect(screen.getByTestId("books-hero")).toBeInTheDocument();
   });
 
-  it("renders the page title", async () => {
-    await renderBooks();
+  it("renders the page title", () => {
+    renderBooks();
     expect(screen.getByText("My Reading Library")).toBeInTheDocument();
   });
 
-  it("renders the filters", async () => {
-    await renderBooks();
+  it("renders the filters", () => {
+    renderBooks();
     expect(screen.getByTestId("book-filters")).toBeInTheDocument();
   });
 
-  it("renders the search input", async () => {
-    await renderBooks();
+  it("renders the search input", () => {
+    renderBooks();
     expect(screen.getByPlaceholderText("Search by title or author...")).toBeInTheDocument();
   });
 
-  it("fetches and displays books", async () => {
-    await renderBooks();
-    await waitFor(() => {
-      expect(screen.getByText("Atomic Habits")).toBeInTheDocument();
-    });
+  it("displays books from hook", () => {
+    renderBooks();
+    expect(screen.getByText("Atomic Habits")).toBeInTheDocument();
   });
 
-  it("renders the navbar", async () => {
-    await renderBooks();
+  it("renders the navbar", () => {
+    renderBooks();
     expect(screen.getByText("HRT")).toBeInTheDocument();
   });
 
-  it("renders the footer", async () => {
-    await renderBooks();
+  it("renders the footer", () => {
+    renderBooks();
     expect(screen.getByTestId("footer")).toBeInTheDocument();
   });
 
-  it("renders correctly in dark mode", async () => {
-    await renderBooks("dark");
-    await waitFor(() => {
-      expect(screen.getByText("Atomic Habits")).toBeInTheDocument();
-    });
+  it("renders correctly in dark mode", () => {
+    renderBooks("dark");
+    expect(screen.getByText("Atomic Habits")).toBeInTheDocument();
   });
 
-  it("matches snapshot (light mode)", async () => {
-    const { container } = await renderBooks("light");
+  it("matches snapshot (light mode)", () => {
+    const { container } = renderBooks("light");
     expect(container).toMatchSnapshot();
   });
 
-  it("matches snapshot (dark mode)", async () => {
-    const { container } = await renderBooks("dark");
+  it("matches snapshot (dark mode)", () => {
+    const { container } = renderBooks("dark");
     expect(container).toMatchSnapshot();
   });
 });

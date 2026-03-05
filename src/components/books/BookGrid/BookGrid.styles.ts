@@ -5,6 +5,7 @@ import Typography from "@mui/material/Typography";
 export const GridRoot = styled(Box)(({ theme }) => ({
   display: "grid",
   gridTemplateColumns: "repeat(2, 1fr)",
+  gridAutoRows: "1fr",
   gap: theme.spacing(2.5),
   [theme.breakpoints.up("sm")]: {
     gridTemplateColumns: "repeat(3, 1fr)",

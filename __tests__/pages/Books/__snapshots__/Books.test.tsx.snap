@@ -176,13 +176,15 @@ exports[`Books Page matches snapshot (dark mode) 1`] = `
           data-testid="book-grid"
         >
           <div
-            class="MuiBox-root css-mikytc"
+            class="MuiBox-root css-qi0rix"
           >
-            <div>
+            <div
+              style="height: 100%;"
+            >
               <div>
                 <div
                   aria-label="Atomic Habits by James Clear on Goodreads"
-                  class="MuiBox-root css-md987m"
+                  class="MuiBox-root css-juqqx6"
                   data-testid="book-card"
                   role="link"
                 >
@@ -201,12 +203,12 @@ exports[`Books Page matches snapshot (dark mode) 1`] = `
                     class="MuiBox-root css-1hdogsu"
                   >
                     <p
-                      class="MuiTypography-root MuiTypography-body1 css-1dmnofy-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body1 css-14su6af-MuiTypography-root"
                     >
                       Atomic Habits
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body1 css-1f3q1nn-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body1 css-108gb5v-MuiTypography-root"
                     >
                       James Clear
                     </p>
@@ -573,7 +575,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
             <p
               class="MuiTypography-root MuiTypography-body1 css-emv0vm-MuiTypography-root"
             >
-              0
+              1
                books read
             </p>
           </div>
@@ -677,31 +679,138 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
               <div
                 class="MuiBox-root css-dp9qlm"
               >
-                0 books
+                1 books
               </div>
             </div>
           </div>
         </div>
-        <div>
+        <div
+          data-testid="book-grid"
+        >
           <div
-            class="MuiBox-root css-1uykfe0"
-            data-testid="empty-state"
+            class="MuiBox-root css-qi0rix"
           >
             <div
-              class="MuiBox-root css-1hq119z"
+              style="height: 100%;"
             >
-              📚
+              <div>
+                <div
+                  aria-label="Atomic Habits by James Clear on Goodreads"
+                  class="MuiBox-root css-1pslrmu"
+                  data-testid="book-card"
+                  role="link"
+                >
+                  <div
+                    class="MuiBox-root css-1duyvry"
+                  >
+                    <img
+                      alt="Cover of Atomic Habits"
+                      class="css-ekopze"
+                      loading="lazy"
+                      src="https://example.com/cover.jpg"
+                      style="opacity: 0; transition: opacity 0.4s;"
+                    />
+                  </div>
+                  <div
+                    class="MuiBox-root css-1hdogsu"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-dm6j92-MuiTypography-root"
+                    >
+                      Atomic Habits
+                    </p>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-pnxyaq-MuiTypography-root"
+                    >
+                      James Clear
+                    </p>
+                    <div
+                      class="MuiBox-root css-jv665g"
+                    >
+                      <div
+                        class="MuiBox-root css-uklcv"
+                      >
+                        <div
+                          class="MuiBox-root css-1gr6vz7"
+                        >
+                          <svg
+                            fill="currentColor"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                            />
+                          </svg>
+                        </div>
+                        <div
+                          class="MuiBox-root css-1gr6vz7"
+                        >
+                          <svg
+                            fill="currentColor"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                            />
+                          </svg>
+                        </div>
+                        <div
+                          class="MuiBox-root css-1gr6vz7"
+                        >
+                          <svg
+                            fill="currentColor"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                            />
+                          </svg>
+                        </div>
+                        <div
+                          class="MuiBox-root css-1gr6vz7"
+                        >
+                          <svg
+                            fill="currentColor"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                            />
+                          </svg>
+                        </div>
+                        <div
+                          class="MuiBox-root css-1gr6vz7"
+                        >
+                          <svg
+                            fill="currentColor"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-kppqcv-MuiTypography-root"
+                      >
+                        Jan 2025
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <p
-              class="MuiTypography-root MuiTypography-body1 css-cplxbj-MuiTypography-root"
-            >
-              No books found
-            </p>
-            <p
-              class="MuiTypography-root MuiTypography-body1 css-pxkltp-MuiTypography-root"
-            >
-              Try adjusting your search or filters to find what you're looking for.
-            </p>
           </div>
         </div>
       </div>
