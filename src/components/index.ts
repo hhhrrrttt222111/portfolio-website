@@ -12,3 +12,7 @@ export { default as Landing } from "./home/Landing/Landing";
 export { default as DarkModeToggle } from "./ui/DarkModeToggle/DarkModeToggle";
 export { default as OfflineFallback } from "./ui/OfflineFallback/OfflineFallback";
 export { default as ScrollIndicator } from "./ui/ScrollIndicator/ScrollIndicator";
+export { default as AboutHero } from "./about/AboutHero/AboutHero";
+export { default as EducationSection } from "./about/EducationSection/EducationSection";
+export { default as ExperienceTimeline } from "./about/ExperienceTimeline/ExperienceTimeline";
+export { default as PhilosophySection } from "./about/PhilosophySection/PhilosophySection";

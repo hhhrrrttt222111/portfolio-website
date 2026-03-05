@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`EducationSection matches snapshot (dark mode) 1`] = `
+<div>
+  <section
+    class="MuiBox-root css-26qcrv"
+    data-testid="education-section"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+    >
+      <div>
+        <h2
+          class="MuiTypography-root MuiTypography-h2 css-e46uk0-MuiTypography-root"
+        >
+          Education
+        </h2>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-ri9s37-MuiTypography-root"
+        >
+          The foundation that shaped my thinking and technical skills.
+        </p>
+      </div>
+      <div
+        class="MuiBox-root css-1gtzesu"
+      >
+        <div>
+          <div
+            class="MuiBox-root css-1j8oeui"
+          >
+            <div
+              class="MuiBox-root css-w0c2nw"
+            >
+              <span
+                class="year-text"
+              >
+                2005 — 2007
+              </span>
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-17jad0f-MuiTypography-root"
+            >
+              Primary Secondary Education
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1n98p2y-MuiTypography-root"
+            >
+              Bhavans Bala Mandir, Eroor
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            class="MuiBox-root css-1j8oeui"
+          >
+            <div
+              class="MuiBox-root css-w0c2nw"
+            >
+              <span
+                class="year-text"
+              >
+                2007 — 2019
+              </span>
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-17jad0f-MuiTypography-root"
+            >
+              Higher Secondary Education
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1n98p2y-MuiTypography-root"
+            >
+              Bhavans Vidya Mandir, Eroor
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            class="MuiBox-root css-1j8oeui"
+          >
+            <div
+              class="MuiBox-root css-w0c2nw"
+            >
+              <span
+                class="year-text"
+              >
+                2019 — Present
+              </span>
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-17jad0f-MuiTypography-root"
+            >
+              B.Tech in Computer Science
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1n98p2y-MuiTypography-root"
+            >
+              Model Engineering College, Thrikkakara
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`EducationSection matches snapshot (light mode) 1`] = `
+<div>
+  <section
+    class="MuiBox-root css-pe65t3"
+    data-testid="education-section"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+    >
+      <div>
+        <h2
+          class="MuiTypography-root MuiTypography-h2 css-mr9nnn-MuiTypography-root"
+        >
+          Education
+        </h2>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-om3ttu-MuiTypography-root"
+        >
+          The foundation that shaped my thinking and technical skills.
+        </p>
+      </div>
+      <div
+        class="MuiBox-root css-1gtzesu"
+      >
+        <div>
+          <div
+            class="MuiBox-root css-xggkmz"
+          >
+            <div
+              class="MuiBox-root css-it2qej"
+            >
+              <span
+                class="year-text"
+              >
+                2005 — 2007
+              </span>
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1jl3k8a-MuiTypography-root"
+            >
+              Primary Secondary Education
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-hbybfc-MuiTypography-root"
+            >
+              Bhavans Bala Mandir, Eroor
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            class="MuiBox-root css-xggkmz"
+          >
+            <div
+              class="MuiBox-root css-it2qej"
+            >
+              <span
+                class="year-text"
+              >
+                2007 — 2019
+              </span>
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1jl3k8a-MuiTypography-root"
+            >
+              Higher Secondary Education
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-hbybfc-MuiTypography-root"
+            >
+              Bhavans Vidya Mandir, Eroor
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            class="MuiBox-root css-xggkmz"
+          >
+            <div
+              class="MuiBox-root css-it2qej"
+            >
+              <span
+                class="year-text"
+              >
+                2019 — Present
+              </span>
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1jl3k8a-MuiTypography-root"
+            >
+              B.Tech in Computer Science
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-hbybfc-MuiTypography-root"
+            >
+              Model Engineering College, Thrikkakara
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`JourneyTimeline matches snapshot (dark mode) 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-7921ya"
+    data-testid="journey-timeline"
+  >
+    <div
+      style="position: relative;"
+    >
+      <div
+        class="MuiBox-root css-61pg67"
+      >
+        <div
+          style="position: absolute; top: 20px; left: 10%; right: 10%; height: 2px; transform-origin: left center;"
+        >
+          <div
+            class="MuiBox-root css-lr20o4"
+          />
+        </div>
+        <div
+          aria-label="Started Coding - 2017"
+          class="MuiBox-root css-1ev1ol4"
+          role="button"
+          tabindex="0"
+        >
+          <div>
+            <div
+              class="MuiBox-root css-10lo4tu"
+            />
+          </div>
+          <div>
+            <span
+              class="MuiTypography-root MuiTypography-body1 css-1m8ix2k-MuiTypography-root"
+            >
+              2017
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-63cf46-MuiTypography-root"
+            >
+              Started Coding
+            </p>
+          </div>
+        </div>
+        <div
+          aria-label="First Freelance Project - 2020"
+          class="MuiBox-root css-1ev1ol4"
+          role="button"
+          tabindex="0"
+        >
+          <div>
+            <div
+              class="MuiBox-root css-10lo4tu"
+            />
+          </div>
+          <div>
+            <span
+              class="MuiTypography-root MuiTypography-body1 css-1m8ix2k-MuiTypography-root"
+            >
+              2020
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-63cf46-MuiTypography-root"
+            >
+              First Freelance Project
+            </p>
+          </div>
+        </div>
+        <div
+          aria-label="Joined a Startup - 2022"
+          class="MuiBox-root css-1ev1ol4"
+          role="button"
+          tabindex="0"
+        >
+          <div>
+            <div
+              class="MuiBox-root css-10lo4tu"
+            />
+          </div>
+          <div>
+            <span
+              class="MuiTypography-root MuiTypography-body1 css-1m8ix2k-MuiTypography-root"
+            >
+              2022
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-63cf46-MuiTypography-root"
+            >
+              Joined a Startup
+            </p>
+          </div>
+        </div>
+        <div
+          aria-label="Built Products Used by Thousands - 2024"
+          class="MuiBox-root css-1ev1ol4"
+          role="button"
+          tabindex="0"
+        >
+          <div>
+            <div
+              class="MuiBox-root css-10lo4tu"
+            />
+          </div>
+          <div>
+            <span
+              class="MuiTypography-root MuiTypography-body1 css-1m8ix2k-MuiTypography-root"
+            >
+              2024
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-63cf46-MuiTypography-root"
+            >
+              Built Products Used by Thousands
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`JourneyTimeline matches snapshot (light mode) 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-7921ya"
+    data-testid="journey-timeline"
+  >
+    <div
+      style="position: relative;"
+    >
+      <div
+        class="MuiBox-root css-61pg67"
+      >
+        <div
+          style="position: absolute; top: 20px; left: 10%; right: 10%; height: 2px; transform-origin: left center;"
+        >
+          <div
+            class="MuiBox-root css-19ofp37"
+          />
+        </div>
+        <div
+          aria-label="Started Coding - 2017"
+          class="MuiBox-root css-1ev1ol4"
+          role="button"
+          tabindex="0"
+        >
+          <div>
+            <div
+              class="MuiBox-root css-urvgpr"
+            />
+          </div>
+          <div>
+            <span
+              class="MuiTypography-root MuiTypography-body1 css-1322htl-MuiTypography-root"
+            >
+              2017
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-bt9j4t-MuiTypography-root"
+            >
+              Started Coding
+            </p>
+          </div>
+        </div>
+        <div
+          aria-label="First Freelance Project - 2020"
+          class="MuiBox-root css-1ev1ol4"
+          role="button"
+          tabindex="0"
+        >
+          <div>
+            <div
+              class="MuiBox-root css-urvgpr"
+            />
+          </div>
+          <div>
+            <span
+              class="MuiTypography-root MuiTypography-body1 css-1322htl-MuiTypography-root"
+            >
+              2020
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-bt9j4t-MuiTypography-root"
+            >
+              First Freelance Project
+            </p>
+          </div>
+        </div>
+        <div
+          aria-label="Joined a Startup - 2022"
+          class="MuiBox-root css-1ev1ol4"
+          role="button"
+          tabindex="0"
+        >
+          <div>
+            <div
+              class="MuiBox-root css-urvgpr"
+            />
+          </div>
+          <div>
+            <span
+              class="MuiTypography-root MuiTypography-body1 css-1322htl-MuiTypography-root"
+            >
+              2022
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-bt9j4t-MuiTypography-root"
+            >
+              Joined a Startup
+            </p>
+          </div>
+        </div>
+        <div
+          aria-label="Built Products Used by Thousands - 2024"
+          class="MuiBox-root css-1ev1ol4"
+          role="button"
+          tabindex="0"
+        >
+          <div>
+            <div
+              class="MuiBox-root css-urvgpr"
+            />
+          </div>
+          <div>
+            <span
+              class="MuiTypography-root MuiTypography-body1 css-1322htl-MuiTypography-root"
+            >
+              2024
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-bt9j4t-MuiTypography-root"
+            >
+              Built Products Used by Thousands
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -7,3 +7,11 @@ export { TECH_STACK } from "./techStack";
 export type { SkillCategory } from "./techStack";
 export { BLOG_POSTS } from "./blogs";
 export type { BlogPost } from "./blogs";
+export {
+  EDUCATION,
+  JOURNEY_MILESTONES,
+  EXPERIENCES,
+  PHILOSOPHY_QUOTE,
+  BOOK_REVIEW_BLOG_URL,
+} from "./about";
+export type { Education, JourneyMilestone, Experience } from "./about";

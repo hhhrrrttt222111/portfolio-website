@@ -1,0 +1,463 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`AboutHero matches snapshot (dark mode) 1`] = `
+<div>
+  <section
+    class="MuiBox-root css-mdhkok"
+    data-testid="about-hero"
+  >
+    <div
+      class="MuiBox-root css-1hs42wd"
+    >
+      <div
+        class="MuiBox-root css-19ieufy"
+        variant="1"
+      />
+      <div
+        class="MuiBox-root css-oyqht7"
+        variant="2"
+      />
+      <div
+        class="MuiBox-root css-1rht8gy"
+        variant="3"
+      />
+    </div>
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-8y1sfv-MuiContainer-root"
+    >
+      <div
+        style="display: flex; flex-direction: column; align-items: center;"
+      >
+        <div
+          class="MuiBox-root css-1qpzi1f"
+        >
+          <div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-nmy4on-MuiTypography-root"
+            >
+              About Me
+            </p>
+          </div>
+          <div>
+            <h1
+              class="MuiTypography-root MuiTypography-h1 css-1horj9x-MuiTypography-root"
+            >
+              Hi, I'm Hemanth. I design thoughtful digital experiences.
+            </h1>
+          </div>
+          <div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-j3r2o3-MuiTypography-root"
+            >
+              I started as a curious kid tinkering with HTML in a school computer lab, and that spark never faded. Over the years, I've gone from building toy projects to shipping production software — learning that great engineering is equal parts craft, empathy, and relentless iteration. Today, I focus on creating interfaces that feel intuitive, performant, and genuinely delightful to use.
+            </p>
+          </div>
+          <div>
+            <div
+              class="MuiBox-root css-euzpok"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1cln9tj-MuiTypography-root"
+              >
+                When I'm not coding, you'll find me buried in a book. I'm an avid reader — fiction, non-fiction, philosophy, you name it. I believe reading shapes how I think and build.
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1kbbl7b-MuiTypography-root"
+              >
+                <a
+                  href="https://hemanthr.com/blog"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Book Review Blog →
+                </a>
+                <a
+                  data-discover="true"
+                  href="/books"
+                  style="color: inherit; text-decoration: none;"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-body2 css-1teuhow-MuiTypography-root"
+                  >
+                    My Reading List →
+                  </span>
+                </a>
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-7921ya"
+            data-testid="journey-timeline"
+          >
+            <div
+              style="position: relative;"
+            >
+              <div
+                class="MuiBox-root css-61pg67"
+              >
+                <div
+                  style="position: absolute; top: 20px; left: 10%; right: 10%; height: 2px; transform-origin: left center;"
+                >
+                  <div
+                    class="MuiBox-root css-lr20o4"
+                  />
+                </div>
+                <div
+                  aria-label="Started Coding - 2017"
+                  class="MuiBox-root css-1ev1ol4"
+                  role="button"
+                  tabindex="0"
+                >
+                  <div>
+                    <div
+                      class="MuiBox-root css-10lo4tu"
+                    />
+                  </div>
+                  <div>
+                    <span
+                      class="MuiTypography-root MuiTypography-body1 css-1m8ix2k-MuiTypography-root"
+                    >
+                      2017
+                    </span>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-63cf46-MuiTypography-root"
+                    >
+                      Started Coding
+                    </p>
+                  </div>
+                </div>
+                <div
+                  aria-label="First Freelance Project - 2020"
+                  class="MuiBox-root css-1ev1ol4"
+                  role="button"
+                  tabindex="0"
+                >
+                  <div>
+                    <div
+                      class="MuiBox-root css-10lo4tu"
+                    />
+                  </div>
+                  <div>
+                    <span
+                      class="MuiTypography-root MuiTypography-body1 css-1m8ix2k-MuiTypography-root"
+                    >
+                      2020
+                    </span>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-63cf46-MuiTypography-root"
+                    >
+                      First Freelance Project
+                    </p>
+                  </div>
+                </div>
+                <div
+                  aria-label="Joined a Startup - 2022"
+                  class="MuiBox-root css-1ev1ol4"
+                  role="button"
+                  tabindex="0"
+                >
+                  <div>
+                    <div
+                      class="MuiBox-root css-10lo4tu"
+                    />
+                  </div>
+                  <div>
+                    <span
+                      class="MuiTypography-root MuiTypography-body1 css-1m8ix2k-MuiTypography-root"
+                    >
+                      2022
+                    </span>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-63cf46-MuiTypography-root"
+                    >
+                      Joined a Startup
+                    </p>
+                  </div>
+                </div>
+                <div
+                  aria-label="Built Products Used by Thousands - 2024"
+                  class="MuiBox-root css-1ev1ol4"
+                  role="button"
+                  tabindex="0"
+                >
+                  <div>
+                    <div
+                      class="MuiBox-root css-10lo4tu"
+                    />
+                  </div>
+                  <div>
+                    <span
+                      class="MuiTypography-root MuiTypography-body1 css-1m8ix2k-MuiTypography-root"
+                    >
+                      2024
+                    </span>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-63cf46-MuiTypography-root"
+                    >
+                      Built Products Used by Thousands
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="MuiBox-root css-6ceun0"
+      >
+        <div>
+          <div
+            class="MuiBox-root css-ucbi2i"
+          >
+            <span
+              class="scroll-ring"
+            />
+            <span
+              class="scroll-dot"
+            />
+          </div>
+        </div>
+        <span
+          class="scroll-text"
+        >
+          scroll
+        </span>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`AboutHero matches snapshot (light mode) 1`] = `
+<div>
+  <section
+    class="MuiBox-root css-1ld5l58"
+    data-testid="about-hero"
+  >
+    <div
+      class="MuiBox-root css-1hs42wd"
+    >
+      <div
+        class="MuiBox-root css-1s9lrlc"
+        variant="1"
+      />
+      <div
+        class="MuiBox-root css-1uwv43x"
+        variant="2"
+      />
+      <div
+        class="MuiBox-root css-1vjz8a"
+        variant="3"
+      />
+    </div>
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-8y1sfv-MuiContainer-root"
+    >
+      <div
+        style="display: flex; flex-direction: column; align-items: center;"
+      >
+        <div
+          class="MuiBox-root css-1qpzi1f"
+        >
+          <div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-6f7hgp-MuiTypography-root"
+            >
+              About Me
+            </p>
+          </div>
+          <div>
+            <h1
+              class="MuiTypography-root MuiTypography-h1 css-1yxt4ob-MuiTypography-root"
+            >
+              Hi, I'm Hemanth. I design thoughtful digital experiences.
+            </h1>
+          </div>
+          <div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-wivatr-MuiTypography-root"
+            >
+              I started as a curious kid tinkering with HTML in a school computer lab, and that spark never faded. Over the years, I've gone from building toy projects to shipping production software — learning that great engineering is equal parts craft, empathy, and relentless iteration. Today, I focus on creating interfaces that feel intuitive, performant, and genuinely delightful to use.
+            </p>
+          </div>
+          <div>
+            <div
+              class="MuiBox-root css-jl4oqu"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-122nzjp-MuiTypography-root"
+              >
+                When I'm not coding, you'll find me buried in a book. I'm an avid reader — fiction, non-fiction, philosophy, you name it. I believe reading shapes how I think and build.
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1kbbl7b-MuiTypography-root"
+              >
+                <a
+                  href="https://hemanthr.com/blog"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Book Review Blog →
+                </a>
+                <a
+                  data-discover="true"
+                  href="/books"
+                  style="color: inherit; text-decoration: none;"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-body2 css-1sein9y-MuiTypography-root"
+                  >
+                    My Reading List →
+                  </span>
+                </a>
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-7921ya"
+            data-testid="journey-timeline"
+          >
+            <div
+              style="position: relative;"
+            >
+              <div
+                class="MuiBox-root css-61pg67"
+              >
+                <div
+                  style="position: absolute; top: 20px; left: 10%; right: 10%; height: 2px; transform-origin: left center;"
+                >
+                  <div
+                    class="MuiBox-root css-19ofp37"
+                  />
+                </div>
+                <div
+                  aria-label="Started Coding - 2017"
+                  class="MuiBox-root css-1ev1ol4"
+                  role="button"
+                  tabindex="0"
+                >
+                  <div>
+                    <div
+                      class="MuiBox-root css-urvgpr"
+                    />
+                  </div>
+                  <div>
+                    <span
+                      class="MuiTypography-root MuiTypography-body1 css-1322htl-MuiTypography-root"
+                    >
+                      2017
+                    </span>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-bt9j4t-MuiTypography-root"
+                    >
+                      Started Coding
+                    </p>
+                  </div>
+                </div>
+                <div
+                  aria-label="First Freelance Project - 2020"
+                  class="MuiBox-root css-1ev1ol4"
+                  role="button"
+                  tabindex="0"
+                >
+                  <div>
+                    <div
+                      class="MuiBox-root css-urvgpr"
+                    />
+                  </div>
+                  <div>
+                    <span
+                      class="MuiTypography-root MuiTypography-body1 css-1322htl-MuiTypography-root"
+                    >
+                      2020
+                    </span>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-bt9j4t-MuiTypography-root"
+                    >
+                      First Freelance Project
+                    </p>
+                  </div>
+                </div>
+                <div
+                  aria-label="Joined a Startup - 2022"
+                  class="MuiBox-root css-1ev1ol4"
+                  role="button"
+                  tabindex="0"
+                >
+                  <div>
+                    <div
+                      class="MuiBox-root css-urvgpr"
+                    />
+                  </div>
+                  <div>
+                    <span
+                      class="MuiTypography-root MuiTypography-body1 css-1322htl-MuiTypography-root"
+                    >
+                      2022
+                    </span>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-bt9j4t-MuiTypography-root"
+                    >
+                      Joined a Startup
+                    </p>
+                  </div>
+                </div>
+                <div
+                  aria-label="Built Products Used by Thousands - 2024"
+                  class="MuiBox-root css-1ev1ol4"
+                  role="button"
+                  tabindex="0"
+                >
+                  <div>
+                    <div
+                      class="MuiBox-root css-urvgpr"
+                    />
+                  </div>
+                  <div>
+                    <span
+                      class="MuiTypography-root MuiTypography-body1 css-1322htl-MuiTypography-root"
+                    >
+                      2024
+                    </span>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-bt9j4t-MuiTypography-root"
+                    >
+                      Built Products Used by Thousands
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="MuiBox-root css-tqfgxk"
+      >
+        <div>
+          <div
+            class="MuiBox-root css-ucbi2i"
+          >
+            <span
+              class="scroll-ring"
+            />
+            <span
+              class="scroll-dot"
+            />
+          </div>
+        </div>
+        <span
+          class="scroll-text"
+        >
+          scroll
+        </span>
+      </div>
+    </div>
+  </section>
+</div>
+`;

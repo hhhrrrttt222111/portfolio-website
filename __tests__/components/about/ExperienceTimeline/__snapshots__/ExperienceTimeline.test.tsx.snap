@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ExperienceTimeline matches snapshot (dark mode) 1`] = `
+<div>
+  <section
+    class="MuiBox-root css-15pjegn"
+    data-testid="experience-section"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+    >
+      <div>
+        <h2
+          class="MuiTypography-root MuiTypography-h2 css-e46uk0-MuiTypography-root"
+        >
+          Experience
+        </h2>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-ri9s37-MuiTypography-root"
+        >
+          A timeline of roles where I've grown, shipped, and learned.
+        </p>
+      </div>
+      <div
+        class="MuiBox-root css-1out4g5"
+      >
+        <div
+          style="position: absolute; inset: 0; width: 100%; transform-origin: top center; pointer-events: none;"
+        >
+          <div
+            class="MuiBox-root css-xzfthn"
+          />
+        </div>
+        <div>
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-e3wyqc"
+              />
+              <div
+                class="MuiBox-root css-b6yup3"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1f1v7s5-MuiTypography-root"
+                >
+                  Software Engineer
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-xt2t21-MuiTypography-root"
+                >
+                  TechNova Solutions
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1eqd0te-MuiTypography-root"
+                >
+                  Jan 2024 — Present
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-p21ufq-MuiTypography-root"
+                >
+                  Leading frontend architecture for a SaaS platform serving 10k+ users. Building performant, accessible interfaces with React, TypeScript, and a custom design system.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-e3wyqc"
+              />
+              <div
+                class="MuiBox-root css-b6yup3"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1f1v7s5-MuiTypography-root"
+                >
+                  Frontend Developer
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-xt2t21-MuiTypography-root"
+                >
+                  PixelCraft Studios
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1eqd0te-MuiTypography-root"
+                >
+                  Jun 2022 — Dec 2023
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-p21ufq-MuiTypography-root"
+                >
+                  Developed interactive web experiences and marketing sites for high-profile clients. Focused on animation, performance optimization, and cross-browser consistency.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-e3wyqc"
+              />
+              <div
+                class="MuiBox-root css-b6yup3"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1f1v7s5-MuiTypography-root"
+                >
+                  Junior Developer Intern
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-xt2t21-MuiTypography-root"
+                >
+                  CodeBridge Labs
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1eqd0te-MuiTypography-root"
+                >
+                  Jan 2022 — May 2022
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-p21ufq-MuiTypography-root"
+                >
+                  Built internal tools and contributed to the component library. Learned production workflows, code review culture, and agile development practices.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`ExperienceTimeline matches snapshot (light mode) 1`] = `
+<div>
+  <section
+    class="MuiBox-root css-131ygrv"
+    data-testid="experience-section"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+    >
+      <div>
+        <h2
+          class="MuiTypography-root MuiTypography-h2 css-mr9nnn-MuiTypography-root"
+        >
+          Experience
+        </h2>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-om3ttu-MuiTypography-root"
+        >
+          A timeline of roles where I've grown, shipped, and learned.
+        </p>
+      </div>
+      <div
+        class="MuiBox-root css-1out4g5"
+      >
+        <div
+          style="position: absolute; inset: 0; width: 100%; transform-origin: top center; pointer-events: none;"
+        >
+          <div
+            class="MuiBox-root css-1xnce73"
+          />
+        </div>
+        <div>
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-3lcha7"
+              />
+              <div
+                class="MuiBox-root css-otbqt4"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-pyk4y6-MuiTypography-root"
+                >
+                  Software Engineer
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-13z2cdg-MuiTypography-root"
+                >
+                  TechNova Solutions
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1k8jm0j-MuiTypography-root"
+                >
+                  Jan 2024 — Present
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-t2m39r-MuiTypography-root"
+                >
+                  Leading frontend architecture for a SaaS platform serving 10k+ users. Building performant, accessible interfaces with React, TypeScript, and a custom design system.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-3lcha7"
+              />
+              <div
+                class="MuiBox-root css-otbqt4"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-pyk4y6-MuiTypography-root"
+                >
+                  Frontend Developer
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-13z2cdg-MuiTypography-root"
+                >
+                  PixelCraft Studios
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1k8jm0j-MuiTypography-root"
+                >
+                  Jun 2022 — Dec 2023
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-t2m39r-MuiTypography-root"
+                >
+                  Developed interactive web experiences and marketing sites for high-profile clients. Focused on animation, performance optimization, and cross-browser consistency.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-3lcha7"
+              />
+              <div
+                class="MuiBox-root css-otbqt4"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-pyk4y6-MuiTypography-root"
+                >
+                  Junior Developer Intern
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-13z2cdg-MuiTypography-root"
+                >
+                  CodeBridge Labs
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1k8jm0j-MuiTypography-root"
+                >
+                  Jan 2022 — May 2022
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-t2m39r-MuiTypography-root"
+                >
+                  Built internal tools and contributed to the component library. Learned production workflows, code review culture, and agile development practices.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
