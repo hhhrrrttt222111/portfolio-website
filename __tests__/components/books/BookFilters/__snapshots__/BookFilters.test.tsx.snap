@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`BookFilters matches snapshot (dark mode) 1`] = `
+<div>
+  <div>
+    <div
+      class="MuiBox-root css-1es70xq"
+      data-testid="book-filters"
+    >
+      <div
+        class="MuiBox-root css-mxko35"
+      >
+        <span
+          class="search-icon"
+        >
+          ⌕
+        </span>
+        <input
+          aria-label="Search books"
+          placeholder="Search by title or author..."
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="MuiBox-root css-1gjf2hg"
+      >
+        <div
+          aria-label="Show all ratings"
+          class="MuiBox-root css-11bqctr"
+          role="button"
+          tabindex="0"
+        >
+          All
+        </div>
+        <div
+          aria-label="Filter by 5 stars"
+          class="MuiBox-root css-1maep0a"
+          role="button"
+          tabindex="0"
+        >
+          5
+          ★
+        </div>
+        <div
+          aria-label="Filter by 4 stars"
+          class="MuiBox-root css-1maep0a"
+          role="button"
+          tabindex="0"
+        >
+          4
+          ★
+        </div>
+        <div
+          aria-label="Filter by 3 stars"
+          class="MuiBox-root css-1maep0a"
+          role="button"
+          tabindex="0"
+        >
+          3
+          ★
+        </div>
+      </div>
+      <div
+        aria-label="Sort by oldest first"
+        class="MuiBox-root css-zxqfma"
+        role="button"
+        tabindex="0"
+      >
+        Newest
+        <span
+          class="sort-arrow"
+          style="transform: none;"
+        >
+          ↓
+        </span>
+      </div>
+      <div>
+        <div
+          class="MuiBox-root css-1a63uay"
+        >
+          10 books
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BookFilters matches snapshot (light mode) 1`] = `
+<div>
+  <div>
+    <div
+      class="MuiBox-root css-1es70xq"
+      data-testid="book-filters"
+    >
+      <div
+        class="MuiBox-root css-1doy4qy"
+      >
+        <span
+          class="search-icon"
+        >
+          ⌕
+        </span>
+        <input
+          aria-label="Search books"
+          placeholder="Search by title or author..."
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="MuiBox-root css-1gjf2hg"
+      >
+        <div
+          aria-label="Show all ratings"
+          class="MuiBox-root css-1wv0yxv"
+          role="button"
+          tabindex="0"
+        >
+          All
+        </div>
+        <div
+          aria-label="Filter by 5 stars"
+          class="MuiBox-root css-1osbx9l"
+          role="button"
+          tabindex="0"
+        >
+          5
+          ★
+        </div>
+        <div
+          aria-label="Filter by 4 stars"
+          class="MuiBox-root css-1osbx9l"
+          role="button"
+          tabindex="0"
+        >
+          4
+          ★
+        </div>
+        <div
+          aria-label="Filter by 3 stars"
+          class="MuiBox-root css-1osbx9l"
+          role="button"
+          tabindex="0"
+        >
+          3
+          ★
+        </div>
+      </div>
+      <div
+        aria-label="Sort by oldest first"
+        class="MuiBox-root css-bdhru4"
+        role="button"
+        tabindex="0"
+      >
+        Newest
+        <span
+          class="sort-arrow"
+          style="transform: none;"
+        >
+          ↓
+        </span>
+      </div>
+      <div>
+        <div
+          class="MuiBox-root css-dp9qlm"
+        >
+          10 books
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

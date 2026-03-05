@@ -1,0 +1,34 @@
+name: Sync Goodreads Books
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # Daily at 6 AM UTC
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch Goodreads RSS
+        env:
+          GOODREADS_USER_ID: ${{ secrets.GOODREADS_USER_ID }}
+        run: node .github/scripts/fetch-goodreads.mjs
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/books.json
+          git diff --staged --quiet || (git commit -m "chore: sync Goodreads reading list" && git push)

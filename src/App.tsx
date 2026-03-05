@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import { CursorFollower, DarkModeToggle, OfflineFallback, ScrollIndicator } from "@/components";
 import { useNetwork } from "@/hooks";
 // import { useDevToolsWarning, useNetwork } from "@/hooks";
-import { Home, About } from "@/pages";
+import { Home, About, Books } from "@/pages";
 
 const App = () => {
   const isOnline = useNetwork();
@@ -29,6 +29,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/books" element={<Books />} />
         </Routes>
       </BrowserRouter>
     </Box>

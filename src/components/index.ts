@@ -16,3 +16,7 @@ export { default as AboutHero } from "./about/AboutHero/AboutHero";
 export { default as EducationSection } from "./about/EducationSection/EducationSection";
 export { default as ExperienceTimeline } from "./about/ExperienceTimeline/ExperienceTimeline";
 export { default as PhilosophySection } from "./about/PhilosophySection/PhilosophySection";
+export { default as BooksHero } from "./books/BooksHero/BooksHero";
+export { default as BookCard } from "./books/BookCard/BookCard";
+export { default as BookFilters } from "./books/BookFilters/BookFilters";
+export { default as BookGrid } from "./books/BookGrid/BookGrid";

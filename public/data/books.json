@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1655988385i/40121378.jpg",
+    "rating": 5,
+    "avgRating": 4.35,
+    "readDate": "2025-01-12",
+    "link": "https://www.goodreads.com/book/show/40121378-atomic-habits"
+  },
+  {
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1484248295i/25744928.jpg",
+    "rating": 5,
+    "avgRating": 4.19,
+    "readDate": "2025-02-20",
+    "link": "https://www.goodreads.com/book/show/25744928-deep-work"
+  },
+  {
+    "title": "The Pragmatic Programmer",
+    "author": "David Thomas",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1401446128i/4099.jpg",
+    "rating": 5,
+    "avgRating": 4.33,
+    "readDate": "2024-11-05",
+    "link": "https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer"
+  },
+  {
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1595674533i/23692271.jpg",
+    "rating": 4,
+    "avgRating": 4.39,
+    "readDate": "2024-09-18",
+    "link": "https://www.goodreads.com/book/show/23692271-sapiens"
+  },
+  {
+    "title": "The Design of Everyday Things",
+    "author": "Don Norman",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442460745i/840.jpg",
+    "rating": 4,
+    "avgRating": 4.18,
+    "readDate": "2024-07-30",
+    "link": "https://www.goodreads.com/book/show/840.The_Design_of_Everyday_Things"
+  },
+  {
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1317793965i/11468377.jpg",
+    "rating": 4,
+    "avgRating": 4.18,
+    "readDate": "2024-06-15",
+    "link": "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow"
+  },
+  {
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1436202607i/3735293.jpg",
+    "rating": 4,
+    "avgRating": 4.08,
+    "readDate": "2024-04-22",
+    "link": "https://www.goodreads.com/book/show/3735293-clean-code"
+  },
+  {
+    "title": "Meditations",
+    "author": "Marcus Aurelius",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1421618636i/30659.jpg",
+    "rating": 5,
+    "avgRating": 4.26,
+    "readDate": "2024-03-10",
+    "link": "https://www.goodreads.com/book/show/30659.Meditations"
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654371463i/18144590.jpg",
+    "rating": 3,
+    "avgRating": 3.90,
+    "readDate": "2024-01-08",
+    "link": "https://www.goodreads.com/book/show/18144590-the-alchemist"
+  },
+  {
+    "title": "Refactoring",
+    "author": "Martin Fowler",
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386925632i/44936.jpg",
+    "rating": 4,
+    "avgRating": 4.24,
+    "readDate": "2023-12-01",
+    "link": "https://www.goodreads.com/book/show/44936.Refactoring"
+  }
+]

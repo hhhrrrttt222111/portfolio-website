@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 .talismanrc
+
+.env
+.env.test
