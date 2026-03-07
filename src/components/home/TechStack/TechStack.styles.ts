@@ -18,7 +18,9 @@ export const SectionRoot = styled(Box)<BoxProps & { component?: ElementType }>((
   return {
     paddingTop: theme.spacing(10),
     paddingBottom: theme.spacing(10),
-    backgroundColor: isDark ? "#060d08" : "#f0f7ee",
+    backgroundColor: isDark ? "rgba(6, 13, 8, 0.4)" : "rgba(240, 247, 238, 0.5)",
+    backdropFilter: "blur(4px)",
+    WebkitBackdropFilter: "blur(4px)",
     position: "relative",
     overflow: "hidden",
     "&::before": {
@@ -26,8 +28,8 @@ export const SectionRoot = styled(Box)<BoxProps & { component?: ElementType }>((
       position: "absolute",
       inset: 0,
       backgroundImage: isDark
-        ? "radial-gradient(circle at 1px 1px, rgba(102,187,106,0.16) 1px, transparent 0)"
-        : "radial-gradient(circle at 1px 1px, rgba(46,125,50,0.14) 1px, transparent 0)",
+        ? "radial-gradient(circle at 1px 1px, rgba(102,187,106,0.1) 1px, transparent 0)"
+        : "radial-gradient(circle at 1px 1px, rgba(46,125,50,0.08) 1px, transparent 0)",
       backgroundSize: "32px 32px",
       pointerEvents: "none",
     },

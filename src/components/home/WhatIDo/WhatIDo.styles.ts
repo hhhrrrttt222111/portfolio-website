@@ -6,7 +6,10 @@ import type { ElementType } from "react";
 export const SectionRoot = styled(Box)<BoxProps & { component?: ElementType }>(({ theme }) => ({
   paddingTop: theme.spacing(8),
   paddingBottom: theme.spacing(8),
-  backgroundColor: theme.palette.background.default,
+  backgroundColor:
+    theme.palette.mode === "dark" ? "rgba(10, 26, 15, 0.4)" : "rgba(241, 248, 233, 0.5)",
+  backdropFilter: "blur(4px)",
+  WebkitBackdropFilter: "blur(4px)",
   position: "relative",
   overflow: "hidden",
   [theme.breakpoints.up("md")]: {

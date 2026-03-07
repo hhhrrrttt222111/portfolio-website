@@ -8,7 +8,10 @@ export const FooterRoot = styled(Box)<BoxProps & { component?: ElementType }>(({
   overflow: "hidden",
   paddingTop: theme.spacing(12),
   paddingBottom: theme.spacing(4),
-  backgroundColor: theme.palette.mode === "dark" ? "#061209" : "#e8f5e9",
+  backgroundColor:
+    theme.palette.mode === "dark" ? "rgba(6, 18, 9, 0.5)" : "rgba(232, 245, 233, 0.6)",
+  backdropFilter: "blur(4px)",
+  WebkitBackdropFilter: "blur(4px)",
 }));
 
 export const WaveContainer = styled(Box)({

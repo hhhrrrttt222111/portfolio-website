@@ -3,7 +3,7 @@
 exports[`WhatIDo matches snapshot (dark mode) 1`] = `
 <div>
   <section
-    class="MuiBox-root css-1n82w5p"
+    class="MuiBox-root css-9rs5tx"
   >
     <div
       class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
@@ -202,7 +202,7 @@ exports[`WhatIDo matches snapshot (dark mode) 1`] = `
 exports[`WhatIDo matches snapshot (light mode) 1`] = `
 <div>
   <section
-    class="MuiBox-root css-nqg67i"
+    class="MuiBox-root css-ch9vip"
   >
     <div
       class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"

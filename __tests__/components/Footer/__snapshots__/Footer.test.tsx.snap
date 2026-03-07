@@ -3,7 +3,7 @@
 exports[`Footer matches snapshot (dark mode) 1`] = `
 <div>
   <footer
-    class="MuiBox-root css-f92thr"
+    class="MuiBox-root css-pi6d13"
     data-testid="footer"
   >
     <div
@@ -213,7 +213,7 @@ exports[`Footer matches snapshot (dark mode) 1`] = `
 exports[`Footer matches snapshot (light mode) 1`] = `
 <div>
   <footer
-    class="MuiBox-root css-1vf0cji"
+    class="MuiBox-root css-ef5a5c"
     data-testid="footer"
   >
     <div

@@ -8,7 +8,10 @@ export const HeroRoot = styled(Box)<BoxProps & { component?: ElementType }>(({ t
   minHeight: 400,
   position: "relative",
   overflow: "hidden",
-  backgroundColor: theme.palette.mode === "dark" ? theme.palette.background.paper : "#f5f1eb",
+  backgroundColor:
+    theme.palette.mode === "dark" ? "rgba(18, 38, 26, 0.4)" : "rgba(245, 241, 235, 0.5)",
+  backdropFilter: "blur(4px)",
+  WebkitBackdropFilter: "blur(4px)",
   paddingBottom: theme.spacing(4),
 }));
 

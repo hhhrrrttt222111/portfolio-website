@@ -13,8 +13,11 @@
 
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
+      "@react-three/fiber": ["./__mocks__/reactThreeFiberMock.js"],
+      "three": ["./__mocks__/threeMock.js"]
     }
   },
-  "include": ["src", "__tests__"]
+  "include": ["src", "__tests__"],
+  "exclude": ["node_modules", "src/components/visualization/**/*", "node_modules/@react-three/**/*"]
 }

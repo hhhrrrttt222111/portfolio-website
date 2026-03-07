@@ -3,7 +3,7 @@
 exports[`Contact matches snapshot (dark mode) 1`] = `
 <div>
   <section
-    class="MuiBox-root css-1usr0r"
+    class="MuiBox-root css-1rojmjd"
     data-testid="contact-section"
   >
     <div
@@ -282,7 +282,7 @@ exports[`Contact matches snapshot (dark mode) 1`] = `
 exports[`Contact matches snapshot (light mode) 1`] = `
 <div>
   <section
-    class="MuiBox-root css-1xpw8um"
+    class="MuiBox-root css-1k7ef6g"
     data-testid="contact-section"
   >
     <div

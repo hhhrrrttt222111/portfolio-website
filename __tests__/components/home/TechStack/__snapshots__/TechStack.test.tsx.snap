@@ -3,7 +3,7 @@
 exports[`TechStack matches snapshot (dark mode) 1`] = `
 <div>
   <section
-    class="MuiBox-root css-jgzp3a"
+    class="MuiBox-root css-n4sxa1"
     data-testid="tech-stack"
   >
     <div
@@ -1918,7 +1918,7 @@ exports[`TechStack matches snapshot (dark mode) 1`] = `
 exports[`TechStack matches snapshot (light mode) 1`] = `
 <div>
   <section
-    class="MuiBox-root css-k2nxig"
+    class="MuiBox-root css-15q770w"
     data-testid="tech-stack"
   >
     <div

@@ -6,10 +6,10 @@ exports[`CursorFollower matches snapshot 1`] = `
     style="position: fixed; inset: 0; pointer-events: none; z-index: 9999; overflow: hidden;"
   >
     <div
-      style="position: absolute; top: -15px; left: -15px; width: 30px; height: 30px; border-radius: 50%; border: 2px solid transparent; box-shadow: 0 0 15px 2px #9c27b044; opacity: 0; transition: opacity 0.15s ease; mix-blend-mode: multiply; transform: none;"
+      style="position: absolute; top: -15px; left: -15px; scale: [object Object]; rotate: [object Object]; width: 30px; height: 30px; border-radius: 50%; border: 2px solid transparent; box-shadow: 0 0 15px 2px #9c27b044; opacity: 0; transition: opacity 0.15s ease; mix-blend-mode: multiply;"
     />
     <div
-      style="position: absolute; top: -4px; left: -4px; width: 8px; height: 8px; border-radius: 50%; background: linear-gradient(135deg, #1976d2, #9c27b0); opacity: 0; transition: opacity 0.15s ease; transform: none;"
+      style="position: absolute; top: -4px; left: -4px; scale: [object Object]; width: 8px; height: 8px; border-radius: 50%; background: linear-gradient(135deg, #1976d2, #9c27b0); opacity: 0; transition: opacity 0.15s ease;"
     />
   </div>
 </div>
