@@ -13,7 +13,7 @@ import {
 
 const Landing = () => {
   return (
-    <LandingRoot component="section">
+    <LandingRoot>
       <FlowingBackground />
       <Stack
         direction={{ xs: "column", md: "row" }}
@@ -24,14 +24,14 @@ const Landing = () => {
         <Stack justifyContent="center" spacing={4} sx={{ flex: 1, maxWidth: { md: 560 } }}>
           <Stack spacing={2}>
             <Subtitle>Hey, I&apos;m a</Subtitle>
-            <HeroHeading component="h1">
+            <HeroHeading>
               Creative <Box component="br" sx={{ display: { xs: "none", sm: "block" } }} />
               <span className="highlight">Director</span>
             </HeroHeading>
           </Stack>
 
           <Stack spacing={1.5} sx={{ maxWidth: 380 }}>
-            <TagLine component="p">
+            <TagLine>
               Great design should feel <span className="accent">invisible.</span>
             </TagLine>
             <TagDescription>

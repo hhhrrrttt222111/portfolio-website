@@ -3,7 +3,7 @@
 exports[`HeroSection matches snapshot (dark mode) 1`] = `
 <div>
   <section
-    class="MuiBox-root css-mww31x"
+    class="css-fa8f7x"
     data-testid="hero-section"
   >
     <div
@@ -72,14 +72,14 @@ exports[`HeroSection matches snapshot (dark mode) 1`] = `
         >
           <div>
             <h1
-              class="MuiTypography-root MuiTypography-h1 css-lyy5nl-MuiTypography-root"
+              class="css-1ijnntv"
             >
               portfólio
             </h1>
           </div>
           <div>
             <span
-              class="MuiTypography-root MuiTypography-body1 css-171j3n7-MuiTypography-root"
+              class="css-1x2pjcq"
             >
               2026
             </span>
@@ -109,7 +109,7 @@ exports[`HeroSection matches snapshot (dark mode) 1`] = `
 exports[`HeroSection matches snapshot (light mode) 1`] = `
 <div>
   <section
-    class="MuiBox-root css-gu1pe6"
+    class="css-rz12q0"
     data-testid="hero-section"
   >
     <div
@@ -178,14 +178,14 @@ exports[`HeroSection matches snapshot (light mode) 1`] = `
         >
           <div>
             <h1
-              class="MuiTypography-root MuiTypography-h1 css-ad5x7j-MuiTypography-root"
+              class="css-h17p7r"
             >
               portfólio
             </h1>
           </div>
           <div>
             <span
-              class="MuiTypography-root MuiTypography-body1 css-1am2ene-MuiTypography-root"
+              class="css-9k0422"
             >
               2026
             </span>

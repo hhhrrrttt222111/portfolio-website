@@ -3,7 +3,7 @@
 exports[`ExperienceTimeline matches snapshot (dark mode) 1`] = `
 <div>
   <section
-    class="MuiBox-root css-15pjegn"
+    class="css-1olc43o"
     data-testid="experience-section"
   >
     <div
@@ -11,7 +11,7 @@ exports[`ExperienceTimeline matches snapshot (dark mode) 1`] = `
     >
       <div>
         <h2
-          class="MuiTypography-root MuiTypography-h2 css-e46uk0-MuiTypography-root"
+          class="css-4mjjva"
         >
           Experience
         </h2>
@@ -141,7 +141,7 @@ exports[`ExperienceTimeline matches snapshot (dark mode) 1`] = `
 exports[`ExperienceTimeline matches snapshot (light mode) 1`] = `
 <div>
   <section
-    class="MuiBox-root css-131ygrv"
+    class="css-tj2q7h"
     data-testid="experience-section"
   >
     <div
@@ -149,7 +149,7 @@ exports[`ExperienceTimeline matches snapshot (light mode) 1`] = `
     >
       <div>
         <h2
-          class="MuiTypography-root MuiTypography-h2 css-mr9nnn-MuiTypography-root"
+          class="css-1vtzmwd"
         >
           Experience
         </h2>

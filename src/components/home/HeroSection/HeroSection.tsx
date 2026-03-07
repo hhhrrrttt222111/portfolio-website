@@ -163,7 +163,6 @@ const HeroSection = () => {
 
   return (
     <HeroRoot
-      component="section"
       data-testid="hero-section"
       ref={sectionRef}
       onMouseMove={onSectionMouseMove}
@@ -221,12 +220,10 @@ const HeroSection = () => {
         <HeroContent>
           <TitleRow>
             <motion.div variants={titleVariants}>
-              <HeroTitle variant="h1" component="h1">
-                portfólio
-              </HeroTitle>
+              <HeroTitle>portfólio</HeroTitle>
             </motion.div>
             <motion.div variants={yearVariants}>
-              <YearText component="span">{getCurrentYear()}</YearText>
+              <YearText>{getCurrentYear()}</YearText>
             </motion.div>
           </TitleRow>
 

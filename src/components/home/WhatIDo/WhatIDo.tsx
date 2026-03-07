@@ -14,7 +14,7 @@ const sectionVariants: Variants = {
 
 const WhatIDo = () => {
   return (
-    <SectionRoot component="section">
+    <SectionRoot>
       <Container maxWidth="lg">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -22,8 +22,8 @@ const WhatIDo = () => {
           viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
         >
-          <SectionTitle variant="h3">What I Do</SectionTitle>
-          <SectionSubtitle variant="body1">
+          <SectionTitle>What I Do</SectionTitle>
+          <SectionSubtitle>
             I specialize in building exceptional digital experiences — from architecting scalable
             frontends to crafting performant backend services.
           </SectionSubtitle>

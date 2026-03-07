@@ -71,7 +71,7 @@ const ExperienceTimeline = () => {
   }, []);
 
   return (
-    <SectionRoot component="section" ref={containerRef} data-testid="experience-section">
+    <SectionRoot ref={containerRef} data-testid="experience-section">
       <Container maxWidth="lg">
         <motion.div
           initial={skip ? false : { opacity: 0, y: 30 }}
@@ -79,9 +79,7 @@ const ExperienceTimeline = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
         >
-          <SectionTitle variant="h2" component="h2">
-            Experience
-          </SectionTitle>
+          <SectionTitle>Experience</SectionTitle>
           <SectionSubtitle>
             A timeline of roles where I've grown, shipped, and learned.
           </SectionSubtitle>

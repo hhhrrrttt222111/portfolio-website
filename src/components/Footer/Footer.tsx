@@ -33,7 +33,7 @@ const Footer = () => {
     : ["rgba(46, 125, 50, 0.03)", "rgba(0, 137, 123, 0.02)", "rgba(46, 125, 50, 0.015)"];
 
   return (
-    <FooterRoot component="footer" data-testid="footer">
+    <FooterRoot as="footer" data-testid="footer">
       <WaveContainer>
         <svg
           viewBox="0 0 1920 160"
@@ -87,12 +87,9 @@ const Footer = () => {
                 >
                   <Tooltip title={link.name} arrow>
                     <SocialIconButton
-                      {...{
-                        component: "a",
-                        href: link.url,
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                      }}
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       aria-label={link.name}
                     >
                       <link.Icon />

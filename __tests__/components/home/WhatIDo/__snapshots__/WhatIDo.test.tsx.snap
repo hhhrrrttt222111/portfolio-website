@@ -3,14 +3,14 @@
 exports[`WhatIDo matches snapshot (dark mode) 1`] = `
 <div>
   <section
-    class="MuiBox-root css-9rs5tx"
+    class="css-11a05nt"
   >
     <div
       class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
     >
       <div>
         <h3
-          class="MuiTypography-root MuiTypography-h3 css-1losiiu-MuiTypography-root"
+          class="css-17ka5g"
         >
           What I Do
         </h3>
@@ -202,14 +202,14 @@ exports[`WhatIDo matches snapshot (dark mode) 1`] = `
 exports[`WhatIDo matches snapshot (light mode) 1`] = `
 <div>
   <section
-    class="MuiBox-root css-ch9vip"
+    class="css-map02o"
   >
     <div
       class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
     >
       <div>
         <h3
-          class="MuiTypography-root MuiTypography-h3 css-f1ndno-MuiTypography-root"
+          class="css-1fgeiiu"
         >
           What I Do
         </h3>

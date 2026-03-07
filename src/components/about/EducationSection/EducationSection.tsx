@@ -33,7 +33,7 @@ const EducationSection = () => {
   const skip = !!prefersReduced;
 
   return (
-    <SectionRoot component="section" data-testid="education-section">
+    <SectionRoot data-testid="education-section">
       <Container maxWidth="lg">
         <motion.div
           initial={skip ? false : { opacity: 0, y: 30 }}
@@ -41,9 +41,7 @@ const EducationSection = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
         >
-          <SectionTitle variant="h2" component="h2">
-            Education
-          </SectionTitle>
+          <SectionTitle>Education</SectionTitle>
           <SectionSubtitle>
             The foundation that shaped my thinking and technical skills.
           </SectionSubtitle>

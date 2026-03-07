@@ -183,7 +183,7 @@ const JourneyTimeline = () => {
               </motion.div>
 
               <motion.div variants={labelVariants} custom={i}>
-                <MilestoneYear component="span">{milestone.year}</MilestoneYear>
+                <MilestoneYear>{milestone.year}</MilestoneYear>
                 <MilestoneTitle>{milestone.title}</MilestoneTitle>
               </motion.div>
 

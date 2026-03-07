@@ -3,7 +3,7 @@
 exports[`PhilosophySection matches snapshot (dark mode) 1`] = `
 <div>
   <section
-    class="MuiBox-root css-stvbzu"
+    class="css-1yazao"
     data-testid="philosophy-section"
   >
     <div
@@ -27,7 +27,7 @@ exports[`PhilosophySection matches snapshot (dark mode) 1`] = `
             />
           </div>
           <blockquote
-            class="MuiTypography-root MuiTypography-h2 css-14s4npa-MuiTypography-root"
+            class="css-x4i1up"
           >
             <span>
               <span
@@ -159,7 +159,7 @@ exports[`PhilosophySection matches snapshot (dark mode) 1`] = `
 exports[`PhilosophySection matches snapshot (light mode) 1`] = `
 <div>
   <section
-    class="MuiBox-root css-19f9fhs"
+    class="css-12mbhks"
     data-testid="philosophy-section"
   >
     <div
@@ -183,7 +183,7 @@ exports[`PhilosophySection matches snapshot (light mode) 1`] = `
             />
           </div>
           <blockquote
-            class="MuiTypography-root MuiTypography-h2 css-7t2p47-MuiTypography-root"
+            class="css-3e0vga"
           >
             <span>
               <span

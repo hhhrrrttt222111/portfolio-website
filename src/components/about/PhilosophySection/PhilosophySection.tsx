@@ -27,7 +27,7 @@ const PhilosophySection = () => {
   const words = PHILOSOPHY_QUOTE.split(" ");
 
   return (
-    <SectionRoot component="section" ref={sectionRef} data-testid="philosophy-section">
+    <SectionRoot ref={sectionRef} data-testid="philosophy-section">
       <BackgroundBlob variant={1} />
       <BackgroundBlob variant={2} />
 
@@ -43,7 +43,7 @@ const PhilosophySection = () => {
               <QuoteDecoration />
             </motion.div>
 
-            <QuoteText variant="h2" component="blockquote">
+            <QuoteText>
               {words.map((word, i) => (
                 <motion.span
                   key={`${word}-${i}`}

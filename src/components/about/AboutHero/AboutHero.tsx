@@ -60,7 +60,7 @@ const AboutHero = () => {
   const skip = !!prefersReduced;
 
   return (
-    <HeroRoot component="section" data-testid="about-hero">
+    <HeroRoot data-testid="about-hero">
       <BlobContainer>
         <FloatingBlob variant={1} />
         <FloatingBlob variant={2} />
@@ -81,9 +81,7 @@ const AboutHero = () => {
             </motion.div>
 
             <motion.div variants={fadeUp}>
-              <HeroHeading variant="h1" component="h1">
-                Hi, I'm Hemanth. I design thoughtful digital experiences.
-              </HeroHeading>
+              <HeroHeading>Hi, I'm Hemanth. I design thoughtful digital experiences.</HeroHeading>
             </motion.div>
 
             <motion.div variants={fadeUp}>

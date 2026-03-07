@@ -30,7 +30,7 @@ const TechStack = () => {
   );
 
   return (
-    <SectionRoot component="section" data-testid="tech-stack">
+    <SectionRoot data-testid="tech-stack">
       <ScanlineOverlay />
 
       <Container maxWidth="lg" sx={{ position: "relative", zIndex: 1 }}>
@@ -41,9 +41,7 @@ const TechStack = () => {
           viewport={{ once: true, amount: 0.3 }}
         >
           <motion.div variants={prefersReduced ? undefined : itemVariants}>
-            <SectionTitle variant="h2" component="h2">
-              {">"} Tech Stack
-            </SectionTitle>
+            <SectionTitle>{">"} Tech Stack</SectionTitle>
           </motion.div>
 
           <motion.div variants={prefersReduced ? undefined : itemVariants}>

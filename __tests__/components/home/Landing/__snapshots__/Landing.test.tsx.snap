@@ -3,7 +3,7 @@
 exports[`Landing matches snapshot 1`] = `
 <div>
   <section
-    class="MuiBox-root css-74h2oo"
+    class="css-1velh1i"
   >
     <div
       class="MuiBox-root css-15q6k31"
@@ -52,7 +52,7 @@ exports[`Landing matches snapshot 1`] = `
             Hey, I'm a
           </p>
           <h1
-            class="MuiTypography-root MuiTypography-body1 css-19m5y83-MuiTypography-root"
+            class="css-1496exi"
           >
             Creative 
             <br
@@ -69,7 +69,7 @@ exports[`Landing matches snapshot 1`] = `
           class="MuiStack-root css-dp9xmh-MuiStack-root"
         >
           <p
-            class="MuiTypography-root MuiTypography-body1 css-hfl0md-MuiTypography-root"
+            class="css-1ql5eux"
           >
             Great design should feel 
             <span

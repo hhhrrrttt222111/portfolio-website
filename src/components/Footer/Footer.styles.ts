@@ -1,9 +1,8 @@
 import { styled } from "@mui/material/styles";
-import Box, { type BoxProps } from "@mui/material/Box";
+import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import type { ElementType, AnchorHTMLAttributes } from "react";
 
-export const FooterRoot = styled(Box)<BoxProps & { component?: ElementType }>(({ theme }) => ({
+export const FooterRoot = styled(Box)(({ theme }) => ({
   position: "relative",
   overflow: "hidden",
   paddingTop: theme.spacing(12),
@@ -43,9 +42,7 @@ export const SocialGrid = styled(Box)(({ theme }) => ({
   },
 }));
 
-export const SocialIconButton = styled(Box)<
-  BoxProps & { component?: ElementType } & AnchorHTMLAttributes<HTMLAnchorElement>
->(({ theme }) => {
+export const SocialIconButton = styled("a")(({ theme }) => {
   const isDark = theme.palette.mode === "dark";
 
   return {

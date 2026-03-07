@@ -25,7 +25,7 @@ const BlogPreview = () => {
   const prefersReduced = useReducedMotion();
 
   return (
-    <SectionRoot component="section" data-testid="blog-preview">
+    <SectionRoot data-testid="blog-preview">
       <Container maxWidth="lg" sx={{ position: "relative", zIndex: 1 }}>
         <motion.div
           variants={prefersReduced ? undefined : headerVariants}
@@ -34,9 +34,7 @@ const BlogPreview = () => {
           viewport={{ once: true, amount: 0.3 }}
         >
           <motion.div variants={prefersReduced ? undefined : itemVariants}>
-            <SectionTitle variant="h2" component="h2">
-              From the Desk
-            </SectionTitle>
+            <SectionTitle>From the Desk</SectionTitle>
           </motion.div>
 
           <motion.div variants={prefersReduced ? undefined : itemVariants}>

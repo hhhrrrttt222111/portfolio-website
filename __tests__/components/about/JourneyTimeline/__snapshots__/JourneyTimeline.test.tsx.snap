@@ -32,7 +32,7 @@ exports[`JourneyTimeline matches snapshot (dark mode) 1`] = `
           </div>
           <div>
             <span
-              class="MuiTypography-root MuiTypography-body1 css-1m8ix2k-MuiTypography-root"
+              class="css-19v602t"
             >
               2017
             </span>
@@ -56,7 +56,7 @@ exports[`JourneyTimeline matches snapshot (dark mode) 1`] = `
           </div>
           <div>
             <span
-              class="MuiTypography-root MuiTypography-body1 css-1m8ix2k-MuiTypography-root"
+              class="css-19v602t"
             >
               2020
             </span>
@@ -80,7 +80,7 @@ exports[`JourneyTimeline matches snapshot (dark mode) 1`] = `
           </div>
           <div>
             <span
-              class="MuiTypography-root MuiTypography-body1 css-1m8ix2k-MuiTypography-root"
+              class="css-19v602t"
             >
               2022
             </span>
@@ -104,7 +104,7 @@ exports[`JourneyTimeline matches snapshot (dark mode) 1`] = `
           </div>
           <div>
             <span
-              class="MuiTypography-root MuiTypography-body1 css-1m8ix2k-MuiTypography-root"
+              class="css-19v602t"
             >
               2024
             </span>
@@ -153,7 +153,7 @@ exports[`JourneyTimeline matches snapshot (light mode) 1`] = `
           </div>
           <div>
             <span
-              class="MuiTypography-root MuiTypography-body1 css-1322htl-MuiTypography-root"
+              class="css-1l8yjhg"
             >
               2017
             </span>
@@ -177,7 +177,7 @@ exports[`JourneyTimeline matches snapshot (light mode) 1`] = `
           </div>
           <div>
             <span
-              class="MuiTypography-root MuiTypography-body1 css-1322htl-MuiTypography-root"
+              class="css-1l8yjhg"
             >
               2020
             </span>
@@ -201,7 +201,7 @@ exports[`JourneyTimeline matches snapshot (light mode) 1`] = `
           </div>
           <div>
             <span
-              class="MuiTypography-root MuiTypography-body1 css-1322htl-MuiTypography-root"
+              class="css-1l8yjhg"
             >
               2022
             </span>
@@ -225,7 +225,7 @@ exports[`JourneyTimeline matches snapshot (light mode) 1`] = `
           </div>
           <div>
             <span
-              class="MuiTypography-root MuiTypography-body1 css-1322htl-MuiTypography-root"
+              class="css-1l8yjhg"
             >
               2024
             </span>

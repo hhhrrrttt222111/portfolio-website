@@ -1,14 +1,12 @@
 import { styled, keyframes } from "@mui/material/styles";
-import Box, { type BoxProps } from "@mui/material/Box";
-import Typography, { type TypographyProps } from "@mui/material/Typography";
-import type { ElementType } from "react";
+import Typography from "@mui/material/Typography";
 
 const shimmer = keyframes`
   0% { background-position: -200% center; }
   100% { background-position: 200% center; }
 `;
 
-export const HeroRoot = styled(Box)<BoxProps & { component?: ElementType }>(({ theme }) => {
+export const HeroRoot = styled("section")(({ theme }) => {
   const isDark = theme.palette.mode === "dark";
   return {
     paddingTop: theme.spacing(18),
@@ -26,9 +24,7 @@ export const HeroRoot = styled(Box)<BoxProps & { component?: ElementType }>(({ t
   };
 });
 
-export const HeroTitle = styled(Typography)<TypographyProps & { component?: ElementType }>(({
-  theme,
-}) => {
+export const HeroTitle = styled("h1")(({ theme }) => {
   const isDark = theme.palette.mode === "dark";
   return {
     fontWeight: 800,

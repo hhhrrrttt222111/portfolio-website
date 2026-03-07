@@ -3,7 +3,7 @@
 exports[`AboutHero matches snapshot (dark mode) 1`] = `
 <div>
   <section
-    class="MuiBox-root css-mdhkok"
+    class="css-1oi1bvt"
     data-testid="about-hero"
   >
     <div
@@ -40,7 +40,7 @@ exports[`AboutHero matches snapshot (dark mode) 1`] = `
           </div>
           <div>
             <h1
-              class="MuiTypography-root MuiTypography-h1 css-1horj9x-MuiTypography-root"
+              class="css-8a35ka"
             >
               Hi, I'm Hemanth. I design thoughtful digital experiences.
             </h1>
@@ -115,7 +115,7 @@ exports[`AboutHero matches snapshot (dark mode) 1`] = `
                   </div>
                   <div>
                     <span
-                      class="MuiTypography-root MuiTypography-body1 css-1m8ix2k-MuiTypography-root"
+                      class="css-19v602t"
                     >
                       2017
                     </span>
@@ -139,7 +139,7 @@ exports[`AboutHero matches snapshot (dark mode) 1`] = `
                   </div>
                   <div>
                     <span
-                      class="MuiTypography-root MuiTypography-body1 css-1m8ix2k-MuiTypography-root"
+                      class="css-19v602t"
                     >
                       2020
                     </span>
@@ -163,7 +163,7 @@ exports[`AboutHero matches snapshot (dark mode) 1`] = `
                   </div>
                   <div>
                     <span
-                      class="MuiTypography-root MuiTypography-body1 css-1m8ix2k-MuiTypography-root"
+                      class="css-19v602t"
                     >
                       2022
                     </span>
@@ -187,7 +187,7 @@ exports[`AboutHero matches snapshot (dark mode) 1`] = `
                   </div>
                   <div>
                     <span
-                      class="MuiTypography-root MuiTypography-body1 css-1m8ix2k-MuiTypography-root"
+                      class="css-19v602t"
                     >
                       2024
                     </span>
@@ -234,7 +234,7 @@ exports[`AboutHero matches snapshot (dark mode) 1`] = `
 exports[`AboutHero matches snapshot (light mode) 1`] = `
 <div>
   <section
-    class="MuiBox-root css-1ld5l58"
+    class="css-x7wijn"
     data-testid="about-hero"
   >
     <div
@@ -271,7 +271,7 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
           </div>
           <div>
             <h1
-              class="MuiTypography-root MuiTypography-h1 css-1yxt4ob-MuiTypography-root"
+              class="css-xnntos"
             >
               Hi, I'm Hemanth. I design thoughtful digital experiences.
             </h1>
@@ -346,7 +346,7 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
                   </div>
                   <div>
                     <span
-                      class="MuiTypography-root MuiTypography-body1 css-1322htl-MuiTypography-root"
+                      class="css-1l8yjhg"
                     >
                       2017
                     </span>
@@ -370,7 +370,7 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
                   </div>
                   <div>
                     <span
-                      class="MuiTypography-root MuiTypography-body1 css-1322htl-MuiTypography-root"
+                      class="css-1l8yjhg"
                     >
                       2020
                     </span>
@@ -394,7 +394,7 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
                   </div>
                   <div>
                     <span
-                      class="MuiTypography-root MuiTypography-body1 css-1322htl-MuiTypography-root"
+                      class="css-1l8yjhg"
                     >
                       2022
                     </span>
@@ -418,7 +418,7 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
                   </div>
                   <div>
                     <span
-                      class="MuiTypography-root MuiTypography-body1 css-1322htl-MuiTypography-root"
+                      class="css-1l8yjhg"
                     >
                       2024
                     </span>

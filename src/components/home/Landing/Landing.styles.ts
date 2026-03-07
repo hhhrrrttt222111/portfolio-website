@@ -1,10 +1,7 @@
 import { styled } from "@mui/material/styles";
 import { Box, Typography } from "@mui/material";
-import type { BoxProps } from "@mui/material/Box";
-import type { TypographyProps } from "@mui/material/Typography";
-import type { ElementType } from "react";
 
-export const LandingRoot = styled(Box)<BoxProps & { component?: ElementType }>(({ theme }) => ({
+export const LandingRoot = styled("section")(({ theme }) => ({
   backgroundColor:
     theme.palette.mode === "dark" ? "rgba(10, 26, 15, 0.4)" : "rgba(241, 248, 233, 0.5)",
   backdropFilter: "blur(4px)",
@@ -22,19 +19,18 @@ export const LandingRoot = styled(Box)<BoxProps & { component?: ElementType }>((
   },
 }));
 
-export const HeroHeading = styled(Typography)<TypographyProps & { component?: ElementType }>(
-  ({ theme }) => ({
-    fontWeight: 800,
-    fontSize: "clamp(2.5rem, 6vw, 5.5rem)",
-    lineHeight: 1.05,
-    letterSpacing: "-0.02em",
-    color: theme.palette.text.primary,
-    "& .highlight": {
-      color: theme.palette.primary.main,
-      display: "inline",
-    },
-  }),
-);
+export const HeroHeading = styled("h1")(({ theme }) => ({
+  fontWeight: 800,
+  fontSize: "clamp(2.5rem, 6vw, 5.5rem)",
+  lineHeight: 1.05,
+  letterSpacing: "-0.02em",
+  color: theme.palette.text.primary,
+  margin: 0,
+  "& .highlight": {
+    color: theme.palette.primary.main,
+    display: "inline",
+  },
+}));
 
 export const Subtitle = styled(Typography)(({ theme }) => ({
   fontSize: "clamp(1rem, 1.5vw, 1.25rem)",
@@ -44,18 +40,17 @@ export const Subtitle = styled(Typography)(({ theme }) => ({
   lineHeight: 1.6,
 }));
 
-export const TagLine = styled(Typography)<TypographyProps & { component?: ElementType }>(
-  ({ theme }) => ({
-    fontWeight: 700,
-    fontSize: "clamp(1.1rem, 2vw, 1.5rem)",
-    color: theme.palette.text.primary,
-    lineHeight: 1.4,
-    maxWidth: 320,
-    "& .accent": {
-      color: theme.palette.primary.light,
-    },
-  }),
-);
+export const TagLine = styled("p")(({ theme }) => ({
+  fontWeight: 700,
+  fontSize: "clamp(1.1rem, 2vw, 1.5rem)",
+  color: theme.palette.text.primary,
+  lineHeight: 1.4,
+  maxWidth: 320,
+  margin: 0,
+  "& .accent": {
+    color: theme.palette.primary.light,
+  },
+}));
 
 export const TagDescription = styled(Typography)(({ theme }) => ({
   fontSize: "0.9rem",

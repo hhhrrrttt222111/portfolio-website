@@ -3,7 +3,7 @@
 exports[`BooksHero matches snapshot (dark mode) 1`] = `
 <div>
   <section
-    class="MuiBox-root css-j2vakj"
+    class="css-rf02r8"
     data-testid="books-hero"
   >
     <div
@@ -22,7 +22,7 @@ exports[`BooksHero matches snapshot (dark mode) 1`] = `
         </div>
         <div>
           <h1
-            class="MuiTypography-root MuiTypography-h1 css-by9t2r-MuiTypography-root"
+            class="css-8fv0yl"
           >
             My Reading Library
           </h1>
@@ -43,7 +43,7 @@ exports[`BooksHero matches snapshot (dark mode) 1`] = `
 exports[`BooksHero matches snapshot (light mode) 1`] = `
 <div>
   <section
-    class="MuiBox-root css-ok4pej"
+    class="css-1pxfoyb"
     data-testid="books-hero"
   >
     <div
@@ -62,7 +62,7 @@ exports[`BooksHero matches snapshot (light mode) 1`] = `
         </div>
         <div>
           <h1
-            class="MuiTypography-root MuiTypography-h1 css-enyzco-MuiTypography-root"
+            class="css-1w4vldf"
           >
             My Reading Library
           </h1>

@@ -1,7 +1,6 @@
 import { styled, keyframes } from "@mui/material/styles";
-import Box, { type BoxProps } from "@mui/material/Box";
-import Typography, { type TypographyProps } from "@mui/material/Typography";
-import type { ElementType } from "react";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
 
 const float1 = keyframes`
   0%, 100% { transform: translate(0, 0) scale(1); }
@@ -34,7 +33,7 @@ const pulseRing = keyframes`
   100% { transform: scale(0.8); opacity: 0; }
 `;
 
-export const HeroRoot = styled(Box)<BoxProps & { component?: ElementType }>(({ theme }) => {
+export const HeroRoot = styled("section")(({ theme }) => {
   const isDark = theme.palette.mode === "dark";
   return {
     minHeight: "100vh",
@@ -144,9 +143,7 @@ export const HeroContent = styled(Box)(({ theme }) => ({
   },
 }));
 
-export const HeroHeading = styled(Typography)<TypographyProps & { component?: ElementType }>(({
-  theme,
-}) => {
+export const HeroHeading = styled("h1")(({ theme }) => {
   const isDark = theme.palette.mode === "dark";
   return {
     fontWeight: 800,

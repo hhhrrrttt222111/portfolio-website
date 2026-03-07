@@ -1,7 +1,6 @@
 import { styled, keyframes } from "@mui/material/styles";
-import Box, { type BoxProps } from "@mui/material/Box";
-import Typography, { type TypographyProps } from "@mui/material/Typography";
-import type { ElementType } from "react";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
 
 const drift1 = keyframes`
   0%, 100% { transform: translate(0, 0) rotate(0deg); }
@@ -20,7 +19,7 @@ const lineGrow = keyframes`
   100% { transform: scaleX(1); }
 `;
 
-export const SectionRoot = styled(Box)<BoxProps & { component?: ElementType }>(({ theme }) => {
+export const SectionRoot = styled("section")(({ theme }) => {
   const isDark = theme.palette.mode === "dark";
   return {
     paddingTop: theme.spacing(16),
@@ -96,23 +95,23 @@ export const QuoteDecoration = styled(Box)(({ theme }) => {
   };
 });
 
-export const QuoteText = styled(Typography)<TypographyProps & { component?: ElementType }>(
-  ({ theme }) => ({
-    fontWeight: 600,
-    fontSize: "1.5rem",
-    lineHeight: 1.65,
-    color: theme.palette.text.primary,
-    letterSpacing: "-0.01em",
-    fontStyle: "italic",
-    [theme.breakpoints.up("sm")]: {
-      fontSize: "1.85rem",
-    },
-    [theme.breakpoints.up("md")]: {
-      fontSize: "2.5rem",
-      lineHeight: 1.5,
-    },
-  }),
-);
+export const QuoteText = styled("blockquote")(({ theme }) => ({
+  fontWeight: 600,
+  fontSize: "1.5rem",
+  lineHeight: 1.65,
+  color: theme.palette.text.primary,
+  letterSpacing: "-0.01em",
+  fontStyle: "italic",
+  margin: 0,
+  padding: 0,
+  [theme.breakpoints.up("sm")]: {
+    fontSize: "1.85rem",
+  },
+  [theme.breakpoints.up("md")]: {
+    fontSize: "2.5rem",
+    lineHeight: 1.5,
+  },
+}));
 
 export const QuoteWord = styled("span")(({ theme }) => ({
   display: "inline-block",

@@ -1,14 +1,13 @@
 import { styled, keyframes } from "@mui/material/styles";
-import Box, { type BoxProps } from "@mui/material/Box";
+import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import type { ElementType } from "react";
 
 const shimmer = keyframes`
   0% { background-position: -200% 0; }
   100% { background-position: 200% 0; }
 `;
 
-export const CardRoot = styled(Box)<BoxProps & { component?: ElementType }>(({ theme }) => {
+export const CardRoot = styled(Box)(({ theme }) => {
   const isDark = theme.palette.mode === "dark";
   return {
     position: "relative",

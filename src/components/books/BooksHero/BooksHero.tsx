@@ -26,7 +26,7 @@ const BooksHero = memo(({ bookCount }: BooksHeroProps) => {
   const skip = !!prefersReduced;
 
   return (
-    <HeroRoot component="section" data-testid="books-hero">
+    <HeroRoot data-testid="books-hero">
       <Container maxWidth="md">
         <motion.div
           variants={containerVariants}
@@ -39,9 +39,7 @@ const BooksHero = memo(({ bookCount }: BooksHeroProps) => {
           </motion.div>
 
           <motion.div variants={fadeUp}>
-            <HeroTitle variant="h1" component="h1">
-              My Reading Library
-            </HeroTitle>
+            <HeroTitle>My Reading Library</HeroTitle>
           </motion.div>
 
           <motion.div variants={fadeUp}>

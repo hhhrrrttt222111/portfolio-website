@@ -50,7 +50,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
       </div>
     </header>
     <section
-      class="MuiBox-root css-mdhkok"
+      class="css-1oi1bvt"
       data-testid="about-hero"
     >
       <div
@@ -87,7 +87,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
             </div>
             <div>
               <h1
-                class="MuiTypography-root MuiTypography-h1 css-1horj9x-MuiTypography-root"
+                class="css-8a35ka"
               >
                 Hi, I'm Hemanth. I design thoughtful digital experiences.
               </h1>
@@ -162,7 +162,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                     </div>
                     <div>
                       <span
-                        class="MuiTypography-root MuiTypography-body1 css-1m8ix2k-MuiTypography-root"
+                        class="css-19v602t"
                       >
                         2017
                       </span>
@@ -186,7 +186,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                     </div>
                     <div>
                       <span
-                        class="MuiTypography-root MuiTypography-body1 css-1m8ix2k-MuiTypography-root"
+                        class="css-19v602t"
                       >
                         2020
                       </span>
@@ -210,7 +210,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                     </div>
                     <div>
                       <span
-                        class="MuiTypography-root MuiTypography-body1 css-1m8ix2k-MuiTypography-root"
+                        class="css-19v602t"
                       >
                         2022
                       </span>
@@ -234,7 +234,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                     </div>
                     <div>
                       <span
-                        class="MuiTypography-root MuiTypography-body1 css-1m8ix2k-MuiTypography-root"
+                        class="css-19v602t"
                       >
                         2024
                       </span>
@@ -276,7 +276,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
       </div>
     </section>
     <section
-      class="MuiBox-root css-26qcrv"
+      class="css-1gihe1w"
       data-testid="education-section"
     >
       <div
@@ -284,7 +284,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
       >
         <div>
           <h2
-            class="MuiTypography-root MuiTypography-h2 css-e46uk0-MuiTypography-root"
+            class="css-4mjjva"
           >
             Education
           </h2>
@@ -376,7 +376,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
       </div>
     </section>
     <section
-      class="MuiBox-root css-15pjegn"
+      class="css-1olc43o"
       data-testid="experience-section"
     >
       <div
@@ -384,7 +384,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
       >
         <div>
           <h2
-            class="MuiTypography-root MuiTypography-h2 css-e46uk0-MuiTypography-root"
+            class="css-4mjjva"
           >
             Experience
           </h2>
@@ -509,7 +509,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
       </div>
     </section>
     <section
-      class="MuiBox-root css-stvbzu"
+      class="css-1yazao"
       data-testid="philosophy-section"
     >
       <div
@@ -533,7 +533,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
               />
             </div>
             <blockquote
-              class="MuiTypography-root MuiTypography-h2 css-14s4npa-MuiTypography-root"
+              class="css-x4i1up"
             >
               <span>
                 <span
@@ -660,7 +660,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
       </div>
     </section>
     <footer
-      class="MuiBox-root css-pi6d13"
+      class="css-1p287yq"
       data-testid="footer"
     >
       <div
@@ -698,7 +698,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
               <div>
                 <a
                   aria-label="GitHub"
-                  class="MuiBox-root css-ez2on3"
+                  class="css-tqba5o"
                   data-mui-internal-clone-element="true"
                   href="https://github.com/hhhrrrttt22211"
                   rel="noopener noreferrer"
@@ -720,7 +720,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
               <div>
                 <a
                   aria-label="LinkedIn"
-                  class="MuiBox-root css-ez2on3"
+                  class="css-tqba5o"
                   data-mui-internal-clone-element="true"
                   href="https://linkedin.com/in/hhhrrrttt22211"
                   rel="noopener noreferrer"
@@ -742,7 +742,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
               <div>
                 <a
                   aria-label="Twitter"
-                  class="MuiBox-root css-ez2on3"
+                  class="css-tqba5o"
                   data-mui-internal-clone-element="true"
                   href="https://twitter.com/hhhrrrttt22211"
                   rel="noopener noreferrer"
@@ -764,7 +764,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
               <div>
                 <a
                   aria-label="Instagram"
-                  class="MuiBox-root css-ez2on3"
+                  class="css-tqba5o"
                   data-mui-internal-clone-element="true"
                   href="https://instagram.com/hhhrrrttt22211"
                   rel="noopener noreferrer"
@@ -786,7 +786,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
               <div>
                 <a
                   aria-label="Facebook"
-                  class="MuiBox-root css-ez2on3"
+                  class="css-tqba5o"
                   data-mui-internal-clone-element="true"
                   href="https://facebook.com/hhhrrrttt22211"
                   rel="noopener noreferrer"
@@ -808,7 +808,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
               <div>
                 <a
                   aria-label="Reddit"
-                  class="MuiBox-root css-ez2on3"
+                  class="css-tqba5o"
                   data-mui-internal-clone-element="true"
                   href="https://reddit.com/user/hhhrrrttt22211"
                   rel="noopener noreferrer"
@@ -830,7 +830,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
               <div>
                 <a
                   aria-label="Goodreads"
-                  class="MuiBox-root css-ez2on3"
+                  class="css-tqba5o"
                   data-mui-internal-clone-element="true"
                   href="https://goodreads.com/hhhrrrttt22211"
                   rel="noopener noreferrer"
@@ -918,7 +918,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
       </div>
     </header>
     <section
-      class="MuiBox-root css-1ld5l58"
+      class="css-x7wijn"
       data-testid="about-hero"
     >
       <div
@@ -955,7 +955,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
             </div>
             <div>
               <h1
-                class="MuiTypography-root MuiTypography-h1 css-1yxt4ob-MuiTypography-root"
+                class="css-xnntos"
               >
                 Hi, I'm Hemanth. I design thoughtful digital experiences.
               </h1>
@@ -1030,7 +1030,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                     </div>
                     <div>
                       <span
-                        class="MuiTypography-root MuiTypography-body1 css-1322htl-MuiTypography-root"
+                        class="css-1l8yjhg"
                       >
                         2017
                       </span>
@@ -1054,7 +1054,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                     </div>
                     <div>
                       <span
-                        class="MuiTypography-root MuiTypography-body1 css-1322htl-MuiTypography-root"
+                        class="css-1l8yjhg"
                       >
                         2020
                       </span>
@@ -1078,7 +1078,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                     </div>
                     <div>
                       <span
-                        class="MuiTypography-root MuiTypography-body1 css-1322htl-MuiTypography-root"
+                        class="css-1l8yjhg"
                       >
                         2022
                       </span>
@@ -1102,7 +1102,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                     </div>
                     <div>
                       <span
-                        class="MuiTypography-root MuiTypography-body1 css-1322htl-MuiTypography-root"
+                        class="css-1l8yjhg"
                       >
                         2024
                       </span>
@@ -1144,7 +1144,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
       </div>
     </section>
     <section
-      class="MuiBox-root css-pe65t3"
+      class="css-2ienta"
       data-testid="education-section"
     >
       <div
@@ -1152,7 +1152,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
       >
         <div>
           <h2
-            class="MuiTypography-root MuiTypography-h2 css-mr9nnn-MuiTypography-root"
+            class="css-1vtzmwd"
           >
             Education
           </h2>
@@ -1244,7 +1244,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
       </div>
     </section>
     <section
-      class="MuiBox-root css-131ygrv"
+      class="css-tj2q7h"
       data-testid="experience-section"
     >
       <div
@@ -1252,7 +1252,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
       >
         <div>
           <h2
-            class="MuiTypography-root MuiTypography-h2 css-mr9nnn-MuiTypography-root"
+            class="css-1vtzmwd"
           >
             Experience
           </h2>
@@ -1377,7 +1377,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
       </div>
     </section>
     <section
-      class="MuiBox-root css-19f9fhs"
+      class="css-12mbhks"
       data-testid="philosophy-section"
     >
       <div
@@ -1401,7 +1401,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               />
             </div>
             <blockquote
-              class="MuiTypography-root MuiTypography-h2 css-7t2p47-MuiTypography-root"
+              class="css-3e0vga"
             >
               <span>
                 <span
@@ -1528,7 +1528,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
       </div>
     </section>
     <footer
-      class="MuiBox-root css-ef5a5c"
+      class="css-l1mh46"
       data-testid="footer"
     >
       <div
@@ -1566,7 +1566,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="GitHub"
-                  class="MuiBox-root css-13qdqug"
+                  class="css-z9rceo"
                   data-mui-internal-clone-element="true"
                   href="https://github.com/hhhrrrttt22211"
                   rel="noopener noreferrer"
@@ -1588,7 +1588,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="LinkedIn"
-                  class="MuiBox-root css-13qdqug"
+                  class="css-z9rceo"
                   data-mui-internal-clone-element="true"
                   href="https://linkedin.com/in/hhhrrrttt22211"
                   rel="noopener noreferrer"
@@ -1610,7 +1610,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Twitter"
-                  class="MuiBox-root css-13qdqug"
+                  class="css-z9rceo"
                   data-mui-internal-clone-element="true"
                   href="https://twitter.com/hhhrrrttt22211"
                   rel="noopener noreferrer"
@@ -1632,7 +1632,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Instagram"
-                  class="MuiBox-root css-13qdqug"
+                  class="css-z9rceo"
                   data-mui-internal-clone-element="true"
                   href="https://instagram.com/hhhrrrttt22211"
                   rel="noopener noreferrer"
@@ -1654,7 +1654,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Facebook"
-                  class="MuiBox-root css-13qdqug"
+                  class="css-z9rceo"
                   data-mui-internal-clone-element="true"
                   href="https://facebook.com/hhhrrrttt22211"
                   rel="noopener noreferrer"
@@ -1676,7 +1676,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Reddit"
-                  class="MuiBox-root css-13qdqug"
+                  class="css-z9rceo"
                   data-mui-internal-clone-element="true"
                   href="https://reddit.com/user/hhhrrrttt22211"
                   rel="noopener noreferrer"
@@ -1698,7 +1698,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Goodreads"
-                  class="MuiBox-root css-13qdqug"
+                  class="css-z9rceo"
                   data-mui-internal-clone-element="true"
                   href="https://goodreads.com/hhhrrrttt22211"
                   rel="noopener noreferrer"

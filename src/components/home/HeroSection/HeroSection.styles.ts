@@ -1,9 +1,8 @@
 import { styled } from "@mui/material/styles";
-import Box, { type BoxProps } from "@mui/material/Box";
-import Typography, { type TypographyProps } from "@mui/material/Typography";
-import type { ElementType } from "react";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
 
-export const HeroRoot = styled(Box)<BoxProps & { component?: ElementType }>(({ theme }) => ({
+export const HeroRoot = styled("section")(({ theme }) => ({
   height: "50vh",
   minHeight: 400,
   position: "relative",
@@ -60,39 +59,36 @@ export const PhoneIcon = styled(Box)({
   },
 });
 
-export const HeroTitle = styled(Typography)<TypographyProps & { component?: ElementType }>(
-  ({ theme }) => ({
-    fontFamily: "'Georgia', 'Times New Roman', serif",
-    fontStyle: "italic",
-    fontWeight: 400,
-    fontSize: "2.5rem",
-    color: theme.palette.text.primary,
-    marginTop: theme.spacing(3),
-    letterSpacing: "-0.02em",
-    [theme.breakpoints.up("sm")]: {
-      fontSize: "3.5rem",
-    },
-    [theme.breakpoints.up("md")]: {
-      fontSize: "4.5rem",
-    },
-  }),
-);
+export const HeroTitle = styled("h1")(({ theme }) => ({
+  fontFamily: "'Georgia', 'Times New Roman', serif",
+  fontStyle: "italic",
+  fontWeight: 400,
+  fontSize: "2.5rem",
+  color: theme.palette.text.primary,
+  marginTop: theme.spacing(3),
+  letterSpacing: "-0.02em",
+  margin: 0,
+  [theme.breakpoints.up("sm")]: {
+    fontSize: "3.5rem",
+  },
+  [theme.breakpoints.up("md")]: {
+    fontSize: "4.5rem",
+  },
+}));
 
-export const YearText = styled(Typography)<TypographyProps & { component?: ElementType }>(
-  ({ theme }) => ({
-    fontFamily: "'Inter', 'Roboto', sans-serif",
-    fontWeight: 300,
-    fontSize: "1.25rem",
-    color: theme.palette.text.secondary,
-    marginLeft: theme.spacing(2),
-    [theme.breakpoints.up("sm")]: {
-      fontSize: "1.5rem",
-    },
-    [theme.breakpoints.up("md")]: {
-      fontSize: "1.75rem",
-    },
-  }),
-);
+export const YearText = styled("span")(({ theme }) => ({
+  fontFamily: "'Inter', 'Roboto', sans-serif",
+  fontWeight: 300,
+  fontSize: "1.25rem",
+  color: theme.palette.text.secondary,
+  marginLeft: theme.spacing(2),
+  [theme.breakpoints.up("sm")]: {
+    fontSize: "1.5rem",
+  },
+  [theme.breakpoints.up("md")]: {
+    fontSize: "1.75rem",
+  },
+}));
 
 export const TitleRow = styled(Box)({
   display: "flex",

@@ -3,7 +3,7 @@
 exports[`BlogPreview matches snapshot (dark mode) 1`] = `
 <div>
   <section
-    class="MuiBox-root css-1y1k13y"
+    class="css-mp2xo3"
     data-testid="blog-preview"
   >
     <div
@@ -12,7 +12,7 @@ exports[`BlogPreview matches snapshot (dark mode) 1`] = `
       <div>
         <div>
           <h2
-            class="MuiTypography-root MuiTypography-h2 css-1lx3q8e-MuiTypography-root"
+            class="css-nogf3f"
           >
             From the Desk
           </h2>
@@ -189,7 +189,7 @@ exports[`BlogPreview matches snapshot (dark mode) 1`] = `
 exports[`BlogPreview matches snapshot (light mode) 1`] = `
 <div>
   <section
-    class="MuiBox-root css-1mgjt33"
+    class="css-adn3is"
     data-testid="blog-preview"
   >
     <div
@@ -198,7 +198,7 @@ exports[`BlogPreview matches snapshot (light mode) 1`] = `
       <div>
         <div>
           <h2
-            class="MuiTypography-root MuiTypography-h2 css-1phcqpb-MuiTypography-root"
+            class="css-1cg3dzr"
           >
             From the Desk
           </h2>

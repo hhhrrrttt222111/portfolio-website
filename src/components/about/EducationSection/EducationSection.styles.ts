@@ -1,14 +1,13 @@
 import { styled, keyframes } from "@mui/material/styles";
-import Box, { type BoxProps } from "@mui/material/Box";
-import Typography, { type TypographyProps } from "@mui/material/Typography";
-import type { ElementType } from "react";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
 
 const shimmerLine = keyframes`
   0% { background-position: -200% center; }
   100% { background-position: 200% center; }
 `;
 
-export const SectionRoot = styled(Box)<BoxProps & { component?: ElementType }>(({ theme }) => {
+export const SectionRoot = styled("section")(({ theme }) => {
   const isDark = theme.palette.mode === "dark";
   return {
     paddingTop: theme.spacing(12),
@@ -25,21 +24,19 @@ export const SectionRoot = styled(Box)<BoxProps & { component?: ElementType }>((
   };
 });
 
-export const SectionTitle = styled(Typography)<TypographyProps & { component?: ElementType }>(
-  ({ theme }) => ({
-    textAlign: "center",
-    fontWeight: 800,
-    fontSize: "2rem",
-    marginBottom: theme.spacing(2),
-    backgroundImage: `linear-gradient(135deg, ${theme.palette.primary.main}, ${theme.palette.secondary.main})`,
-    backgroundClip: "text",
-    WebkitBackgroundClip: "text",
-    WebkitTextFillColor: "transparent",
-    [theme.breakpoints.up("md")]: {
-      fontSize: "2.75rem",
-    },
-  }),
-);
+export const SectionTitle = styled("h2")(({ theme }) => ({
+  textAlign: "center",
+  fontWeight: 800,
+  fontSize: "2rem",
+  marginBottom: theme.spacing(2),
+  backgroundImage: `linear-gradient(135deg, ${theme.palette.primary.main}, ${theme.palette.secondary.main})`,
+  backgroundClip: "text",
+  WebkitBackgroundClip: "text",
+  WebkitTextFillColor: "transparent",
+  [theme.breakpoints.up("md")]: {
+    fontSize: "2.75rem",
+  },
+}));
 
 export const SectionSubtitle = styled(Typography)(({ theme }) => ({
   textAlign: "center",

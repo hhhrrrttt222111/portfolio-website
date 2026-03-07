@@ -43,7 +43,7 @@ const Contact = () => {
   };
 
   return (
-    <ContactRoot component="section" data-testid="contact-section">
+    <ContactRoot data-testid="contact-section">
       <Container maxWidth="lg">
         <motion.div
           variants={prefersReduced ? undefined : containerVariants}
@@ -52,9 +52,7 @@ const Contact = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           <motion.div variants={prefersReduced ? undefined : itemVariants}>
-            <ContactTitle variant="h2" component="h2">
-              Get In Touch
-            </ContactTitle>
+            <ContactTitle>Get In Touch</ContactTitle>
           </motion.div>
 
           <motion.div variants={prefersReduced ? undefined : itemVariants}>

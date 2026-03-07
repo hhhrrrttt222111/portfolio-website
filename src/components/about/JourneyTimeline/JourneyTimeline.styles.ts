@@ -1,7 +1,6 @@
 import { styled, keyframes } from "@mui/material/styles";
 import Box from "@mui/material/Box";
-import Typography, { type TypographyProps } from "@mui/material/Typography";
-import type { ElementType } from "react";
+import Typography from "@mui/material/Typography";
 
 const glowPulse = keyframes`
   0%, 100% { box-shadow: 0 0 8px currentColor, 0 0 16px currentColor; }
@@ -154,15 +153,14 @@ export const MilestoneDot = styled(Box)(({ theme }) => {
   };
 });
 
-export const MilestoneYear = styled(Typography)<TypographyProps & { component?: ElementType }>(
-  ({ theme }) => ({
-    fontSize: "0.75rem",
-    fontWeight: 700,
-    color: theme.palette.primary.main,
-    marginTop: theme.spacing(1.5),
-    fontFamily: "'JetBrains Mono', 'Fira Code', monospace",
-  }),
-);
+export const MilestoneYear = styled("span")(({ theme }) => ({
+  display: "block",
+  fontSize: "0.75rem",
+  fontWeight: 700,
+  color: theme.palette.primary.main,
+  marginTop: theme.spacing(1.5),
+  fontFamily: "'JetBrains Mono', 'Fira Code', monospace",
+}));
 
 export const MilestoneTitle = styled(Typography)(({ theme }) => ({
   fontSize: "0.82rem",
