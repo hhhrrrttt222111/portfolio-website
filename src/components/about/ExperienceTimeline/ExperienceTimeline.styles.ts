@@ -1,6 +1,7 @@
 import { styled, keyframes } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import { fontFamilies } from "@/theme/theme";
 
 const GRID_GAP = 8;
 const MOBILE_DOT_SIZE = 16;
@@ -41,8 +42,10 @@ export const SectionRoot = styled("section")(({ theme }) => {
 
 export const SectionTitle = styled("h2")(({ theme }) => ({
   textAlign: "center",
-  fontWeight: 800,
+  fontFamily: fontFamilies.heading,
+  fontWeight: 700,
   fontSize: "2rem",
+  letterSpacing: "-0.02em",
   marginBottom: theme.spacing(2),
   backgroundImage: `linear-gradient(135deg, ${theme.palette.primary.main}, ${theme.palette.secondary.main})`,
   backgroundClip: "text",
@@ -55,6 +58,7 @@ export const SectionTitle = styled("h2")(({ theme }) => ({
 
 export const SectionSubtitle = styled(Typography)(({ theme }) => ({
   textAlign: "center",
+  fontFamily: fontFamilies.body,
   color: theme.palette.text.secondary,
   fontSize: "0.95rem",
   marginBottom: theme.spacing(8),
@@ -185,7 +189,8 @@ export const TimelineCard = styled(Box)(({ theme }) => {
 });
 
 export const CardTitle = styled(Typography)(({ theme }) => ({
-  fontWeight: 700,
+  fontFamily: fontFamilies.heading,
+  fontWeight: 600,
   fontSize: "1.15rem",
   color: theme.palette.text.primary,
   marginBottom: theme.spacing(0.5),
@@ -205,13 +210,14 @@ export const CardDate = styled(Typography)(({ theme }) => ({
   fontSize: "0.75rem",
   fontWeight: 600,
   color: theme.palette.text.secondary,
-  fontFamily: "'JetBrains Mono', 'Fira Code', monospace",
+  fontFamily: fontFamilies.mono,
   marginBottom: theme.spacing(1.5),
   opacity: 0.7,
   letterSpacing: "0.02em",
 }));
 
 export const CardDescription = styled(Typography)(({ theme }) => ({
+  fontFamily: fontFamilies.body,
   fontSize: "0.9rem",
   lineHeight: 1.75,
   color: theme.palette.text.secondary,

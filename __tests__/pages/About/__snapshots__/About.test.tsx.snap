@@ -13,7 +13,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
         class="MuiToolbar-root MuiToolbar-regular css-1qo5tb8-MuiToolbar-root"
       >
         <a
-          class="css-tim2pj"
+          class="css-kkoc1e"
           data-discover="true"
           href="/"
         >
@@ -26,21 +26,21 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
           class="MuiStack-root css-kdc3n8-MuiStack-root"
         >
           <a
-            class="css-1wd5qu9"
+            class="css-1pb62jw"
             data-discover="true"
             href="/about"
           >
             About
           </a>
           <a
-            class="css-1wd5qu9"
+            class="css-1pb62jw"
             data-discover="true"
             href="/blog"
           >
             Blog
           </a>
           <a
-            class="css-1co0ipd"
+            class="css-swcnb1"
             data-discover="true"
             href="/contact"
           >
@@ -80,21 +80,21 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
           >
             <div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-nmy4on-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-dhsisw-MuiTypography-root"
               >
                 About Me
               </p>
             </div>
             <div>
               <h1
-                class="css-8a35ka"
+                class="css-a0eunv"
               >
                 Hi, I'm Hemanth. I design thoughtful digital experiences.
               </h1>
             </div>
             <div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-j3r2o3-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-bhf9p5-MuiTypography-root"
               >
                 I started as a curious kid tinkering with HTML in a school computer lab, and that spark never faded. Over the years, I've gone from building toy projects to shipping production software — learning that great engineering is equal parts craft, empathy, and relentless iteration. Today, I focus on creating interfaces that feel intuitive, performant, and genuinely delightful to use.
               </p>
@@ -104,12 +104,12 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                 class="MuiBox-root css-euzpok"
               >
                 <p
-                  class="MuiTypography-root MuiTypography-body2 css-1cln9tj-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body2 css-g4s3kp-MuiTypography-root"
                 >
                   When I'm not coding, you'll find me buried in a book. I'm an avid reader — fiction, non-fiction, philosophy, you name it. I believe reading shapes how I think and build.
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body2 css-1kbbl7b-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body2 css-3fyyzz-MuiTypography-root"
                 >
                   <a
                     href="https://hemanthr.com/blog"
@@ -124,7 +124,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                     style="color: inherit; text-decoration: none;"
                   >
                     <span
-                      class="MuiTypography-root MuiTypography-body2 css-1teuhow-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 css-l9qnjn-MuiTypography-root"
                     >
                       My Reading List →
                     </span>
@@ -162,12 +162,12 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                     </div>
                     <div>
                       <span
-                        class="css-19v602t"
+                        class="css-u4jj8o"
                       >
                         2017
                       </span>
                       <p
-                        class="MuiTypography-root MuiTypography-body1 css-63cf46-MuiTypography-root"
+                        class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
                       >
                         Started Coding
                       </p>
@@ -186,12 +186,12 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                     </div>
                     <div>
                       <span
-                        class="css-19v602t"
+                        class="css-u4jj8o"
                       >
                         2020
                       </span>
                       <p
-                        class="MuiTypography-root MuiTypography-body1 css-63cf46-MuiTypography-root"
+                        class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
                       >
                         First Freelance Project
                       </p>
@@ -210,12 +210,12 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                     </div>
                     <div>
                       <span
-                        class="css-19v602t"
+                        class="css-u4jj8o"
                       >
                         2022
                       </span>
                       <p
-                        class="MuiTypography-root MuiTypography-body1 css-63cf46-MuiTypography-root"
+                        class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
                       >
                         Joined a Startup
                       </p>
@@ -234,12 +234,12 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                     </div>
                     <div>
                       <span
-                        class="css-19v602t"
+                        class="css-u4jj8o"
                       >
                         2024
                       </span>
                       <p
-                        class="MuiTypography-root MuiTypography-body1 css-63cf46-MuiTypography-root"
+                        class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
                       >
                         Built Products Used by Thousands
                       </p>
@@ -253,7 +253,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
       </div>
       <div>
         <div
-          class="MuiBox-root css-6ceun0"
+          class="MuiBox-root css-e03jn5"
         >
           <div>
             <div
@@ -284,12 +284,12 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
       >
         <div>
           <h2
-            class="css-4mjjva"
+            class="css-k88837"
           >
             Education
           </h2>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-ri9s37-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-wfrkm6-MuiTypography-root"
           >
             The foundation that shaped my thinking and technical skills.
           </p>
@@ -302,7 +302,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
               class="MuiBox-root css-1j8oeui"
             >
               <div
-                class="MuiBox-root css-w0c2nw"
+                class="MuiBox-root css-y8rzaa"
               >
                 <span
                   class="year-text"
@@ -311,12 +311,12 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                 </span>
               </div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-17jad0f-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1fuyhrh-MuiTypography-root"
               >
                 Primary Secondary Education
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1n98p2y-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-dqqgqi-MuiTypography-root"
               >
                 Bhavans Bala Mandir, Eroor
               </p>
@@ -327,7 +327,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
               class="MuiBox-root css-1j8oeui"
             >
               <div
-                class="MuiBox-root css-w0c2nw"
+                class="MuiBox-root css-y8rzaa"
               >
                 <span
                   class="year-text"
@@ -336,12 +336,12 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                 </span>
               </div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-17jad0f-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1fuyhrh-MuiTypography-root"
               >
                 Higher Secondary Education
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1n98p2y-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-dqqgqi-MuiTypography-root"
               >
                 Bhavans Vidya Mandir, Eroor
               </p>
@@ -352,7 +352,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
               class="MuiBox-root css-1j8oeui"
             >
               <div
-                class="MuiBox-root css-w0c2nw"
+                class="MuiBox-root css-y8rzaa"
               >
                 <span
                   class="year-text"
@@ -361,12 +361,12 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                 </span>
               </div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-17jad0f-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1fuyhrh-MuiTypography-root"
               >
                 B.Tech in Computer Science
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1n98p2y-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-dqqgqi-MuiTypography-root"
               >
                 Model Engineering College, Thrikkakara
               </p>
@@ -384,12 +384,12 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
       >
         <div>
           <h2
-            class="css-4mjjva"
+            class="css-k88837"
           >
             Experience
           </h2>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-ri9s37-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-wfrkm6-MuiTypography-root"
           >
             A timeline of roles where I've grown, shipped, and learned.
           </p>
@@ -416,22 +416,22 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                   class="MuiBox-root css-b6yup3"
                 >
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1f1v7s5-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1etytva-MuiTypography-root"
                   >
                     Software Engineer
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-xt2t21-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-16cn69d-MuiTypography-root"
                   >
                     TechNova Solutions
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1eqd0te-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
                   >
                     Jan 2024 — Present
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-p21ufq-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
                   >
                     Leading frontend architecture for a SaaS platform serving 10k+ users. Building performant, accessible interfaces with React, TypeScript, and a custom design system.
                   </p>
@@ -449,22 +449,22 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                   class="MuiBox-root css-b6yup3"
                 >
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1f1v7s5-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1etytva-MuiTypography-root"
                   >
                     Frontend Developer
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-xt2t21-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-16cn69d-MuiTypography-root"
                   >
                     PixelCraft Studios
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1eqd0te-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
                   >
                     Jun 2022 — Dec 2023
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-p21ufq-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
                   >
                     Developed interactive web experiences and marketing sites for high-profile clients. Focused on animation, performance optimization, and cross-browser consistency.
                   </p>
@@ -482,22 +482,22 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                   class="MuiBox-root css-b6yup3"
                 >
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1f1v7s5-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1etytva-MuiTypography-root"
                   >
                     Junior Developer Intern
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-xt2t21-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-16cn69d-MuiTypography-root"
                   >
                     CodeBridge Labs
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1eqd0te-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
                   >
                     Jan 2022 — May 2022
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-p21ufq-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
                   >
                     Built internal tools and contributed to the component library. Learned production workflows, code review culture, and agile development practices.
                   </p>
@@ -533,7 +533,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
               />
             </div>
             <blockquote
-              class="css-x4i1up"
+              class="css-10ko3cr"
             >
               <span>
                 <span
@@ -650,7 +650,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
             </blockquote>
             <div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-ahhpty-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-n9jyln-MuiTypography-root"
               >
                 — my design philosophy
               </p>
@@ -855,7 +855,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
             </div>
           </div>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-1ljt24v-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-zbil2c-MuiTypography-root"
           >
             © 
             2026
@@ -881,7 +881,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
         class="MuiToolbar-root MuiToolbar-regular css-10a6tuy-MuiToolbar-root"
       >
         <a
-          class="css-10i3ly5"
+          class="css-1hjppfk"
           data-discover="true"
           href="/"
         >
@@ -894,21 +894,21 @@ exports[`About Page matches snapshot (light mode) 1`] = `
           class="MuiStack-root css-kdc3n8-MuiStack-root"
         >
           <a
-            class="css-79s8ag"
+            class="css-1c37e78"
             data-discover="true"
             href="/about"
           >
             About
           </a>
           <a
-            class="css-79s8ag"
+            class="css-1c37e78"
             data-discover="true"
             href="/blog"
           >
             Blog
           </a>
           <a
-            class="css-fcuszt"
+            class="css-2l76li"
             data-discover="true"
             href="/contact"
           >
@@ -948,21 +948,21 @@ exports[`About Page matches snapshot (light mode) 1`] = `
           >
             <div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-6f7hgp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-fnmglg-MuiTypography-root"
               >
                 About Me
               </p>
             </div>
             <div>
               <h1
-                class="css-xnntos"
+                class="css-sdsz4r"
               >
                 Hi, I'm Hemanth. I design thoughtful digital experiences.
               </h1>
             </div>
             <div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-wivatr-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-19dp2o-MuiTypography-root"
               >
                 I started as a curious kid tinkering with HTML in a school computer lab, and that spark never faded. Over the years, I've gone from building toy projects to shipping production software — learning that great engineering is equal parts craft, empathy, and relentless iteration. Today, I focus on creating interfaces that feel intuitive, performant, and genuinely delightful to use.
               </p>
@@ -972,12 +972,12 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-jl4oqu"
               >
                 <p
-                  class="MuiTypography-root MuiTypography-body2 css-122nzjp-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body2 css-k9b86f-MuiTypography-root"
                 >
                   When I'm not coding, you'll find me buried in a book. I'm an avid reader — fiction, non-fiction, philosophy, you name it. I believe reading shapes how I think and build.
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body2 css-1kbbl7b-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body2 css-3fyyzz-MuiTypography-root"
                 >
                   <a
                     href="https://hemanthr.com/blog"
@@ -992,7 +992,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                     style="color: inherit; text-decoration: none;"
                   >
                     <span
-                      class="MuiTypography-root MuiTypography-body2 css-1sein9y-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body2 css-1oc0vx0-MuiTypography-root"
                     >
                       My Reading List →
                     </span>
@@ -1030,12 +1030,12 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                     </div>
                     <div>
                       <span
-                        class="css-1l8yjhg"
+                        class="css-1rb3lmj"
                       >
                         2017
                       </span>
                       <p
-                        class="MuiTypography-root MuiTypography-body1 css-bt9j4t-MuiTypography-root"
+                        class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
                       >
                         Started Coding
                       </p>
@@ -1054,12 +1054,12 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                     </div>
                     <div>
                       <span
-                        class="css-1l8yjhg"
+                        class="css-1rb3lmj"
                       >
                         2020
                       </span>
                       <p
-                        class="MuiTypography-root MuiTypography-body1 css-bt9j4t-MuiTypography-root"
+                        class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
                       >
                         First Freelance Project
                       </p>
@@ -1078,12 +1078,12 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                     </div>
                     <div>
                       <span
-                        class="css-1l8yjhg"
+                        class="css-1rb3lmj"
                       >
                         2022
                       </span>
                       <p
-                        class="MuiTypography-root MuiTypography-body1 css-bt9j4t-MuiTypography-root"
+                        class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
                       >
                         Joined a Startup
                       </p>
@@ -1102,12 +1102,12 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                     </div>
                     <div>
                       <span
-                        class="css-1l8yjhg"
+                        class="css-1rb3lmj"
                       >
                         2024
                       </span>
                       <p
-                        class="MuiTypography-root MuiTypography-body1 css-bt9j4t-MuiTypography-root"
+                        class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
                       >
                         Built Products Used by Thousands
                       </p>
@@ -1121,7 +1121,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
       </div>
       <div>
         <div
-          class="MuiBox-root css-tqfgxk"
+          class="MuiBox-root css-1odelyx"
         >
           <div>
             <div
@@ -1152,12 +1152,12 @@ exports[`About Page matches snapshot (light mode) 1`] = `
       >
         <div>
           <h2
-            class="css-1vtzmwd"
+            class="css-2aktko"
           >
             Education
           </h2>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-om3ttu-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-1i1q88g-MuiTypography-root"
           >
             The foundation that shaped my thinking and technical skills.
           </p>
@@ -1170,7 +1170,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               class="MuiBox-root css-xggkmz"
             >
               <div
-                class="MuiBox-root css-it2qej"
+                class="MuiBox-root css-48ismi"
               >
                 <span
                   class="year-text"
@@ -1179,12 +1179,12 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                 </span>
               </div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1jl3k8a-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1vwo7a-MuiTypography-root"
               >
                 Primary Secondary Education
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-hbybfc-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-15to6sp-MuiTypography-root"
               >
                 Bhavans Bala Mandir, Eroor
               </p>
@@ -1195,7 +1195,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               class="MuiBox-root css-xggkmz"
             >
               <div
-                class="MuiBox-root css-it2qej"
+                class="MuiBox-root css-48ismi"
               >
                 <span
                   class="year-text"
@@ -1204,12 +1204,12 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                 </span>
               </div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1jl3k8a-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1vwo7a-MuiTypography-root"
               >
                 Higher Secondary Education
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-hbybfc-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-15to6sp-MuiTypography-root"
               >
                 Bhavans Vidya Mandir, Eroor
               </p>
@@ -1220,7 +1220,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               class="MuiBox-root css-xggkmz"
             >
               <div
-                class="MuiBox-root css-it2qej"
+                class="MuiBox-root css-48ismi"
               >
                 <span
                   class="year-text"
@@ -1229,12 +1229,12 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                 </span>
               </div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1jl3k8a-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1vwo7a-MuiTypography-root"
               >
                 B.Tech in Computer Science
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-hbybfc-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-15to6sp-MuiTypography-root"
               >
                 Model Engineering College, Thrikkakara
               </p>
@@ -1252,12 +1252,12 @@ exports[`About Page matches snapshot (light mode) 1`] = `
       >
         <div>
           <h2
-            class="css-1vtzmwd"
+            class="css-2aktko"
           >
             Experience
           </h2>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-om3ttu-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-1i1q88g-MuiTypography-root"
           >
             A timeline of roles where I've grown, shipped, and learned.
           </p>
@@ -1284,22 +1284,22 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                   class="MuiBox-root css-otbqt4"
                 >
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-pyk4y6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1rr4gyp-MuiTypography-root"
                   >
                     Software Engineer
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-13z2cdg-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1ls4srf-MuiTypography-root"
                   >
                     TechNova Solutions
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1k8jm0j-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
                   >
                     Jan 2024 — Present
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-t2m39r-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
                   >
                     Leading frontend architecture for a SaaS platform serving 10k+ users. Building performant, accessible interfaces with React, TypeScript, and a custom design system.
                   </p>
@@ -1317,22 +1317,22 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                   class="MuiBox-root css-otbqt4"
                 >
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-pyk4y6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1rr4gyp-MuiTypography-root"
                   >
                     Frontend Developer
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-13z2cdg-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1ls4srf-MuiTypography-root"
                   >
                     PixelCraft Studios
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1k8jm0j-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
                   >
                     Jun 2022 — Dec 2023
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-t2m39r-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
                   >
                     Developed interactive web experiences and marketing sites for high-profile clients. Focused on animation, performance optimization, and cross-browser consistency.
                   </p>
@@ -1350,22 +1350,22 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                   class="MuiBox-root css-otbqt4"
                 >
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-pyk4y6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1rr4gyp-MuiTypography-root"
                   >
                     Junior Developer Intern
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-13z2cdg-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1ls4srf-MuiTypography-root"
                   >
                     CodeBridge Labs
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1k8jm0j-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
                   >
                     Jan 2022 — May 2022
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-t2m39r-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
                   >
                     Built internal tools and contributed to the component library. Learned production workflows, code review culture, and agile development practices.
                   </p>
@@ -1401,7 +1401,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               />
             </div>
             <blockquote
-              class="css-3e0vga"
+              class="css-pf4d29"
             >
               <span>
                 <span
@@ -1518,7 +1518,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
             </blockquote>
             <div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-oqmszb-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-11z7609-MuiTypography-root"
               >
                 — my design philosophy
               </p>
@@ -1723,7 +1723,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
             </div>
           </div>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-1314p8v-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-1vsjjcz-MuiTypography-root"
           >
             © 
             2026

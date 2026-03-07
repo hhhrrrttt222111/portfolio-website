@@ -1,6 +1,7 @@
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import { fontFamilies } from "@/theme/theme";
 
 export const HeroRoot = styled("section")(({ theme }) => ({
   height: "50vh",
@@ -60,13 +61,12 @@ export const PhoneIcon = styled(Box)({
 });
 
 export const HeroTitle = styled("h1")(({ theme }) => ({
-  fontFamily: "'Georgia', 'Times New Roman', serif",
-  fontStyle: "italic",
-  fontWeight: 400,
+  fontFamily: fontFamilies.heading,
+  fontWeight: 700,
   fontSize: "2.5rem",
   color: theme.palette.text.primary,
   marginTop: theme.spacing(3),
-  letterSpacing: "-0.02em",
+  letterSpacing: "-0.03em",
   margin: 0,
   [theme.breakpoints.up("sm")]: {
     fontSize: "3.5rem",
@@ -77,8 +77,8 @@ export const HeroTitle = styled("h1")(({ theme }) => ({
 }));
 
 export const YearText = styled("span")(({ theme }) => ({
-  fontFamily: "'Inter', 'Roboto', sans-serif",
-  fontWeight: 300,
+  fontFamily: fontFamilies.mono,
+  fontWeight: 400,
   fontSize: "1.25rem",
   color: theme.palette.text.secondary,
   marginLeft: theme.spacing(2),
@@ -98,8 +98,8 @@ export const TitleRow = styled(Box)({
 });
 
 export const SubtitleText = styled(Typography)(({ theme }) => ({
-  fontFamily: "'Inter', 'Roboto', sans-serif",
-  fontWeight: 300,
+  fontFamily: fontFamilies.body,
+  fontWeight: 400,
   fontSize: "0.75rem",
   letterSpacing: "0.15em",
   color: theme.palette.text.secondary,

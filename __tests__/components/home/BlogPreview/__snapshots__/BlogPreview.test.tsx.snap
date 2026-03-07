@@ -12,14 +12,14 @@ exports[`BlogPreview matches snapshot (dark mode) 1`] = `
       <div>
         <div>
           <h2
-            class="css-nogf3f"
+            class="css-6vqp9g"
           >
             From the Desk
           </h2>
         </div>
         <div>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-z4wa32-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-62jhto-MuiTypography-root"
           >
             Musings on cybersecurity, hacking tools, and the books that shaped my thinking. Here are a few recent pieces.
           </p>
@@ -41,22 +41,22 @@ exports[`BlogPreview matches snapshot (dark mode) 1`] = `
               class="MuiBox-root css-14inuc3"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-tag css-1qxdwxa-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-tag css-185jvbo-MuiTypography-root"
               >
                 Security
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1sxvrjk-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-v7mxg6-MuiTypography-root"
               >
                 Instagram phishing using Hiddeneye
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-2dkwy2-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-7bd0t2-MuiTypography-root"
               >
                 August 03, 2020
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-arrow css-1x18ccq-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-arrow css-sepk4a-MuiTypography-root"
               >
                 read article →
               </p>
@@ -76,22 +76,22 @@ exports[`BlogPreview matches snapshot (dark mode) 1`] = `
               class="MuiBox-root css-14inuc3"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-tag css-1qxdwxa-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-tag css-185jvbo-MuiTypography-root"
               >
                 Tools
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1sxvrjk-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-v7mxg6-MuiTypography-root"
               >
                 FSOCIETY hacking tools from Mr. Robot
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-2dkwy2-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-7bd0t2-MuiTypography-root"
               >
                 June 28, 2020
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-arrow css-1x18ccq-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-arrow css-sepk4a-MuiTypography-root"
               >
                 read article →
               </p>
@@ -111,22 +111,22 @@ exports[`BlogPreview matches snapshot (dark mode) 1`] = `
               class="MuiBox-root css-14inuc3"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-tag css-1qxdwxa-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-tag css-185jvbo-MuiTypography-root"
               >
                 Networking
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1sxvrjk-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-v7mxg6-MuiTypography-root"
               >
                 See previously connected wifi passwords using cmd
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-2dkwy2-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-7bd0t2-MuiTypography-root"
               >
                 June 09, 2020
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-arrow css-1x18ccq-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-arrow css-sepk4a-MuiTypography-root"
               >
                 read article →
               </p>
@@ -146,22 +146,22 @@ exports[`BlogPreview matches snapshot (dark mode) 1`] = `
               class="MuiBox-root css-14inuc3"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-tag css-1qxdwxa-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-tag css-185jvbo-MuiTypography-root"
               >
                 Python
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1sxvrjk-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-v7mxg6-MuiTypography-root"
               >
                 Keylogger with Python — capture every keystroke
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-2dkwy2-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-7bd0t2-MuiTypography-root"
               >
                 May 15, 2020
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-arrow css-1x18ccq-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-arrow css-sepk4a-MuiTypography-root"
               >
                 read article →
               </p>
@@ -171,7 +171,7 @@ exports[`BlogPreview matches snapshot (dark mode) 1`] = `
       </div>
       <div>
         <div
-          class="MuiBox-root css-ngoail"
+          class="MuiBox-root css-1795rq0"
         >
           <a
             data-discover="true"
@@ -198,14 +198,14 @@ exports[`BlogPreview matches snapshot (light mode) 1`] = `
       <div>
         <div>
           <h2
-            class="css-1cg3dzr"
+            class="css-6ecw7o"
           >
             From the Desk
           </h2>
         </div>
         <div>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-1lhdy0z-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-hvvbkq-MuiTypography-root"
           >
             Musings on cybersecurity, hacking tools, and the books that shaped my thinking. Here are a few recent pieces.
           </p>
@@ -227,22 +227,22 @@ exports[`BlogPreview matches snapshot (light mode) 1`] = `
               class="MuiBox-root css-14inuc3"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-tag css-x7d1o0-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-tag css-1kojclp-MuiTypography-root"
               >
                 Security
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1jcp4h1-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-kcngmx-MuiTypography-root"
               >
                 Instagram phishing using Hiddeneye
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1yn4w5t-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-o2uynp-MuiTypography-root"
               >
                 August 03, 2020
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-arrow css-1d7bx5r-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-arrow css-14dpbay-MuiTypography-root"
               >
                 read article →
               </p>
@@ -262,22 +262,22 @@ exports[`BlogPreview matches snapshot (light mode) 1`] = `
               class="MuiBox-root css-14inuc3"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-tag css-x7d1o0-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-tag css-1kojclp-MuiTypography-root"
               >
                 Tools
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1jcp4h1-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-kcngmx-MuiTypography-root"
               >
                 FSOCIETY hacking tools from Mr. Robot
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1yn4w5t-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-o2uynp-MuiTypography-root"
               >
                 June 28, 2020
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-arrow css-1d7bx5r-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-arrow css-14dpbay-MuiTypography-root"
               >
                 read article →
               </p>
@@ -297,22 +297,22 @@ exports[`BlogPreview matches snapshot (light mode) 1`] = `
               class="MuiBox-root css-14inuc3"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-tag css-x7d1o0-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-tag css-1kojclp-MuiTypography-root"
               >
                 Networking
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1jcp4h1-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-kcngmx-MuiTypography-root"
               >
                 See previously connected wifi passwords using cmd
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1yn4w5t-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-o2uynp-MuiTypography-root"
               >
                 June 09, 2020
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-arrow css-1d7bx5r-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-arrow css-14dpbay-MuiTypography-root"
               >
                 read article →
               </p>
@@ -332,22 +332,22 @@ exports[`BlogPreview matches snapshot (light mode) 1`] = `
               class="MuiBox-root css-14inuc3"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-tag css-x7d1o0-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-tag css-1kojclp-MuiTypography-root"
               >
                 Python
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1jcp4h1-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-kcngmx-MuiTypography-root"
               >
                 Keylogger with Python — capture every keystroke
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1yn4w5t-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-o2uynp-MuiTypography-root"
               >
                 May 15, 2020
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-arrow css-1d7bx5r-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-arrow css-14dpbay-MuiTypography-root"
               >
                 read article →
               </p>
@@ -357,7 +357,7 @@ exports[`BlogPreview matches snapshot (light mode) 1`] = `
       </div>
       <div>
         <div
-          class="MuiBox-root css-xp4z8t"
+          class="MuiBox-root css-1ulbt9m"
         >
           <a
             data-discover="true"

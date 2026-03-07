@@ -1,6 +1,7 @@
 import { styled, keyframes } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import { fontFamilies } from "@/theme/theme";
 
 const blink = keyframes`
   0%, 100% { opacity: 1; }
@@ -60,7 +61,8 @@ export const SectionTitle = styled("h2")(({ theme }) => ({
   marginBottom: theme.spacing(1.5),
   fontWeight: 700,
   fontSize: "1.75rem",
-  fontFamily: "'JetBrains Mono', 'Fira Code', 'Courier New', monospace",
+  fontFamily: fontFamilies.heading,
+  letterSpacing: "-0.02em",
   backgroundImage: `linear-gradient(135deg, ${theme.palette.primary.main}, ${theme.palette.secondary.main})`,
   backgroundClip: "text",
   WebkitBackgroundClip: "text",
@@ -78,7 +80,7 @@ export const SectionSubtitle = styled(Typography)(({ theme }) => ({
   marginRight: "auto",
   fontSize: "0.9rem",
   lineHeight: 1.7,
-  fontFamily: "'JetBrains Mono', 'Fira Code', 'Courier New', monospace",
+  fontFamily: fontFamilies.mono,
   [theme.breakpoints.up("md")]: {
     marginBottom: theme.spacing(8),
     fontSize: "0.95rem",
@@ -141,7 +143,7 @@ export const DotGroup = styled(Box)(({ theme }) => ({
 export const TerminalTitle = styled(Typography)(({ theme }) => ({
   fontSize: "0.7rem",
   color: theme.palette.text.secondary,
-  fontFamily: "'JetBrains Mono', 'Fira Code', 'Courier New', monospace",
+  fontFamily: fontFamilies.mono,
   marginLeft: "auto",
   marginRight: "auto",
   opacity: 0.6,
@@ -155,7 +157,7 @@ export const TerminalBody = styled(Box)(({ theme }) => ({
 }));
 
 export const CommandLine = styled(Typography)(({ theme }) => ({
-  fontFamily: "'JetBrains Mono', 'Fira Code', 'Courier New', monospace",
+  fontFamily: fontFamilies.mono,
   fontSize: "0.8rem",
   color: theme.palette.primary.main,
   marginBottom: theme.spacing(2),
@@ -178,7 +180,7 @@ export const CommandLine = styled(Typography)(({ theme }) => ({
 }));
 
 export const CategoryLabel = styled(Typography)(({ theme }) => ({
-  fontFamily: "'JetBrains Mono', 'Fira Code', 'Courier New', monospace",
+  fontFamily: fontFamilies.heading,
   fontSize: "0.95rem",
   fontWeight: 600,
   color: theme.palette.text.primary,
@@ -230,7 +232,7 @@ export const SkillBarFill = styled(Box)({
 });
 
 export const SkillName = styled(Typography)(({ theme }) => ({
-  fontFamily: "'JetBrains Mono', 'Fira Code', 'Courier New', monospace",
+  fontFamily: fontFamilies.mono,
   fontSize: "0.72rem",
   fontWeight: 500,
   color: theme.palette.text.primary,
@@ -250,7 +252,7 @@ export const SkillChip = styled(Box)(({ theme }) => {
     alignItems: "center",
     padding: `${theme.spacing(0.5)} ${theme.spacing(1.5)}`,
     borderRadius: theme.spacing(1),
-    fontFamily: "'JetBrains Mono', 'Fira Code', 'Courier New', monospace",
+    fontFamily: fontFamilies.mono,
     fontSize: "0.72rem",
     fontWeight: 500,
     color: theme.palette.text.primary,
@@ -265,7 +267,7 @@ export const SkillChip = styled(Box)(({ theme }) => {
 });
 
 export const TotalCounter = styled(Typography)(({ theme }) => ({
-  fontFamily: "'JetBrains Mono', 'Fira Code', 'Courier New', monospace",
+  fontFamily: fontFamilies.mono,
   fontSize: "0.7rem",
   color: theme.palette.text.secondary,
   marginTop: theme.spacing(1.5),

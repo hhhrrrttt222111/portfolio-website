@@ -12,14 +12,14 @@ exports[`Contact matches snapshot (dark mode) 1`] = `
       <div>
         <div>
           <h2
-            class="css-17ka5g"
+            class="css-2rtxge"
           >
             Get In Touch
           </h2>
         </div>
         <div>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-1mq14fp-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-1pm1n2o-MuiTypography-root"
           >
             Have a project in mind or just want to say hello? Drop me a message and I'll get back to you as soon as possible.
           </p>
@@ -46,7 +46,7 @@ exports[`Contact matches snapshot (dark mode) 1`] = `
                   />
                 </svg>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-l5ud12-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-fvs8i1-MuiTypography-root"
                 >
                   +1 (555) 123-4567
                 </p>
@@ -72,7 +72,7 @@ exports[`Contact matches snapshot (dark mode) 1`] = `
                   />
                 </svg>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-l5ud12-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-fvs8i1-MuiTypography-root"
                 >
                   hello@hemanthr.dev
                 </p>
@@ -94,7 +94,7 @@ exports[`Contact matches snapshot (dark mode) 1`] = `
                   class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-cmpglg-MuiFormControl-root-MuiTextField-root"
                 >
                   <label
-                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-wuc3yp-MuiFormLabel-root-MuiInputLabel-root"
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-1r06ag8-MuiFormLabel-root-MuiInputLabel-root"
                     data-shrink="false"
                     for="_r_2c_"
                     id="_r_2c_-label"
@@ -109,7 +109,7 @@ exports[`Contact matches snapshot (dark mode) 1`] = `
                     </span>
                   </label>
                   <div
-                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-rypx65-MuiInputBase-root-MuiOutlinedInput-root"
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-1k8o4fc-MuiInputBase-root-MuiOutlinedInput-root"
                   >
                     <input
                       aria-invalid="false"
@@ -144,7 +144,7 @@ exports[`Contact matches snapshot (dark mode) 1`] = `
                   class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-cmpglg-MuiFormControl-root-MuiTextField-root"
                 >
                   <label
-                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-wuc3yp-MuiFormLabel-root-MuiInputLabel-root"
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-1r06ag8-MuiFormLabel-root-MuiInputLabel-root"
                     data-shrink="false"
                     for="_r_2d_"
                     id="_r_2d_-label"
@@ -159,7 +159,7 @@ exports[`Contact matches snapshot (dark mode) 1`] = `
                     </span>
                   </label>
                   <div
-                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-rypx65-MuiInputBase-root-MuiOutlinedInput-root"
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-1k8o4fc-MuiInputBase-root-MuiOutlinedInput-root"
                   >
                     <input
                       aria-invalid="false"
@@ -194,7 +194,7 @@ exports[`Contact matches snapshot (dark mode) 1`] = `
                   class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-cmpglg-MuiFormControl-root-MuiTextField-root"
                 >
                   <label
-                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-wuc3yp-MuiFormLabel-root-MuiInputLabel-root"
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-1r06ag8-MuiFormLabel-root-MuiInputLabel-root"
                     data-shrink="false"
                     for="_r_2e_"
                     id="_r_2e_-label"
@@ -209,7 +209,7 @@ exports[`Contact matches snapshot (dark mode) 1`] = `
                     </span>
                   </label>
                   <div
-                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline css-15hm608-MuiInputBase-root-MuiOutlinedInput-root"
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline css-1y5nin8-MuiInputBase-root-MuiOutlinedInput-root"
                   >
                     <textarea
                       aria-invalid="false"
@@ -248,7 +248,7 @@ exports[`Contact matches snapshot (dark mode) 1`] = `
                 class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-1xyjiv3-MuiGrid-root"
               >
                 <button
-                  class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorPrimary css-13wcwfj-MuiButtonBase-root-MuiButton-root"
+                  class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorPrimary css-1ds6jel-MuiButtonBase-root-MuiButton-root"
                   tabindex="0"
                   type="submit"
                 >
@@ -291,14 +291,14 @@ exports[`Contact matches snapshot (light mode) 1`] = `
       <div>
         <div>
           <h2
-            class="css-1fgeiiu"
+            class="css-74d2uv"
           >
             Get In Touch
           </h2>
         </div>
         <div>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-mn7d9c-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-hv5og2-MuiTypography-root"
           >
             Have a project in mind or just want to say hello? Drop me a message and I'll get back to you as soon as possible.
           </p>
@@ -325,7 +325,7 @@ exports[`Contact matches snapshot (light mode) 1`] = `
                   />
                 </svg>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1f3f4y0-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-ivltvc-MuiTypography-root"
                 >
                   +1 (555) 123-4567
                 </p>
@@ -351,7 +351,7 @@ exports[`Contact matches snapshot (light mode) 1`] = `
                   />
                 </svg>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1f3f4y0-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-ivltvc-MuiTypography-root"
                 >
                   hello@hemanthr.dev
                 </p>
@@ -373,7 +373,7 @@ exports[`Contact matches snapshot (light mode) 1`] = `
                   class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-cmpglg-MuiFormControl-root-MuiTextField-root"
                 >
                   <label
-                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-eg7vkx-MuiFormLabel-root-MuiInputLabel-root"
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-ve18lb-MuiFormLabel-root-MuiInputLabel-root"
                     data-shrink="false"
                     for="_r_27_"
                     id="_r_27_-label"
@@ -388,7 +388,7 @@ exports[`Contact matches snapshot (light mode) 1`] = `
                     </span>
                   </label>
                   <div
-                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-1cnxuf0-MuiInputBase-root-MuiOutlinedInput-root"
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-pefnb4-MuiInputBase-root-MuiOutlinedInput-root"
                   >
                     <input
                       aria-invalid="false"
@@ -423,7 +423,7 @@ exports[`Contact matches snapshot (light mode) 1`] = `
                   class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-cmpglg-MuiFormControl-root-MuiTextField-root"
                 >
                   <label
-                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-eg7vkx-MuiFormLabel-root-MuiInputLabel-root"
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-ve18lb-MuiFormLabel-root-MuiInputLabel-root"
                     data-shrink="false"
                     for="_r_28_"
                     id="_r_28_-label"
@@ -438,7 +438,7 @@ exports[`Contact matches snapshot (light mode) 1`] = `
                     </span>
                   </label>
                   <div
-                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-1cnxuf0-MuiInputBase-root-MuiOutlinedInput-root"
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-pefnb4-MuiInputBase-root-MuiOutlinedInput-root"
                   >
                     <input
                       aria-invalid="false"
@@ -473,7 +473,7 @@ exports[`Contact matches snapshot (light mode) 1`] = `
                   class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-cmpglg-MuiFormControl-root-MuiTextField-root"
                 >
                   <label
-                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-eg7vkx-MuiFormLabel-root-MuiInputLabel-root"
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-ve18lb-MuiFormLabel-root-MuiInputLabel-root"
                     data-shrink="false"
                     for="_r_29_"
                     id="_r_29_-label"
@@ -488,7 +488,7 @@ exports[`Contact matches snapshot (light mode) 1`] = `
                     </span>
                   </label>
                   <div
-                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline css-1fcrfyp-MuiInputBase-root-MuiOutlinedInput-root"
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline css-hes9w4-MuiInputBase-root-MuiOutlinedInput-root"
                   >
                     <textarea
                       aria-invalid="false"
@@ -527,7 +527,7 @@ exports[`Contact matches snapshot (light mode) 1`] = `
                 class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-1xyjiv3-MuiGrid-root"
               >
                 <button
-                  class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorPrimary css-otnvkh-MuiButtonBase-root-MuiButton-root"
+                  class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-colorPrimary css-yzd6ay-MuiButtonBase-root-MuiButton-root"
                   tabindex="0"
                   type="submit"
                 >

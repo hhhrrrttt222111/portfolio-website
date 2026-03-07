@@ -1,6 +1,7 @@
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import { fontFamilies } from "@/theme/theme";
 
 export const SectionRoot = styled("section")(({ theme }) => ({
   paddingTop: theme.spacing(8),
@@ -20,8 +21,10 @@ export const SectionRoot = styled("section")(({ theme }) => ({
 export const SectionTitle = styled("h3")(({ theme }) => ({
   textAlign: "center",
   marginBottom: theme.spacing(2),
+  fontFamily: fontFamilies.heading,
   fontWeight: 700,
   fontSize: "1.75rem",
+  letterSpacing: "-0.02em",
   backgroundImage: `linear-gradient(135deg, ${theme.palette.primary.main}, ${theme.palette.secondary.main})`,
   backgroundClip: "text",
   WebkitBackgroundClip: "text",
@@ -37,6 +40,7 @@ export const SectionTitle = styled("h3")(({ theme }) => ({
 export const SectionSubtitle = styled(Typography)(({ theme }) => ({
   textAlign: "center",
   marginBottom: theme.spacing(6),
+  fontFamily: fontFamilies.body,
   color: theme.palette.text.secondary,
   maxWidth: 600,
   marginLeft: "auto",
@@ -76,6 +80,7 @@ export const GlassCard = styled(Box)(({ theme }) => {
 });
 
 export const CardTitle = styled(Typography)(({ theme }) => ({
+  fontFamily: fontFamilies.heading,
   fontWeight: 600,
   marginBottom: theme.spacing(1.5),
   color: theme.palette.text.primary,
@@ -86,6 +91,7 @@ export const CardTitle = styled(Typography)(({ theme }) => ({
 }));
 
 export const CardDescription = styled(Typography)(({ theme }) => ({
+  fontFamily: fontFamilies.body,
   color: theme.palette.text.secondary,
   lineHeight: 1.7,
   fontSize: "0.85rem",

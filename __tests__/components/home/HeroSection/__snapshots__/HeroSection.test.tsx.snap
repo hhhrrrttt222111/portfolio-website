@@ -72,14 +72,14 @@ exports[`HeroSection matches snapshot (dark mode) 1`] = `
         >
           <div>
             <h1
-              class="css-1ijnntv"
+              class="css-1sc58sc"
             >
               portfólio
             </h1>
           </div>
           <div>
             <span
-              class="css-1x2pjcq"
+              class="css-bm6414"
             >
               2026
             </span>
@@ -87,7 +87,7 @@ exports[`HeroSection matches snapshot (dark mode) 1`] = `
         </div>
         <div>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-lndemx-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-1a03qqg-MuiTypography-root"
           >
             [ Hemanth R ]
           </p>
@@ -178,14 +178,14 @@ exports[`HeroSection matches snapshot (light mode) 1`] = `
         >
           <div>
             <h1
-              class="css-h17p7r"
+              class="css-1ho04rl"
             >
               portfólio
             </h1>
           </div>
           <div>
             <span
-              class="css-9k0422"
+              class="css-13uaspd"
             >
               2026
             </span>
@@ -193,7 +193,7 @@ exports[`HeroSection matches snapshot (light mode) 1`] = `
         </div>
         <div>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-kb9epu-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-1x7h70q-MuiTypography-root"
           >
             [ Hemanth R ]
           </p>

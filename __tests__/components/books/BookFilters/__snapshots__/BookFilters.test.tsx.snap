@@ -8,7 +8,7 @@ exports[`BookFilters matches snapshot (dark mode) 1`] = `
       data-testid="book-filters"
     >
       <div
-        class="MuiBox-root css-mxko35"
+        class="MuiBox-root css-12kp3n5"
       >
         <span
           class="search-icon"
@@ -77,7 +77,7 @@ exports[`BookFilters matches snapshot (dark mode) 1`] = `
       </div>
       <div>
         <div
-          class="MuiBox-root css-1a63uay"
+          class="MuiBox-root css-14qpgm9"
         >
           10 books
         </div>
@@ -95,7 +95,7 @@ exports[`BookFilters matches snapshot (light mode) 1`] = `
       data-testid="book-filters"
     >
       <div
-        class="MuiBox-root css-1doy4qy"
+        class="MuiBox-root css-hca540"
       >
         <span
           class="search-icon"
@@ -164,7 +164,7 @@ exports[`BookFilters matches snapshot (light mode) 1`] = `
       </div>
       <div>
         <div
-          class="MuiBox-root css-dp9qlm"
+          class="MuiBox-root css-1g5yu0l"
         >
           10 books
         </div>

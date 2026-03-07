@@ -11,12 +11,12 @@ exports[`ExperienceTimeline matches snapshot (dark mode) 1`] = `
     >
       <div>
         <h2
-          class="css-4mjjva"
+          class="css-k88837"
         >
           Experience
         </h2>
         <p
-          class="MuiTypography-root MuiTypography-body1 css-ri9s37-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-body1 css-wfrkm6-MuiTypography-root"
         >
           A timeline of roles where I've grown, shipped, and learned.
         </p>
@@ -43,22 +43,22 @@ exports[`ExperienceTimeline matches snapshot (dark mode) 1`] = `
                 class="MuiBox-root css-b6yup3"
               >
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1f1v7s5-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-1etytva-MuiTypography-root"
                 >
                   Software Engineer
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-xt2t21-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-16cn69d-MuiTypography-root"
                 >
                   TechNova Solutions
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1eqd0te-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
                 >
                   Jan 2024 — Present
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-p21ufq-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
                 >
                   Leading frontend architecture for a SaaS platform serving 10k+ users. Building performant, accessible interfaces with React, TypeScript, and a custom design system.
                 </p>
@@ -76,22 +76,22 @@ exports[`ExperienceTimeline matches snapshot (dark mode) 1`] = `
                 class="MuiBox-root css-b6yup3"
               >
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1f1v7s5-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-1etytva-MuiTypography-root"
                 >
                   Frontend Developer
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-xt2t21-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-16cn69d-MuiTypography-root"
                 >
                   PixelCraft Studios
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1eqd0te-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
                 >
                   Jun 2022 — Dec 2023
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-p21ufq-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
                 >
                   Developed interactive web experiences and marketing sites for high-profile clients. Focused on animation, performance optimization, and cross-browser consistency.
                 </p>
@@ -109,22 +109,22 @@ exports[`ExperienceTimeline matches snapshot (dark mode) 1`] = `
                 class="MuiBox-root css-b6yup3"
               >
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1f1v7s5-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-1etytva-MuiTypography-root"
                 >
                   Junior Developer Intern
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-xt2t21-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-16cn69d-MuiTypography-root"
                 >
                   CodeBridge Labs
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1eqd0te-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
                 >
                   Jan 2022 — May 2022
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-p21ufq-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
                 >
                   Built internal tools and contributed to the component library. Learned production workflows, code review culture, and agile development practices.
                 </p>
@@ -149,12 +149,12 @@ exports[`ExperienceTimeline matches snapshot (light mode) 1`] = `
     >
       <div>
         <h2
-          class="css-1vtzmwd"
+          class="css-2aktko"
         >
           Experience
         </h2>
         <p
-          class="MuiTypography-root MuiTypography-body1 css-om3ttu-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-body1 css-1i1q88g-MuiTypography-root"
         >
           A timeline of roles where I've grown, shipped, and learned.
         </p>
@@ -181,22 +181,22 @@ exports[`ExperienceTimeline matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-otbqt4"
               >
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-pyk4y6-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-1rr4gyp-MuiTypography-root"
                 >
                   Software Engineer
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-13z2cdg-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-1ls4srf-MuiTypography-root"
                 >
                   TechNova Solutions
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1k8jm0j-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
                 >
                   Jan 2024 — Present
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-t2m39r-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
                 >
                   Leading frontend architecture for a SaaS platform serving 10k+ users. Building performant, accessible interfaces with React, TypeScript, and a custom design system.
                 </p>
@@ -214,22 +214,22 @@ exports[`ExperienceTimeline matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-otbqt4"
               >
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-pyk4y6-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-1rr4gyp-MuiTypography-root"
                 >
                   Frontend Developer
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-13z2cdg-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-1ls4srf-MuiTypography-root"
                 >
                   PixelCraft Studios
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1k8jm0j-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
                 >
                   Jun 2022 — Dec 2023
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-t2m39r-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
                 >
                   Developed interactive web experiences and marketing sites for high-profile clients. Focused on animation, performance optimization, and cross-browser consistency.
                 </p>
@@ -247,22 +247,22 @@ exports[`ExperienceTimeline matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-otbqt4"
               >
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-pyk4y6-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-1rr4gyp-MuiTypography-root"
                 >
                   Junior Developer Intern
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-13z2cdg-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-1ls4srf-MuiTypography-root"
                 >
                   CodeBridge Labs
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1k8jm0j-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
                 >
                   Jan 2022 — May 2022
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-t2m39r-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
                 >
                   Built internal tools and contributed to the component library. Learned production workflows, code review culture, and agile development practices.
                 </p>

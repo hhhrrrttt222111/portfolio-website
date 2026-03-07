@@ -32,12 +32,12 @@ exports[`JourneyTimeline matches snapshot (dark mode) 1`] = `
           </div>
           <div>
             <span
-              class="css-19v602t"
+              class="css-u4jj8o"
             >
               2017
             </span>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-63cf46-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
             >
               Started Coding
             </p>
@@ -56,12 +56,12 @@ exports[`JourneyTimeline matches snapshot (dark mode) 1`] = `
           </div>
           <div>
             <span
-              class="css-19v602t"
+              class="css-u4jj8o"
             >
               2020
             </span>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-63cf46-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
             >
               First Freelance Project
             </p>
@@ -80,12 +80,12 @@ exports[`JourneyTimeline matches snapshot (dark mode) 1`] = `
           </div>
           <div>
             <span
-              class="css-19v602t"
+              class="css-u4jj8o"
             >
               2022
             </span>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-63cf46-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
             >
               Joined a Startup
             </p>
@@ -104,12 +104,12 @@ exports[`JourneyTimeline matches snapshot (dark mode) 1`] = `
           </div>
           <div>
             <span
-              class="css-19v602t"
+              class="css-u4jj8o"
             >
               2024
             </span>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-63cf46-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
             >
               Built Products Used by Thousands
             </p>
@@ -153,12 +153,12 @@ exports[`JourneyTimeline matches snapshot (light mode) 1`] = `
           </div>
           <div>
             <span
-              class="css-1l8yjhg"
+              class="css-1rb3lmj"
             >
               2017
             </span>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-bt9j4t-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
             >
               Started Coding
             </p>
@@ -177,12 +177,12 @@ exports[`JourneyTimeline matches snapshot (light mode) 1`] = `
           </div>
           <div>
             <span
-              class="css-1l8yjhg"
+              class="css-1rb3lmj"
             >
               2020
             </span>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-bt9j4t-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
             >
               First Freelance Project
             </p>
@@ -201,12 +201,12 @@ exports[`JourneyTimeline matches snapshot (light mode) 1`] = `
           </div>
           <div>
             <span
-              class="css-1l8yjhg"
+              class="css-1rb3lmj"
             >
               2022
             </span>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-bt9j4t-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
             >
               Joined a Startup
             </p>
@@ -225,12 +225,12 @@ exports[`JourneyTimeline matches snapshot (light mode) 1`] = `
           </div>
           <div>
             <span
-              class="css-1l8yjhg"
+              class="css-1rb3lmj"
             >
               2024
             </span>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-bt9j4t-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
             >
               Built Products Used by Thousands
             </p>

@@ -1,6 +1,7 @@
 import { styled, keyframes } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import { fontFamilies } from "@/theme/theme";
 
 const float = keyframes`
   0%, 100% { transform: translateY(0px); }
@@ -54,8 +55,9 @@ export const SectionHeader = styled(Box)(({ theme }) => ({
 }));
 
 export const SectionTitle = styled("h2")(({ theme }) => ({
+  fontFamily: fontFamilies.heading,
   fontSize: "2rem",
-  fontWeight: 800,
+  fontWeight: 700,
   letterSpacing: "-0.02em",
   marginBottom: theme.spacing(2),
   position: "relative",
@@ -65,13 +67,13 @@ export const SectionTitle = styled("h2")(({ theme }) => ({
     content: '"<"',
     color: theme.palette.primary.main,
     marginRight: theme.spacing(1),
-    fontFamily: "'JetBrains Mono', monospace",
+    fontFamily: fontFamilies.mono,
   },
   "&::after": {
     content: '"/>"',
     color: theme.palette.primary.main,
     marginLeft: theme.spacing(1),
-    fontFamily: "'JetBrains Mono', monospace",
+    fontFamily: fontFamilies.mono,
   },
   [theme.breakpoints.up("sm")]: {
     fontSize: "2.5rem",
@@ -86,7 +88,7 @@ export const SectionSubtitle = styled(Typography)(({ theme }) => ({
   fontSize: "0.95rem",
   maxWidth: 500,
   margin: "0 auto",
-  fontFamily: "'JetBrains Mono', monospace",
+  fontFamily: fontFamilies.mono,
   [theme.breakpoints.up("md")]: {
     fontSize: "1rem",
   },
@@ -169,9 +171,9 @@ export const ProjectCard = styled(Box)(({ theme }) => {
 });
 
 export const ProjectNumber = styled(Typography)(({ theme }) => ({
-  fontFamily: "'JetBrains Mono', monospace",
+  fontFamily: fontFamilies.mono,
   fontSize: "3rem",
-  fontWeight: 800,
+  fontWeight: 700,
   color: theme.palette.mode === "dark" ? "rgba(102, 187, 106, 0.15)" : "rgba(46, 125, 50, 0.1)",
   position: "absolute",
   top: theme.spacing(2),
@@ -181,7 +183,8 @@ export const ProjectNumber = styled(Typography)(({ theme }) => ({
 }));
 
 export const ProjectTitle = styled(Typography)(({ theme }) => ({
-  fontWeight: 700,
+  fontFamily: fontFamilies.heading,
+  fontWeight: 600,
   fontSize: "1.25rem",
   marginBottom: theme.spacing(1.5),
   color: theme.palette.text.primary,
@@ -194,6 +197,7 @@ export const ProjectTitle = styled(Typography)(({ theme }) => ({
 }));
 
 export const ProjectDescription = styled(Typography)(({ theme }) => ({
+  fontFamily: fontFamilies.body,
   color: theme.palette.text.secondary,
   fontSize: "0.875rem",
   lineHeight: 1.7,
@@ -211,7 +215,7 @@ export const ProjectTag = styled(Box)(({ theme }) => {
   return {
     padding: `${theme.spacing(0.5)} ${theme.spacing(1.5)}`,
     borderRadius: theme.spacing(0.5),
-    fontFamily: "'JetBrains Mono', monospace",
+    fontFamily: fontFamilies.mono,
     fontSize: "0.7rem",
     fontWeight: 500,
     color: isDark ? theme.palette.primary.light : theme.palette.primary.dark,
@@ -228,7 +232,7 @@ export const GitHubLink = styled(Box)(({ theme }) => ({
   gap: theme.spacing(1),
   marginTop: theme.spacing(2),
   color: theme.palette.primary.main,
-  fontFamily: "'JetBrains Mono', monospace",
+  fontFamily: fontFamilies.mono,
   fontSize: "0.8rem",
   fontWeight: 500,
   opacity: 0.7,

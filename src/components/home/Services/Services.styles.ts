@@ -1,6 +1,7 @@
 import { styled, keyframes } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import { fontFamilies } from "@/theme/theme";
 
 const shimmer = keyframes`
   0% { background-position: -200% 0; }
@@ -77,7 +78,7 @@ export const SectionHeader = styled(Box)(({ theme }) => ({
 }));
 
 export const SectionLabel = styled(Typography)(({ theme }) => ({
-  fontFamily: "'JetBrains Mono', monospace",
+  fontFamily: fontFamilies.mono,
   fontSize: "0.75rem",
   fontWeight: 600,
   letterSpacing: "0.2em",
@@ -97,8 +98,10 @@ export const SectionLabel = styled(Typography)(({ theme }) => ({
 }));
 
 export const SectionTitle = styled("h2")(({ theme }) => ({
+  fontFamily: fontFamilies.heading,
   fontSize: "2rem",
-  fontWeight: 800,
+  fontWeight: 700,
+  letterSpacing: "-0.02em",
   marginBottom: theme.spacing(2),
   background: `linear-gradient(135deg, ${theme.palette.text.primary} 0%, ${theme.palette.primary.main} 50%, ${theme.palette.secondary.main} 100%)`,
   backgroundSize: "200% auto",
@@ -115,6 +118,7 @@ export const SectionTitle = styled("h2")(({ theme }) => ({
 }));
 
 export const SectionSubtitle = styled(Typography)(({ theme }) => ({
+  fontFamily: fontFamilies.body,
   color: theme.palette.text.secondary,
   fontSize: "0.95rem",
   maxWidth: 550,
@@ -218,7 +222,8 @@ export const IconRing = styled(Box)(({ theme }) => ({
 }));
 
 export const ServiceTitle = styled(Typography)(({ theme }) => ({
-  fontWeight: 700,
+  fontFamily: fontFamilies.heading,
+  fontWeight: 600,
   fontSize: "1.35rem",
   marginBottom: theme.spacing(1.5),
   color: theme.palette.text.primary,
@@ -228,6 +233,7 @@ export const ServiceTitle = styled(Typography)(({ theme }) => ({
 }));
 
 export const ServiceDescription = styled(Typography)(({ theme }) => ({
+  fontFamily: fontFamilies.body,
   color: theme.palette.text.secondary,
   fontSize: "0.9rem",
   lineHeight: 1.7,
@@ -245,7 +251,7 @@ export const FeatureItem = styled(Box)(({ theme }) => {
     display: "flex",
     alignItems: "center",
     gap: theme.spacing(1.5),
-    fontFamily: "'JetBrains Mono', monospace",
+    fontFamily: fontFamilies.mono,
     fontSize: "0.8rem",
     color: theme.palette.text.secondary,
     transition: "transform 0.3s ease",
@@ -264,9 +270,9 @@ export const ServiceNumber = styled(Typography)(({ theme }) => ({
   position: "absolute",
   top: theme.spacing(3),
   right: theme.spacing(3),
-  fontFamily: "'JetBrains Mono', monospace",
+  fontFamily: fontFamilies.mono,
   fontSize: "4rem",
-  fontWeight: 800,
+  fontWeight: 700,
   color: theme.palette.mode === "dark" ? "rgba(102, 187, 106, 0.08)" : "rgba(46, 125, 50, 0.05)",
   lineHeight: 1,
   userSelect: "none",

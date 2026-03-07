@@ -1,6 +1,7 @@
 import { styled, keyframes } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import { fontFamilies } from "@/theme/theme";
 
 const flicker = keyframes`
   0%, 100% { opacity: 1; }
@@ -42,8 +43,8 @@ export const SectionTitle = styled("h2")(({ theme }) => ({
   marginBottom: theme.spacing(1.5),
   fontWeight: 700,
   fontSize: "1.75rem",
-  fontFamily: "'Playfair Display', 'Georgia', serif",
-  fontStyle: "italic",
+  fontFamily: fontFamilies.heading,
+  letterSpacing: "-0.02em",
   backgroundImage: `linear-gradient(135deg, ${theme.palette.primary.main}, ${theme.palette.secondary.main})`,
   backgroundClip: "text",
   WebkitBackgroundClip: "text",
@@ -62,7 +63,7 @@ export const SectionSubtitle = styled(Typography)(({ theme }) => ({
   marginRight: "auto",
   fontSize: "0.95rem",
   lineHeight: 1.8,
-  fontFamily: "'Playfair Display', 'Georgia', serif",
+  fontFamily: fontFamilies.body,
   [theme.breakpoints.up("md")]: {
     marginBottom: theme.spacing(8),
     fontSize: "1.05rem",
@@ -133,7 +134,7 @@ export const CardInner = styled(Box)(({ theme }) => ({
 }));
 
 export const BlogTag = styled(Typography)(({ theme }) => ({
-  fontFamily: "'JetBrains Mono', 'Fira Code', 'Courier New', monospace",
+  fontFamily: fontFamilies.mono,
   fontSize: "0.65rem",
   fontWeight: 600,
   textTransform: "uppercase",
@@ -148,7 +149,7 @@ export const BlogTag = styled(Typography)(({ theme }) => ({
 }));
 
 export const BlogTitle = styled(Typography)(({ theme }) => ({
-  fontFamily: "'Playfair Display', 'Georgia', serif",
+  fontFamily: fontFamilies.heading,
   fontSize: "1.05rem",
   fontWeight: 600,
   color: theme.palette.text.primary,
@@ -159,14 +160,14 @@ export const BlogTitle = styled(Typography)(({ theme }) => ({
 }));
 
 export const BlogDate = styled(Typography)(({ theme }) => ({
-  fontFamily: "'JetBrains Mono', 'Fira Code', 'Courier New', monospace",
+  fontFamily: fontFamilies.mono,
   fontSize: "0.7rem",
   color: theme.palette.text.secondary,
   opacity: 0.7,
 }));
 
 export const BlogArrow = styled(Typography)(({ theme }) => ({
-  fontFamily: "'JetBrains Mono', 'Fira Code', 'Courier New', monospace",
+  fontFamily: fontFamilies.mono,
   fontSize: "0.8rem",
   color: theme.palette.primary.main,
   opacity: 0,
@@ -182,9 +183,8 @@ export const ViewAllLink = styled(Box)(({ theme }) => {
     justifyContent: "center",
     marginTop: theme.spacing(6),
     "& a": {
-      fontFamily: "'Playfair Display', 'Georgia', serif",
+      fontFamily: fontFamilies.body,
       fontSize: "1rem",
-      fontStyle: "italic",
       fontWeight: 600,
       color: theme.palette.primary.main,
       textDecoration: "none",

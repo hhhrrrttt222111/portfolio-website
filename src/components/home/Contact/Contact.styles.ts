@@ -1,6 +1,7 @@
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import { fontFamilies } from "@/theme/theme";
 
 export const ContactRoot = styled("section")(({ theme }) => ({
   paddingTop: theme.spacing(10),
@@ -20,8 +21,10 @@ export const ContactRoot = styled("section")(({ theme }) => ({
 export const ContactTitle = styled("h2")(({ theme }) => ({
   textAlign: "center",
   marginBottom: theme.spacing(2),
+  fontFamily: fontFamilies.heading,
   fontWeight: 700,
   fontSize: "1.75rem",
+  letterSpacing: "-0.02em",
   backgroundImage: `linear-gradient(135deg, ${theme.palette.primary.main}, ${theme.palette.secondary.main})`,
   backgroundClip: "text",
   WebkitBackgroundClip: "text",
@@ -37,6 +40,7 @@ export const ContactTitle = styled("h2")(({ theme }) => ({
 export const ContactSubtitle = styled(Typography)(({ theme }) => ({
   textAlign: "center",
   marginBottom: theme.spacing(6),
+  fontFamily: fontFamilies.body,
   color: theme.palette.text.secondary,
   maxWidth: 600,
   marginLeft: "auto",
@@ -88,6 +92,7 @@ export const InfoCard = styled(Box)(({ theme }) => {
 });
 
 export const InfoText = styled(Typography)(({ theme }) => ({
+  fontFamily: fontFamilies.body,
   color: theme.palette.text.secondary,
   fontSize: "0.95rem",
   lineHeight: 1.6,

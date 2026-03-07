@@ -2,6 +2,7 @@ import { styled } from "@mui/material/styles";
 import Drawer from "@mui/material/Drawer";
 import Typography from "@mui/material/Typography";
 import { Link } from "react-router-dom";
+import { fontFamilies } from "@/theme/theme";
 
 export const MobileDrawer = styled(Drawer)(({ theme }) => ({
   "& .MuiDrawer-paper": {
@@ -13,7 +14,8 @@ export const MobileDrawer = styled(Drawer)(({ theme }) => ({
 }));
 
 export const DrawerLogo = styled(Typography)(({ theme }) => ({
-  fontWeight: 800,
+  fontFamily: fontFamilies.heading,
+  fontWeight: 700,
   color: theme.palette.primary.main,
   letterSpacing: 2,
 }));
@@ -30,6 +32,7 @@ export const DrawerNavItem = styled(Link)(({ theme }) => ({
 }));
 
 export const DrawerNavLabel = styled(Typography)(({ theme }) => ({
+  fontFamily: fontFamilies.body,
   fontWeight: 600,
   color: theme.palette.text.primary,
 }));
@@ -39,6 +42,7 @@ export const DrawerContactButton = styled(Link)(({ theme }) => ({
   textAlign: "center",
   textDecoration: "none",
   borderRadius: 50,
+  fontFamily: fontFamilies.body,
   fontWeight: 600,
   fontSize: "0.95rem",
   paddingTop: 12,

@@ -1,6 +1,7 @@
 import { styled, keyframes } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import { fontFamilies } from "@/theme/theme";
 
 const glowPulse = keyframes`
   0%, 100% { box-shadow: 0 0 8px currentColor, 0 0 16px currentColor; }
@@ -73,11 +74,12 @@ export const MobileYear = styled(Typography)(({ theme }) => ({
   fontSize: "0.72rem",
   fontWeight: 700,
   color: theme.palette.primary.main,
-  fontFamily: "'JetBrains Mono', 'Fira Code', monospace",
+  fontFamily: fontFamilies.mono,
   marginBottom: theme.spacing(0.25),
 }));
 
 export const MobileTitle = styled(Typography)(({ theme }) => ({
+  fontFamily: fontFamilies.heading,
   fontSize: "0.9rem",
   fontWeight: 600,
   color: theme.palette.text.primary,
@@ -85,6 +87,7 @@ export const MobileTitle = styled(Typography)(({ theme }) => ({
 }));
 
 export const MobileDescription = styled(Typography)(({ theme }) => ({
+  fontFamily: fontFamilies.body,
   fontSize: "0.8rem",
   color: theme.palette.text.secondary,
   lineHeight: 1.6,
@@ -159,10 +162,11 @@ export const MilestoneYear = styled("span")(({ theme }) => ({
   fontWeight: 700,
   color: theme.palette.primary.main,
   marginTop: theme.spacing(1.5),
-  fontFamily: "'JetBrains Mono', 'Fira Code', monospace",
+  fontFamily: fontFamilies.mono,
 }));
 
 export const MilestoneTitle = styled(Typography)(({ theme }) => ({
+  fontFamily: fontFamilies.heading,
   fontSize: "0.82rem",
   fontWeight: 600,
   color: theme.palette.text.primary,

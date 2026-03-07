@@ -198,7 +198,7 @@ exports[`Footer matches snapshot (dark mode) 1`] = `
           </div>
         </div>
         <p
-          class="MuiTypography-root MuiTypography-body1 css-1ljt24v-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-body1 css-zbil2c-MuiTypography-root"
         >
           © 
           2026
@@ -408,7 +408,7 @@ exports[`Footer matches snapshot (light mode) 1`] = `
           </div>
         </div>
         <p
-          class="MuiTypography-root MuiTypography-body1 css-1314p8v-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-body1 css-1vsjjcz-MuiTypography-root"
         >
           © 
           2026

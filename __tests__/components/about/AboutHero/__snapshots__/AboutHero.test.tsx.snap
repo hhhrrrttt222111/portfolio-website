@@ -33,21 +33,21 @@ exports[`AboutHero matches snapshot (dark mode) 1`] = `
         >
           <div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-nmy4on-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-dhsisw-MuiTypography-root"
             >
               About Me
             </p>
           </div>
           <div>
             <h1
-              class="css-8a35ka"
+              class="css-a0eunv"
             >
               Hi, I'm Hemanth. I design thoughtful digital experiences.
             </h1>
           </div>
           <div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-j3r2o3-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-bhf9p5-MuiTypography-root"
             >
               I started as a curious kid tinkering with HTML in a school computer lab, and that spark never faded. Over the years, I've gone from building toy projects to shipping production software — learning that great engineering is equal parts craft, empathy, and relentless iteration. Today, I focus on creating interfaces that feel intuitive, performant, and genuinely delightful to use.
             </p>
@@ -57,12 +57,12 @@ exports[`AboutHero matches snapshot (dark mode) 1`] = `
               class="MuiBox-root css-euzpok"
             >
               <p
-                class="MuiTypography-root MuiTypography-body2 css-1cln9tj-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-g4s3kp-MuiTypography-root"
               >
                 When I'm not coding, you'll find me buried in a book. I'm an avid reader — fiction, non-fiction, philosophy, you name it. I believe reading shapes how I think and build.
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body2 css-1kbbl7b-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-3fyyzz-MuiTypography-root"
               >
                 <a
                   href="https://hemanthr.com/blog"
@@ -77,7 +77,7 @@ exports[`AboutHero matches snapshot (dark mode) 1`] = `
                   style="color: inherit; text-decoration: none;"
                 >
                   <span
-                    class="MuiTypography-root MuiTypography-body2 css-1teuhow-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body2 css-l9qnjn-MuiTypography-root"
                   >
                     My Reading List →
                   </span>
@@ -115,12 +115,12 @@ exports[`AboutHero matches snapshot (dark mode) 1`] = `
                   </div>
                   <div>
                     <span
-                      class="css-19v602t"
+                      class="css-u4jj8o"
                     >
                       2017
                     </span>
                     <p
-                      class="MuiTypography-root MuiTypography-body1 css-63cf46-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
                     >
                       Started Coding
                     </p>
@@ -139,12 +139,12 @@ exports[`AboutHero matches snapshot (dark mode) 1`] = `
                   </div>
                   <div>
                     <span
-                      class="css-19v602t"
+                      class="css-u4jj8o"
                     >
                       2020
                     </span>
                     <p
-                      class="MuiTypography-root MuiTypography-body1 css-63cf46-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
                     >
                       First Freelance Project
                     </p>
@@ -163,12 +163,12 @@ exports[`AboutHero matches snapshot (dark mode) 1`] = `
                   </div>
                   <div>
                     <span
-                      class="css-19v602t"
+                      class="css-u4jj8o"
                     >
                       2022
                     </span>
                     <p
-                      class="MuiTypography-root MuiTypography-body1 css-63cf46-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
                     >
                       Joined a Startup
                     </p>
@@ -187,12 +187,12 @@ exports[`AboutHero matches snapshot (dark mode) 1`] = `
                   </div>
                   <div>
                     <span
-                      class="css-19v602t"
+                      class="css-u4jj8o"
                     >
                       2024
                     </span>
                     <p
-                      class="MuiTypography-root MuiTypography-body1 css-63cf46-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
                     >
                       Built Products Used by Thousands
                     </p>
@@ -206,7 +206,7 @@ exports[`AboutHero matches snapshot (dark mode) 1`] = `
     </div>
     <div>
       <div
-        class="MuiBox-root css-6ceun0"
+        class="MuiBox-root css-e03jn5"
       >
         <div>
           <div
@@ -264,21 +264,21 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
         >
           <div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-6f7hgp-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-fnmglg-MuiTypography-root"
             >
               About Me
             </p>
           </div>
           <div>
             <h1
-              class="css-xnntos"
+              class="css-sdsz4r"
             >
               Hi, I'm Hemanth. I design thoughtful digital experiences.
             </h1>
           </div>
           <div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-wivatr-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-19dp2o-MuiTypography-root"
             >
               I started as a curious kid tinkering with HTML in a school computer lab, and that spark never faded. Over the years, I've gone from building toy projects to shipping production software — learning that great engineering is equal parts craft, empathy, and relentless iteration. Today, I focus on creating interfaces that feel intuitive, performant, and genuinely delightful to use.
             </p>
@@ -288,12 +288,12 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
               class="MuiBox-root css-jl4oqu"
             >
               <p
-                class="MuiTypography-root MuiTypography-body2 css-122nzjp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-k9b86f-MuiTypography-root"
               >
                 When I'm not coding, you'll find me buried in a book. I'm an avid reader — fiction, non-fiction, philosophy, you name it. I believe reading shapes how I think and build.
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body2 css-1kbbl7b-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-3fyyzz-MuiTypography-root"
               >
                 <a
                   href="https://hemanthr.com/blog"
@@ -308,7 +308,7 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
                   style="color: inherit; text-decoration: none;"
                 >
                   <span
-                    class="MuiTypography-root MuiTypography-body2 css-1sein9y-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body2 css-1oc0vx0-MuiTypography-root"
                   >
                     My Reading List →
                   </span>
@@ -346,12 +346,12 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
                   </div>
                   <div>
                     <span
-                      class="css-1l8yjhg"
+                      class="css-1rb3lmj"
                     >
                       2017
                     </span>
                     <p
-                      class="MuiTypography-root MuiTypography-body1 css-bt9j4t-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
                     >
                       Started Coding
                     </p>
@@ -370,12 +370,12 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
                   </div>
                   <div>
                     <span
-                      class="css-1l8yjhg"
+                      class="css-1rb3lmj"
                     >
                       2020
                     </span>
                     <p
-                      class="MuiTypography-root MuiTypography-body1 css-bt9j4t-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
                     >
                       First Freelance Project
                     </p>
@@ -394,12 +394,12 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
                   </div>
                   <div>
                     <span
-                      class="css-1l8yjhg"
+                      class="css-1rb3lmj"
                     >
                       2022
                     </span>
                     <p
-                      class="MuiTypography-root MuiTypography-body1 css-bt9j4t-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
                     >
                       Joined a Startup
                     </p>
@@ -418,12 +418,12 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
                   </div>
                   <div>
                     <span
-                      class="css-1l8yjhg"
+                      class="css-1rb3lmj"
                     >
                       2024
                     </span>
                     <p
-                      class="MuiTypography-root MuiTypography-body1 css-bt9j4t-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
                     >
                       Built Products Used by Thousands
                     </p>
@@ -437,7 +437,7 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
     </div>
     <div>
       <div
-        class="MuiBox-root css-tqfgxk"
+        class="MuiBox-root css-1odelyx"
       >
         <div>
           <div

@@ -1,5 +1,6 @@
 import { styled, keyframes } from "@mui/material/styles";
 import { Box } from "@mui/material";
+import { fontFamilies } from "@/theme/theme";
 
 const pulse = keyframes`
   0%, 100% {
@@ -110,7 +111,7 @@ export const ConnectionLine = styled("svg")(({ theme }) => ({
 }));
 
 export const LoadingText = styled(Box)(({ theme }) => ({
-  fontFamily: theme.typography.fontFamily,
+  fontFamily: fontFamilies.mono,
   fontSize: "1rem",
   fontWeight: 500,
   color: theme.palette.text.secondary,

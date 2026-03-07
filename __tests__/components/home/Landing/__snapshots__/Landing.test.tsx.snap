@@ -47,12 +47,12 @@ exports[`Landing matches snapshot 1`] = `
           class="MuiStack-root css-1sazv7p-MuiStack-root"
         >
           <p
-            class="MuiTypography-root MuiTypography-body1 css-1ank361-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-6dogy4-MuiTypography-root"
           >
             Hey, I'm a
           </p>
           <h1
-            class="css-1496exi"
+            class="css-az5fk7"
           >
             Creative 
             <br
@@ -69,7 +69,7 @@ exports[`Landing matches snapshot 1`] = `
           class="MuiStack-root css-dp9xmh-MuiStack-root"
         >
           <p
-            class="css-1ql5eux"
+            class="css-sxf45r"
           >
             Great design should feel 
             <span
@@ -79,7 +79,7 @@ exports[`Landing matches snapshot 1`] = `
             </span>
           </p>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-1c89c8k-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-12h1pj8-MuiTypography-root"
           >
             From logo to language, I build brands that connect and convert.
           </p>

@@ -1,6 +1,7 @@
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import { fontFamilies } from "@/theme/theme";
 
 export const FooterRoot = styled(Box)(({ theme }) => ({
   position: "relative",
@@ -79,6 +80,7 @@ export const SocialIconButton = styled("a")(({ theme }) => {
 
 export const CopyrightText = styled(Typography)(({ theme }) => ({
   textAlign: "center",
+  fontFamily: fontFamilies.body,
   color: theme.palette.text.secondary,
   fontSize: "0.85rem",
   marginTop: theme.spacing(2),

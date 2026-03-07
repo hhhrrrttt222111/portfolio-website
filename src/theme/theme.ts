@@ -1,6 +1,12 @@
 import { createTheme } from "@mui/material/styles";
 import type { PaletteMode } from "@mui/material";
 
+const fontFamilies = {
+  heading: "'Space Grotesk', 'Helvetica Neue', sans-serif",
+  body: "'Syne', 'Helvetica Neue', sans-serif",
+  mono: "'JetBrains Mono', 'Fira Code', 'Consolas', monospace",
+};
+
 const scrollbar = (mode: PaletteMode) => {
   const isLight = mode === "light";
   const track = isLight ? "#e8f0e0" : "#0d1f14";
@@ -76,13 +82,66 @@ const getDesignTokens = (mode: PaletteMode) => ({
         }),
   },
   typography: {
-    fontFamily: "'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif",
-    h1: { fontWeight: 700 },
-    h2: { fontWeight: 700 },
-    h3: { fontWeight: 600 },
-    h4: { fontWeight: 600 },
-    h5: { fontWeight: 500 },
-    h6: { fontWeight: 500 },
+    fontFamily: fontFamilies.body,
+    h1: {
+      fontFamily: fontFamilies.heading,
+      fontWeight: 700,
+      letterSpacing: "-0.02em",
+    },
+    h2: {
+      fontFamily: fontFamilies.heading,
+      fontWeight: 700,
+      letterSpacing: "-0.01em",
+    },
+    h3: {
+      fontFamily: fontFamilies.heading,
+      fontWeight: 600,
+      letterSpacing: "-0.01em",
+    },
+    h4: {
+      fontFamily: fontFamilies.heading,
+      fontWeight: 600,
+    },
+    h5: {
+      fontFamily: fontFamilies.heading,
+      fontWeight: 500,
+    },
+    h6: {
+      fontFamily: fontFamilies.heading,
+      fontWeight: 500,
+    },
+    subtitle1: {
+      fontFamily: fontFamilies.body,
+      fontWeight: 500,
+    },
+    subtitle2: {
+      fontFamily: fontFamilies.body,
+      fontWeight: 500,
+    },
+    body1: {
+      fontFamily: fontFamilies.body,
+      fontWeight: 400,
+      lineHeight: 1.7,
+    },
+    body2: {
+      fontFamily: fontFamilies.body,
+      fontWeight: 400,
+      lineHeight: 1.6,
+    },
+    button: {
+      fontFamily: fontFamilies.body,
+      fontWeight: 600,
+      textTransform: "none" as const,
+    },
+    caption: {
+      fontFamily: fontFamilies.mono,
+      fontWeight: 400,
+    },
+    overline: {
+      fontFamily: fontFamilies.mono,
+      fontWeight: 500,
+      letterSpacing: "0.15em",
+    },
   },
   components: {
     MuiCssBaseline: {
@@ -96,3 +155,5 @@ const getDesignTokens = (mode: PaletteMode) => ({
 });
 
 export const createAppTheme = (mode: PaletteMode) => createTheme(getDesignTokens(mode));
+
+export { fontFamilies };

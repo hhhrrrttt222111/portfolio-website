@@ -1,6 +1,7 @@
 import { styled, keyframes } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import { fontFamilies } from "@/theme/theme";
 
 const drift1 = keyframes`
   0%, 100% { transform: translate(0, 0) rotate(0deg); }
@@ -96,6 +97,7 @@ export const QuoteDecoration = styled(Box)(({ theme }) => {
 });
 
 export const QuoteText = styled("blockquote")(({ theme }) => ({
+  fontFamily: fontFamilies.heading,
   fontWeight: 600,
   fontSize: "1.5rem",
   lineHeight: 1.65,
@@ -123,7 +125,7 @@ export const QuoteAttribution = styled(Typography)(({ theme }) => ({
   fontSize: "0.85rem",
   fontWeight: 500,
   color: theme.palette.text.secondary,
-  fontFamily: "'JetBrains Mono', 'Fira Code', monospace",
+  fontFamily: fontFamilies.mono,
   letterSpacing: "0.05em",
   opacity: 0.6,
 }));

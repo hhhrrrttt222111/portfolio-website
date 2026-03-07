@@ -1,5 +1,6 @@
 import { styled } from "@mui/material/styles";
 import { Box, Typography } from "@mui/material";
+import { fontFamilies } from "@/theme/theme";
 
 export const LandingRoot = styled("section")(({ theme }) => ({
   backgroundColor:
@@ -20,10 +21,11 @@ export const LandingRoot = styled("section")(({ theme }) => ({
 }));
 
 export const HeroHeading = styled("h1")(({ theme }) => ({
-  fontWeight: 800,
+  fontFamily: fontFamilies.heading,
+  fontWeight: 700,
   fontSize: "clamp(2.5rem, 6vw, 5.5rem)",
   lineHeight: 1.05,
-  letterSpacing: "-0.02em",
+  letterSpacing: "-0.03em",
   color: theme.palette.text.primary,
   margin: 0,
   "& .highlight": {
@@ -33,6 +35,7 @@ export const HeroHeading = styled("h1")(({ theme }) => ({
 }));
 
 export const Subtitle = styled(Typography)(({ theme }) => ({
+  fontFamily: fontFamilies.body,
   fontSize: "clamp(1rem, 1.5vw, 1.25rem)",
   fontWeight: 500,
   color: theme.palette.text.secondary,
@@ -41,7 +44,8 @@ export const Subtitle = styled(Typography)(({ theme }) => ({
 }));
 
 export const TagLine = styled("p")(({ theme }) => ({
-  fontWeight: 700,
+  fontFamily: fontFamilies.heading,
+  fontWeight: 600,
   fontSize: "clamp(1.1rem, 2vw, 1.5rem)",
   color: theme.palette.text.primary,
   lineHeight: 1.4,
@@ -53,6 +57,7 @@ export const TagLine = styled("p")(({ theme }) => ({
 }));
 
 export const TagDescription = styled(Typography)(({ theme }) => ({
+  fontFamily: fontFamilies.body,
   fontSize: "0.9rem",
   color: theme.palette.text.secondary,
   maxWidth: 300,

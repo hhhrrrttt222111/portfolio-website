@@ -1,6 +1,7 @@
 import { styled, keyframes } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import { fontFamilies } from "@/theme/theme";
 
 const shimmerLine = keyframes`
   0% { background-position: -200% center; }
@@ -26,8 +27,10 @@ export const SectionRoot = styled("section")(({ theme }) => {
 
 export const SectionTitle = styled("h2")(({ theme }) => ({
   textAlign: "center",
-  fontWeight: 800,
+  fontFamily: fontFamilies.heading,
+  fontWeight: 700,
   fontSize: "2rem",
+  letterSpacing: "-0.02em",
   marginBottom: theme.spacing(2),
   backgroundImage: `linear-gradient(135deg, ${theme.palette.primary.main}, ${theme.palette.secondary.main})`,
   backgroundClip: "text",
@@ -40,6 +43,7 @@ export const SectionTitle = styled("h2")(({ theme }) => ({
 
 export const SectionSubtitle = styled(Typography)(({ theme }) => ({
   textAlign: "center",
+  fontFamily: fontFamilies.body,
   color: theme.palette.text.secondary,
   fontSize: "0.95rem",
   marginBottom: theme.spacing(8),
@@ -122,7 +126,7 @@ export const CardYearBadge = styled(Box)(({ theme }) => {
     "& .year-text": {
       fontSize: "0.72rem",
       fontWeight: 700,
-      fontFamily: "'JetBrains Mono', 'Fira Code', monospace",
+      fontFamily: fontFamilies.mono,
       color: theme.palette.primary.main,
       letterSpacing: "0.03em",
     },
@@ -139,7 +143,8 @@ export const CardLevel = styled(Typography)(({ theme }) => ({
 }));
 
 export const CardInstitution = styled(Typography)(({ theme }) => ({
-  fontWeight: 700,
+  fontFamily: fontFamilies.heading,
+  fontWeight: 600,
   fontSize: "1.05rem",
   color: theme.palette.text.primary,
   lineHeight: 1.4,

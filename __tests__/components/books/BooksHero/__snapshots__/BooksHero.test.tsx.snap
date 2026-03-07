@@ -14,7 +14,7 @@ exports[`BooksHero matches snapshot (dark mode) 1`] = `
       >
         <div>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-1dqn75d-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-dlcty3-MuiTypography-root"
           >
             10
              books read
@@ -22,14 +22,14 @@ exports[`BooksHero matches snapshot (dark mode) 1`] = `
         </div>
         <div>
           <h1
-            class="css-8fv0yl"
+            class="css-1s1yhwe"
           >
             My Reading Library
           </h1>
         </div>
         <div>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-u503td-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-1yhe6c8-MuiTypography-root"
           >
             A collection of books that have shaped my thinking — from software craft to philosophy, psychology, and everything in between.
           </p>
@@ -54,7 +54,7 @@ exports[`BooksHero matches snapshot (light mode) 1`] = `
       >
         <div>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-emv0vm-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-1wlzstl-MuiTypography-root"
           >
             10
              books read
@@ -62,14 +62,14 @@ exports[`BooksHero matches snapshot (light mode) 1`] = `
         </div>
         <div>
           <h1
-            class="css-1w4vldf"
+            class="css-6yer5h"
           >
             My Reading Library
           </h1>
         </div>
         <div>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-1eco2nv-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-nfqx83-MuiTypography-root"
           >
             A collection of books that have shaped my thinking — from software craft to philosophy, psychology, and everything in between.
           </p>

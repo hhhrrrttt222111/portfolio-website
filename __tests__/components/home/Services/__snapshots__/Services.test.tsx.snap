@@ -24,18 +24,18 @@ exports[`Services matches snapshot (dark mode) 1`] = `
         >
           <div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-16kzci1-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-69mhx8-MuiTypography-root"
             >
               What I Offer
             </p>
           </div>
           <h2
-            class="css-bh8e66"
+            class="css-181k9v3"
           >
             Services
           </h2>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-10kj4jr-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-1joc5b-MuiTypography-root"
           >
             Transforming ideas into exceptional digital experiences through expertise in design, development, and strategic consulting.
           </p>
@@ -52,7 +52,7 @@ exports[`Services matches snapshot (dark mode) 1`] = `
               class="MuiBox-root css-1nzjfdj"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-u9dka4-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-ci629l-MuiTypography-root"
               >
                 01
               </p>
@@ -75,12 +75,12 @@ exports[`Services matches snapshot (dark mode) 1`] = `
                 </svg>
               </div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1iba1x4-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1b5tq2c-MuiTypography-root"
               >
                 Website Creation
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1pdcbo7-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1x5kyux-MuiTypography-root"
               >
                 Building modern, responsive, and high-performance websites tailored to your business needs
               </p>
@@ -88,22 +88,22 @@ exports[`Services matches snapshot (dark mode) 1`] = `
                 class="MuiBox-root css-1otz78b"
               >
                 <div
-                  class="feature-item MuiBox-root css-999xn0"
+                  class="feature-item MuiBox-root css-y8q61d"
                 >
                   Custom web applications
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-999xn0"
+                  class="feature-item MuiBox-root css-y8q61d"
                 >
                   Responsive design
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-999xn0"
+                  class="feature-item MuiBox-root css-y8q61d"
                 >
                   SEO optimization
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-999xn0"
+                  class="feature-item MuiBox-root css-y8q61d"
                 >
                   Performance tuning
                 </div>
@@ -115,7 +115,7 @@ exports[`Services matches snapshot (dark mode) 1`] = `
               class="MuiBox-root css-1nzjfdj"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-u9dka4-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-ci629l-MuiTypography-root"
               >
                 02
               </p>
@@ -138,12 +138,12 @@ exports[`Services matches snapshot (dark mode) 1`] = `
                 </svg>
               </div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1iba1x4-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1b5tq2c-MuiTypography-root"
               >
                 Ideation
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1pdcbo7-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1x5kyux-MuiTypography-root"
               >
                 Transforming your vision into actionable plans with creative brainstorming and strategic thinking
               </p>
@@ -151,22 +151,22 @@ exports[`Services matches snapshot (dark mode) 1`] = `
                 class="MuiBox-root css-1otz78b"
               >
                 <div
-                  class="feature-item MuiBox-root css-999xn0"
+                  class="feature-item MuiBox-root css-y8q61d"
                 >
                   Product conceptualization
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-999xn0"
+                  class="feature-item MuiBox-root css-y8q61d"
                 >
                   Market research
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-999xn0"
+                  class="feature-item MuiBox-root css-y8q61d"
                 >
                   Feature prioritization
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-999xn0"
+                  class="feature-item MuiBox-root css-y8q61d"
                 >
                   MVP planning
                 </div>
@@ -178,7 +178,7 @@ exports[`Services matches snapshot (dark mode) 1`] = `
               class="MuiBox-root css-1nzjfdj"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-u9dka4-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-ci629l-MuiTypography-root"
               >
                 03
               </p>
@@ -201,12 +201,12 @@ exports[`Services matches snapshot (dark mode) 1`] = `
                 </svg>
               </div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1iba1x4-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1b5tq2c-MuiTypography-root"
               >
                 Web Designing
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1pdcbo7-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1x5kyux-MuiTypography-root"
               >
                 Crafting visually stunning and user-friendly interfaces that captivate and engage your audience
               </p>
@@ -214,22 +214,22 @@ exports[`Services matches snapshot (dark mode) 1`] = `
                 class="MuiBox-root css-1otz78b"
               >
                 <div
-                  class="feature-item MuiBox-root css-999xn0"
+                  class="feature-item MuiBox-root css-y8q61d"
                 >
                   UI/UX design
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-999xn0"
+                  class="feature-item MuiBox-root css-y8q61d"
                 >
                   Wireframing
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-999xn0"
+                  class="feature-item MuiBox-root css-y8q61d"
                 >
                   Prototyping
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-999xn0"
+                  class="feature-item MuiBox-root css-y8q61d"
                 >
                   Design systems
                 </div>
@@ -241,7 +241,7 @@ exports[`Services matches snapshot (dark mode) 1`] = `
               class="MuiBox-root css-1nzjfdj"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-u9dka4-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-ci629l-MuiTypography-root"
               >
                 04
               </p>
@@ -277,12 +277,12 @@ exports[`Services matches snapshot (dark mode) 1`] = `
                 </svg>
               </div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1iba1x4-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1b5tq2c-MuiTypography-root"
               >
                 Tech Consulting
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1pdcbo7-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1x5kyux-MuiTypography-root"
               >
                 Providing expert guidance on technology decisions, architecture, and best practices
               </p>
@@ -290,22 +290,22 @@ exports[`Services matches snapshot (dark mode) 1`] = `
                 class="MuiBox-root css-1otz78b"
               >
                 <div
-                  class="feature-item MuiBox-root css-999xn0"
+                  class="feature-item MuiBox-root css-y8q61d"
                 >
                   Architecture review
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-999xn0"
+                  class="feature-item MuiBox-root css-y8q61d"
                 >
                   Technology selection
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-999xn0"
+                  class="feature-item MuiBox-root css-y8q61d"
                 >
                   Code audits
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-999xn0"
+                  class="feature-item MuiBox-root css-y8q61d"
                 >
                   Team mentoring
                 </div>
@@ -343,18 +343,18 @@ exports[`Services matches snapshot (light mode) 1`] = `
         >
           <div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-lgwxaa-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-1m3m6zr-MuiTypography-root"
             >
               What I Offer
             </p>
           </div>
           <h2
-            class="css-ccihnb"
+            class="css-55t5ws"
           >
             Services
           </h2>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-jknn1-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-16o6c0a-MuiTypography-root"
           >
             Transforming ideas into exceptional digital experiences through expertise in design, development, and strategic consulting.
           </p>
@@ -371,7 +371,7 @@ exports[`Services matches snapshot (light mode) 1`] = `
               class="MuiBox-root css-gqs2pz"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-h3n4l6-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-dxqopu-MuiTypography-root"
               >
                 01
               </p>
@@ -394,12 +394,12 @@ exports[`Services matches snapshot (light mode) 1`] = `
                 </svg>
               </div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1ygqv4j-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-38b2m4-MuiTypography-root"
               >
                 Website Creation
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1te68o3-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-38s1nx-MuiTypography-root"
               >
                 Building modern, responsive, and high-performance websites tailored to your business needs
               </p>
@@ -407,22 +407,22 @@ exports[`Services matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-1otz78b"
               >
                 <div
-                  class="feature-item MuiBox-root css-b6qid6"
+                  class="feature-item MuiBox-root css-11b13q6"
                 >
                   Custom web applications
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-b6qid6"
+                  class="feature-item MuiBox-root css-11b13q6"
                 >
                   Responsive design
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-b6qid6"
+                  class="feature-item MuiBox-root css-11b13q6"
                 >
                   SEO optimization
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-b6qid6"
+                  class="feature-item MuiBox-root css-11b13q6"
                 >
                   Performance tuning
                 </div>
@@ -434,7 +434,7 @@ exports[`Services matches snapshot (light mode) 1`] = `
               class="MuiBox-root css-gqs2pz"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-h3n4l6-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-dxqopu-MuiTypography-root"
               >
                 02
               </p>
@@ -457,12 +457,12 @@ exports[`Services matches snapshot (light mode) 1`] = `
                 </svg>
               </div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1ygqv4j-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-38b2m4-MuiTypography-root"
               >
                 Ideation
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1te68o3-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-38s1nx-MuiTypography-root"
               >
                 Transforming your vision into actionable plans with creative brainstorming and strategic thinking
               </p>
@@ -470,22 +470,22 @@ exports[`Services matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-1otz78b"
               >
                 <div
-                  class="feature-item MuiBox-root css-b6qid6"
+                  class="feature-item MuiBox-root css-11b13q6"
                 >
                   Product conceptualization
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-b6qid6"
+                  class="feature-item MuiBox-root css-11b13q6"
                 >
                   Market research
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-b6qid6"
+                  class="feature-item MuiBox-root css-11b13q6"
                 >
                   Feature prioritization
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-b6qid6"
+                  class="feature-item MuiBox-root css-11b13q6"
                 >
                   MVP planning
                 </div>
@@ -497,7 +497,7 @@ exports[`Services matches snapshot (light mode) 1`] = `
               class="MuiBox-root css-gqs2pz"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-h3n4l6-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-dxqopu-MuiTypography-root"
               >
                 03
               </p>
@@ -520,12 +520,12 @@ exports[`Services matches snapshot (light mode) 1`] = `
                 </svg>
               </div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1ygqv4j-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-38b2m4-MuiTypography-root"
               >
                 Web Designing
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1te68o3-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-38s1nx-MuiTypography-root"
               >
                 Crafting visually stunning and user-friendly interfaces that captivate and engage your audience
               </p>
@@ -533,22 +533,22 @@ exports[`Services matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-1otz78b"
               >
                 <div
-                  class="feature-item MuiBox-root css-b6qid6"
+                  class="feature-item MuiBox-root css-11b13q6"
                 >
                   UI/UX design
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-b6qid6"
+                  class="feature-item MuiBox-root css-11b13q6"
                 >
                   Wireframing
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-b6qid6"
+                  class="feature-item MuiBox-root css-11b13q6"
                 >
                   Prototyping
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-b6qid6"
+                  class="feature-item MuiBox-root css-11b13q6"
                 >
                   Design systems
                 </div>
@@ -560,7 +560,7 @@ exports[`Services matches snapshot (light mode) 1`] = `
               class="MuiBox-root css-gqs2pz"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-h3n4l6-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-dxqopu-MuiTypography-root"
               >
                 04
               </p>
@@ -596,12 +596,12 @@ exports[`Services matches snapshot (light mode) 1`] = `
                 </svg>
               </div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1ygqv4j-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-38b2m4-MuiTypography-root"
               >
                 Tech Consulting
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1te68o3-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-38s1nx-MuiTypography-root"
               >
                 Providing expert guidance on technology decisions, architecture, and best practices
               </p>
@@ -609,22 +609,22 @@ exports[`Services matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-1otz78b"
               >
                 <div
-                  class="feature-item MuiBox-root css-b6qid6"
+                  class="feature-item MuiBox-root css-11b13q6"
                 >
                   Architecture review
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-b6qid6"
+                  class="feature-item MuiBox-root css-11b13q6"
                 >
                   Technology selection
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-b6qid6"
+                  class="feature-item MuiBox-root css-11b13q6"
                 >
                   Code audits
                 </div>
                 <div
-                  class="feature-item MuiBox-root css-b6qid6"
+                  class="feature-item MuiBox-root css-11b13q6"
                 >
                   Team mentoring
                 </div>

@@ -1,5 +1,6 @@
 import { styled, keyframes } from "@mui/material/styles";
 import Typography from "@mui/material/Typography";
+import { fontFamilies } from "@/theme/theme";
 
 const shimmer = keyframes`
   0% { background-position: -200% center; }
@@ -27,7 +28,8 @@ export const HeroRoot = styled("section")(({ theme }) => {
 export const HeroTitle = styled("h1")(({ theme }) => {
   const isDark = theme.palette.mode === "dark";
   return {
-    fontWeight: 800,
+    fontFamily: fontFamilies.heading,
+    fontWeight: 700,
     fontSize: "2.2rem",
     lineHeight: 1.15,
     letterSpacing: "-0.03em",
@@ -50,6 +52,7 @@ export const HeroTitle = styled("h1")(({ theme }) => {
 });
 
 export const HeroSubtitle = styled(Typography)(({ theme }) => ({
+  fontFamily: fontFamilies.body,
   fontSize: "1rem",
   lineHeight: 1.7,
   color: theme.palette.text.secondary,
@@ -64,7 +67,7 @@ export const HeroSubtitle = styled(Typography)(({ theme }) => ({
 export const BookCount = styled(Typography)(({ theme }) => ({
   fontSize: "0.8rem",
   fontWeight: 600,
-  fontFamily: "'JetBrains Mono', 'Fira Code', monospace",
+  fontFamily: fontFamilies.mono,
   color: theme.palette.primary.main,
   letterSpacing: "0.1em",
   textTransform: "uppercase",

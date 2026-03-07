@@ -1,5 +1,6 @@
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
+import { fontFamilies } from "@/theme/theme";
 
 export const FiltersRoot = styled(Box)(({ theme }) => ({
   display: "flex",
@@ -31,7 +32,7 @@ export const SearchField = styled(Box)(({ theme }) => {
       backdropFilter: "blur(12px)",
       color: theme.palette.text.primary,
       fontSize: "0.9rem",
-      fontFamily: "inherit",
+      fontFamily: fontFamilies.body,
       outline: "none",
       transition: "border-color 0.2s, box-shadow 0.2s",
       "&::placeholder": {
@@ -126,7 +127,7 @@ export const ResultCount = styled(Box)(({ theme }) => ({
   fontSize: "0.78rem",
   fontWeight: 500,
   color: theme.palette.text.secondary,
-  fontFamily: "'JetBrains Mono', 'Fira Code', monospace",
+  fontFamily: fontFamilies.mono,
   opacity: 0.6,
   marginLeft: "auto",
   whiteSpace: "nowrap",

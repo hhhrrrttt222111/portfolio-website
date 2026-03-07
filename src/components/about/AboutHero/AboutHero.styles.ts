@@ -1,6 +1,7 @@
 import { styled, keyframes } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import { fontFamilies } from "@/theme/theme";
 
 const float1 = keyframes`
   0%, 100% { transform: translate(0, 0) scale(1); }
@@ -146,7 +147,8 @@ export const HeroContent = styled(Box)(({ theme }) => ({
 export const HeroHeading = styled("h1")(({ theme }) => {
   const isDark = theme.palette.mode === "dark";
   return {
-    fontWeight: 800,
+    fontFamily: fontFamilies.heading,
+    fontWeight: 700,
     fontSize: "2.2rem",
     lineHeight: 1.15,
     letterSpacing: "-0.03em",
@@ -175,13 +177,14 @@ export const HeroSubheading = styled(Typography)(({ theme }) => ({
   letterSpacing: "0.15em",
   textTransform: "uppercase",
   marginBottom: theme.spacing(2),
-  fontFamily: "'JetBrains Mono', 'Fira Code', monospace",
+  fontFamily: fontFamilies.mono,
   [theme.breakpoints.up("md")]: {
     fontSize: "1.2rem",
   },
 }));
 
 export const HeroParagraph = styled(Typography)(({ theme }) => ({
+  fontFamily: fontFamilies.body,
   fontSize: "1.05rem",
   lineHeight: 1.85,
   color: theme.palette.text.secondary,
@@ -253,7 +256,7 @@ export const ScrollCue = styled(Box)(({ theme }) => {
     },
     "& .scroll-text": {
       fontSize: "0.65rem",
-      fontFamily: "'JetBrains Mono', monospace",
+      fontFamily: fontFamilies.mono,
       color: theme.palette.text.secondary,
       opacity: 0.5,
       letterSpacing: "0.1em",

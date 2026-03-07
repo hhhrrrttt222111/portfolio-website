@@ -1,6 +1,7 @@
 import { styled, keyframes } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import { fontFamilies } from "@/theme/theme";
 
 const shimmer = keyframes`
   0% { background-position: -200% 0; }
@@ -94,7 +95,8 @@ export const CardContent = styled(Box)(({ theme }) => ({
 }));
 
 export const CardTitle = styled(Typography)(({ theme }) => ({
-  fontWeight: 700,
+  fontFamily: fontFamilies.heading,
+  fontWeight: 600,
   fontSize: "0.95rem",
   lineHeight: 1.35,
   color: theme.palette.text.primary,
@@ -155,7 +157,7 @@ export const ReadDate = styled(Typography)(({ theme }) => ({
   fontSize: "0.68rem",
   fontWeight: 600,
   color: theme.palette.text.secondary,
-  fontFamily: "'JetBrains Mono', 'Fira Code', monospace",
+  fontFamily: fontFamilies.mono,
   opacity: 0.7,
   letterSpacing: "0.02em",
 }));

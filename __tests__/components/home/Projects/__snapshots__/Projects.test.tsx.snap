@@ -33,12 +33,12 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
           class="MuiBox-root css-x8unny"
         >
           <h2
-            class="css-csu9ye"
+            class="css-k2g7md"
           >
             Projects
           </h2>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-1o2grty-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-10k2z1p-MuiTypography-root"
           >
             // A collection of my recent work and experiments
           </p>
@@ -56,17 +56,17 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
               tabindex="0"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 project-number css-1f3uyre-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 project-number css-s7r81f-MuiTypography-root"
               >
                 01
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-k9nsjn-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-kzny1l-MuiTypography-root"
               >
                 Portfolio Website
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-44vosj-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1xv9bo0-MuiTypography-root"
               >
                 A modern, responsive portfolio website built with React and Material-UI
               </p>
@@ -74,23 +74,23 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
                 class="MuiBox-root css-m4ph7b"
               >
                 <div
-                  class="MuiBox-root css-bueq1t"
+                  class="MuiBox-root css-2wv1j8"
                 >
                   React
                 </div>
                 <div
-                  class="MuiBox-root css-bueq1t"
+                  class="MuiBox-root css-2wv1j8"
                 >
                   TypeScript
                 </div>
                 <div
-                  class="MuiBox-root css-bueq1t"
+                  class="MuiBox-root css-2wv1j8"
                 >
                   MUI
                 </div>
               </div>
               <div
-                class="github-icon MuiBox-root css-q4x0c8"
+                class="github-icon MuiBox-root css-46xu3j"
               >
                 <svg
                   aria-hidden="true"
@@ -117,17 +117,17 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
               tabindex="0"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 project-number css-1f3uyre-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 project-number css-s7r81f-MuiTypography-root"
               >
                 02
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-k9nsjn-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-kzny1l-MuiTypography-root"
               >
                 AI Assistant
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-44vosj-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1xv9bo0-MuiTypography-root"
               >
                 An intelligent chatbot powered by machine learning algorithms
               </p>
@@ -135,23 +135,23 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
                 class="MuiBox-root css-m4ph7b"
               >
                 <div
-                  class="MuiBox-root css-bueq1t"
+                  class="MuiBox-root css-2wv1j8"
                 >
                   Python
                 </div>
                 <div
-                  class="MuiBox-root css-bueq1t"
+                  class="MuiBox-root css-2wv1j8"
                 >
                   TensorFlow
                 </div>
                 <div
-                  class="MuiBox-root css-bueq1t"
+                  class="MuiBox-root css-2wv1j8"
                 >
                   NLP
                 </div>
               </div>
               <div
-                class="github-icon MuiBox-root css-q4x0c8"
+                class="github-icon MuiBox-root css-46xu3j"
               >
                 <svg
                   aria-hidden="true"
@@ -178,17 +178,17 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
               tabindex="0"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 project-number css-1f3uyre-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 project-number css-s7r81f-MuiTypography-root"
               >
                 03
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-k9nsjn-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-kzny1l-MuiTypography-root"
               >
                 E-Commerce Platform
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-44vosj-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1xv9bo0-MuiTypography-root"
               >
                 Full-stack e-commerce solution with payment integration
               </p>
@@ -196,23 +196,23 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
                 class="MuiBox-root css-m4ph7b"
               >
                 <div
-                  class="MuiBox-root css-bueq1t"
+                  class="MuiBox-root css-2wv1j8"
                 >
                   Node.js
                 </div>
                 <div
-                  class="MuiBox-root css-bueq1t"
+                  class="MuiBox-root css-2wv1j8"
                 >
                   React
                 </div>
                 <div
-                  class="MuiBox-root css-bueq1t"
+                  class="MuiBox-root css-2wv1j8"
                 >
                   MongoDB
                 </div>
               </div>
               <div
-                class="github-icon MuiBox-root css-q4x0c8"
+                class="github-icon MuiBox-root css-46xu3j"
               >
                 <svg
                   aria-hidden="true"
@@ -239,17 +239,17 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
               tabindex="0"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 project-number css-1f3uyre-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 project-number css-s7r81f-MuiTypography-root"
               >
                 04
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-k9nsjn-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-kzny1l-MuiTypography-root"
               >
                 Task Manager
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-44vosj-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1xv9bo0-MuiTypography-root"
               >
                 A productivity app for managing tasks and projects efficiently
               </p>
@@ -257,23 +257,23 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
                 class="MuiBox-root css-m4ph7b"
               >
                 <div
-                  class="MuiBox-root css-bueq1t"
+                  class="MuiBox-root css-2wv1j8"
                 >
                   React
                 </div>
                 <div
-                  class="MuiBox-root css-bueq1t"
+                  class="MuiBox-root css-2wv1j8"
                 >
                   Redux
                 </div>
                 <div
-                  class="MuiBox-root css-bueq1t"
+                  class="MuiBox-root css-2wv1j8"
                 >
                   Firebase
                 </div>
               </div>
               <div
-                class="github-icon MuiBox-root css-q4x0c8"
+                class="github-icon MuiBox-root css-46xu3j"
               >
                 <svg
                   aria-hidden="true"
@@ -300,17 +300,17 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
               tabindex="0"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 project-number css-1f3uyre-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 project-number css-s7r81f-MuiTypography-root"
               >
                 05
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-k9nsjn-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-kzny1l-MuiTypography-root"
               >
                 Weather Dashboard
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-44vosj-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1xv9bo0-MuiTypography-root"
               >
                 Real-time weather tracking with beautiful visualizations
               </p>
@@ -318,23 +318,23 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
                 class="MuiBox-root css-m4ph7b"
               >
                 <div
-                  class="MuiBox-root css-bueq1t"
+                  class="MuiBox-root css-2wv1j8"
                 >
                   Vue.js
                 </div>
                 <div
-                  class="MuiBox-root css-bueq1t"
+                  class="MuiBox-root css-2wv1j8"
                 >
                   D3.js
                 </div>
                 <div
-                  class="MuiBox-root css-bueq1t"
+                  class="MuiBox-root css-2wv1j8"
                 >
                   API
                 </div>
               </div>
               <div
-                class="github-icon MuiBox-root css-q4x0c8"
+                class="github-icon MuiBox-root css-46xu3j"
               >
                 <svg
                   aria-hidden="true"
@@ -361,17 +361,17 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
               tabindex="0"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 project-number css-1f3uyre-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 project-number css-s7r81f-MuiTypography-root"
               >
                 06
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-k9nsjn-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-kzny1l-MuiTypography-root"
               >
                 Code Editor
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-44vosj-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1xv9bo0-MuiTypography-root"
               >
                 A lightweight browser-based code editor with syntax highlighting
               </p>
@@ -379,23 +379,23 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
                 class="MuiBox-root css-m4ph7b"
               >
                 <div
-                  class="MuiBox-root css-bueq1t"
+                  class="MuiBox-root css-2wv1j8"
                 >
                   JavaScript
                 </div>
                 <div
-                  class="MuiBox-root css-bueq1t"
+                  class="MuiBox-root css-2wv1j8"
                 >
                   Monaco
                 </div>
                 <div
-                  class="MuiBox-root css-bueq1t"
+                  class="MuiBox-root css-2wv1j8"
                 >
                   WebAssembly
                 </div>
               </div>
               <div
-                class="github-icon MuiBox-root css-q4x0c8"
+                class="github-icon MuiBox-root css-46xu3j"
               >
                 <svg
                   aria-hidden="true"
@@ -454,12 +454,12 @@ exports[`Projects matches snapshot (light mode) 1`] = `
           class="MuiBox-root css-x8unny"
         >
           <h2
-            class="css-13wgsnl"
+            class="css-mg6jw0"
           >
             Projects
           </h2>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-1h1ysl9-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-1uacg00-MuiTypography-root"
           >
             // A collection of my recent work and experiments
           </p>
@@ -477,17 +477,17 @@ exports[`Projects matches snapshot (light mode) 1`] = `
               tabindex="0"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 project-number css-ket2ym-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 project-number css-ahvct6-MuiTypography-root"
               >
                 01
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-m8cg9c-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-117kfkz-MuiTypography-root"
               >
                 Portfolio Website
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1mypc0j-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-18dkxuq-MuiTypography-root"
               >
                 A modern, responsive portfolio website built with React and Material-UI
               </p>
@@ -495,23 +495,23 @@ exports[`Projects matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-m4ph7b"
               >
                 <div
-                  class="MuiBox-root css-1192pl9"
+                  class="MuiBox-root css-1mkg8z1"
                 >
                   React
                 </div>
                 <div
-                  class="MuiBox-root css-1192pl9"
+                  class="MuiBox-root css-1mkg8z1"
                 >
                   TypeScript
                 </div>
                 <div
-                  class="MuiBox-root css-1192pl9"
+                  class="MuiBox-root css-1mkg8z1"
                 >
                   MUI
                 </div>
               </div>
               <div
-                class="github-icon MuiBox-root css-vv9x9h"
+                class="github-icon MuiBox-root css-uuupg2"
               >
                 <svg
                   aria-hidden="true"
@@ -538,17 +538,17 @@ exports[`Projects matches snapshot (light mode) 1`] = `
               tabindex="0"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 project-number css-ket2ym-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 project-number css-ahvct6-MuiTypography-root"
               >
                 02
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-m8cg9c-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-117kfkz-MuiTypography-root"
               >
                 AI Assistant
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1mypc0j-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-18dkxuq-MuiTypography-root"
               >
                 An intelligent chatbot powered by machine learning algorithms
               </p>
@@ -556,23 +556,23 @@ exports[`Projects matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-m4ph7b"
               >
                 <div
-                  class="MuiBox-root css-1192pl9"
+                  class="MuiBox-root css-1mkg8z1"
                 >
                   Python
                 </div>
                 <div
-                  class="MuiBox-root css-1192pl9"
+                  class="MuiBox-root css-1mkg8z1"
                 >
                   TensorFlow
                 </div>
                 <div
-                  class="MuiBox-root css-1192pl9"
+                  class="MuiBox-root css-1mkg8z1"
                 >
                   NLP
                 </div>
               </div>
               <div
-                class="github-icon MuiBox-root css-vv9x9h"
+                class="github-icon MuiBox-root css-uuupg2"
               >
                 <svg
                   aria-hidden="true"
@@ -599,17 +599,17 @@ exports[`Projects matches snapshot (light mode) 1`] = `
               tabindex="0"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 project-number css-ket2ym-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 project-number css-ahvct6-MuiTypography-root"
               >
                 03
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-m8cg9c-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-117kfkz-MuiTypography-root"
               >
                 E-Commerce Platform
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1mypc0j-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-18dkxuq-MuiTypography-root"
               >
                 Full-stack e-commerce solution with payment integration
               </p>
@@ -617,23 +617,23 @@ exports[`Projects matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-m4ph7b"
               >
                 <div
-                  class="MuiBox-root css-1192pl9"
+                  class="MuiBox-root css-1mkg8z1"
                 >
                   Node.js
                 </div>
                 <div
-                  class="MuiBox-root css-1192pl9"
+                  class="MuiBox-root css-1mkg8z1"
                 >
                   React
                 </div>
                 <div
-                  class="MuiBox-root css-1192pl9"
+                  class="MuiBox-root css-1mkg8z1"
                 >
                   MongoDB
                 </div>
               </div>
               <div
-                class="github-icon MuiBox-root css-vv9x9h"
+                class="github-icon MuiBox-root css-uuupg2"
               >
                 <svg
                   aria-hidden="true"
@@ -660,17 +660,17 @@ exports[`Projects matches snapshot (light mode) 1`] = `
               tabindex="0"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 project-number css-ket2ym-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 project-number css-ahvct6-MuiTypography-root"
               >
                 04
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-m8cg9c-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-117kfkz-MuiTypography-root"
               >
                 Task Manager
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1mypc0j-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-18dkxuq-MuiTypography-root"
               >
                 A productivity app for managing tasks and projects efficiently
               </p>
@@ -678,23 +678,23 @@ exports[`Projects matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-m4ph7b"
               >
                 <div
-                  class="MuiBox-root css-1192pl9"
+                  class="MuiBox-root css-1mkg8z1"
                 >
                   React
                 </div>
                 <div
-                  class="MuiBox-root css-1192pl9"
+                  class="MuiBox-root css-1mkg8z1"
                 >
                   Redux
                 </div>
                 <div
-                  class="MuiBox-root css-1192pl9"
+                  class="MuiBox-root css-1mkg8z1"
                 >
                   Firebase
                 </div>
               </div>
               <div
-                class="github-icon MuiBox-root css-vv9x9h"
+                class="github-icon MuiBox-root css-uuupg2"
               >
                 <svg
                   aria-hidden="true"
@@ -721,17 +721,17 @@ exports[`Projects matches snapshot (light mode) 1`] = `
               tabindex="0"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 project-number css-ket2ym-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 project-number css-ahvct6-MuiTypography-root"
               >
                 05
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-m8cg9c-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-117kfkz-MuiTypography-root"
               >
                 Weather Dashboard
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1mypc0j-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-18dkxuq-MuiTypography-root"
               >
                 Real-time weather tracking with beautiful visualizations
               </p>
@@ -739,23 +739,23 @@ exports[`Projects matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-m4ph7b"
               >
                 <div
-                  class="MuiBox-root css-1192pl9"
+                  class="MuiBox-root css-1mkg8z1"
                 >
                   Vue.js
                 </div>
                 <div
-                  class="MuiBox-root css-1192pl9"
+                  class="MuiBox-root css-1mkg8z1"
                 >
                   D3.js
                 </div>
                 <div
-                  class="MuiBox-root css-1192pl9"
+                  class="MuiBox-root css-1mkg8z1"
                 >
                   API
                 </div>
               </div>
               <div
-                class="github-icon MuiBox-root css-vv9x9h"
+                class="github-icon MuiBox-root css-uuupg2"
               >
                 <svg
                   aria-hidden="true"
@@ -782,17 +782,17 @@ exports[`Projects matches snapshot (light mode) 1`] = `
               tabindex="0"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 project-number css-ket2ym-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 project-number css-ahvct6-MuiTypography-root"
               >
                 06
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-m8cg9c-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-117kfkz-MuiTypography-root"
               >
                 Code Editor
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1mypc0j-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-18dkxuq-MuiTypography-root"
               >
                 A lightweight browser-based code editor with syntax highlighting
               </p>
@@ -800,23 +800,23 @@ exports[`Projects matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-m4ph7b"
               >
                 <div
-                  class="MuiBox-root css-1192pl9"
+                  class="MuiBox-root css-1mkg8z1"
                 >
                   JavaScript
                 </div>
                 <div
-                  class="MuiBox-root css-1192pl9"
+                  class="MuiBox-root css-1mkg8z1"
                 >
                   Monaco
                 </div>
                 <div
-                  class="MuiBox-root css-1192pl9"
+                  class="MuiBox-root css-1mkg8z1"
                 >
                   WebAssembly
                 </div>
               </div>
               <div
-                class="github-icon MuiBox-root css-vv9x9h"
+                class="github-icon MuiBox-root css-uuupg2"
               >
                 <svg
                   aria-hidden="true"

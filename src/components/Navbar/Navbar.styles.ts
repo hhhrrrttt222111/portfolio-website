@@ -3,6 +3,7 @@ import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
 import { Link } from "react-router-dom";
+import { fontFamilies } from "@/theme/theme";
 
 export const NavbarRoot = styled(AppBar)(({ theme }) => ({
   backgroundColor: "transparent",
@@ -33,13 +34,13 @@ export const NavbarToolbar = styled(Toolbar)(({ theme }) => ({
 }));
 
 export const Logo = styled(Link)(({ theme }) => ({
-  fontWeight: 800,
+  fontWeight: 700,
   color: theme.palette.primary.main,
   letterSpacing: 3,
   textDecoration: "none",
   userSelect: "none",
   fontSize: "1.1rem",
-  fontFamily: theme.typography.h6.fontFamily,
+  fontFamily: fontFamilies.heading,
   [theme.breakpoints.up("md")]: {
     fontSize: "1.25rem",
   },
@@ -50,6 +51,7 @@ export const NavLink = styled(Link)(({ theme }) => ({
   textDecoration: "none",
   fontWeight: 600,
   fontSize: "0.9rem",
+  fontFamily: fontFamilies.body,
   borderRadius: 50,
   padding: theme.spacing(0.75, 2.5),
   transition: "background-color 0.2s",
@@ -62,6 +64,7 @@ export const ContactButton = styled(Link)(({ theme }) => ({
   textDecoration: "none",
   fontWeight: 600,
   fontSize: "0.9rem",
+  fontFamily: fontFamilies.body,
   borderRadius: 50,
   paddingLeft: 24,
   paddingRight: 24,
