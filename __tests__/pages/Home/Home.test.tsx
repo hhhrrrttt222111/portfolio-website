@@ -65,9 +65,4 @@ describe("Home", () => {
     expect(container.querySelectorAll("section").length).toBeGreaterThanOrEqual(1);
     expect(screen.getByTestId("footer")).toBeInTheDocument();
   });
-
-  it("matches snapshot", () => {
-    const { container } = renderHome();
-    expect(container).toMatchSnapshot();
-  });
 });

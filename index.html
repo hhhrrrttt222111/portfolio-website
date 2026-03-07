@@ -1,10 +1,85 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Hemanth R - Full Stack Developer & Software Engineer</title>
+    <meta name="title" content="Hemanth R - Full Stack Developer & Software Engineer" />
+    <meta name="description" content="Portfolio of Hemanth R, a passionate Full Stack Developer specializing in React, TypeScript, Node.js, and modern web technologies. Building beautiful, performant, and accessible web applications." />
+    <meta name="keywords" content="Hemanth R, Full Stack Developer, Software Engineer, React, TypeScript, Node.js, JavaScript, Web Development, Portfolio, Frontend Developer, Backend Developer" />
+    <meta name="author" content="Hemanth R" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio-website</title>
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="theme-color" content="#2e7d32" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hhhrrrttt222111.xyz/" />
+    <meta property="og:title" content="Hemanth R - Full Stack Developer & Software Engineer" />
+    <meta property="og:description" content="Portfolio of Hemanth R, a passionate Full Stack Developer specializing in React, TypeScript, Node.js, and modern web technologies." />
+    <meta property="og:image" content="https://hhhrrrttt222111.xyz/og-image.png" />
+    <meta property="og:site_name" content="Hemanth R Portfolio" />
+    <meta property="og:locale" content="en_US" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://hhhrrrttt222111.xyz/" />
+    <meta name="twitter:title" content="Hemanth R - Full Stack Developer & Software Engineer" />
+    <meta name="twitter:description" content="Portfolio of Hemanth R, a passionate Full Stack Developer specializing in React, TypeScript, Node.js, and modern web technologies." />
+    <meta name="twitter:image" content="https://hhhrrrttt222111.xyz/og-image.png" />
+    <meta name="twitter:site" content="@hhhrrrttt222111" />
+    <meta name="twitter:creator" content="@hhhrrrttt222111" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://hhhrrrttt222111.xyz/" />
+    
+    <!--
+      GitHub Pages SPA Redirect Handler
+      
+      This script works in conjunction with 404.html to handle client-side routing
+      on GitHub Pages. When a user refreshes a page or navigates directly to a
+      client-side route, 404.html redirects here with the path encoded in the URL.
+      This script decodes the path and uses the History API to restore the original
+      URL before React Router takes over.
+    -->
+    <script>
+      (function() {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+        
+        // Handle the /?/ redirect from 404.html
+        var search = location.search;
+        if (search && search.length > 2 && search.slice(0, 2) === '?/') {
+          var decoded = search.slice(2).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&');
+          }).join('?');
+          
+          var path = decoded.split('?')[0];
+          var query = decoded.split('?')[1] || '';
+          
+          history.replaceState(
+            null, 
+            null,
+            '/' + path + (query ? '?' + query : '') + location.hash
+          );
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

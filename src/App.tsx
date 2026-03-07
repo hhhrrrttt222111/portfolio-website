@@ -1,16 +1,35 @@
+import { lazy, Suspense, useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Box from "@mui/material/Box";
 import { CursorFollower, DarkModeToggle, OfflineFallback, ScrollIndicator } from "@/components";
+import Loader from "@/components/Loader/Loader";
 import { useNetwork } from "@/hooks";
-// import { useDevToolsWarning, useNetwork } from "@/hooks";
-import { Home, About, Books } from "@/pages";
+
+const Home = lazy(() => import("@/pages/Home/Home"));
+const About = lazy(() => import("@/pages/About/About"));
+const Books = lazy(() => import("@/pages/Books/Books"));
+const NotFound = lazy(() => import("@/pages/NotFound/NotFound"));
+
+const MINIMUM_LOADER_DURATION_MS = 2000;
 
 const App = () => {
   const isOnline = useNetwork();
-  // useDevToolsWarning();
+  const [isInitialLoading, setIsInitialLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsInitialLoading(false);
+    }, MINIMUM_LOADER_DURATION_MS);
+
+    return () => clearTimeout(timer);
+  }, []);
 
   if (!isOnline) {
     return <OfflineFallback />;
+  }
+
+  if (isInitialLoading) {
+    return <Loader text="Loading" />;
   }
 
   return (
@@ -26,11 +45,14 @@ const App = () => {
       <BrowserRouter>
         <CursorFollower />
         <DarkModeToggle />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/books" element={<Books />} />
-        </Routes>
+        <Suspense fallback={<Loader text="Loading page" />}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/books" element={<Books />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </Suspense>
       </BrowserRouter>
     </Box>
   );
