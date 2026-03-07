@@ -60,7 +60,7 @@ export const TECH_STACK: SkillCategory[] = [
     id: "devops",
     label: "DevOps & Cloud",
     command: "ls ~/devops",
-    skills: ["Git", "AWS", "Docker", "Kubernetes", "Jenkins", "CI/CD", "Linux", "Shell Scripting"],
+    skills: ["Azure", "AWS", "Docker, Kubernetes", "Jenkins", "Linux/Shell Scripting"],
     accentColor: "#aed581",
   },
   {

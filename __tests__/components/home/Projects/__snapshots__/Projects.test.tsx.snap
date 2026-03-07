@@ -1,13 +1,843 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
-exports[`Projects matches snapshot 1`] = `
+exports[`Projects matches snapshot (dark mode) 1`] = `
 <div>
   <section
-    class="MuiBox-root css-1ah75nb"
+    class="css-f51odi"
+    id="projects"
   >
     <div
-      class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+      class="MuiBox-root css-11pcxdu"
     />
+    <div
+      class="MuiBox-root css-hohvkg"
+      delay="0"
+    />
+    <div
+      class="MuiBox-root css-q6wjhm"
+      delay="1"
+    />
+    <div
+      class="MuiBox-root css-1r4xyne"
+      delay="2"
+    />
+    <div
+      class="MuiBox-root css-1w71bxy"
+      delay="1.5"
+    />
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+    >
+      <div>
+        <div
+          class="MuiBox-root css-x8unny"
+        >
+          <h2
+            class="css-csu9ye"
+          >
+            Projects
+          </h2>
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-1o2grty-MuiTypography-root"
+          >
+            // A collection of my recent work and experiments
+          </p>
+        </div>
+      </div>
+      <div>
+        <div
+          class="MuiBox-root css-1hv2fz6"
+        >
+          <div>
+            <div
+              aria-label="View Portfolio Website on GitHub"
+              class="MuiBox-root css-1yqqumb"
+              role="button"
+              tabindex="0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 project-number css-1f3uyre-MuiTypography-root"
+              >
+                01
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-k9nsjn-MuiTypography-root"
+              >
+                Portfolio Website
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-44vosj-MuiTypography-root"
+              >
+                A modern, responsive portfolio website built with React and Material-UI
+              </p>
+              <div
+                class="MuiBox-root css-m4ph7b"
+              >
+                <div
+                  class="MuiBox-root css-bueq1t"
+                >
+                  React
+                </div>
+                <div
+                  class="MuiBox-root css-bueq1t"
+                >
+                  TypeScript
+                </div>
+                <div
+                  class="MuiBox-root css-bueq1t"
+                >
+                  MUI
+                </div>
+              </div>
+              <div
+                class="github-icon MuiBox-root css-q4x0c8"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                  data-testid="GitHubIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+                  />
+                </svg>
+                <span>
+                  View on GitHub
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              aria-label="View AI Assistant on GitHub"
+              class="MuiBox-root css-1yqqumb"
+              role="button"
+              tabindex="0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 project-number css-1f3uyre-MuiTypography-root"
+              >
+                02
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-k9nsjn-MuiTypography-root"
+              >
+                AI Assistant
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-44vosj-MuiTypography-root"
+              >
+                An intelligent chatbot powered by machine learning algorithms
+              </p>
+              <div
+                class="MuiBox-root css-m4ph7b"
+              >
+                <div
+                  class="MuiBox-root css-bueq1t"
+                >
+                  Python
+                </div>
+                <div
+                  class="MuiBox-root css-bueq1t"
+                >
+                  TensorFlow
+                </div>
+                <div
+                  class="MuiBox-root css-bueq1t"
+                >
+                  NLP
+                </div>
+              </div>
+              <div
+                class="github-icon MuiBox-root css-q4x0c8"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                  data-testid="GitHubIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+                  />
+                </svg>
+                <span>
+                  View on GitHub
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              aria-label="View E-Commerce Platform on GitHub"
+              class="MuiBox-root css-1yqqumb"
+              role="button"
+              tabindex="0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 project-number css-1f3uyre-MuiTypography-root"
+              >
+                03
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-k9nsjn-MuiTypography-root"
+              >
+                E-Commerce Platform
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-44vosj-MuiTypography-root"
+              >
+                Full-stack e-commerce solution with payment integration
+              </p>
+              <div
+                class="MuiBox-root css-m4ph7b"
+              >
+                <div
+                  class="MuiBox-root css-bueq1t"
+                >
+                  Node.js
+                </div>
+                <div
+                  class="MuiBox-root css-bueq1t"
+                >
+                  React
+                </div>
+                <div
+                  class="MuiBox-root css-bueq1t"
+                >
+                  MongoDB
+                </div>
+              </div>
+              <div
+                class="github-icon MuiBox-root css-q4x0c8"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                  data-testid="GitHubIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+                  />
+                </svg>
+                <span>
+                  View on GitHub
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              aria-label="View Task Manager on GitHub"
+              class="MuiBox-root css-1yqqumb"
+              role="button"
+              tabindex="0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 project-number css-1f3uyre-MuiTypography-root"
+              >
+                04
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-k9nsjn-MuiTypography-root"
+              >
+                Task Manager
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-44vosj-MuiTypography-root"
+              >
+                A productivity app for managing tasks and projects efficiently
+              </p>
+              <div
+                class="MuiBox-root css-m4ph7b"
+              >
+                <div
+                  class="MuiBox-root css-bueq1t"
+                >
+                  React
+                </div>
+                <div
+                  class="MuiBox-root css-bueq1t"
+                >
+                  Redux
+                </div>
+                <div
+                  class="MuiBox-root css-bueq1t"
+                >
+                  Firebase
+                </div>
+              </div>
+              <div
+                class="github-icon MuiBox-root css-q4x0c8"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                  data-testid="GitHubIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+                  />
+                </svg>
+                <span>
+                  View on GitHub
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              aria-label="View Weather Dashboard on GitHub"
+              class="MuiBox-root css-1yqqumb"
+              role="button"
+              tabindex="0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 project-number css-1f3uyre-MuiTypography-root"
+              >
+                05
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-k9nsjn-MuiTypography-root"
+              >
+                Weather Dashboard
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-44vosj-MuiTypography-root"
+              >
+                Real-time weather tracking with beautiful visualizations
+              </p>
+              <div
+                class="MuiBox-root css-m4ph7b"
+              >
+                <div
+                  class="MuiBox-root css-bueq1t"
+                >
+                  Vue.js
+                </div>
+                <div
+                  class="MuiBox-root css-bueq1t"
+                >
+                  D3.js
+                </div>
+                <div
+                  class="MuiBox-root css-bueq1t"
+                >
+                  API
+                </div>
+              </div>
+              <div
+                class="github-icon MuiBox-root css-q4x0c8"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                  data-testid="GitHubIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+                  />
+                </svg>
+                <span>
+                  View on GitHub
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              aria-label="View Code Editor on GitHub"
+              class="MuiBox-root css-1yqqumb"
+              role="button"
+              tabindex="0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 project-number css-1f3uyre-MuiTypography-root"
+              >
+                06
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-k9nsjn-MuiTypography-root"
+              >
+                Code Editor
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-44vosj-MuiTypography-root"
+              >
+                A lightweight browser-based code editor with syntax highlighting
+              </p>
+              <div
+                class="MuiBox-root css-m4ph7b"
+              >
+                <div
+                  class="MuiBox-root css-bueq1t"
+                >
+                  JavaScript
+                </div>
+                <div
+                  class="MuiBox-root css-bueq1t"
+                >
+                  Monaco
+                </div>
+                <div
+                  class="MuiBox-root css-bueq1t"
+                >
+                  WebAssembly
+                </div>
+              </div>
+              <div
+                class="github-icon MuiBox-root css-q4x0c8"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                  data-testid="GitHubIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+                  />
+                </svg>
+                <span>
+                  View on GitHub
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`Projects matches snapshot (light mode) 1`] = `
+<div>
+  <section
+    class="css-ixbfqa"
+    id="projects"
+  >
+    <div
+      class="MuiBox-root css-11pcxdu"
+    />
+    <div
+      class="MuiBox-root css-1kwrneb"
+      delay="0"
+    />
+    <div
+      class="MuiBox-root css-pozbgi"
+      delay="1"
+    />
+    <div
+      class="MuiBox-root css-17xp9aw"
+      delay="2"
+    />
+    <div
+      class="MuiBox-root css-1q74cq3"
+      delay="1.5"
+    />
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+    >
+      <div>
+        <div
+          class="MuiBox-root css-x8unny"
+        >
+          <h2
+            class="css-13wgsnl"
+          >
+            Projects
+          </h2>
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-1h1ysl9-MuiTypography-root"
+          >
+            // A collection of my recent work and experiments
+          </p>
+        </div>
+      </div>
+      <div>
+        <div
+          class="MuiBox-root css-1hv2fz6"
+        >
+          <div>
+            <div
+              aria-label="View Portfolio Website on GitHub"
+              class="MuiBox-root css-n8z33w"
+              role="button"
+              tabindex="0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 project-number css-ket2ym-MuiTypography-root"
+              >
+                01
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-m8cg9c-MuiTypography-root"
+              >
+                Portfolio Website
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1mypc0j-MuiTypography-root"
+              >
+                A modern, responsive portfolio website built with React and Material-UI
+              </p>
+              <div
+                class="MuiBox-root css-m4ph7b"
+              >
+                <div
+                  class="MuiBox-root css-1192pl9"
+                >
+                  React
+                </div>
+                <div
+                  class="MuiBox-root css-1192pl9"
+                >
+                  TypeScript
+                </div>
+                <div
+                  class="MuiBox-root css-1192pl9"
+                >
+                  MUI
+                </div>
+              </div>
+              <div
+                class="github-icon MuiBox-root css-vv9x9h"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                  data-testid="GitHubIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+                  />
+                </svg>
+                <span>
+                  View on GitHub
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              aria-label="View AI Assistant on GitHub"
+              class="MuiBox-root css-n8z33w"
+              role="button"
+              tabindex="0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 project-number css-ket2ym-MuiTypography-root"
+              >
+                02
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-m8cg9c-MuiTypography-root"
+              >
+                AI Assistant
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1mypc0j-MuiTypography-root"
+              >
+                An intelligent chatbot powered by machine learning algorithms
+              </p>
+              <div
+                class="MuiBox-root css-m4ph7b"
+              >
+                <div
+                  class="MuiBox-root css-1192pl9"
+                >
+                  Python
+                </div>
+                <div
+                  class="MuiBox-root css-1192pl9"
+                >
+                  TensorFlow
+                </div>
+                <div
+                  class="MuiBox-root css-1192pl9"
+                >
+                  NLP
+                </div>
+              </div>
+              <div
+                class="github-icon MuiBox-root css-vv9x9h"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                  data-testid="GitHubIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+                  />
+                </svg>
+                <span>
+                  View on GitHub
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              aria-label="View E-Commerce Platform on GitHub"
+              class="MuiBox-root css-n8z33w"
+              role="button"
+              tabindex="0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 project-number css-ket2ym-MuiTypography-root"
+              >
+                03
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-m8cg9c-MuiTypography-root"
+              >
+                E-Commerce Platform
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1mypc0j-MuiTypography-root"
+              >
+                Full-stack e-commerce solution with payment integration
+              </p>
+              <div
+                class="MuiBox-root css-m4ph7b"
+              >
+                <div
+                  class="MuiBox-root css-1192pl9"
+                >
+                  Node.js
+                </div>
+                <div
+                  class="MuiBox-root css-1192pl9"
+                >
+                  React
+                </div>
+                <div
+                  class="MuiBox-root css-1192pl9"
+                >
+                  MongoDB
+                </div>
+              </div>
+              <div
+                class="github-icon MuiBox-root css-vv9x9h"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                  data-testid="GitHubIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+                  />
+                </svg>
+                <span>
+                  View on GitHub
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              aria-label="View Task Manager on GitHub"
+              class="MuiBox-root css-n8z33w"
+              role="button"
+              tabindex="0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 project-number css-ket2ym-MuiTypography-root"
+              >
+                04
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-m8cg9c-MuiTypography-root"
+              >
+                Task Manager
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1mypc0j-MuiTypography-root"
+              >
+                A productivity app for managing tasks and projects efficiently
+              </p>
+              <div
+                class="MuiBox-root css-m4ph7b"
+              >
+                <div
+                  class="MuiBox-root css-1192pl9"
+                >
+                  React
+                </div>
+                <div
+                  class="MuiBox-root css-1192pl9"
+                >
+                  Redux
+                </div>
+                <div
+                  class="MuiBox-root css-1192pl9"
+                >
+                  Firebase
+                </div>
+              </div>
+              <div
+                class="github-icon MuiBox-root css-vv9x9h"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                  data-testid="GitHubIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+                  />
+                </svg>
+                <span>
+                  View on GitHub
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              aria-label="View Weather Dashboard on GitHub"
+              class="MuiBox-root css-n8z33w"
+              role="button"
+              tabindex="0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 project-number css-ket2ym-MuiTypography-root"
+              >
+                05
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-m8cg9c-MuiTypography-root"
+              >
+                Weather Dashboard
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1mypc0j-MuiTypography-root"
+              >
+                Real-time weather tracking with beautiful visualizations
+              </p>
+              <div
+                class="MuiBox-root css-m4ph7b"
+              >
+                <div
+                  class="MuiBox-root css-1192pl9"
+                >
+                  Vue.js
+                </div>
+                <div
+                  class="MuiBox-root css-1192pl9"
+                >
+                  D3.js
+                </div>
+                <div
+                  class="MuiBox-root css-1192pl9"
+                >
+                  API
+                </div>
+              </div>
+              <div
+                class="github-icon MuiBox-root css-vv9x9h"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                  data-testid="GitHubIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+                  />
+                </svg>
+                <span>
+                  View on GitHub
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              aria-label="View Code Editor on GitHub"
+              class="MuiBox-root css-n8z33w"
+              role="button"
+              tabindex="0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 project-number css-ket2ym-MuiTypography-root"
+              >
+                06
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-m8cg9c-MuiTypography-root"
+              >
+                Code Editor
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1mypc0j-MuiTypography-root"
+              >
+                A lightweight browser-based code editor with syntax highlighting
+              </p>
+              <div
+                class="MuiBox-root css-m4ph7b"
+              >
+                <div
+                  class="MuiBox-root css-1192pl9"
+                >
+                  JavaScript
+                </div>
+                <div
+                  class="MuiBox-root css-1192pl9"
+                >
+                  Monaco
+                </div>
+                <div
+                  class="MuiBox-root css-1192pl9"
+                >
+                  WebAssembly
+                </div>
+              </div>
+              <div
+                class="github-icon MuiBox-root css-vv9x9h"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                  data-testid="GitHubIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+                  />
+                </svg>
+                <span>
+                  View on GitHub
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </div>
 `;

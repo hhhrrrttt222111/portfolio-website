@@ -15,3 +15,7 @@ export {
   BOOK_REVIEW_BLOG_URL,
 } from "./about";
 export type { Education, JourneyMilestone, Experience } from "./about";
+export { PROJECTS } from "./projects";
+export type { Project } from "./projects";
+export { SERVICES } from "./services";
+export type { Service } from "./services";

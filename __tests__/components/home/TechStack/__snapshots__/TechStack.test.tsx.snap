@@ -25,7 +25,7 @@ exports[`TechStack matches snapshot (dark mode) 1`] = `
           <p
             class="MuiTypography-root MuiTypography-body1 css-1k5mkjx-MuiTypography-root"
           >
-            39
+            36
              tools & technologies across 
             9
              domains.
@@ -1363,7 +1363,7 @@ exports[`TechStack matches snapshot (dark mode) 1`] = `
                               class="skill-label"
                               style="transition: letter-spacing 0.45s ease;"
                             >
-                              Git
+                              Azure
                             </span>
                           </p>
                         </div>
@@ -1429,40 +1429,7 @@ exports[`TechStack matches snapshot (dark mode) 1`] = `
                               class="skill-label"
                               style="transition: letter-spacing 0.45s ease;"
                             >
-                              Docker
-                            </span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="MuiBox-root css-0"
-                  >
-                    <div
-                      class="MuiBox-root css-rl70ag"
-                    >
-                      <div
-                        class="skill-fill"
-                        style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #aed5812e, #aed58117); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
-                      />
-                      <div
-                        class="MuiBox-root css-mqp1b6"
-                      >
-                        <div
-                          style="display: flex; align-items: center; width: 100%;"
-                        >
-                          <p
-                            class="MuiTypography-root MuiTypography-body1 css-rz0skc-MuiTypography-root"
-                          >
-                            <span
-                              class="skill-dot MuiBox-root css-1yogpow"
-                            />
-                            <span
-                              class="skill-label"
-                              style="transition: letter-spacing 0.45s ease;"
-                            >
-                              Kubernetes
+                              Docker, Kubernetes
                             </span>
                           </p>
                         </div>
@@ -1528,73 +1495,7 @@ exports[`TechStack matches snapshot (dark mode) 1`] = `
                               class="skill-label"
                               style="transition: letter-spacing 0.45s ease;"
                             >
-                              CI/CD
-                            </span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="MuiBox-root css-0"
-                  >
-                    <div
-                      class="MuiBox-root css-rl70ag"
-                    >
-                      <div
-                        class="skill-fill"
-                        style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #aed5812e, #aed58117); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
-                      />
-                      <div
-                        class="MuiBox-root css-mqp1b6"
-                      >
-                        <div
-                          style="display: flex; align-items: center; width: 100%;"
-                        >
-                          <p
-                            class="MuiTypography-root MuiTypography-body1 css-rz0skc-MuiTypography-root"
-                          >
-                            <span
-                              class="skill-dot MuiBox-root css-1yogpow"
-                            />
-                            <span
-                              class="skill-label"
-                              style="transition: letter-spacing 0.45s ease;"
-                            >
-                              Linux
-                            </span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="MuiBox-root css-0"
-                  >
-                    <div
-                      class="MuiBox-root css-rl70ag"
-                    >
-                      <div
-                        class="skill-fill"
-                        style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #aed5812e, #aed58117); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
-                      />
-                      <div
-                        class="MuiBox-root css-mqp1b6"
-                      >
-                        <div
-                          style="display: flex; align-items: center; width: 100%;"
-                        >
-                          <p
-                            class="MuiTypography-root MuiTypography-body1 css-rz0skc-MuiTypography-root"
-                          >
-                            <span
-                              class="skill-dot MuiBox-root css-1yogpow"
-                            />
-                            <span
-                              class="skill-label"
-                              style="transition: letter-spacing 0.45s ease;"
-                            >
-                              Shell Scripting
+                              Linux/Shell Scripting
                             </span>
                           </p>
                         </div>
@@ -1605,7 +1506,7 @@ exports[`TechStack matches snapshot (dark mode) 1`] = `
                 <p
                   class="MuiTypography-root MuiTypography-body1 css-z3c4cx-MuiTypography-root"
                 >
-                  8
+                  5
                    
                   items
                    found
@@ -1940,7 +1841,7 @@ exports[`TechStack matches snapshot (light mode) 1`] = `
           <p
             class="MuiTypography-root MuiTypography-body1 css-sid8rk-MuiTypography-root"
           >
-            39
+            36
              tools & technologies across 
             9
              domains.
@@ -3278,7 +3179,7 @@ exports[`TechStack matches snapshot (light mode) 1`] = `
                               class="skill-label"
                               style="transition: letter-spacing 0.45s ease;"
                             >
-                              Git
+                              Azure
                             </span>
                           </p>
                         </div>
@@ -3344,40 +3245,7 @@ exports[`TechStack matches snapshot (light mode) 1`] = `
                               class="skill-label"
                               style="transition: letter-spacing 0.45s ease;"
                             >
-                              Docker
-                            </span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="MuiBox-root css-0"
-                  >
-                    <div
-                      class="MuiBox-root css-16zh53x"
-                    >
-                      <div
-                        class="skill-fill"
-                        style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #aed5812e, #aed58117); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
-                      />
-                      <div
-                        class="MuiBox-root css-mqp1b6"
-                      >
-                        <div
-                          style="display: flex; align-items: center; width: 100%;"
-                        >
-                          <p
-                            class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
-                          >
-                            <span
-                              class="skill-dot MuiBox-root css-1yogpow"
-                            />
-                            <span
-                              class="skill-label"
-                              style="transition: letter-spacing 0.45s ease;"
-                            >
-                              Kubernetes
+                              Docker, Kubernetes
                             </span>
                           </p>
                         </div>
@@ -3443,73 +3311,7 @@ exports[`TechStack matches snapshot (light mode) 1`] = `
                               class="skill-label"
                               style="transition: letter-spacing 0.45s ease;"
                             >
-                              CI/CD
-                            </span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="MuiBox-root css-0"
-                  >
-                    <div
-                      class="MuiBox-root css-16zh53x"
-                    >
-                      <div
-                        class="skill-fill"
-                        style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #aed5812e, #aed58117); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
-                      />
-                      <div
-                        class="MuiBox-root css-mqp1b6"
-                      >
-                        <div
-                          style="display: flex; align-items: center; width: 100%;"
-                        >
-                          <p
-                            class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
-                          >
-                            <span
-                              class="skill-dot MuiBox-root css-1yogpow"
-                            />
-                            <span
-                              class="skill-label"
-                              style="transition: letter-spacing 0.45s ease;"
-                            >
-                              Linux
-                            </span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="MuiBox-root css-0"
-                  >
-                    <div
-                      class="MuiBox-root css-16zh53x"
-                    >
-                      <div
-                        class="skill-fill"
-                        style="height: 100%; border-radius: 8px; position: absolute; top: 0px; left: 0px; background: linear-gradient(90deg, #aed5812e, #aed58117); opacity: 0.7; transition: opacity 0.45s ease, filter 0.45s ease;"
-                      />
-                      <div
-                        class="MuiBox-root css-mqp1b6"
-                      >
-                        <div
-                          style="display: flex; align-items: center; width: 100%;"
-                        >
-                          <p
-                            class="MuiTypography-root MuiTypography-body1 css-nezhjr-MuiTypography-root"
-                          >
-                            <span
-                              class="skill-dot MuiBox-root css-1yogpow"
-                            />
-                            <span
-                              class="skill-label"
-                              style="transition: letter-spacing 0.45s ease;"
-                            >
-                              Shell Scripting
+                              Linux/Shell Scripting
                             </span>
                           </p>
                         </div>
@@ -3520,7 +3322,7 @@ exports[`TechStack matches snapshot (light mode) 1`] = `
                 <p
                   class="MuiTypography-root MuiTypography-body1 css-vsu8a6-MuiTypography-root"
                 >
-                  8
+                  5
                    
                   items
                    found
