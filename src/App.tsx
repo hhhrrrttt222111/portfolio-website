@@ -8,6 +8,7 @@ import { useNetwork } from "@/hooks";
 const Home = lazy(() => import("@/pages/Home/Home"));
 const About = lazy(() => import("@/pages/About/About"));
 const Books = lazy(() => import("@/pages/Books/Books"));
+const Blogs = lazy(() => import("@/pages/Blogs/Blogs"));
 const NotFound = lazy(() => import("@/pages/NotFound/NotFound"));
 
 const MINIMUM_LOADER_DURATION_MS = 2000;
@@ -50,6 +51,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/books" element={<Books />} />
+            <Route path="/blog" element={<Blogs />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>

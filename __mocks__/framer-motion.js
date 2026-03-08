@@ -86,6 +86,15 @@ const useTransform = (source, transformer) => {
 
 const useInView = () => true;
 
+const useReducedMotion = () => false;
+
+const useScroll = () => ({
+  scrollX: createMotionValue(0),
+  scrollY: createMotionValue(0),
+  scrollXProgress: createMotionValue(0),
+  scrollYProgress: createMotionValue(0),
+});
+
 module.exports = {
   motion,
   AnimatePresence,
@@ -94,4 +103,6 @@ module.exports = {
   useTransform,
   useSpring,
   useInView,
+  useReducedMotion,
+  useScroll,
 };

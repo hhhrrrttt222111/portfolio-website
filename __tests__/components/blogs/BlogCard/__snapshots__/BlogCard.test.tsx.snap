@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`BlogCard matches snapshot (hacker dark) 1`] = `
+<div>
+  <div>
+    <div
+      aria-label="Read article: Test Blog Post Title"
+      class="MuiBox-root css-tdqyiy"
+      role="article"
+      tabindex="0"
+    >
+      <div
+        class="card-scanline MuiBox-root css-147xby8"
+      />
+      <div
+        class="MuiBox-root css-1jlxnzq"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1s770fn-MuiTypography-root"
+        >
+          January 15, 2024
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-36nrfq-MuiTypography-root"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+            data-testid="AccessTimeIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+            />
+            <path
+              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+            />
+          </svg>
+          5 min read
+        </p>
+      </div>
+      <p
+        class="MuiTypography-root MuiTypography-body1 css-18vsnw6-MuiTypography-root"
+      >
+        Test Blog Post Title
+      </p>
+      <p
+        class="MuiTypography-root MuiTypography-body1 css-cebrzr-MuiTypography-root"
+      >
+        This is a test excerpt for the blog post that should be displayed on the card.
+      </p>
+      <div
+        class="MuiBox-root css-91umvt"
+      >
+        <div
+          class="MuiBox-root css-8t9i87"
+        >
+          Testing
+        </div>
+        <div
+          class="MuiBox-root css-8t9i87"
+        >
+          React
+        </div>
+        <div
+          class="MuiBox-root css-8t9i87"
+        >
+          TypeScript
+        </div>
+      </div>
+      <div
+        class="read-article-btn MuiBox-root css-wfu9k9"
+      >
+        $ read_article
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+          data-testid="ArrowForwardIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BlogCard matches snapshot (literary light) 1`] = `
+<div>
+  <div>
+    <div
+      aria-label="Read article: Test Blog Post Title"
+      class="MuiBox-root css-1j0lfos"
+      role="article"
+      tabindex="0"
+    >
+      <div
+        class="MuiBox-root css-1jlxnzq"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-hbel9u-MuiTypography-root"
+        >
+          January 15, 2024
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1l6eyjc-MuiTypography-root"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+            data-testid="AccessTimeIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+            />
+            <path
+              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+            />
+          </svg>
+          5 min read
+        </p>
+      </div>
+      <p
+        class="MuiTypography-root MuiTypography-body1 css-15tssl6-MuiTypography-root"
+      >
+        Test Blog Post Title
+      </p>
+      <p
+        class="MuiTypography-root MuiTypography-body1 css-m36p6y-MuiTypography-root"
+      >
+        This is a test excerpt for the blog post that should be displayed on the card.
+      </p>
+      <div
+        class="MuiBox-root css-91umvt"
+      >
+        <div
+          class="MuiBox-root css-lzpecq"
+        >
+          Testing
+        </div>
+        <div
+          class="MuiBox-root css-lzpecq"
+        >
+          React
+        </div>
+        <div
+          class="MuiBox-root css-lzpecq"
+        >
+          TypeScript
+        </div>
+      </div>
+      <div
+        class="read-article-btn MuiBox-root css-1xdfsjn"
+      >
+        Read Article
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+          data-testid="ArrowForwardIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;

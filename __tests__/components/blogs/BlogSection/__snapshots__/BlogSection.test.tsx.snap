@@ -1,0 +1,515 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`BlogSection matches snapshot (hacker dark) 1`] = `
+<div>
+  <div
+    viewport="[object Object]"
+    whileinview="visible"
+  >
+    <section
+      aria-labelledby="hackzism-title"
+      class="MuiBox-root css-0"
+    >
+      <div
+        class="MuiBox-root css-syvjtw"
+      >
+        <div
+          class="MuiBox-root css-1pb01fr"
+        />
+        <div
+          class="MuiBox-root css-1pu0ian"
+        />
+        <div
+          class="MuiBox-root css-15pvpgk"
+        />
+        <div
+          class="MuiBox-root css-9xwfmj"
+        />
+        <div
+          class="MuiBox-root css-1rngpqh"
+        />
+        <div
+          class="MuiBox-root css-brs25w"
+        />
+        <div
+          class="MuiBox-root css-951rhn"
+        />
+        <div
+          class="MuiBox-root css-cj888b"
+        />
+        <div
+          class="MuiBox-root css-vgpz4y"
+        />
+        <div
+          class="MuiBox-root css-j37lip"
+        />
+        <div
+          class="MuiBox-root css-f9fns2"
+        >
+          <div
+            animationdata="[object Object]"
+            data-testid="lottie-animation"
+            loop=""
+            style="width: 100%; height: 100%;"
+          />
+        </div>
+        <div
+          class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+        >
+          <div>
+            <div
+              class="MuiBox-root css-1gll2eq"
+            >
+              <h2
+                class="css-1p5m8ww"
+                id="hackzism-title"
+              >
+                Hackzism
+              </h2>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1vca1ii-MuiTypography-root"
+              >
+                Nothing hacks better than Hackzism!
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-86w7j9-MuiTypography-root"
+              >
+                A technical blog exploring cybersecurity and ethical hacking.
+              </p>
+              <div
+                class="MuiBox-root css-yreez8"
+              >
+                <div
+                  class="MuiBox-root css-mfnmkv"
+                >
+                  Hacking
+                </div>
+                <div
+                  class="MuiBox-root css-mfnmkv"
+                >
+                  Python
+                </div>
+                <div
+                  class="MuiBox-root css-mfnmkv"
+                >
+                  Kali Linux
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-rud7fc"
+          >
+            <div
+              custom="0"
+              viewport="[object Object]"
+              whileinview="visible"
+            >
+              <div
+                aria-label="Read article: Test Hacker Post 1"
+                class="MuiBox-root css-tdqyiy"
+                role="article"
+                tabindex="0"
+              >
+                <div
+                  class="card-scanline MuiBox-root css-147xby8"
+                />
+                <div
+                  class="MuiBox-root css-1jlxnzq"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1s770fn-MuiTypography-root"
+                  >
+                    January 1, 2024
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-36nrfq-MuiTypography-root"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                      data-testid="AccessTimeIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                      />
+                      <path
+                        d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                      />
+                    </svg>
+                    5 min read
+                  </p>
+                </div>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-18vsnw6-MuiTypography-root"
+                >
+                  Test Hacker Post 1
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-cebrzr-MuiTypography-root"
+                >
+                  Test excerpt for hacker post 1
+                </p>
+                <div
+                  class="MuiBox-root css-91umvt"
+                >
+                  <div
+                    class="MuiBox-root css-8t9i87"
+                  >
+                    Security
+                  </div>
+                  <div
+                    class="MuiBox-root css-8t9i87"
+                  >
+                    Python
+                  </div>
+                </div>
+                <div
+                  class="read-article-btn MuiBox-root css-wfu9k9"
+                >
+                  $ read_article
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                    data-testid="ArrowForwardIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div
+              custom="1"
+              viewport="[object Object]"
+              whileinview="visible"
+            >
+              <div
+                aria-label="Read article: Test Hacker Post 2"
+                class="MuiBox-root css-tdqyiy"
+                role="article"
+                tabindex="0"
+              >
+                <div
+                  class="card-scanline MuiBox-root css-147xby8"
+                />
+                <div
+                  class="MuiBox-root css-1jlxnzq"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1s770fn-MuiTypography-root"
+                  >
+                    January 15, 2024
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-36nrfq-MuiTypography-root"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                      data-testid="AccessTimeIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                      />
+                      <path
+                        d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                      />
+                    </svg>
+                    8 min read
+                  </p>
+                </div>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-18vsnw6-MuiTypography-root"
+                >
+                  Test Hacker Post 2
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-cebrzr-MuiTypography-root"
+                >
+                  Test excerpt for hacker post 2
+                </p>
+                <div
+                  class="MuiBox-root css-91umvt"
+                >
+                  <div
+                    class="MuiBox-root css-8t9i87"
+                  >
+                    Networking
+                  </div>
+                </div>
+                <div
+                  class="read-article-btn MuiBox-root css-wfu9k9"
+                >
+                  $ read_article
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                    data-testid="ArrowForwardIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-twgz0t"
+          >
+            <button
+              aria-label="Visit Hackzism blog"
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1vk64ue-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              $ visit_blog
+              <span
+                class="MuiButton-icon MuiButton-endIcon MuiButton-iconSizeMedium css-1gulhci-MuiButton-endIcon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                  data-testid="OpenInNewIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`BlogSection matches snapshot (literary light) 1`] = `
+<div>
+  <div
+    viewport="[object Object]"
+    whileinview="visible"
+  >
+    <section
+      aria-labelledby="bibliosmia-title"
+      class="MuiBox-root css-0"
+    >
+      <div
+        class="MuiBox-root css-15tr5kw"
+      >
+        <div
+          class="MuiBox-root css-2tl1ac"
+        />
+        <div
+          class="MuiBox-root css-1bnp11i"
+        />
+        <div
+          class="MuiBox-root css-dgq2h1"
+        />
+        <div
+          class="MuiBox-root css-1t39nqs"
+        />
+        <div
+          class="MuiBox-root css-1oncukq"
+        />
+        <div
+          class="MuiBox-root css-shaho7"
+        />
+        <div
+          class="MuiBox-root css-brrd4q"
+        />
+        <div
+          class="MuiBox-root css-tritf3"
+        />
+        <div
+          class="MuiBox-root css-1099fde"
+        />
+        <div
+          class="MuiBox-root css-rgehnh"
+        />
+        <div
+          class="MuiBox-root css-dari9v"
+        >
+          <div
+            animationdata="[object Object]"
+            data-testid="lottie-animation"
+            loop=""
+            style="width: 100%; height: 100%;"
+          />
+        </div>
+        <div
+          class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+        >
+          <div>
+            <div
+              class="MuiBox-root css-1gcwoba"
+            >
+              <h2
+                class="css-pjytib"
+                id="bibliosmia-title"
+              >
+                Bibliosmia
+              </h2>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1ap1a84-MuiTypography-root"
+              >
+                The intoxicating scent of good books
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1n77bs1-MuiTypography-root"
+              >
+                A personal journey through literature.
+              </p>
+              <div
+                class="MuiBox-root css-10b9enq"
+              >
+                <div
+                  class="MuiBox-root css-ptllmo"
+                >
+                  Book Reviews
+                </div>
+                <div
+                  class="MuiBox-root css-ptllmo"
+                >
+                  Literature
+                </div>
+                <div
+                  class="MuiBox-root css-ptllmo"
+                >
+                  Reading
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-rud7fc"
+          >
+            <div
+              custom="0"
+              viewport="[object Object]"
+              whileinview="visible"
+            >
+              <div
+                aria-label="Read article: Test Literary Post 1"
+                class="MuiBox-root css-1j0lfos"
+                role="article"
+                tabindex="0"
+              >
+                <div
+                  class="MuiBox-root css-1jlxnzq"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-hbel9u-MuiTypography-root"
+                  >
+                    February 1, 2024
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1l6eyjc-MuiTypography-root"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                      data-testid="AccessTimeIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                      />
+                      <path
+                        d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                      />
+                    </svg>
+                    6 min read
+                  </p>
+                </div>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-15tssl6-MuiTypography-root"
+                >
+                  Test Literary Post 1
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-m36p6y-MuiTypography-root"
+                >
+                  Test excerpt for literary post 1
+                </p>
+                <div
+                  class="MuiBox-root css-91umvt"
+                >
+                  <div
+                    class="MuiBox-root css-lzpecq"
+                  >
+                    Fiction
+                  </div>
+                  <div
+                    class="MuiBox-root css-lzpecq"
+                  >
+                    Review
+                  </div>
+                </div>
+                <div
+                  class="read-article-btn MuiBox-root css-1xdfsjn"
+                >
+                  Read Article
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                    data-testid="ArrowForwardIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root css-shfz5"
+          >
+            <button
+              aria-label="Visit Bibliosmia blog"
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-34zy1z-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              Visit Full Blog
+              <span
+                class="MuiButton-icon MuiButton-endIcon MuiButton-iconSizeMedium css-1gulhci-MuiButton-endIcon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                  data-testid="OpenInNewIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;

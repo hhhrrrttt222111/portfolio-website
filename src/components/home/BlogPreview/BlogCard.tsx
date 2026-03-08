@@ -1,5 +1,5 @@
 import { motion, useReducedMotion } from "framer-motion";
-import type { BlogPost } from "@/constants";
+import type { LegacyBlogPost } from "@/constants";
 import {
   CardOuter,
   CardInner,
@@ -24,7 +24,7 @@ const cardVariants = {
 };
 
 interface Props {
-  post: BlogPost;
+  post: LegacyBlogPost;
   index: number;
 }
 

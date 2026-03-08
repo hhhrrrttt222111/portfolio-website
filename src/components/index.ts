@@ -22,3 +22,5 @@ export { default as BookFilters } from "./books/BookFilters/BookFilters";
 export { default as BookGrid } from "./books/BookGrid/BookGrid";
 export { NetworkVisualization, SphereNetworkScene } from "./visualization";
 export { default as Loader } from "./Loader/Loader";
+export { default as BlogPostCard } from "./blogs/BlogCard/BlogCard";
+export { default as BlogSection } from "./blogs/BlogSection/BlogSection";

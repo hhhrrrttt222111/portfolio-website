@@ -5,8 +5,8 @@ export { SOCIAL_LINKS } from "./socialLinks";
 export type { SocialLink } from "./socialLinks";
 export { TECH_STACK } from "./techStack";
 export type { SkillCategory } from "./techStack";
-export { BLOG_POSTS } from "./blogs";
-export type { BlogPost } from "./blogs";
+export { BLOGS, HACKZISM_BLOG, BIBLIOSMIA_BLOG, BLOG_POSTS } from "./blogs";
+export type { Blog, BlogPost, LegacyBlogPost } from "./blogs";
 export {
   EDUCATION,
   JOURNEY_MILESTONES,

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Container from "@mui/material/Container";
 import { motion, useReducedMotion } from "framer-motion";
-import { BLOG_POSTS } from "@/constants";
+import { BLOG_POSTS, type LegacyBlogPost } from "@/constants";
 import {
   SectionRoot,
   SectionTitle,
@@ -46,7 +46,7 @@ const BlogPreview = () => {
         </motion.div>
 
         <BlogGrid>
-          {BLOG_POSTS.map((post, index) => (
+          {BLOG_POSTS.map((post: LegacyBlogPost, index: number) => (
             <BlogCard key={post.id} post={post} index={index} />
           ))}
         </BlogGrid>

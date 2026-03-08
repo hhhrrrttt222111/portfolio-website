@@ -74,6 +74,8 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
       >
         <div
           style="display: flex; flex-direction: column; align-items: center;"
+          viewport="[object Object]"
+          whileinview="visible"
         >
           <div
             class="MuiBox-root css-1qpzi1f"
@@ -138,6 +140,8 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
             >
               <div
                 style="position: relative;"
+                viewport="[object Object]"
+                whileinview="visible"
               >
                 <div
                   class="MuiBox-root css-61pg67"
@@ -155,12 +159,16 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                     role="button"
                     tabindex="0"
                   >
-                    <div>
+                    <div
+                      custom="0"
+                    >
                       <div
                         class="MuiBox-root css-10lo4tu"
                       />
                     </div>
-                    <div>
+                    <div
+                      custom="0"
+                    >
                       <span
                         class="css-u4jj8o"
                       >
@@ -179,12 +187,16 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                     role="button"
                     tabindex="0"
                   >
-                    <div>
+                    <div
+                      custom="1"
+                    >
                       <div
                         class="MuiBox-root css-10lo4tu"
                       />
                     </div>
-                    <div>
+                    <div
+                      custom="1"
+                    >
                       <span
                         class="css-u4jj8o"
                       >
@@ -203,12 +215,16 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                     role="button"
                     tabindex="0"
                   >
-                    <div>
+                    <div
+                      custom="2"
+                    >
                       <div
                         class="MuiBox-root css-10lo4tu"
                       />
                     </div>
-                    <div>
+                    <div
+                      custom="2"
+                    >
                       <span
                         class="css-u4jj8o"
                       >
@@ -227,12 +243,16 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                     role="button"
                     tabindex="0"
                   >
-                    <div>
+                    <div
+                      custom="3"
+                    >
                       <div
                         class="MuiBox-root css-10lo4tu"
                       />
                     </div>
-                    <div>
+                    <div
+                      custom="3"
+                    >
                       <span
                         class="css-u4jj8o"
                       >
@@ -282,7 +302,10 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
       <div
         class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
       >
-        <div>
+        <div
+          viewport="[object Object]"
+          whileinview="[object Object]"
+        >
           <h2
             class="css-k88837"
           >
@@ -297,7 +320,11 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
         <div
           class="MuiBox-root css-1gtzesu"
         >
-          <div>
+          <div
+            custom="0"
+            viewport="[object Object]"
+            whileinview="visible"
+          >
             <div
               class="MuiBox-root css-1j8oeui"
             >
@@ -322,7 +349,11 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
               </p>
             </div>
           </div>
-          <div>
+          <div
+            custom="1"
+            viewport="[object Object]"
+            whileinview="visible"
+          >
             <div
               class="MuiBox-root css-1j8oeui"
             >
@@ -347,7 +378,11 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
               </p>
             </div>
           </div>
-          <div>
+          <div
+            custom="2"
+            viewport="[object Object]"
+            whileinview="visible"
+          >
             <div
               class="MuiBox-root css-1j8oeui"
             >
@@ -382,7 +417,10 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
       <div
         class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
       >
-        <div>
+        <div
+          viewport="[object Object]"
+          whileinview="[object Object]"
+        >
           <h2
             class="css-k88837"
           >
@@ -405,7 +443,10 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
             />
           </div>
           <div>
-            <div>
+            <div
+              viewport="[object Object]"
+              whileinview="visible"
+            >
               <div
                 class="MuiBox-root css-r8as64"
               >
@@ -438,7 +479,10 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                 </div>
               </div>
             </div>
-            <div>
+            <div
+              viewport="[object Object]"
+              whileinview="visible"
+            >
               <div
                 class="MuiBox-root css-r8as64"
               >
@@ -471,7 +515,10 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                 </div>
               </div>
             </div>
-            <div>
+            <div
+              viewport="[object Object]"
+              whileinview="visible"
+            >
               <div
                 class="MuiBox-root css-r8as64"
               >
@@ -527,7 +574,10 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
           <div
             class="MuiBox-root css-v46l6e"
           >
-            <div>
+            <div
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
               <div
                 class="MuiBox-root css-32rxv4"
               />
@@ -535,112 +585,160 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
             <blockquote
               class="css-10ko3cr"
             >
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   Great
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   products
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   aren't
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   just
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   built.
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   They
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   are
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   carefully
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   crafted
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   through
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   empathy,
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   iteration,
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   and
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   obsession
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   with
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
@@ -648,7 +746,10 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                 </span>
               </span>
             </blockquote>
-            <div>
+            <div
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
               <p
                 class="MuiTypography-root MuiTypography-body1 css-n9jyln-MuiTypography-root"
               >
@@ -691,7 +792,10 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
         <div
           class="MuiContainer-root MuiContainer-maxWidthMd css-u4uvlt-MuiContainer-root"
         >
-          <div>
+          <div
+            viewport="[object Object]"
+            whileinview="visible"
+          >
             <div
               class="MuiBox-root css-1644976"
             >
@@ -942,6 +1046,8 @@ exports[`About Page matches snapshot (light mode) 1`] = `
       >
         <div
           style="display: flex; flex-direction: column; align-items: center;"
+          viewport="[object Object]"
+          whileinview="visible"
         >
           <div
             class="MuiBox-root css-1qpzi1f"
@@ -1006,6 +1112,8 @@ exports[`About Page matches snapshot (light mode) 1`] = `
             >
               <div
                 style="position: relative;"
+                viewport="[object Object]"
+                whileinview="visible"
               >
                 <div
                   class="MuiBox-root css-61pg67"
@@ -1023,12 +1131,16 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                     role="button"
                     tabindex="0"
                   >
-                    <div>
+                    <div
+                      custom="0"
+                    >
                       <div
                         class="MuiBox-root css-urvgpr"
                       />
                     </div>
-                    <div>
+                    <div
+                      custom="0"
+                    >
                       <span
                         class="css-1rb3lmj"
                       >
@@ -1047,12 +1159,16 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                     role="button"
                     tabindex="0"
                   >
-                    <div>
+                    <div
+                      custom="1"
+                    >
                       <div
                         class="MuiBox-root css-urvgpr"
                       />
                     </div>
-                    <div>
+                    <div
+                      custom="1"
+                    >
                       <span
                         class="css-1rb3lmj"
                       >
@@ -1071,12 +1187,16 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                     role="button"
                     tabindex="0"
                   >
-                    <div>
+                    <div
+                      custom="2"
+                    >
                       <div
                         class="MuiBox-root css-urvgpr"
                       />
                     </div>
-                    <div>
+                    <div
+                      custom="2"
+                    >
                       <span
                         class="css-1rb3lmj"
                       >
@@ -1095,12 +1215,16 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                     role="button"
                     tabindex="0"
                   >
-                    <div>
+                    <div
+                      custom="3"
+                    >
                       <div
                         class="MuiBox-root css-urvgpr"
                       />
                     </div>
-                    <div>
+                    <div
+                      custom="3"
+                    >
                       <span
                         class="css-1rb3lmj"
                       >
@@ -1150,7 +1274,10 @@ exports[`About Page matches snapshot (light mode) 1`] = `
       <div
         class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
       >
-        <div>
+        <div
+          viewport="[object Object]"
+          whileinview="[object Object]"
+        >
           <h2
             class="css-2aktko"
           >
@@ -1165,7 +1292,11 @@ exports[`About Page matches snapshot (light mode) 1`] = `
         <div
           class="MuiBox-root css-1gtzesu"
         >
-          <div>
+          <div
+            custom="0"
+            viewport="[object Object]"
+            whileinview="visible"
+          >
             <div
               class="MuiBox-root css-xggkmz"
             >
@@ -1190,7 +1321,11 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               </p>
             </div>
           </div>
-          <div>
+          <div
+            custom="1"
+            viewport="[object Object]"
+            whileinview="visible"
+          >
             <div
               class="MuiBox-root css-xggkmz"
             >
@@ -1215,7 +1350,11 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               </p>
             </div>
           </div>
-          <div>
+          <div
+            custom="2"
+            viewport="[object Object]"
+            whileinview="visible"
+          >
             <div
               class="MuiBox-root css-xggkmz"
             >
@@ -1250,7 +1389,10 @@ exports[`About Page matches snapshot (light mode) 1`] = `
       <div
         class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
       >
-        <div>
+        <div
+          viewport="[object Object]"
+          whileinview="[object Object]"
+        >
           <h2
             class="css-2aktko"
           >
@@ -1273,7 +1415,10 @@ exports[`About Page matches snapshot (light mode) 1`] = `
             />
           </div>
           <div>
-            <div>
+            <div
+              viewport="[object Object]"
+              whileinview="visible"
+            >
               <div
                 class="MuiBox-root css-r8as64"
               >
@@ -1306,7 +1451,10 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                 </div>
               </div>
             </div>
-            <div>
+            <div
+              viewport="[object Object]"
+              whileinview="visible"
+            >
               <div
                 class="MuiBox-root css-r8as64"
               >
@@ -1339,7 +1487,10 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                 </div>
               </div>
             </div>
-            <div>
+            <div
+              viewport="[object Object]"
+              whileinview="visible"
+            >
               <div
                 class="MuiBox-root css-r8as64"
               >
@@ -1395,7 +1546,10 @@ exports[`About Page matches snapshot (light mode) 1`] = `
           <div
             class="MuiBox-root css-v46l6e"
           >
-            <div>
+            <div
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
               <div
                 class="MuiBox-root css-tj57u3"
               />
@@ -1403,112 +1557,160 @@ exports[`About Page matches snapshot (light mode) 1`] = `
             <blockquote
               class="css-pf4d29"
             >
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   Great
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   products
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   aren't
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   just
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   built.
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   They
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   are
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   carefully
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   crafted
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   through
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   empathy,
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   iteration,
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   and
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   obsession
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
                   with
                 </span>
               </span>
-              <span>
+              <span
+                viewport="[object Object]"
+                whileinview="[object Object]"
+              >
                 <span
                   class="css-25k912"
                 >
@@ -1516,7 +1718,10 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                 </span>
               </span>
             </blockquote>
-            <div>
+            <div
+              viewport="[object Object]"
+              whileinview="[object Object]"
+            >
               <p
                 class="MuiTypography-root MuiTypography-body1 css-11z7609-MuiTypography-root"
               >
@@ -1559,7 +1764,10 @@ exports[`About Page matches snapshot (light mode) 1`] = `
         <div
           class="MuiContainer-root MuiContainer-maxWidthMd css-u4uvlt-MuiContainer-root"
         >
-          <div>
+          <div
+            viewport="[object Object]"
+            whileinview="visible"
+          >
             <div
               class="MuiBox-root css-1644976"
             >

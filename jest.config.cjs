@@ -15,6 +15,7 @@ module.exports = {
       '@react-three/fiber': '<rootDir>/__mocks__/reactThreeFiberMock.js',
       'three': '<rootDir>/__mocks__/threeMock.js',
       '^framer-motion$': '<rootDir>/__mocks__/framer-motion.js',
+      '^lottie-react$': '<rootDir>/__mocks__/lottie-react.js',
       '^@/(.*)$': '<rootDir>/src/$1',
     },
     testPathIgnorePatterns: ['/node_modules/', '\\.d\\.ts$'],

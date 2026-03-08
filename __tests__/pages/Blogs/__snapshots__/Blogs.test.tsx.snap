@@ -1,0 +1,3267 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Blogs Page matches snapshot (dark mode) 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-169p3eq"
+  >
+    <header
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-labgqk-MuiPaper-root-MuiAppBar-root"
+      style="--Paper-shadow: none; --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));"
+    >
+      <div
+        class="MuiToolbar-root MuiToolbar-regular css-1qo5tb8-MuiToolbar-root"
+      >
+        <a
+          class="css-kkoc1e"
+          data-discover="true"
+          href="/"
+        >
+          HRT
+        </a>
+        <div
+          class="MuiBox-root css-i9gxme"
+        />
+        <div
+          class="MuiStack-root css-kdc3n8-MuiStack-root"
+        >
+          <a
+            class="css-1pb62jw"
+            data-discover="true"
+            href="/about"
+          >
+            About
+          </a>
+          <a
+            class="css-1pb62jw"
+            data-discover="true"
+            href="/blog"
+          >
+            Blog
+          </a>
+          <a
+            class="css-swcnb1"
+            data-discover="true"
+            href="/contact"
+          >
+            Contact Me
+          </a>
+        </div>
+      </div>
+    </header>
+    <header
+      class="MuiBox-root css-0"
+    >
+      <div
+        class="MuiBox-root css-1myqhnz"
+      >
+        <div
+          class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+        >
+          <div>
+            <h1
+              class="css-1dp99m3"
+            >
+              My Blogs
+            </h1>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-h3ie0q-MuiTypography-root"
+            >
+              Thoughts on Technology and Literature — exploring the intersection of code and creativity through two distinct lenses.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main
+      class="MuiBox-root css-0"
+    >
+      <div
+        class="MuiBox-root css-mfczhu"
+      >
+        <div
+          viewport="[object Object]"
+          whileinview="visible"
+        >
+          <section
+            aria-labelledby="hackzism-title"
+            class="MuiBox-root css-0"
+          >
+            <div
+              class="MuiBox-root css-syvjtw"
+            >
+              <div
+                class="MuiBox-root css-1pb01fr"
+              />
+              <div
+                class="MuiBox-root css-1pu0ian"
+              />
+              <div
+                class="MuiBox-root css-15pvpgk"
+              />
+              <div
+                class="MuiBox-root css-9xwfmj"
+              />
+              <div
+                class="MuiBox-root css-1rngpqh"
+              />
+              <div
+                class="MuiBox-root css-brs25w"
+              />
+              <div
+                class="MuiBox-root css-951rhn"
+              />
+              <div
+                class="MuiBox-root css-cj888b"
+              />
+              <div
+                class="MuiBox-root css-vgpz4y"
+              />
+              <div
+                class="MuiBox-root css-j37lip"
+              />
+              <div
+                class="MuiBox-root css-f9fns2"
+              >
+                <div
+                  animationdata="[object Object]"
+                  data-testid="lottie-animation"
+                  loop=""
+                  style="width: 100%; height: 100%;"
+                />
+              </div>
+              <div
+                class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+              >
+                <div>
+                  <div
+                    class="MuiBox-root css-1gll2eq"
+                  >
+                    <h2
+                      class="css-1p5m8ww"
+                      id="hackzism-title"
+                    >
+                      Hackzism
+                    </h2>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-1vca1ii-MuiTypography-root"
+                    >
+                      Nothing hacks better than Hackzism!
+                    </p>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-86w7j9-MuiTypography-root"
+                    >
+                      A technical blog exploring cybersecurity, ethical hacking, Python automation, and Linux tools. Dive into tutorials, walkthroughs, and insights from the world of information security.
+                    </p>
+                    <div
+                      class="MuiBox-root css-yreez8"
+                    >
+                      <div
+                        class="MuiBox-root css-mfnmkv"
+                      >
+                        Hacking
+                      </div>
+                      <div
+                        class="MuiBox-root css-mfnmkv"
+                      >
+                        Python
+                      </div>
+                      <div
+                        class="MuiBox-root css-mfnmkv"
+                      >
+                        Kali Linux
+                      </div>
+                      <div
+                        class="MuiBox-root css-mfnmkv"
+                      >
+                        Cybersecurity
+                      </div>
+                      <div
+                        class="MuiBox-root css-mfnmkv"
+                      >
+                        Networking
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiBox-root css-rud7fc"
+                >
+                  <div
+                    custom="0"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: Instagram Phishing Using Hiddeneye"
+                      class="MuiBox-root css-tdqyiy"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="card-scanline MuiBox-root css-147xby8"
+                      />
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1s770fn-MuiTypography-root"
+                        >
+                          August 03, 2020
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-36nrfq-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          8 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-18vsnw6-MuiTypography-root"
+                      >
+                        Instagram Phishing Using Hiddeneye
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-cebrzr-MuiTypography-root"
+                      >
+                        Learn how phishing attacks work by understanding the mechanics behind Hiddeneye, a powerful social engineering tool. This educational walkthrough covers setup, execution, and most importantly, how to protect yourself.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-8t9i87"
+                        >
+                          Security
+                        </div>
+                        <div
+                          class="MuiBox-root css-8t9i87"
+                        >
+                          Phishing
+                        </div>
+                        <div
+                          class="MuiBox-root css-8t9i87"
+                        >
+                          Social Engineering
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-wfu9k9"
+                      >
+                        $ read_article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    custom="1"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: FSOCIETY Hacking Tools from Mr. Robot"
+                      class="MuiBox-root css-tdqyiy"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="card-scanline MuiBox-root css-147xby8"
+                      />
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1s770fn-MuiTypography-root"
+                        >
+                          June 28, 2020
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-36nrfq-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          12 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-18vsnw6-MuiTypography-root"
+                      >
+                        FSOCIETY Hacking Tools from Mr. Robot
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-cebrzr-MuiTypography-root"
+                      >
+                        Explore the real-world hacking tools featured in the acclaimed TV series Mr. Robot. From reconnaissance to exploitation, discover the arsenal used by fsociety and learn their legitimate security applications.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-8t9i87"
+                        >
+                          Tools
+                        </div>
+                        <div
+                          class="MuiBox-root css-8t9i87"
+                        >
+                          Penetration Testing
+                        </div>
+                        <div
+                          class="MuiBox-root css-8t9i87"
+                        >
+                          Mr. Robot
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-wfu9k9"
+                      >
+                        $ read_article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    custom="2"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: See Previously Connected WiFi Passwords Using CMD"
+                      class="MuiBox-root css-tdqyiy"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="card-scanline MuiBox-root css-147xby8"
+                      />
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1s770fn-MuiTypography-root"
+                        >
+                          June 09, 2020
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-36nrfq-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          5 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-18vsnw6-MuiTypography-root"
+                      >
+                        See Previously Connected WiFi Passwords Using CMD
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-cebrzr-MuiTypography-root"
+                      >
+                        A quick guide to retrieving stored WiFi passwords on Windows using command prompt. Useful for recovering your own forgotten passwords and understanding how Windows manages network credentials.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-8t9i87"
+                        >
+                          Networking
+                        </div>
+                        <div
+                          class="MuiBox-root css-8t9i87"
+                        >
+                          Windows
+                        </div>
+                        <div
+                          class="MuiBox-root css-8t9i87"
+                        >
+                          CMD
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-wfu9k9"
+                      >
+                        $ read_article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    custom="3"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: Keylogger with Python — Capture Every Keystroke"
+                      class="MuiBox-root css-tdqyiy"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="card-scanline MuiBox-root css-147xby8"
+                      />
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1s770fn-MuiTypography-root"
+                        >
+                          May 15, 2020
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-36nrfq-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          10 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-18vsnw6-MuiTypography-root"
+                      >
+                        Keylogger with Python — Capture Every Keystroke
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-cebrzr-MuiTypography-root"
+                      >
+                        Build a basic keylogger using Python to understand how these surveillance tools work. This educational project demonstrates keyboard event capture and logging mechanisms for security research purposes.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-8t9i87"
+                        >
+                          Python
+                        </div>
+                        <div
+                          class="MuiBox-root css-8t9i87"
+                        >
+                          Keylogger
+                        </div>
+                        <div
+                          class="MuiBox-root css-8t9i87"
+                        >
+                          Security Research
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-wfu9k9"
+                      >
+                        $ read_article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    custom="4"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: Getting Started with Kali Linux for Beginners"
+                      class="MuiBox-root css-tdqyiy"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="card-scanline MuiBox-root css-147xby8"
+                      />
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1s770fn-MuiTypography-root"
+                        >
+                          April 22, 2020
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-36nrfq-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          15 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-18vsnw6-MuiTypography-root"
+                      >
+                        Getting Started with Kali Linux for Beginners
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-cebrzr-MuiTypography-root"
+                      >
+                        Your comprehensive introduction to Kali Linux, the premier penetration testing distribution. Learn installation, essential tools, and best practices for setting up your ethical hacking environment.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-8t9i87"
+                        >
+                          Kali Linux
+                        </div>
+                        <div
+                          class="MuiBox-root css-8t9i87"
+                        >
+                          Beginner
+                        </div>
+                        <div
+                          class="MuiBox-root css-8t9i87"
+                        >
+                          Setup Guide
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-wfu9k9"
+                      >
+                        $ read_article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    custom="5"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: Network Scanning with Nmap — Complete Tutorial"
+                      class="MuiBox-root css-tdqyiy"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="card-scanline MuiBox-root css-147xby8"
+                      />
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1s770fn-MuiTypography-root"
+                        >
+                          March 10, 2020
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-36nrfq-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          18 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-18vsnw6-MuiTypography-root"
+                      >
+                        Network Scanning with Nmap — Complete Tutorial
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-cebrzr-MuiTypography-root"
+                      >
+                        Master the art of network reconnaissance with Nmap. This comprehensive tutorial covers port scanning, service detection, OS fingerprinting, and scripting engine usage for thorough network analysis.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-8t9i87"
+                        >
+                          Nmap
+                        </div>
+                        <div
+                          class="MuiBox-root css-8t9i87"
+                        >
+                          Network Scanning
+                        </div>
+                        <div
+                          class="MuiBox-root css-8t9i87"
+                        >
+                          Reconnaissance
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-wfu9k9"
+                      >
+                        $ read_article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiBox-root css-twgz0t"
+                >
+                  <button
+                    aria-label="Visit Hackzism blog"
+                    class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1vk64ue-MuiButtonBase-root-MuiButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    $ visit_blog
+                    <span
+                      class="MuiButton-icon MuiButton-endIcon MuiButton-iconSizeMedium css-1gulhci-MuiButton-endIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                        data-testid="OpenInNewIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3z"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div
+          style="display: contents;"
+          viewport="[object Object]"
+          whileinview="visible"
+        >
+          <div
+            aria-hidden="true"
+            class="MuiBox-root css-10rz7h1"
+          />
+        </div>
+        <div
+          viewport="[object Object]"
+          whileinview="visible"
+        >
+          <section
+            aria-labelledby="bibliosmia-title"
+            class="MuiBox-root css-0"
+          >
+            <div
+              class="MuiBox-root css-rzxa22"
+            >
+              <div
+                class="MuiBox-root css-t1mfiu"
+              />
+              <div
+                class="MuiBox-root css-1bnp11i"
+              />
+              <div
+                class="MuiBox-root css-v751w1"
+              />
+              <div
+                class="MuiBox-root css-innboo"
+              />
+              <div
+                class="MuiBox-root css-urbxmn"
+              />
+              <div
+                class="MuiBox-root css-bkxvja"
+              />
+              <div
+                class="MuiBox-root css-15anei9"
+              />
+              <div
+                class="MuiBox-root css-13atppj"
+              />
+              <div
+                class="MuiBox-root css-1qegmsi"
+              />
+              <div
+                class="MuiBox-root css-25n8jc"
+              />
+              <div
+                class="MuiBox-root css-dari9v"
+              >
+                <div
+                  animationdata="[object Object]"
+                  data-testid="lottie-animation"
+                  loop=""
+                  style="width: 100%; height: 100%;"
+                />
+              </div>
+              <div
+                class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+              >
+                <div>
+                  <div
+                    class="MuiBox-root css-1gcwoba"
+                  >
+                    <h2
+                      class="css-1c49xpn"
+                      id="bibliosmia-title"
+                    >
+                      Bibliosmia
+                    </h2>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-1hlh2m8-MuiTypography-root"
+                    >
+                      The intoxicating scent of good books
+                    </p>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-195f6v2-MuiTypography-root"
+                    >
+                      Here's some books that I've read and some that I haven't. I'll give some of my thoughts about these. A personal journey through literature, exploring stories that inspire, challenge, and transform.
+                    </p>
+                    <div
+                      class="MuiBox-root css-10b9enq"
+                    >
+                      <div
+                        class="MuiBox-root css-1h49ahr"
+                      >
+                        Book Reviews
+                      </div>
+                      <div
+                        class="MuiBox-root css-1h49ahr"
+                      >
+                        Literature
+                      </div>
+                      <div
+                        class="MuiBox-root css-1h49ahr"
+                      >
+                        Reading
+                      </div>
+                      <div
+                        class="MuiBox-root css-1h49ahr"
+                      >
+                        Fiction
+                      </div>
+                      <div
+                        class="MuiBox-root css-1h49ahr"
+                      >
+                        Non-Fiction
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiBox-root css-rud7fc"
+                >
+                  <div
+                    custom="0"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: The Midnight Library — A Review"
+                      class="MuiBox-root css-temzbe"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1toa2ql-MuiTypography-root"
+                        >
+                          November 15, 2023
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1vc9v5a-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          6 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-qlumrc-MuiTypography-root"
+                      >
+                        The Midnight Library — A Review
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-n530hl-MuiTypography-root"
+                      >
+                        Matt Haig's beautiful exploration of regret, possibility, and the lives we could have lived. Between life and death, Nora finds a library containing infinite versions of her existence. A profound meditation on choices and meaning.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          Fiction
+                        </div>
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          Philosophy
+                        </div>
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          Matt Haig
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-9g8n22"
+                      >
+                        Read Article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    custom="1"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: Why We Should All Read More Classics"
+                      class="MuiBox-root css-temzbe"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1toa2ql-MuiTypography-root"
+                        >
+                          October 28, 2023
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1vc9v5a-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          8 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-qlumrc-MuiTypography-root"
+                      >
+                        Why We Should All Read More Classics
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-n530hl-MuiTypography-root"
+                      >
+                        In an age of endless content, classic literature offers something irreplaceable. From Dostoevsky's psychological depth to Austen's social wit, discover why these timeless works deserve a place on your reading list.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          Classics
+                        </div>
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          Reading
+                        </div>
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          Literature
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-9g8n22"
+                      >
+                        Read Article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    custom="2"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: Atomic Habits — Transforming Life One Page at a Time"
+                      class="MuiBox-root css-temzbe"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1toa2ql-MuiTypography-root"
+                        >
+                          September 12, 2023
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1vc9v5a-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          7 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-qlumrc-MuiTypography-root"
+                      >
+                        Atomic Habits — Transforming Life One Page at a Time
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-n530hl-MuiTypography-root"
+                      >
+                        James Clear's masterpiece on habit formation isn't just a self-help book—it's a scientific approach to personal change. Discover how tiny changes compound into remarkable results through this insightful review.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          Non-Fiction
+                        </div>
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          Self-Help
+                        </div>
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          James Clear
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-9g8n22"
+                      >
+                        Read Article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    custom="3"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: The Art of Reading Multiple Books at Once"
+                      class="MuiBox-root css-temzbe"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1toa2ql-MuiTypography-root"
+                        >
+                          August 05, 2023
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1vc9v5a-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          5 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-qlumrc-MuiTypography-root"
+                      >
+                        The Art of Reading Multiple Books at Once
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-n530hl-MuiTypography-root"
+                      >
+                        Juggling fiction and non-fiction, heavy and light reads. Learn the strategies for maintaining multiple reading threads without losing the plot—literally. A practical guide for the ambitious bibliophile.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          Reading Tips
+                        </div>
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          Productivity
+                        </div>
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          Books
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-9g8n22"
+                      >
+                        Read Article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    custom="4"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: Project Hail Mary — Science Fiction at Its Finest"
+                      class="MuiBox-root css-temzbe"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1toa2ql-MuiTypography-root"
+                        >
+                          July 20, 2023
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1vc9v5a-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          9 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-qlumrc-MuiTypography-root"
+                      >
+                        Project Hail Mary — Science Fiction at Its Finest
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-n530hl-MuiTypography-root"
+                      >
+                        Andy Weir delivers another triumph of scientific problem-solving and human resilience. Follow Ryland Grace on an impossible mission to save Earth, armed with nothing but wit, science, and an unexpected friendship.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          Science Fiction
+                        </div>
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          Andy Weir
+                        </div>
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          Space
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-9g8n22"
+                      >
+                        Read Article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    custom="5"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: Building a Personal Library — A Collector's Journey"
+                      class="MuiBox-root css-temzbe"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1toa2ql-MuiTypography-root"
+                        >
+                          June 08, 2023
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1vc9v5a-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          6 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-qlumrc-MuiTypography-root"
+                      >
+                        Building a Personal Library — A Collector's Journey
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-n530hl-MuiTypography-root"
+                      >
+                        From scattered paperbacks to a curated collection. Thoughts on building a meaningful personal library, choosing editions, organizing shelves, and creating a space that reflects your literary journey.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          Books
+                        </div>
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          Collection
+                        </div>
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          Personal
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-9g8n22"
+                      >
+                        Read Article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiBox-root css-shfz5"
+                >
+                  <button
+                    aria-label="Visit Bibliosmia blog"
+                    class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-99n7fg-MuiButtonBase-root-MuiButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    Visit Full Blog
+                    <span
+                      class="MuiButton-icon MuiButton-endIcon MuiButton-iconSizeMedium css-1gulhci-MuiButton-endIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                        data-testid="OpenInNewIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3z"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer
+      class="css-1p287yq"
+      data-testid="footer"
+    >
+      <div
+        class="MuiBox-root css-rbdmvl"
+      >
+        <svg
+          preserveAspectRatio="none"
+          style="width: 100%; height: 100%; position: absolute; top: 0px; left: 0px;"
+          viewBox="0 0 1920 160"
+        >
+          <path
+            d="M0,64 C320,120 640,20 960,80 C1280,140 1600,40 1920,96 L1920,0 L0,0 Z"
+            fill="rgba(102, 187, 106, 0.03)"
+          />
+          <path
+            d="M0,80 C320,30 640,130 960,60 C1280,10 1600,110 1920,50 L1920,0 L0,0 Z"
+            fill="rgba(0, 137, 123, 0.02)"
+          />
+          <path
+            d="M0,48 C320,100 640,10 960,72 C1280,130 1600,30 1920,88 L1920,0 L0,0 Z"
+            fill="rgba(102, 187, 106, 0.015)"
+          />
+        </svg>
+      </div>
+      <div
+        class="MuiBox-root css-13eu5iz"
+      >
+        <div
+          class="MuiContainer-root MuiContainer-maxWidthMd css-u4uvlt-MuiContainer-root"
+        >
+          <div
+            viewport="[object Object]"
+            whileinview="visible"
+          >
+            <div
+              class="MuiBox-root css-1644976"
+            >
+              <div>
+                <a
+                  aria-label="GitHub"
+                  class="css-tqba5o"
+                  data-mui-internal-clone-element="true"
+                  href="https://github.com/hhhrrrttt22211"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                    data-testid="GitHubIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div>
+                <a
+                  aria-label="LinkedIn"
+                  class="css-tqba5o"
+                  data-mui-internal-clone-element="true"
+                  href="https://linkedin.com/in/hhhrrrttt22211"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                    data-testid="LinkedInIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div>
+                <a
+                  aria-label="Twitter"
+                  class="css-tqba5o"
+                  data-mui-internal-clone-element="true"
+                  href="https://twitter.com/hhhrrrttt22211"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                    data-testid="TwitterIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div>
+                <a
+                  aria-label="Instagram"
+                  class="css-tqba5o"
+                  data-mui-internal-clone-element="true"
+                  href="https://instagram.com/hhhrrrttt22211"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                    data-testid="InstagramIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div>
+                <a
+                  aria-label="Facebook"
+                  class="css-tqba5o"
+                  data-mui-internal-clone-element="true"
+                  href="https://facebook.com/hhhrrrttt22211"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                    data-testid="FacebookIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m13 2h-2.5A3.5 3.5 0 0 0 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9a1 1 0 0 1 1-1h2V5z"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div>
+                <a
+                  aria-label="Reddit"
+                  class="css-tqba5o"
+                  data-mui-internal-clone-element="true"
+                  href="https://reddit.com/user/hhhrrrttt22211"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                    data-testid="RedditIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M22 12.14a2.19 2.19 0 0 0-3.71-1.57 10.93 10.93 0 0 0-5.86-1.87l1-4.7 3.27.71a1.56 1.56 0 1 0 .16-.76l-3.64-.77c-.11-.02-.22 0-.29.06-.09.05-.14.14-.16.26l-1.11 5.22c-2.33.07-4.43.78-5.95 1.86A2.2 2.2 0 0 0 4.19 10a2.16 2.16 0 0 0-.9 4.15 3.6 3.6 0 0 0-.05.66c0 3.37 3.92 6.12 8.76 6.12s8.76-2.73 8.76-6.12c0-.21-.01-.44-.05-.66A2.21 2.21 0 0 0 22 12.14M7 13.7c0-.86.68-1.56 1.54-1.56s1.56.7 1.56 1.56a1.56 1.56 0 0 1-1.56 1.56c-.86.02-1.54-.7-1.54-1.56m8.71 4.14C14.63 18.92 12.59 19 12 19c-.61 0-2.65-.1-3.71-1.16a.4.4 0 0 1 0-.57.4.4 0 0 1 .57 0c.68.68 2.14.91 3.14.91s2.47-.23 3.14-.91a.4.4 0 0 1 .57 0c.14.16.14.41 0 .57m-.29-2.56c-.86 0-1.56-.7-1.56-1.56a1.56 1.56 0 0 1 1.56-1.56c.86 0 1.58.7 1.58 1.56a1.6 1.6 0 0 1-1.58 1.56z"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div>
+                <a
+                  aria-label="Goodreads"
+                  class="css-tqba5o"
+                  data-mui-internal-clone-element="true"
+                  href="https://goodreads.com/hhhrrrttt22211"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                    data-testid="MenuBookIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1m0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5z"
+                    />
+                    <path
+                      d="M17.5 10.5c.88 0 1.73.09 2.5.26V9.24c-.79-.15-1.64-.24-2.5-.24-1.7 0-3.24.29-4.5.83v1.66c1.13-.64 2.7-.99 4.5-.99M13 12.49v1.66c1.13-.64 2.7-.99 4.5-.99.88 0 1.73.09 2.5.26V11.9c-.79-.15-1.64-.24-2.5-.24-1.7 0-3.24.3-4.5.83m4.5 1.84c-1.7 0-3.24.29-4.5.83v1.66c1.13-.64 2.7-.99 4.5-.99.88 0 1.73.09 2.5.26v-1.52c-.79-.16-1.64-.24-2.5-.24"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-zbil2c-MuiTypography-root"
+          >
+            © 
+            2026
+             Hemanth R. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+`;
+
+exports[`Blogs Page matches snapshot (light mode) 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-gaaqr7"
+  >
+    <header
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-1t0h9gd-MuiPaper-root-MuiAppBar-root"
+      style="--Paper-shadow: none;"
+    >
+      <div
+        class="MuiToolbar-root MuiToolbar-regular css-10a6tuy-MuiToolbar-root"
+      >
+        <a
+          class="css-1hjppfk"
+          data-discover="true"
+          href="/"
+        >
+          HRT
+        </a>
+        <div
+          class="MuiBox-root css-i9gxme"
+        />
+        <div
+          class="MuiStack-root css-kdc3n8-MuiStack-root"
+        >
+          <a
+            class="css-1c37e78"
+            data-discover="true"
+            href="/about"
+          >
+            About
+          </a>
+          <a
+            class="css-1c37e78"
+            data-discover="true"
+            href="/blog"
+          >
+            Blog
+          </a>
+          <a
+            class="css-2l76li"
+            data-discover="true"
+            href="/contact"
+          >
+            Contact Me
+          </a>
+        </div>
+      </div>
+    </header>
+    <header
+      class="MuiBox-root css-0"
+    >
+      <div
+        class="MuiBox-root css-evflmb"
+      >
+        <div
+          class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+        >
+          <div>
+            <h1
+              class="css-zzo47k"
+            >
+              My Blogs
+            </h1>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1h1nlt7-MuiTypography-root"
+            >
+              Thoughts on Technology and Literature — exploring the intersection of code and creativity through two distinct lenses.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main
+      class="MuiBox-root css-0"
+    >
+      <div
+        class="MuiBox-root css-mfczhu"
+      >
+        <div
+          viewport="[object Object]"
+          whileinview="visible"
+        >
+          <section
+            aria-labelledby="hackzism-title"
+            class="MuiBox-root css-0"
+          >
+            <div
+              class="MuiBox-root css-1rmc1eb"
+            >
+              <div
+                class="MuiBox-root css-1817l4e"
+              />
+              <div
+                class="MuiBox-root css-1pu0ian"
+              />
+              <div
+                class="MuiBox-root css-oy7fox"
+              />
+              <div
+                class="MuiBox-root css-1b984dd"
+              />
+              <div
+                class="MuiBox-root css-4soxoj"
+              />
+              <div
+                class="MuiBox-root css-19sfyas"
+              />
+              <div
+                class="MuiBox-root css-1ndsjad"
+              />
+              <div
+                class="MuiBox-root css-k17eto"
+              />
+              <div
+                class="MuiBox-root css-1ommrg2"
+              />
+              <div
+                class="MuiBox-root css-1lbrsqp"
+              />
+              <div
+                class="MuiBox-root css-f9fns2"
+              >
+                <div
+                  animationdata="[object Object]"
+                  data-testid="lottie-animation"
+                  loop=""
+                  style="width: 100%; height: 100%;"
+                />
+              </div>
+              <div
+                class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+              >
+                <div>
+                  <div
+                    class="MuiBox-root css-1gll2eq"
+                  >
+                    <h2
+                      class="css-4maw21"
+                      id="hackzism-title"
+                    >
+                      Hackzism
+                    </h2>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-mxoglv-MuiTypography-root"
+                    >
+                      Nothing hacks better than Hackzism!
+                    </p>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-hqjhie-MuiTypography-root"
+                    >
+                      A technical blog exploring cybersecurity, ethical hacking, Python automation, and Linux tools. Dive into tutorials, walkthroughs, and insights from the world of information security.
+                    </p>
+                    <div
+                      class="MuiBox-root css-yreez8"
+                    >
+                      <div
+                        class="MuiBox-root css-17xfws2"
+                      >
+                        Hacking
+                      </div>
+                      <div
+                        class="MuiBox-root css-17xfws2"
+                      >
+                        Python
+                      </div>
+                      <div
+                        class="MuiBox-root css-17xfws2"
+                      >
+                        Kali Linux
+                      </div>
+                      <div
+                        class="MuiBox-root css-17xfws2"
+                      >
+                        Cybersecurity
+                      </div>
+                      <div
+                        class="MuiBox-root css-17xfws2"
+                      >
+                        Networking
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiBox-root css-rud7fc"
+                >
+                  <div
+                    custom="0"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: Instagram Phishing Using Hiddeneye"
+                      class="MuiBox-root css-vjnvlj"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="card-scanline MuiBox-root css-147xby8"
+                      />
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1rtrtc0-MuiTypography-root"
+                        >
+                          August 03, 2020
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-14ke1ki-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          8 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1vg6in0-MuiTypography-root"
+                      >
+                        Instagram Phishing Using Hiddeneye
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1eew5ip-MuiTypography-root"
+                      >
+                        Learn how phishing attacks work by understanding the mechanics behind Hiddeneye, a powerful social engineering tool. This educational walkthrough covers setup, execution, and most importantly, how to protect yourself.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-6t4dzk"
+                        >
+                          Security
+                        </div>
+                        <div
+                          class="MuiBox-root css-6t4dzk"
+                        >
+                          Phishing
+                        </div>
+                        <div
+                          class="MuiBox-root css-6t4dzk"
+                        >
+                          Social Engineering
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-x9kljw"
+                      >
+                        $ read_article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    custom="1"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: FSOCIETY Hacking Tools from Mr. Robot"
+                      class="MuiBox-root css-vjnvlj"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="card-scanline MuiBox-root css-147xby8"
+                      />
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1rtrtc0-MuiTypography-root"
+                        >
+                          June 28, 2020
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-14ke1ki-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          12 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1vg6in0-MuiTypography-root"
+                      >
+                        FSOCIETY Hacking Tools from Mr. Robot
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1eew5ip-MuiTypography-root"
+                      >
+                        Explore the real-world hacking tools featured in the acclaimed TV series Mr. Robot. From reconnaissance to exploitation, discover the arsenal used by fsociety and learn their legitimate security applications.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-6t4dzk"
+                        >
+                          Tools
+                        </div>
+                        <div
+                          class="MuiBox-root css-6t4dzk"
+                        >
+                          Penetration Testing
+                        </div>
+                        <div
+                          class="MuiBox-root css-6t4dzk"
+                        >
+                          Mr. Robot
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-x9kljw"
+                      >
+                        $ read_article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    custom="2"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: See Previously Connected WiFi Passwords Using CMD"
+                      class="MuiBox-root css-vjnvlj"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="card-scanline MuiBox-root css-147xby8"
+                      />
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1rtrtc0-MuiTypography-root"
+                        >
+                          June 09, 2020
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-14ke1ki-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          5 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1vg6in0-MuiTypography-root"
+                      >
+                        See Previously Connected WiFi Passwords Using CMD
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1eew5ip-MuiTypography-root"
+                      >
+                        A quick guide to retrieving stored WiFi passwords on Windows using command prompt. Useful for recovering your own forgotten passwords and understanding how Windows manages network credentials.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-6t4dzk"
+                        >
+                          Networking
+                        </div>
+                        <div
+                          class="MuiBox-root css-6t4dzk"
+                        >
+                          Windows
+                        </div>
+                        <div
+                          class="MuiBox-root css-6t4dzk"
+                        >
+                          CMD
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-x9kljw"
+                      >
+                        $ read_article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    custom="3"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: Keylogger with Python — Capture Every Keystroke"
+                      class="MuiBox-root css-vjnvlj"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="card-scanline MuiBox-root css-147xby8"
+                      />
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1rtrtc0-MuiTypography-root"
+                        >
+                          May 15, 2020
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-14ke1ki-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          10 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1vg6in0-MuiTypography-root"
+                      >
+                        Keylogger with Python — Capture Every Keystroke
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1eew5ip-MuiTypography-root"
+                      >
+                        Build a basic keylogger using Python to understand how these surveillance tools work. This educational project demonstrates keyboard event capture and logging mechanisms for security research purposes.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-6t4dzk"
+                        >
+                          Python
+                        </div>
+                        <div
+                          class="MuiBox-root css-6t4dzk"
+                        >
+                          Keylogger
+                        </div>
+                        <div
+                          class="MuiBox-root css-6t4dzk"
+                        >
+                          Security Research
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-x9kljw"
+                      >
+                        $ read_article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    custom="4"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: Getting Started with Kali Linux for Beginners"
+                      class="MuiBox-root css-vjnvlj"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="card-scanline MuiBox-root css-147xby8"
+                      />
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1rtrtc0-MuiTypography-root"
+                        >
+                          April 22, 2020
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-14ke1ki-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          15 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1vg6in0-MuiTypography-root"
+                      >
+                        Getting Started with Kali Linux for Beginners
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1eew5ip-MuiTypography-root"
+                      >
+                        Your comprehensive introduction to Kali Linux, the premier penetration testing distribution. Learn installation, essential tools, and best practices for setting up your ethical hacking environment.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-6t4dzk"
+                        >
+                          Kali Linux
+                        </div>
+                        <div
+                          class="MuiBox-root css-6t4dzk"
+                        >
+                          Beginner
+                        </div>
+                        <div
+                          class="MuiBox-root css-6t4dzk"
+                        >
+                          Setup Guide
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-x9kljw"
+                      >
+                        $ read_article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    custom="5"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: Network Scanning with Nmap — Complete Tutorial"
+                      class="MuiBox-root css-vjnvlj"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="card-scanline MuiBox-root css-147xby8"
+                      />
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1rtrtc0-MuiTypography-root"
+                        >
+                          March 10, 2020
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-14ke1ki-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          18 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1vg6in0-MuiTypography-root"
+                      >
+                        Network Scanning with Nmap — Complete Tutorial
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1eew5ip-MuiTypography-root"
+                      >
+                        Master the art of network reconnaissance with Nmap. This comprehensive tutorial covers port scanning, service detection, OS fingerprinting, and scripting engine usage for thorough network analysis.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-6t4dzk"
+                        >
+                          Nmap
+                        </div>
+                        <div
+                          class="MuiBox-root css-6t4dzk"
+                        >
+                          Network Scanning
+                        </div>
+                        <div
+                          class="MuiBox-root css-6t4dzk"
+                        >
+                          Reconnaissance
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-x9kljw"
+                      >
+                        $ read_article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiBox-root css-twgz0t"
+                >
+                  <button
+                    aria-label="Visit Hackzism blog"
+                    class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-eyq5q1-MuiButtonBase-root-MuiButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    $ visit_blog
+                    <span
+                      class="MuiButton-icon MuiButton-endIcon MuiButton-iconSizeMedium css-1gulhci-MuiButton-endIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                        data-testid="OpenInNewIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3z"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div
+          style="display: contents;"
+          viewport="[object Object]"
+          whileinview="visible"
+        >
+          <div
+            aria-hidden="true"
+            class="MuiBox-root css-itbm6z"
+          />
+        </div>
+        <div
+          viewport="[object Object]"
+          whileinview="visible"
+        >
+          <section
+            aria-labelledby="bibliosmia-title"
+            class="MuiBox-root css-0"
+          >
+            <div
+              class="MuiBox-root css-15tr5kw"
+            >
+              <div
+                class="MuiBox-root css-2tl1ac"
+              />
+              <div
+                class="MuiBox-root css-1bnp11i"
+              />
+              <div
+                class="MuiBox-root css-dgq2h1"
+              />
+              <div
+                class="MuiBox-root css-1t39nqs"
+              />
+              <div
+                class="MuiBox-root css-1oncukq"
+              />
+              <div
+                class="MuiBox-root css-shaho7"
+              />
+              <div
+                class="MuiBox-root css-brrd4q"
+              />
+              <div
+                class="MuiBox-root css-tritf3"
+              />
+              <div
+                class="MuiBox-root css-1099fde"
+              />
+              <div
+                class="MuiBox-root css-rgehnh"
+              />
+              <div
+                class="MuiBox-root css-dari9v"
+              >
+                <div
+                  animationdata="[object Object]"
+                  data-testid="lottie-animation"
+                  loop=""
+                  style="width: 100%; height: 100%;"
+                />
+              </div>
+              <div
+                class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+              >
+                <div>
+                  <div
+                    class="MuiBox-root css-1gcwoba"
+                  >
+                    <h2
+                      class="css-pjytib"
+                      id="bibliosmia-title"
+                    >
+                      Bibliosmia
+                    </h2>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-1ap1a84-MuiTypography-root"
+                    >
+                      The intoxicating scent of good books
+                    </p>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-1n77bs1-MuiTypography-root"
+                    >
+                      Here's some books that I've read and some that I haven't. I'll give some of my thoughts about these. A personal journey through literature, exploring stories that inspire, challenge, and transform.
+                    </p>
+                    <div
+                      class="MuiBox-root css-10b9enq"
+                    >
+                      <div
+                        class="MuiBox-root css-ptllmo"
+                      >
+                        Book Reviews
+                      </div>
+                      <div
+                        class="MuiBox-root css-ptllmo"
+                      >
+                        Literature
+                      </div>
+                      <div
+                        class="MuiBox-root css-ptllmo"
+                      >
+                        Reading
+                      </div>
+                      <div
+                        class="MuiBox-root css-ptllmo"
+                      >
+                        Fiction
+                      </div>
+                      <div
+                        class="MuiBox-root css-ptllmo"
+                      >
+                        Non-Fiction
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiBox-root css-rud7fc"
+                >
+                  <div
+                    custom="0"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: The Midnight Library — A Review"
+                      class="MuiBox-root css-1j0lfos"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-hbel9u-MuiTypography-root"
+                        >
+                          November 15, 2023
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1l6eyjc-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          6 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-15tssl6-MuiTypography-root"
+                      >
+                        The Midnight Library — A Review
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-m36p6y-MuiTypography-root"
+                      >
+                        Matt Haig's beautiful exploration of regret, possibility, and the lives we could have lived. Between life and death, Nora finds a library containing infinite versions of her existence. A profound meditation on choices and meaning.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          Fiction
+                        </div>
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          Philosophy
+                        </div>
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          Matt Haig
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-1xdfsjn"
+                      >
+                        Read Article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    custom="1"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: Why We Should All Read More Classics"
+                      class="MuiBox-root css-1j0lfos"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-hbel9u-MuiTypography-root"
+                        >
+                          October 28, 2023
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1l6eyjc-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          8 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-15tssl6-MuiTypography-root"
+                      >
+                        Why We Should All Read More Classics
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-m36p6y-MuiTypography-root"
+                      >
+                        In an age of endless content, classic literature offers something irreplaceable. From Dostoevsky's psychological depth to Austen's social wit, discover why these timeless works deserve a place on your reading list.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          Classics
+                        </div>
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          Reading
+                        </div>
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          Literature
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-1xdfsjn"
+                      >
+                        Read Article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    custom="2"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: Atomic Habits — Transforming Life One Page at a Time"
+                      class="MuiBox-root css-1j0lfos"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-hbel9u-MuiTypography-root"
+                        >
+                          September 12, 2023
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1l6eyjc-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          7 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-15tssl6-MuiTypography-root"
+                      >
+                        Atomic Habits — Transforming Life One Page at a Time
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-m36p6y-MuiTypography-root"
+                      >
+                        James Clear's masterpiece on habit formation isn't just a self-help book—it's a scientific approach to personal change. Discover how tiny changes compound into remarkable results through this insightful review.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          Non-Fiction
+                        </div>
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          Self-Help
+                        </div>
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          James Clear
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-1xdfsjn"
+                      >
+                        Read Article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    custom="3"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: The Art of Reading Multiple Books at Once"
+                      class="MuiBox-root css-1j0lfos"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-hbel9u-MuiTypography-root"
+                        >
+                          August 05, 2023
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1l6eyjc-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          5 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-15tssl6-MuiTypography-root"
+                      >
+                        The Art of Reading Multiple Books at Once
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-m36p6y-MuiTypography-root"
+                      >
+                        Juggling fiction and non-fiction, heavy and light reads. Learn the strategies for maintaining multiple reading threads without losing the plot—literally. A practical guide for the ambitious bibliophile.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          Reading Tips
+                        </div>
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          Productivity
+                        </div>
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          Books
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-1xdfsjn"
+                      >
+                        Read Article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    custom="4"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: Project Hail Mary — Science Fiction at Its Finest"
+                      class="MuiBox-root css-1j0lfos"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-hbel9u-MuiTypography-root"
+                        >
+                          July 20, 2023
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1l6eyjc-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          9 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-15tssl6-MuiTypography-root"
+                      >
+                        Project Hail Mary — Science Fiction at Its Finest
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-m36p6y-MuiTypography-root"
+                      >
+                        Andy Weir delivers another triumph of scientific problem-solving and human resilience. Follow Ryland Grace on an impossible mission to save Earth, armed with nothing but wit, science, and an unexpected friendship.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          Science Fiction
+                        </div>
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          Andy Weir
+                        </div>
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          Space
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-1xdfsjn"
+                      >
+                        Read Article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    custom="5"
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: Building a Personal Library — A Collector's Journey"
+                      class="MuiBox-root css-1j0lfos"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-hbel9u-MuiTypography-root"
+                        >
+                          June 08, 2023
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1l6eyjc-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          6 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-15tssl6-MuiTypography-root"
+                      >
+                        Building a Personal Library — A Collector's Journey
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-m36p6y-MuiTypography-root"
+                      >
+                        From scattered paperbacks to a curated collection. Thoughts on building a meaningful personal library, choosing editions, organizing shelves, and creating a space that reflects your literary journey.
+                      </p>
+                      <div
+                        class="MuiBox-root css-91umvt"
+                      >
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          Books
+                        </div>
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          Collection
+                        </div>
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          Personal
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-1xdfsjn"
+                      >
+                        Read Article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiBox-root css-shfz5"
+                >
+                  <button
+                    aria-label="Visit Bibliosmia blog"
+                    class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-34zy1z-MuiButtonBase-root-MuiButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    Visit Full Blog
+                    <span
+                      class="MuiButton-icon MuiButton-endIcon MuiButton-iconSizeMedium css-1gulhci-MuiButton-endIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                        data-testid="OpenInNewIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3z"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer
+      class="css-l1mh46"
+      data-testid="footer"
+    >
+      <div
+        class="MuiBox-root css-rbdmvl"
+      >
+        <svg
+          preserveAspectRatio="none"
+          style="width: 100%; height: 100%; position: absolute; top: 0px; left: 0px;"
+          viewBox="0 0 1920 160"
+        >
+          <path
+            d="M0,64 C320,120 640,20 960,80 C1280,140 1600,40 1920,96 L1920,0 L0,0 Z"
+            fill="rgba(46, 125, 50, 0.03)"
+          />
+          <path
+            d="M0,80 C320,30 640,130 960,60 C1280,10 1600,110 1920,50 L1920,0 L0,0 Z"
+            fill="rgba(0, 137, 123, 0.02)"
+          />
+          <path
+            d="M0,48 C320,100 640,10 960,72 C1280,130 1600,30 1920,88 L1920,0 L0,0 Z"
+            fill="rgba(46, 125, 50, 0.015)"
+          />
+        </svg>
+      </div>
+      <div
+        class="MuiBox-root css-13eu5iz"
+      >
+        <div
+          class="MuiContainer-root MuiContainer-maxWidthMd css-u4uvlt-MuiContainer-root"
+        >
+          <div
+            viewport="[object Object]"
+            whileinview="visible"
+          >
+            <div
+              class="MuiBox-root css-1644976"
+            >
+              <div>
+                <a
+                  aria-label="GitHub"
+                  class="css-z9rceo"
+                  data-mui-internal-clone-element="true"
+                  href="https://github.com/hhhrrrttt22211"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                    data-testid="GitHubIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div>
+                <a
+                  aria-label="LinkedIn"
+                  class="css-z9rceo"
+                  data-mui-internal-clone-element="true"
+                  href="https://linkedin.com/in/hhhrrrttt22211"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                    data-testid="LinkedInIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div>
+                <a
+                  aria-label="Twitter"
+                  class="css-z9rceo"
+                  data-mui-internal-clone-element="true"
+                  href="https://twitter.com/hhhrrrttt22211"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                    data-testid="TwitterIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div>
+                <a
+                  aria-label="Instagram"
+                  class="css-z9rceo"
+                  data-mui-internal-clone-element="true"
+                  href="https://instagram.com/hhhrrrttt22211"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                    data-testid="InstagramIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div>
+                <a
+                  aria-label="Facebook"
+                  class="css-z9rceo"
+                  data-mui-internal-clone-element="true"
+                  href="https://facebook.com/hhhrrrttt22211"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                    data-testid="FacebookIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m13 2h-2.5A3.5 3.5 0 0 0 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9a1 1 0 0 1 1-1h2V5z"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div>
+                <a
+                  aria-label="Reddit"
+                  class="css-z9rceo"
+                  data-mui-internal-clone-element="true"
+                  href="https://reddit.com/user/hhhrrrttt22211"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                    data-testid="RedditIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M22 12.14a2.19 2.19 0 0 0-3.71-1.57 10.93 10.93 0 0 0-5.86-1.87l1-4.7 3.27.71a1.56 1.56 0 1 0 .16-.76l-3.64-.77c-.11-.02-.22 0-.29.06-.09.05-.14.14-.16.26l-1.11 5.22c-2.33.07-4.43.78-5.95 1.86A2.2 2.2 0 0 0 4.19 10a2.16 2.16 0 0 0-.9 4.15 3.6 3.6 0 0 0-.05.66c0 3.37 3.92 6.12 8.76 6.12s8.76-2.73 8.76-6.12c0-.21-.01-.44-.05-.66A2.21 2.21 0 0 0 22 12.14M7 13.7c0-.86.68-1.56 1.54-1.56s1.56.7 1.56 1.56a1.56 1.56 0 0 1-1.56 1.56c-.86.02-1.54-.7-1.54-1.56m8.71 4.14C14.63 18.92 12.59 19 12 19c-.61 0-2.65-.1-3.71-1.16a.4.4 0 0 1 0-.57.4.4 0 0 1 .57 0c.68.68 2.14.91 3.14.91s2.47-.23 3.14-.91a.4.4 0 0 1 .57 0c.14.16.14.41 0 .57m-.29-2.56c-.86 0-1.56-.7-1.56-1.56a1.56 1.56 0 0 1 1.56-1.56c.86 0 1.58.7 1.58 1.56a1.6 1.6 0 0 1-1.58 1.56z"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div>
+                <a
+                  aria-label="Goodreads"
+                  class="css-z9rceo"
+                  data-mui-internal-clone-element="true"
+                  href="https://goodreads.com/hhhrrrttt22211"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                    data-testid="MenuBookIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1m0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5z"
+                    />
+                    <path
+                      d="M17.5 10.5c.88 0 1.73.09 2.5.26V9.24c-.79-.15-1.64-.24-2.5-.24-1.7 0-3.24.29-4.5.83v1.66c1.13-.64 2.7-.99 4.5-.99M13 12.49v1.66c1.13-.64 2.7-.99 4.5-.99.88 0 1.73.09 2.5.26V11.9c-.79-.15-1.64-.24-2.5-.24-1.7 0-3.24.3-4.5.83m4.5 1.84c-1.7 0-3.24.29-4.5.83v1.66c1.13-.64 2.7-.99 4.5-.99.88 0 1.73.09 2.5.26v-1.52c-.79-.16-1.64-.24-2.5-.24"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-1vsjjcz-MuiTypography-root"
+          >
+            © 
+            2026
+             Hemanth R. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+`;
