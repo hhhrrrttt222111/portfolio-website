@@ -1,36 +1,37 @@
 import React from "react";
-import { render, screen, fireEvent } from "@testing-library/react";
+import { render, screen, fireEvent, waitFor } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
 import MobileNav from "@/components/Navbar/MobileNav";
+import { NAV_LINKS, LOGO_TEXT, CTA_LINK } from "@/constants";
 
-const MOCK_LINKS = [
-  { label: "About", path: "/about" },
-  { label: "Blog", path: "/blog" },
-];
+const theme = createTheme();
 
-const renderMobileNav = (open = true, onClose = jest.fn()) =>
+const renderMobileNav = (onClose = jest.fn(), initialRoute = "/") =>
   render(
-    <MemoryRouter>
-      <MobileNav open={open} onClose={onClose} links={MOCK_LINKS} />
-    </MemoryRouter>,
+    <ThemeProvider theme={theme}>
+      <MemoryRouter initialEntries={[initialRoute]}>
+        <MobileNav onClose={onClose} links={[...NAV_LINKS]} />
+      </MemoryRouter>
+    </ThemeProvider>,
   );
 
 describe("MobileNav", () => {
-  it("renders without crashing when open", () => {
+  it("renders without crashing", () => {
     renderMobileNav();
-    expect(screen.getByText("HRT")).toBeInTheDocument();
+    expect(screen.getByText(LOGO_TEXT)).toBeInTheDocument();
   });
 
-  it("renders all nav links", () => {
+  it("renders all nav links from constants", () => {
     renderMobileNav();
-    MOCK_LINKS.forEach((link) => {
+    NAV_LINKS.forEach((link) => {
       expect(screen.getByText(link.label)).toBeInTheDocument();
     });
   });
 
   it("renders the Contact Me link", () => {
     renderMobileNav();
-    expect(screen.getByRole("link", { name: /contact me/i })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: CTA_LINK.label })).toBeInTheDocument();
   });
 
   it("renders the close button", () => {
@@ -40,28 +41,74 @@ describe("MobileNav", () => {
 
   it("calls onClose when close button is clicked", () => {
     const onClose = jest.fn();
-    renderMobileNav(true, onClose);
+    renderMobileNav(onClose);
     fireEvent.click(screen.getByRole("button", { name: /close menu/i }));
     expect(onClose).toHaveBeenCalledTimes(1);
   });
 
   it("calls onClose when a nav link is clicked", () => {
     const onClose = jest.fn();
-    renderMobileNav(true, onClose);
+    renderMobileNav(onClose);
     fireEvent.click(screen.getByText("About"));
     expect(onClose).toHaveBeenCalledTimes(1);
   });
 
   it("calls onClose when Contact Me link is clicked", () => {
     const onClose = jest.fn();
-    renderMobileNav(true, onClose);
-    fireEvent.click(screen.getByRole("link", { name: /contact me/i }));
+    renderMobileNav(onClose);
+    fireEvent.click(screen.getByRole("link", { name: CTA_LINK.label }));
     expect(onClose).toHaveBeenCalledTimes(1);
   });
 
-  it("does not render content when closed", () => {
-    renderMobileNav(false);
-    expect(screen.queryByText("HRT")).not.toBeInTheDocument();
+  it("calls onClose when overlay is clicked", () => {
+    const onClose = jest.fn();
+    const { container } = renderMobileNav(onClose);
+    const overlay = container.querySelector('[aria-hidden="true"]');
+    if (overlay) {
+      fireEvent.click(overlay);
+      expect(onClose).toHaveBeenCalledTimes(1);
+    }
+  });
+
+  it("calls onClose when Escape key is pressed", () => {
+    const onClose = jest.fn();
+    renderMobileNav(onClose);
+    fireEvent.keyDown(document, { key: "Escape" });
+    expect(onClose).toHaveBeenCalledTimes(1);
+  });
+
+  it("has correct aria attributes for accessibility", () => {
+    renderMobileNav();
+    const dialog = screen.getByRole("dialog");
+    expect(dialog).toHaveAttribute("aria-modal", "true");
+    expect(dialog).toHaveAttribute("aria-label", "Mobile navigation menu");
+  });
+
+  it("navigation links have correct href attributes", () => {
+    renderMobileNav();
+    NAV_LINKS.forEach((link) => {
+      const navLink = screen.getByRole("link", { name: link.label });
+      expect(navLink).toHaveAttribute("href", link.path);
+    });
+  });
+
+  it("CTA button has correct href", () => {
+    renderMobileNav();
+    const ctaButton = screen.getByRole("link", { name: CTA_LINK.label });
+    expect(ctaButton).toHaveAttribute("href", CTA_LINK.path);
+  });
+
+  it("shows active indicator for current route", async () => {
+    renderMobileNav(jest.fn(), "/about");
+    const aboutLink = screen.getByRole("link", { name: "About" });
+    await waitFor(() => {
+      expect(aboutLink).toHaveAttribute("aria-current", "page");
+    });
+  });
+
+  it("sets body overflow to hidden when mounted", () => {
+    renderMobileNav();
+    expect(document.body.style.overflow).toBe("hidden");
   });
 
   it("matches snapshot", () => {

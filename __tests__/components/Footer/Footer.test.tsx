@@ -5,39 +5,67 @@ import { createAppTheme } from "@/theme";
 import { Footer } from "@/components";
 import { SOCIAL_LINKS } from "@/constants";
 
-const FRAMER_PROPS = new Set([
-  "initial",
-  "animate",
-  "exit",
-  "variants",
-  "transition",
-  "whileHover",
-  "whileInView",
-  "whileTap",
-  "viewport",
-  "onMouseMove",
-  "onMouseLeave",
-]);
+jest.mock("framer-motion", () => {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const React = require("react");
 
-jest.mock("framer-motion", () => ({
-  motion: {
-    div: React.forwardRef<HTMLDivElement, Record<string, unknown>>((props, ref) => {
-      const filtered = Object.fromEntries(
-        Object.entries(props).filter(([key]) => !FRAMER_PROPS.has(key)),
-      );
-      return <div ref={ref} {...filtered} />;
-    }),
-    path: (props: Record<string, unknown>) => {
-      const filtered = Object.fromEntries(
-        Object.entries(props).filter(
-          ([key]) => !FRAMER_PROPS.has(key) && !["animate"].includes(key),
-        ),
-      );
-      return <path {...filtered} />;
+  const FRAMER_PROPS = new Set([
+    "initial",
+    "animate",
+    "exit",
+    "variants",
+    "transition",
+    "whileHover",
+    "whileInView",
+    "whileTap",
+    "whileFocus",
+    "viewport",
+    "onMouseMove",
+    "onMouseLeave",
+    "custom",
+    "layoutId",
+  ]);
+
+  const createMotionComponent = (tag: string) => {
+    const Component = React.forwardRef(
+      (props: Record<string, unknown>, ref: React.Ref<HTMLElement>) => {
+        const filtered = Object.fromEntries(
+          Object.entries(props).filter(([key]) => !FRAMER_PROPS.has(key)),
+        );
+        return React.createElement(tag, { ...filtered, ref });
+      },
+    );
+    return Component;
+  };
+
+  const createFromComponent = (BaseComponent: React.ComponentType<Record<string, unknown>>) => {
+    const Component = React.forwardRef(
+      (props: Record<string, unknown>, ref: React.Ref<HTMLElement>) => {
+        const filtered = Object.fromEntries(
+          Object.entries(props).filter(([key]) => !FRAMER_PROPS.has(key)),
+        );
+        return React.createElement(BaseComponent, { ...filtered, ref });
+      },
+    );
+    return Component;
+  };
+
+  return {
+    motion: {
+      create: createFromComponent,
+      div: createMotionComponent("div"),
+      span: createMotionComponent("span"),
+      a: createMotionComponent("a"),
+      button: createMotionComponent("button"),
+      header: createMotionComponent("header"),
+      nav: createMotionComponent("nav"),
+      path: createMotionComponent("path"),
     },
-  },
-  useReducedMotion: () => false,
-}));
+    AnimatePresence: ({ children }: { children: React.ReactNode }) =>
+      React.createElement(React.Fragment, null, children),
+    useReducedMotion: () => false,
+  };
+});
 
 const renderWithTheme = (mode: "light" | "dark" = "light") =>
   render(

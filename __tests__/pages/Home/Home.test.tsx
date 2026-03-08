@@ -5,49 +5,63 @@ import { MemoryRouter } from "react-router-dom";
 import { createAppTheme } from "@/theme";
 import { Home } from "@/pages";
 
-const FRAMER_PROPS = new Set([
-  "initial",
-  "animate",
-  "exit",
-  "variants",
-  "transition",
-  "whileHover",
-  "whileInView",
-  "whileTap",
-  "viewport",
-  "onMouseMove",
-  "onMouseLeave",
-]);
-
-const filterProps = (props: Record<string, unknown>) =>
-  Object.fromEntries(Object.entries(props).filter(([key]) => !FRAMER_PROPS.has(key)));
-
-const mockMotionValue = (initial: number) => ({
-  get: () => initial,
-  set: () => {},
-  subscribe: () => () => {},
-  onChange: () => () => {},
-  on: () => () => {},
+jest.mock("framer-motion", () => {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const React = require("react");
+  const FRAMER_PROPS = new Set([
+    "initial",
+    "animate",
+    "exit",
+    "variants",
+    "transition",
+    "whileHover",
+    "whileInView",
+    "whileTap",
+    "whileFocus",
+    "viewport",
+    "onMouseMove",
+    "onMouseLeave",
+    "custom",
+    "layoutId",
+  ]);
+  const filterProps = (props: Record<string, unknown>) =>
+    Object.fromEntries(Object.entries(props).filter(([key]) => !FRAMER_PROPS.has(key)));
+  const createMotionComponent = (tag: string) =>
+    React.forwardRef((props: Record<string, unknown>, ref: React.Ref<HTMLElement>) =>
+      React.createElement(tag, { ...filterProps(props), ref }),
+    );
+  const createFromComponent = (BaseComponent: React.ComponentType<Record<string, unknown>>) =>
+    React.forwardRef((props: Record<string, unknown>, ref: React.Ref<HTMLElement>) =>
+      React.createElement(BaseComponent, { ...filterProps(props), ref }),
+    );
+  const mockMotionValue = (initial: number) => ({
+    get: () => initial,
+    set: () => {},
+    subscribe: () => () => {},
+    onChange: () => () => {},
+    on: () => () => {},
+  });
+  return {
+    motion: {
+      create: createFromComponent,
+      div: createMotionComponent("div"),
+      span: createMotionComponent("span"),
+      a: createMotionComponent("a"),
+      button: createMotionComponent("button"),
+      header: createMotionComponent("header"),
+      nav: createMotionComponent("nav"),
+      path: createMotionComponent("path"),
+    },
+    useReducedMotion: () => false,
+    useMotionValue: (initial: number) => mockMotionValue(initial),
+    useSpring: (source: unknown) => source,
+    useScroll: () => ({ scrollYProgress: mockMotionValue(0) }),
+    useTransform: () => mockMotionValue(0),
+    AnimatePresence: ({ children }: { children: React.ReactNode }) =>
+      React.createElement(React.Fragment, null, children),
+    useInView: () => true,
+  };
 });
-
-jest.mock("framer-motion", () => ({
-  motion: {
-    div: React.forwardRef<HTMLDivElement, Record<string, unknown>>((props, ref) => (
-      <div ref={ref} {...filterProps(props)} />
-    )),
-    path: (props: Record<string, unknown>) => <path {...filterProps(props)} />,
-    span: React.forwardRef<HTMLSpanElement, Record<string, unknown>>((props, ref) => (
-      <span ref={ref} {...filterProps(props)} />
-    )),
-  },
-  useReducedMotion: () => false,
-  useMotionValue: (initial: number) => mockMotionValue(initial),
-  useSpring: (source: unknown) => source,
-  useScroll: () => ({ scrollYProgress: mockMotionValue(0) }),
-  useTransform: () => mockMotionValue(0),
-  AnimatePresence: ({ children }: { children: React.ReactNode }) => <>{children}</>,
-  useInView: () => true,
-}));
 
 const renderHome = () =>
   render(

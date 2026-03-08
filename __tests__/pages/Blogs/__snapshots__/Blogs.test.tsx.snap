@@ -6,46 +6,60 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
     class="MuiBox-root css-169p3eq"
   >
     <header
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-labgqk-MuiPaper-root-MuiAppBar-root"
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-nffr9a-MuiPaper-root-MuiAppBar-root"
       style="--Paper-shadow: none; --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));"
     >
       <div
-        class="MuiToolbar-root MuiToolbar-regular css-1qo5tb8-MuiToolbar-root"
+        class="MuiToolbar-root MuiToolbar-regular css-5p63oq-MuiToolbar-root"
       >
-        <a
-          class="css-kkoc1e"
-          data-discover="true"
-          href="/"
-        >
-          HRT
-        </a>
+        <div>
+          <a
+            class="css-aw95pg"
+            data-discover="true"
+            href="/"
+          >
+            HRT
+          </a>
+        </div>
         <div
           class="MuiBox-root css-i9gxme"
         />
         <div
-          class="MuiStack-root css-kdc3n8-MuiStack-root"
+          class="MuiBox-root css-1b6rjoo"
         >
-          <a
-            class="css-1pb62jw"
-            data-discover="true"
-            href="/about"
+          <div
+            class="css-19sk4h4"
           >
-            About
-          </a>
-          <a
-            class="css-1pb62jw"
-            data-discover="true"
-            href="/blog"
+            <a
+              class="css-125bzkn"
+              data-discover="true"
+              href="/about"
+            >
+              About
+            </a>
+          </div>
+          <div
+            class="css-19sk4h4"
           >
-            Blog
-          </a>
-          <a
-            class="css-swcnb1"
-            data-discover="true"
-            href="/contact"
-          >
-            Contact Me
-          </a>
+            <a
+              class="css-125bzkn"
+              data-discover="true"
+              href="/blog"
+            >
+              Blog
+            </a>
+          </div>
+          <div>
+            <a
+              class="css-omc921"
+              data-discover="true"
+              href="/contact"
+            >
+              <span>
+                Contact Me
+              </span>
+            </a>
+          </div>
         </div>
       </div>
     </header>
@@ -94,37 +108,59 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                 class="MuiBox-root css-1pb01fr"
               />
               <div
-                class="MuiBox-root css-1pu0ian"
+                class="MuiBox-root css-t630ao"
               />
               <div
-                class="MuiBox-root css-15pvpgk"
+                class="MuiBox-root css-f1jssz"
               />
               <div
-                class="MuiBox-root css-9xwfmj"
+                class="MuiBox-root css-b3kjqj"
               />
               <div
-                class="MuiBox-root css-1rngpqh"
+                class="MuiBox-root css-7j9r0i"
               />
               <div
-                class="MuiBox-root css-brs25w"
+                class="MuiBox-root css-1bdr0bt"
               />
               <div
-                class="MuiBox-root css-951rhn"
+                class="MuiBox-root css-9wmea5"
               />
               <div
-                class="MuiBox-root css-cj888b"
+                class="MuiBox-root css-1g1ry0h"
               />
               <div
-                class="MuiBox-root css-vgpz4y"
+                class="MuiBox-root css-1nczqqg"
               />
               <div
-                class="MuiBox-root css-j37lip"
+                class="MuiBox-root css-jyuugk"
               />
               <div
-                class="MuiBox-root css-f9fns2"
+                class="MuiBox-root css-1xy5h8i"
+              />
+              <div
+                class="MuiBox-root css-109tzgd"
+              />
+              <div
+                class="MuiBox-root css-bvnbyx"
+              />
+              <div
+                class="MuiBox-root css-2tdeyj"
+              />
+              <div
+                class="MuiBox-root css-ltsquw"
+              />
+              <div
+                class="MuiBox-root css-6b10p"
+              />
+              <div
+                class="MuiBox-root css-1dvfvxd"
+              />
+              <div
+                class="MuiBox-root css-15a8kwc"
               >
                 <div
                   animationdata="[object Object]"
+                  autoplay=""
                   data-testid="lottie-animation"
                   loop=""
                   style="width: 100%; height: 100%;"
@@ -138,7 +174,7 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                     class="MuiBox-root css-1gll2eq"
                   >
                     <h2
-                      class="css-1p5m8ww"
+                      class="css-4bf2zb"
                       id="hackzism-title"
                     >
                       Hackzism
@@ -188,7 +224,6 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                   class="MuiBox-root css-rud7fc"
                 >
                   <div
-                    custom="0"
                     viewport="[object Object]"
                     whileinview="visible"
                   >
@@ -277,7 +312,6 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                     </div>
                   </div>
                   <div
-                    custom="1"
                     viewport="[object Object]"
                     whileinview="visible"
                   >
@@ -366,7 +400,6 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                     </div>
                   </div>
                   <div
-                    custom="2"
                     viewport="[object Object]"
                     whileinview="visible"
                   >
@@ -455,7 +488,6 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                     </div>
                   </div>
                   <div
-                    custom="3"
                     viewport="[object Object]"
                     whileinview="visible"
                   >
@@ -544,7 +576,6 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                     </div>
                   </div>
                   <div
-                    custom="4"
                     viewport="[object Object]"
                     whileinview="visible"
                   >
@@ -633,7 +664,6 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                     </div>
                   </div>
                   <div
-                    custom="5"
                     viewport="[object Object]"
                     whileinview="visible"
                   >
@@ -778,37 +808,59 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                 class="MuiBox-root css-t1mfiu"
               />
               <div
-                class="MuiBox-root css-1bnp11i"
+                class="MuiBox-root css-17v8sy3"
               />
               <div
-                class="MuiBox-root css-v751w1"
+                class="MuiBox-root css-rat757"
               />
               <div
-                class="MuiBox-root css-innboo"
+                class="MuiBox-root css-1kfrm3n"
               />
               <div
-                class="MuiBox-root css-urbxmn"
+                class="MuiBox-root css-xoznlr"
               />
               <div
-                class="MuiBox-root css-bkxvja"
+                class="MuiBox-root css-gfhpv9"
               />
               <div
-                class="MuiBox-root css-15anei9"
+                class="MuiBox-root css-yke1gj"
               />
               <div
-                class="MuiBox-root css-13atppj"
+                class="MuiBox-root css-gjqaem"
               />
               <div
-                class="MuiBox-root css-1qegmsi"
+                class="MuiBox-root css-qdtuzn"
               />
               <div
-                class="MuiBox-root css-25n8jc"
+                class="MuiBox-root css-1ge4xoi"
               />
               <div
-                class="MuiBox-root css-dari9v"
+                class="MuiBox-root css-1u7zcqi"
+              />
+              <div
+                class="MuiBox-root css-6qcw7i"
+              />
+              <div
+                class="MuiBox-root css-jcols"
+              />
+              <div
+                class="MuiBox-root css-v6e5f2"
+              />
+              <div
+                class="MuiBox-root css-voys8l"
+              />
+              <div
+                class="MuiBox-root css-1xcd0zl"
+              />
+              <div
+                class="MuiBox-root css-1f6q7oc"
+              />
+              <div
+                class="MuiBox-root css-fmklc"
               >
                 <div
                   animationdata="[object Object]"
+                  autoplay=""
                   data-testid="lottie-animation"
                   loop=""
                   style="width: 100%; height: 100%;"
@@ -822,7 +874,7 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                     class="MuiBox-root css-1gcwoba"
                   >
                     <h2
-                      class="css-1c49xpn"
+                      class="css-krk8hu"
                       id="bibliosmia-title"
                     >
                       Bibliosmia
@@ -872,7 +924,6 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                   class="MuiBox-root css-rud7fc"
                 >
                   <div
-                    custom="0"
                     viewport="[object Object]"
                     whileinview="visible"
                   >
@@ -958,7 +1009,6 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                     </div>
                   </div>
                   <div
-                    custom="1"
                     viewport="[object Object]"
                     whileinview="visible"
                   >
@@ -1044,7 +1094,6 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                     </div>
                   </div>
                   <div
-                    custom="2"
                     viewport="[object Object]"
                     whileinview="visible"
                   >
@@ -1130,7 +1179,6 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                     </div>
                   </div>
                   <div
-                    custom="3"
                     viewport="[object Object]"
                     whileinview="visible"
                   >
@@ -1216,7 +1264,6 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                     </div>
                   </div>
                   <div
-                    custom="4"
                     viewport="[object Object]"
                     whileinview="visible"
                   >
@@ -1302,7 +1349,6 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                     </div>
                   </div>
                   <div
-                    custom="5"
                     viewport="[object Object]"
                     whileinview="visible"
                   >
@@ -1639,46 +1685,60 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
     class="MuiBox-root css-gaaqr7"
   >
     <header
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-1t0h9gd-MuiPaper-root-MuiAppBar-root"
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-je3t1l-MuiPaper-root-MuiAppBar-root"
       style="--Paper-shadow: none;"
     >
       <div
-        class="MuiToolbar-root MuiToolbar-regular css-10a6tuy-MuiToolbar-root"
+        class="MuiToolbar-root MuiToolbar-regular css-1h0023q-MuiToolbar-root"
       >
-        <a
-          class="css-1hjppfk"
-          data-discover="true"
-          href="/"
-        >
-          HRT
-        </a>
+        <div>
+          <a
+            class="css-s7ixlb"
+            data-discover="true"
+            href="/"
+          >
+            HRT
+          </a>
+        </div>
         <div
           class="MuiBox-root css-i9gxme"
         />
         <div
-          class="MuiStack-root css-kdc3n8-MuiStack-root"
+          class="MuiBox-root css-1b6rjoo"
         >
-          <a
-            class="css-1c37e78"
-            data-discover="true"
-            href="/about"
+          <div
+            class="css-19sk4h4"
           >
-            About
-          </a>
-          <a
-            class="css-1c37e78"
-            data-discover="true"
-            href="/blog"
+            <a
+              class="css-q1a495"
+              data-discover="true"
+              href="/about"
+            >
+              About
+            </a>
+          </div>
+          <div
+            class="css-19sk4h4"
           >
-            Blog
-          </a>
-          <a
-            class="css-2l76li"
-            data-discover="true"
-            href="/contact"
-          >
-            Contact Me
-          </a>
+            <a
+              class="css-q1a495"
+              data-discover="true"
+              href="/blog"
+            >
+              Blog
+            </a>
+          </div>
+          <div>
+            <a
+              class="css-agkxxa"
+              data-discover="true"
+              href="/contact"
+            >
+              <span>
+                Contact Me
+              </span>
+            </a>
+          </div>
         </div>
       </div>
     </header>
@@ -1727,37 +1787,59 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-1817l4e"
               />
               <div
-                class="MuiBox-root css-1pu0ian"
+                class="MuiBox-root css-w40xa8"
               />
               <div
-                class="MuiBox-root css-oy7fox"
+                class="MuiBox-root css-puy5ln"
               />
               <div
-                class="MuiBox-root css-1b984dd"
+                class="MuiBox-root css-1n2g31g"
               />
               <div
-                class="MuiBox-root css-4soxoj"
+                class="MuiBox-root css-177hpyw"
               />
               <div
-                class="MuiBox-root css-19sfyas"
+                class="MuiBox-root css-6yhwj6"
               />
               <div
-                class="MuiBox-root css-1ndsjad"
+                class="MuiBox-root css-zlpi2y"
               />
               <div
-                class="MuiBox-root css-k17eto"
+                class="MuiBox-root css-var8xi"
               />
               <div
-                class="MuiBox-root css-1ommrg2"
+                class="MuiBox-root css-4zd68p"
               />
               <div
-                class="MuiBox-root css-1lbrsqp"
+                class="MuiBox-root css-1reu9cv"
               />
               <div
-                class="MuiBox-root css-f9fns2"
+                class="MuiBox-root css-1dee17r"
+              />
+              <div
+                class="MuiBox-root css-vxhznb"
+              />
+              <div
+                class="MuiBox-root css-ed6s7k"
+              />
+              <div
+                class="MuiBox-root css-1ipavx3"
+              />
+              <div
+                class="MuiBox-root css-xymhml"
+              />
+              <div
+                class="MuiBox-root css-t2iwtg"
+              />
+              <div
+                class="MuiBox-root css-onycxy"
+              />
+              <div
+                class="MuiBox-root css-1hepnlc"
               >
                 <div
                   animationdata="[object Object]"
+                  autoplay=""
                   data-testid="lottie-animation"
                   loop=""
                   style="width: 100%; height: 100%;"
@@ -1771,7 +1853,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                     class="MuiBox-root css-1gll2eq"
                   >
                     <h2
-                      class="css-4maw21"
+                      class="css-448o8q"
                       id="hackzism-title"
                     >
                       Hackzism
@@ -1821,7 +1903,6 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                   class="MuiBox-root css-rud7fc"
                 >
                   <div
-                    custom="0"
                     viewport="[object Object]"
                     whileinview="visible"
                   >
@@ -1910,7 +1991,6 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                     </div>
                   </div>
                   <div
-                    custom="1"
                     viewport="[object Object]"
                     whileinview="visible"
                   >
@@ -1999,7 +2079,6 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                     </div>
                   </div>
                   <div
-                    custom="2"
                     viewport="[object Object]"
                     whileinview="visible"
                   >
@@ -2088,7 +2167,6 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                     </div>
                   </div>
                   <div
-                    custom="3"
                     viewport="[object Object]"
                     whileinview="visible"
                   >
@@ -2177,7 +2255,6 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                     </div>
                   </div>
                   <div
-                    custom="4"
                     viewport="[object Object]"
                     whileinview="visible"
                   >
@@ -2266,7 +2343,6 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                     </div>
                   </div>
                   <div
-                    custom="5"
                     viewport="[object Object]"
                     whileinview="visible"
                   >
@@ -2411,37 +2487,59 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-2tl1ac"
               />
               <div
-                class="MuiBox-root css-1bnp11i"
+                class="MuiBox-root css-16fsi3"
               />
               <div
-                class="MuiBox-root css-dgq2h1"
+                class="MuiBox-root css-l0w51m"
               />
               <div
-                class="MuiBox-root css-1t39nqs"
+                class="MuiBox-root css-14q02ed"
               />
               <div
-                class="MuiBox-root css-1oncukq"
+                class="MuiBox-root css-3eltfi"
               />
               <div
-                class="MuiBox-root css-shaho7"
+                class="MuiBox-root css-4y15vd"
               />
               <div
-                class="MuiBox-root css-brrd4q"
+                class="MuiBox-root css-1xlhp6g"
               />
               <div
-                class="MuiBox-root css-tritf3"
+                class="MuiBox-root css-1ymsw4i"
               />
               <div
-                class="MuiBox-root css-1099fde"
+                class="MuiBox-root css-3d3eou"
               />
               <div
-                class="MuiBox-root css-rgehnh"
+                class="MuiBox-root css-1arcz5w"
               />
               <div
-                class="MuiBox-root css-dari9v"
+                class="MuiBox-root css-jpg4zz"
+              />
+              <div
+                class="MuiBox-root css-1koembr"
+              />
+              <div
+                class="MuiBox-root css-ghhf51"
+              />
+              <div
+                class="MuiBox-root css-62f7k0"
+              />
+              <div
+                class="MuiBox-root css-l3n3f9"
+              />
+              <div
+                class="MuiBox-root css-icpfsl"
+              />
+              <div
+                class="MuiBox-root css-1yo5xv3"
+              />
+              <div
+                class="MuiBox-root css-83y17c"
               >
                 <div
                   animationdata="[object Object]"
+                  autoplay=""
                   data-testid="lottie-animation"
                   loop=""
                   style="width: 100%; height: 100%;"
@@ -2455,7 +2553,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                     class="MuiBox-root css-1gcwoba"
                   >
                     <h2
-                      class="css-pjytib"
+                      class="css-14ame1b"
                       id="bibliosmia-title"
                     >
                       Bibliosmia
@@ -2505,7 +2603,6 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                   class="MuiBox-root css-rud7fc"
                 >
                   <div
-                    custom="0"
                     viewport="[object Object]"
                     whileinview="visible"
                   >
@@ -2591,7 +2688,6 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                     </div>
                   </div>
                   <div
-                    custom="1"
                     viewport="[object Object]"
                     whileinview="visible"
                   >
@@ -2677,7 +2773,6 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                     </div>
                   </div>
                   <div
-                    custom="2"
                     viewport="[object Object]"
                     whileinview="visible"
                   >
@@ -2763,7 +2858,6 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                     </div>
                   </div>
                   <div
-                    custom="3"
                     viewport="[object Object]"
                     whileinview="visible"
                   >
@@ -2849,7 +2943,6 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                     </div>
                   </div>
                   <div
-                    custom="4"
                     viewport="[object Object]"
                     whileinview="visible"
                   >
@@ -2935,7 +3028,6 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                     </div>
                   </div>
                   <div
-                    custom="5"
                     viewport="[object Object]"
                     whileinview="visible"
                   >

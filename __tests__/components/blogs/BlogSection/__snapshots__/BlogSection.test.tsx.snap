@@ -17,37 +17,59 @@ exports[`BlogSection matches snapshot (hacker dark) 1`] = `
           class="MuiBox-root css-1pb01fr"
         />
         <div
-          class="MuiBox-root css-1pu0ian"
+          class="MuiBox-root css-t630ao"
         />
         <div
-          class="MuiBox-root css-15pvpgk"
+          class="MuiBox-root css-f1jssz"
         />
         <div
-          class="MuiBox-root css-9xwfmj"
+          class="MuiBox-root css-b3kjqj"
         />
         <div
-          class="MuiBox-root css-1rngpqh"
+          class="MuiBox-root css-7j9r0i"
         />
         <div
-          class="MuiBox-root css-brs25w"
+          class="MuiBox-root css-1bdr0bt"
         />
         <div
-          class="MuiBox-root css-951rhn"
+          class="MuiBox-root css-9wmea5"
         />
         <div
-          class="MuiBox-root css-cj888b"
+          class="MuiBox-root css-1g1ry0h"
         />
         <div
-          class="MuiBox-root css-vgpz4y"
+          class="MuiBox-root css-1nczqqg"
         />
         <div
-          class="MuiBox-root css-j37lip"
+          class="MuiBox-root css-jyuugk"
         />
         <div
-          class="MuiBox-root css-f9fns2"
+          class="MuiBox-root css-1xy5h8i"
+        />
+        <div
+          class="MuiBox-root css-109tzgd"
+        />
+        <div
+          class="MuiBox-root css-bvnbyx"
+        />
+        <div
+          class="MuiBox-root css-2tdeyj"
+        />
+        <div
+          class="MuiBox-root css-ltsquw"
+        />
+        <div
+          class="MuiBox-root css-6b10p"
+        />
+        <div
+          class="MuiBox-root css-1dvfvxd"
+        />
+        <div
+          class="MuiBox-root css-15a8kwc"
         >
           <div
             animationdata="[object Object]"
+            autoplay=""
             data-testid="lottie-animation"
             loop=""
             style="width: 100%; height: 100%;"
@@ -61,7 +83,7 @@ exports[`BlogSection matches snapshot (hacker dark) 1`] = `
               class="MuiBox-root css-1gll2eq"
             >
               <h2
-                class="css-1p5m8ww"
+                class="css-4bf2zb"
                 id="hackzism-title"
               >
                 Hackzism
@@ -101,7 +123,6 @@ exports[`BlogSection matches snapshot (hacker dark) 1`] = `
             class="MuiBox-root css-rud7fc"
           >
             <div
-              custom="0"
               viewport="[object Object]"
               whileinview="visible"
             >
@@ -185,7 +206,6 @@ exports[`BlogSection matches snapshot (hacker dark) 1`] = `
               </div>
             </div>
             <div
-              custom="1"
               viewport="[object Object]"
               whileinview="visible"
             >
@@ -315,37 +335,59 @@ exports[`BlogSection matches snapshot (literary light) 1`] = `
           class="MuiBox-root css-2tl1ac"
         />
         <div
-          class="MuiBox-root css-1bnp11i"
+          class="MuiBox-root css-16fsi3"
         />
         <div
-          class="MuiBox-root css-dgq2h1"
+          class="MuiBox-root css-l0w51m"
         />
         <div
-          class="MuiBox-root css-1t39nqs"
+          class="MuiBox-root css-14q02ed"
         />
         <div
-          class="MuiBox-root css-1oncukq"
+          class="MuiBox-root css-3eltfi"
         />
         <div
-          class="MuiBox-root css-shaho7"
+          class="MuiBox-root css-4y15vd"
         />
         <div
-          class="MuiBox-root css-brrd4q"
+          class="MuiBox-root css-1xlhp6g"
         />
         <div
-          class="MuiBox-root css-tritf3"
+          class="MuiBox-root css-1ymsw4i"
         />
         <div
-          class="MuiBox-root css-1099fde"
+          class="MuiBox-root css-3d3eou"
         />
         <div
-          class="MuiBox-root css-rgehnh"
+          class="MuiBox-root css-1arcz5w"
         />
         <div
-          class="MuiBox-root css-dari9v"
+          class="MuiBox-root css-jpg4zz"
+        />
+        <div
+          class="MuiBox-root css-1koembr"
+        />
+        <div
+          class="MuiBox-root css-ghhf51"
+        />
+        <div
+          class="MuiBox-root css-62f7k0"
+        />
+        <div
+          class="MuiBox-root css-l3n3f9"
+        />
+        <div
+          class="MuiBox-root css-icpfsl"
+        />
+        <div
+          class="MuiBox-root css-1yo5xv3"
+        />
+        <div
+          class="MuiBox-root css-83y17c"
         >
           <div
             animationdata="[object Object]"
+            autoplay=""
             data-testid="lottie-animation"
             loop=""
             style="width: 100%; height: 100%;"
@@ -359,7 +401,7 @@ exports[`BlogSection matches snapshot (literary light) 1`] = `
               class="MuiBox-root css-1gcwoba"
             >
               <h2
-                class="css-pjytib"
+                class="css-14ame1b"
                 id="bibliosmia-title"
               >
                 Bibliosmia
@@ -399,7 +441,6 @@ exports[`BlogSection matches snapshot (literary light) 1`] = `
             class="MuiBox-root css-rud7fc"
           >
             <div
-              custom="0"
               viewport="[object Object]"
               whileinview="visible"
             >

@@ -6,46 +6,60 @@ exports[`Books Page matches snapshot (dark mode) 1`] = `
     class="MuiBox-root css-0"
   >
     <header
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-labgqk-MuiPaper-root-MuiAppBar-root"
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-nffr9a-MuiPaper-root-MuiAppBar-root"
       style="--Paper-shadow: none; --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));"
     >
       <div
-        class="MuiToolbar-root MuiToolbar-regular css-1qo5tb8-MuiToolbar-root"
+        class="MuiToolbar-root MuiToolbar-regular css-5p63oq-MuiToolbar-root"
       >
-        <a
-          class="css-kkoc1e"
-          data-discover="true"
-          href="/"
-        >
-          HRT
-        </a>
+        <div>
+          <a
+            class="css-aw95pg"
+            data-discover="true"
+            href="/"
+          >
+            HRT
+          </a>
+        </div>
         <div
           class="MuiBox-root css-i9gxme"
         />
         <div
-          class="MuiStack-root css-kdc3n8-MuiStack-root"
+          class="MuiBox-root css-1b6rjoo"
         >
-          <a
-            class="css-1pb62jw"
-            data-discover="true"
-            href="/about"
+          <div
+            class="css-19sk4h4"
           >
-            About
-          </a>
-          <a
-            class="css-1pb62jw"
-            data-discover="true"
-            href="/blog"
+            <a
+              class="css-125bzkn"
+              data-discover="true"
+              href="/about"
+            >
+              About
+            </a>
+          </div>
+          <div
+            class="css-19sk4h4"
           >
-            Blog
-          </a>
-          <a
-            class="css-swcnb1"
-            data-discover="true"
-            href="/contact"
-          >
-            Contact Me
-          </a>
+            <a
+              class="css-125bzkn"
+              data-discover="true"
+              href="/blog"
+            >
+              Blog
+            </a>
+          </div>
+          <div>
+            <a
+              class="css-omc921"
+              data-discover="true"
+              href="/contact"
+            >
+              <span>
+                Contact Me
+              </span>
+            </a>
+          </div>
         </div>
       </div>
     </header>
@@ -518,46 +532,60 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
     class="MuiBox-root css-0"
   >
     <header
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-1t0h9gd-MuiPaper-root-MuiAppBar-root"
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-je3t1l-MuiPaper-root-MuiAppBar-root"
       style="--Paper-shadow: none;"
     >
       <div
-        class="MuiToolbar-root MuiToolbar-regular css-10a6tuy-MuiToolbar-root"
+        class="MuiToolbar-root MuiToolbar-regular css-1h0023q-MuiToolbar-root"
       >
-        <a
-          class="css-1hjppfk"
-          data-discover="true"
-          href="/"
-        >
-          HRT
-        </a>
+        <div>
+          <a
+            class="css-s7ixlb"
+            data-discover="true"
+            href="/"
+          >
+            HRT
+          </a>
+        </div>
         <div
           class="MuiBox-root css-i9gxme"
         />
         <div
-          class="MuiStack-root css-kdc3n8-MuiStack-root"
+          class="MuiBox-root css-1b6rjoo"
         >
-          <a
-            class="css-1c37e78"
-            data-discover="true"
-            href="/about"
+          <div
+            class="css-19sk4h4"
           >
-            About
-          </a>
-          <a
-            class="css-1c37e78"
-            data-discover="true"
-            href="/blog"
+            <a
+              class="css-q1a495"
+              data-discover="true"
+              href="/about"
+            >
+              About
+            </a>
+          </div>
+          <div
+            class="css-19sk4h4"
           >
-            Blog
-          </a>
-          <a
-            class="css-2l76li"
-            data-discover="true"
-            href="/contact"
-          >
-            Contact Me
-          </a>
+            <a
+              class="css-q1a495"
+              data-discover="true"
+              href="/blog"
+            >
+              Blog
+            </a>
+          </div>
+          <div>
+            <a
+              class="css-agkxxa"
+              data-discover="true"
+              href="/contact"
+            >
+              <span>
+                Contact Me
+              </span>
+            </a>
+          </div>
         </div>
       </div>
     </header>

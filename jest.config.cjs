@@ -14,7 +14,7 @@ module.exports = {
       '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2)$': '<rootDir>/__mocks__/fileMock.js',
       '@react-three/fiber': '<rootDir>/__mocks__/reactThreeFiberMock.js',
       'three': '<rootDir>/__mocks__/threeMock.js',
-      '^framer-motion$': '<rootDir>/__mocks__/framer-motion.js',
+      '^framer-motion$': '<rootDir>/__mocks__/framer-motion.cjs',
       '^lottie-react$': '<rootDir>/__mocks__/lottie-react.js',
       '^@/(.*)$': '<rootDir>/src/$1',
     },

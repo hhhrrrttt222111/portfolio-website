@@ -100,32 +100,72 @@ export const LiteraryBackground = styled(Box)(({ theme }) => {
   };
 });
 
-export const TerminalGlow = styled(Box)(() => ({
-  position: "absolute",
-  top: "20%",
-  left: "10%",
-  width: 300,
-  height: 300,
-  borderRadius: "50%",
-  background: "radial-gradient(circle, rgba(0, 255, 65, 0.1) 0%, transparent 70%)",
-  filter: "blur(60px)",
-  animation: `${pulse} 4s ease-in-out infinite`,
-  pointerEvents: "none",
-}));
+export const TerminalGlow = styled(Box)(({ theme }) => {
+  const isDark = theme.palette.mode === "dark";
+  return {
+    position: "absolute",
+    top: "10%",
+    left: "5%",
+    width: 400,
+    height: 400,
+    borderRadius: "50%",
+    background: isDark
+      ? "radial-gradient(circle, rgba(0, 255, 65, 0.2) 0%, rgba(0, 255, 65, 0.05) 40%, transparent 70%)"
+      : "radial-gradient(circle, rgba(26, 92, 26, 0.15) 0%, rgba(26, 92, 26, 0.05) 40%, transparent 70%)",
+    filter: "blur(40px)",
+    animation: `${pulse} 4s ease-in-out infinite`,
+    pointerEvents: "none",
+    "&::after": {
+      content: '""',
+      position: "absolute",
+      top: "50%",
+      left: "120%",
+      width: 250,
+      height: 250,
+      borderRadius: "50%",
+      background: isDark
+        ? "radial-gradient(circle, rgba(0, 255, 65, 0.15) 0%, transparent 70%)"
+        : "radial-gradient(circle, rgba(26, 92, 26, 0.1) 0%, transparent 70%)",
+      filter: "blur(50px)",
+      animation: `${pulse} 5s ease-in-out infinite`,
+      animationDelay: "2s",
+    },
+  };
+});
 
-export const WarmGlow = styled(Box)(() => ({
-  position: "absolute",
-  top: "30%",
-  right: "10%",
-  width: 350,
-  height: 350,
-  borderRadius: "50%",
-  background: "radial-gradient(circle, rgba(255, 183, 77, 0.15) 0%, transparent 70%)",
-  filter: "blur(80px)",
-  animation: `${pulse} 5s ease-in-out infinite`,
-  animationDelay: "1s",
-  pointerEvents: "none",
-}));
+export const WarmGlow = styled(Box)(({ theme }) => {
+  const isDark = theme.palette.mode === "dark";
+  return {
+    position: "absolute",
+    top: "20%",
+    right: "5%",
+    width: 450,
+    height: 450,
+    borderRadius: "50%",
+    background: isDark
+      ? "radial-gradient(circle, rgba(255, 183, 77, 0.2) 0%, rgba(212, 165, 116, 0.08) 40%, transparent 70%)"
+      : "radial-gradient(circle, rgba(139, 115, 85, 0.15) 0%, rgba(139, 115, 85, 0.05) 40%, transparent 70%)",
+    filter: "blur(50px)",
+    animation: `${pulse} 5s ease-in-out infinite`,
+    animationDelay: "1s",
+    pointerEvents: "none",
+    "&::after": {
+      content: '""',
+      position: "absolute",
+      bottom: "-30%",
+      left: "-50%",
+      width: 300,
+      height: 300,
+      borderRadius: "50%",
+      background: isDark
+        ? "radial-gradient(circle, rgba(255, 200, 100, 0.12) 0%, transparent 70%)"
+        : "radial-gradient(circle, rgba(139, 115, 85, 0.1) 0%, transparent 70%)",
+      filter: "blur(60px)",
+      animation: `${pulse} 6s ease-in-out infinite`,
+      animationDelay: "3s",
+    },
+  };
+});
 
 export const SectionHeader = styled(Box, {
   shouldForwardProp: (prop) => prop !== "variant",
@@ -142,6 +182,16 @@ export const SectionHeader = styled(Box, {
   };
 });
 
+const textGlow = keyframes`
+  0%, 100% { text-shadow: 0 0 20px rgba(0, 255, 65, 0.5), 0 0 40px rgba(0, 255, 65, 0.3); }
+  50% { text-shadow: 0 0 30px rgba(0, 255, 65, 0.8), 0 0 60px rgba(0, 255, 65, 0.5), 0 0 80px rgba(0, 255, 65, 0.3); }
+`;
+
+const warmTextGlow = keyframes`
+  0%, 100% { text-shadow: 0 0 10px rgba(212, 165, 116, 0.3); }
+  50% { text-shadow: 0 0 20px rgba(212, 165, 116, 0.5), 0 0 30px rgba(255, 183, 77, 0.3); }
+`;
+
 export const SectionTitle = styled("h2", {
   shouldForwardProp: (prop) => prop !== "variant",
 })<{ variant: "hacker" | "literary" }>(({ theme, variant }) => {
@@ -150,21 +200,34 @@ export const SectionTitle = styled("h2", {
 
   return {
     fontFamily: isHacker ? fontFamilies.mono : fontFamilies.heading,
-    fontSize: "1.8rem",
+    fontSize: "2rem",
     fontWeight: 700,
     marginBottom: theme.spacing(1.5),
     color: isHacker ? (isDark ? "#00ff41" : "#1a5c1a") : isDark ? "#d4a574" : "#5c4033",
-    textShadow: isHacker ? (isDark ? "0 0 20px rgba(0, 255, 65, 0.5)" : "none") : "none",
     letterSpacing: isHacker ? "0.05em" : "-0.01em",
+    position: "relative",
+    display: "inline-block",
+    ...(isHacker &&
+      isDark && {
+        animation: `${textGlow} 3s ease-in-out infinite`,
+      }),
+    ...(!isHacker &&
+      isDark && {
+        animation: `${warmTextGlow} 4s ease-in-out infinite`,
+      }),
     ...(isHacker && {
       "&::before": {
         content: '">"',
         marginRight: theme.spacing(1),
         opacity: 0.7,
+        animation: `${blink} 1s step-end infinite`,
       },
     }),
+    [theme.breakpoints.up("sm")]: {
+      fontSize: "2.5rem",
+    },
     [theme.breakpoints.up("md")]: {
-      fontSize: "2.2rem",
+      fontSize: "3rem",
     },
   };
 });
@@ -347,43 +410,61 @@ export const FloatingParticle = styled(Box, {
 })<{ delay?: number; variant: "hacker" | "literary" }>(({ theme, delay = 0, variant }) => {
   const isHacker = variant === "hacker";
   const isDark = theme.palette.mode === "dark";
+  const size = isHacker ? 3 + (delay % 3) : 4 + (delay % 4);
   return {
     position: "absolute",
-    width: isHacker ? 4 : 6,
-    height: isHacker ? 4 : 6,
-    borderRadius: isHacker ? "0" : "50%",
+    width: size,
+    height: size,
+    borderRadius: isHacker ? "1px" : "50%",
     background: isHacker ? (isDark ? "#00ff41" : "#1a5c1a") : isDark ? "#d4a574" : "#8B7355",
-    opacity: 0.4,
-    animation: `${particleFloat} ${8 + delay * 2}s linear infinite`,
+    opacity: isDark ? 0.7 : 0.5,
+    animation: `${particleFloat} ${10 + delay * 1.5}s linear infinite`,
     animationDelay: `${delay}s`,
     pointerEvents: "none",
-    left: `${10 + ((delay * 10) % 80)}%`,
+    left: `${5 + ((delay * 12) % 90)}%`,
+    boxShadow: isHacker
+      ? isDark
+        ? `0 0 ${4 + delay}px rgba(0, 255, 65, 0.8), 0 0 ${8 + delay * 2}px rgba(0, 255, 65, 0.4)`
+        : `0 0 ${3 + delay}px rgba(26, 92, 26, 0.5)`
+      : isDark
+        ? `0 0 ${3 + delay}px rgba(212, 165, 116, 0.6)`
+        : `0 0 ${2 + delay}px rgba(139, 115, 85, 0.4)`,
   };
 });
 
 export const LottieContainer = styled(Box)(({ theme }) => ({
   position: "absolute",
-  width: 200,
-  height: 200,
-  opacity: 0.3,
+  width: 250,
+  height: 250,
   pointerEvents: "none",
-  [theme.breakpoints.up("md")]: {
+  zIndex: 0,
+  [theme.breakpoints.up("sm")]: {
     width: 300,
     height: 300,
   },
+  [theme.breakpoints.up("md")]: {
+    width: 400,
+    height: 400,
+  },
+  [theme.breakpoints.up("lg")]: {
+    width: 500,
+    height: 500,
+  },
 }));
 
-export const HackerLottiePosition = styled(LottieContainer)({
-  bottom: "10%",
-  right: "5%",
-  opacity: 0.2,
-});
+export const HackerLottiePosition = styled(LottieContainer)(({ theme }) => ({
+  bottom: "5%",
+  right: "2%",
+  opacity: theme.palette.mode === "dark" ? 0.6 : 0.4,
+  filter: theme.palette.mode === "dark" ? "drop-shadow(0 0 30px rgba(0, 255, 65, 0.5))" : "none",
+}));
 
-export const LiteraryLottiePosition = styled(LottieContainer)({
-  top: "15%",
-  left: "5%",
-  opacity: 0.25,
-});
+export const LiteraryLottiePosition = styled(LottieContainer)(({ theme }) => ({
+  top: "10%",
+  left: "2%",
+  opacity: theme.palette.mode === "dark" ? 0.7 : 0.5,
+  filter: theme.palette.mode === "dark" ? "drop-shadow(0 0 20px rgba(255, 183, 77, 0.3))" : "none",
+}));
 
 export const ButtonContainer = styled(Box, {
   shouldForwardProp: (prop) => prop !== "variant",

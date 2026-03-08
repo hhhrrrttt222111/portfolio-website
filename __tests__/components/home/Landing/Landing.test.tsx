@@ -2,13 +2,50 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import { Landing } from "@/components";
 
-jest.mock("framer-motion", () => ({
-  motion: {
-    div: React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement>>((props, ref) => (
-      <div ref={ref} {...props} />
-    )),
-  },
-}));
+jest.mock("framer-motion", () => {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const React = require("react");
+  const FRAMER_PROPS = new Set([
+    "initial",
+    "animate",
+    "exit",
+    "variants",
+    "transition",
+    "whileHover",
+    "whileInView",
+    "whileTap",
+    "whileFocus",
+    "viewport",
+    "onMouseMove",
+    "onMouseLeave",
+    "custom",
+    "layoutId",
+  ]);
+  const filterProps = (props: Record<string, unknown>) =>
+    Object.fromEntries(Object.entries(props).filter(([key]) => !FRAMER_PROPS.has(key)));
+  const createMotionComponent = (tag: string) =>
+    React.forwardRef((props: Record<string, unknown>, ref: React.Ref<HTMLElement>) =>
+      React.createElement(tag, { ...filterProps(props), ref }),
+    );
+  const createFromComponent = (BaseComponent: React.ComponentType<Record<string, unknown>>) =>
+    React.forwardRef((props: Record<string, unknown>, ref: React.Ref<HTMLElement>) =>
+      React.createElement(BaseComponent, { ...filterProps(props), ref }),
+    );
+  return {
+    motion: {
+      create: createFromComponent,
+      div: createMotionComponent("div"),
+      span: createMotionComponent("span"),
+      a: createMotionComponent("a"),
+      button: createMotionComponent("button"),
+      header: createMotionComponent("header"),
+      nav: createMotionComponent("nav"),
+      path: createMotionComponent("path"),
+    },
+    AnimatePresence: ({ children }: { children: React.ReactNode }) =>
+      React.createElement(React.Fragment, null, children),
+  };
+});
 
 describe("Landing", () => {
   it("renders without crashing", () => {

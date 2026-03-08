@@ -19,3 +19,5 @@ export { PROJECTS } from "./projects";
 export type { Project } from "./projects";
 export { SERVICES } from "./services";
 export type { Service } from "./services";
+export { NAV_LINKS, LOGO_TEXT, CTA_LINK } from "./navigation";
+export type { NavLink } from "./navigation";

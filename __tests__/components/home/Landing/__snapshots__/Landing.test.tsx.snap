@@ -9,29 +9,19 @@ exports[`Landing matches snapshot 1`] = `
       class="MuiBox-root css-15q6k31"
     >
       <div
-        animate="[object Object]"
         style="position: absolute; left: 10%; top: 15%; width: 500px; height: 500px; border-radius: 50%; background: radial-gradient(circle, rgba(46, 125, 50, 0.17) 0%, transparent 70%); filter: blur(60px); will-change: transform;"
-        transition="[object Object]"
       />
       <div
-        animate="[object Object]"
         style="position: absolute; left: 65%; top: 60%; width: 400px; height: 400px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 137, 123, 0.16) 0%, transparent 70%); filter: blur(60px); will-change: transform;"
-        transition="[object Object]"
       />
       <div
-        animate="[object Object]"
         style="position: absolute; left: 80%; top: 10%; width: 350px; height: 350px; border-radius: 50%; background: radial-gradient(circle, rgba(76, 175, 80, 0.15) 0%, transparent 70%); filter: blur(60px); will-change: transform;"
-        transition="[object Object]"
       />
       <div
-        animate="[object Object]"
         style="position: absolute; left: 30%; top: 70%; width: 300px; height: 300px; border-radius: 50%; background: radial-gradient(circle, rgba(0, 105, 92, 0.15) 0%, transparent 70%); filter: blur(60px); will-change: transform;"
-        transition="[object Object]"
       />
       <div
-        animate="[object Object]"
         style="position: absolute; left: 50%; top: 30%; width: 250px; height: 250px; border-radius: 50%; background: radial-gradient(circle, rgba(46, 125, 50, 0.14) 0%, transparent 70%); filter: blur(60px); will-change: transform;"
-        transition="[object Object]"
       />
       <div
         class="MuiBox-root css-2dtx34"

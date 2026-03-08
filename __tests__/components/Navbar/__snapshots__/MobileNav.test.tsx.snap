@@ -2,104 +2,95 @@
 
 exports[`MobileNav matches snapshot 1`] = `
 <body
-  style="padding-right: 1024px; overflow: hidden;"
+  style="overflow: hidden;"
 >
-  <div
-    aria-hidden="true"
-  />
-  <div
-    class="MuiDrawer-root MuiDrawer-anchorRight MuiDrawer-modal MuiModal-root css-115trc3-MuiModal-root-MuiDrawer-root"
-    role="presentation"
-  >
+  <div>
     <div
       aria-hidden="true"
-      class="MuiBackdrop-root MuiModal-backdrop css-4nmryk-MuiBackdrop-root-MuiModal-backdrop"
-      style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      class="MuiBox-root css-lmtslj"
     />
     <div
-      data-testid="sentinelStart"
-      tabindex="0"
-    />
-    <div
+      aria-label="Mobile navigation menu"
       aria-modal="true"
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation16 MuiDrawer-paper MuiDrawer-paperAnchorRight css-y7ab46-MuiPaper-root-MuiDrawer-paper"
+      class="MuiBox-root css-kaw2iq"
       role="dialog"
-      style="--Paper-shadow: 0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12);"
-      tabindex="-1"
     >
       <div
-        class="MuiStack-root css-zet67m-MuiStack-root"
+        class="css-bch0cg"
       >
-        <div
-          class="MuiStack-root css-3y1137-MuiStack-root"
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-pne391-MuiTypography-root"
         >
-          <h6
-            class="MuiTypography-root MuiTypography-h6 css-wvorqy-MuiTypography-root"
+          HRT
+        </h6>
+        <button
+          aria-label="close menu"
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1duzytl-MuiButtonBase-root-MuiIconButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+            data-testid="CloseIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
           >
-            HRT
-          </h6>
-          <button
-            aria-label="close menu"
-            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-154kngp-MuiButtonBase-root-MuiIconButton-root"
-            tabindex="0"
-            type="button"
-          >
-            <svg
-              aria-hidden="true"
-              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-              data-testid="CloseIcon"
-              focusable="false"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
-          </button>
-        </div>
+            <path
+              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="MuiBox-root css-bw0qxl"
+      >
         <nav
-          class="MuiStack-root css-jfdv4h-MuiStack-root"
+          aria-label="Main navigation"
+          class="css-1821gv5"
         >
-          <a
-            class="css-jallzz"
-            data-discover="true"
-            href="/about"
-          >
-            <p
-              class="MuiTypography-root MuiTypography-body1 css-eirwbb-MuiTypography-root"
+          <div>
+            <a
+              class="css-evc1fe"
+              data-discover="true"
+              href="/about"
             >
-              About
-            </p>
-          </a>
-          <a
-            class="css-jallzz"
-            data-discover="true"
-            href="/blog"
-          >
-            <p
-              class="MuiTypography-root MuiTypography-body1 css-eirwbb-MuiTypography-root"
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-pxjh4f-MuiTypography-root"
+              >
+                About
+              </p>
+            </a>
+          </div>
+          <div>
+            <a
+              class="css-evc1fe"
+              data-discover="true"
+              href="/blog"
             >
-              Blog
-            </p>
-          </a>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-pxjh4f-MuiTypography-root"
+              >
+                Blog
+              </p>
+            </a>
+          </div>
         </nav>
-        <div
-          class="MuiBox-root css-1fz9om3"
+      </div>
+      <div
+        class="css-gdbt8d"
+      >
+        <a
+          class="css-13yrarr"
+          data-discover="true"
+          href="/contact"
         >
-          <a
-            class="css-1p979cz"
-            data-discover="true"
-            href="/contact"
-          >
+          <span>
             Contact Me
-          </a>
-        </div>
+          </span>
+        </a>
       </div>
     </div>
-    <div
-      data-testid="sentinelEnd"
-      tabindex="0"
-    />
   </div>
 </body>
 `;
