@@ -26,10 +26,10 @@ export const SectionRoot = styled("section")(({ theme }) => {
       position: "absolute",
       inset: 0,
       background: isDark
-        ? `radial-gradient(ellipse 80% 50% at 50% -20%, rgba(102, 187, 106, 0.15), transparent),
-           radial-gradient(ellipse 60% 40% at 100% 100%, rgba(128, 203, 196, 0.1), transparent)`
-        : `radial-gradient(ellipse 80% 50% at 50% -20%, rgba(46, 125, 50, 0.08), transparent),
-           radial-gradient(ellipse 60% 40% at 100% 100%, rgba(0, 137, 123, 0.06), transparent)`,
+        ? `radial-gradient(ellipse 80% 50% at 50% -20%, rgba(102, 187, 106, 0.25), transparent),
+           radial-gradient(ellipse 60% 40% at 100% 100%, rgba(128, 203, 196, 0.2), transparent)`
+        : `radial-gradient(ellipse 80% 50% at 50% -20%, rgba(46, 125, 50, 0.2), transparent),
+           radial-gradient(ellipse 60% 40% at 100% 100%, rgba(0, 137, 123, 0.2), transparent)`,
       pointerEvents: "none",
     },
     [theme.breakpoints.up("md")]: {
@@ -43,7 +43,7 @@ export const CircuitPattern = styled(Box)(({ theme }) => ({
   position: "absolute",
   inset: 0,
   pointerEvents: "none",
-  opacity: theme.palette.mode === "dark" ? 0.08 : 0.05,
+  opacity: theme.palette.mode === "dark" ? 0.18 : 0.15,
   backgroundImage: `url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10 10h80v80H10z' fill='none' stroke='%2366bb6a' stroke-width='0.5'/%3E%3Ccircle cx='10' cy='10' r='3' fill='%2366bb6a'/%3E%3Ccircle cx='90' cy='10' r='3' fill='%2366bb6a'/%3E%3Ccircle cx='10' cy='90' r='3' fill='%2366bb6a'/%3E%3Ccircle cx='90' cy='90' r='3' fill='%2366bb6a'/%3E%3Cpath d='M50 10v30M10 50h30M90 50h-30M50 90v-30' stroke='%2366bb6a' stroke-width='0.5'/%3E%3Ccircle cx='50' cy='50' r='5' fill='none' stroke='%2366bb6a' stroke-width='0.5'/%3E%3C/svg%3E")`,
   backgroundSize: "100px 100px",
 }));

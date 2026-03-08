@@ -7,13 +7,7 @@ export { TECH_STACK } from "./techStack";
 export type { SkillCategory } from "./techStack";
 export { BLOGS, HACKZISM_BLOG, BIBLIOSMIA_BLOG, BLOG_POSTS } from "./blogs";
 export type { Blog, BlogPost, LegacyBlogPost } from "./blogs";
-export {
-  EDUCATION,
-  JOURNEY_MILESTONES,
-  EXPERIENCES,
-  PHILOSOPHY_QUOTE,
-  BOOK_REVIEW_BLOG_URL,
-} from "./about";
+export { EDUCATION, JOURNEY_MILESTONES, EXPERIENCES, PHILOSOPHY_QUOTE } from "./about";
 export type { Education, JourneyMilestone, Experience } from "./about";
 export { PROJECTS } from "./projects";
 export type { Project } from "./projects";

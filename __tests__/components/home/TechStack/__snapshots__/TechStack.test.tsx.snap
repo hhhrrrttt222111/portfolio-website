@@ -3,7 +3,7 @@
 exports[`TechStack matches snapshot (dark mode) 1`] = `
 <div>
   <section
-    class="css-16dp2yy"
+    class="css-1jnmrfo"
     data-testid="tech-stack"
   >
     <div
@@ -1819,7 +1819,7 @@ exports[`TechStack matches snapshot (dark mode) 1`] = `
 exports[`TechStack matches snapshot (light mode) 1`] = `
 <div>
   <section
-    class="css-1g6qp43"
+    class="css-1faseby"
     data-testid="tech-stack"
   >
     <div

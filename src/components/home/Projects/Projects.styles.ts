@@ -39,7 +39,7 @@ export const HexagonGrid = styled(Box)({
   position: "absolute",
   inset: 0,
   pointerEvents: "none",
-  opacity: 0.15,
+  opacity: 0.25,
   backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='52' viewBox='0 0 60 52' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0l30 15v22L30 52 0 37V15z' fill='none' stroke='%2366bb6a' stroke-width='0.5'/%3E%3C/svg%3E")`,
   backgroundSize: "60px 52px",
 });

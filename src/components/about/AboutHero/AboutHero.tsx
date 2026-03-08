@@ -3,7 +3,6 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import { Link } from "react-router-dom";
-import { BOOK_REVIEW_BLOG_URL } from "@/constants";
 import {
   HeroRoot,
   BlobContainer,
@@ -101,28 +100,20 @@ const AboutHero = () => {
                   fiction, non-fiction, philosophy, you name it. I believe reading shapes how I
                   think and build.
                 </Typography>
-                <Typography
-                  variant="body2"
-                  sx={{ display: "flex", gap: 2, flexWrap: "wrap", justifyContent: "center" }}
-                >
-                  <a href={BOOK_REVIEW_BLOG_URL} target="_blank" rel="noopener noreferrer">
-                    Book Review Blog &rarr;
-                  </a>
-                  <Link to="/books" style={{ color: "inherit", textDecoration: "none" }}>
-                    <Typography
-                      component="span"
-                      variant="body2"
-                      sx={{
-                        color: "primary.main",
-                        fontWeight: 600,
-                        "&:hover": { letterSpacing: "0.02em" },
-                        transition: "letter-spacing 0.2s",
-                      }}
-                    >
-                      My Reading List &rarr;
-                    </Typography>
-                  </Link>
-                </Typography>
+                <Link to="/books" style={{ color: "inherit", textDecoration: "none" }}>
+                  <Typography
+                    component="span"
+                    variant="body2"
+                    sx={{
+                      color: "primary.main",
+                      fontWeight: 600,
+                      "&:hover": { letterSpacing: "0.02em" },
+                      transition: "letter-spacing 0.2s",
+                    }}
+                  >
+                    My Reading List
+                  </Typography>
+                </Link>
               </ReadingNote>
             </motion.div>
 
@@ -146,7 +137,6 @@ const AboutHero = () => {
               <span className="scroll-dot" />
             </Box>
           </motion.div>
-          <span className="scroll-text">scroll</span>
         </ScrollCue>
       </motion.div>
     </HeroRoot>

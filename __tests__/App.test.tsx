@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import { render, screen, act, waitFor } from "@testing-library/react";
+import { render, screen, waitFor } from "@testing-library/react";
 import { ThemeProvider } from "@mui/material/styles";
 import { MemoryRouter, Routes, Route } from "react-router-dom";
 import { createAppTheme } from "@/theme";
@@ -68,7 +68,7 @@ const renderApp = (initialRoute = "/") =>
   render(
     <ThemeProvider theme={createAppTheme("light")}>
       <MemoryRouter initialEntries={[initialRoute]}>
-        <Suspense fallback={<Loader text="Loading page" />}>
+        <Suspense fallback={<Loader />}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="*" element={<NotFound />} />
@@ -103,15 +103,6 @@ describe("App", () => {
     expect(screen.getByText("Page Not Found")).toBeInTheDocument();
   });
 
-  it("renders Loader component with correct text", () => {
-    render(
-      <ThemeProvider theme={createAppTheme("light")}>
-        <Loader text="Loading page" />
-      </ThemeProvider>,
-    );
-    expect(screen.getByText("Loading page")).toBeInTheDocument();
-  });
-
   it("Loader has accessibility attributes", () => {
     render(
       <ThemeProvider theme={createAppTheme("light")}>
@@ -120,45 +111,5 @@ describe("App", () => {
     );
     const loader = screen.getByRole("status");
     expect(loader).toHaveAttribute("aria-label", "Loading content");
-  });
-});
-
-describe("App initial loading", () => {
-  beforeEach(() => {
-    jest.useFakeTimers();
-  });
-
-  afterEach(() => {
-    jest.useRealTimers();
-  });
-
-  it("shows loader initially for 2 seconds", async () => {
-    const { rerender } = render(
-      <ThemeProvider theme={createAppTheme("light")}>
-        <Loader text="Loading" />
-      </ThemeProvider>,
-    );
-
-    expect(screen.getByText("Loading")).toBeInTheDocument();
-
-    act(() => {
-      jest.advanceTimersByTime(2000);
-    });
-
-    rerender(
-      <ThemeProvider theme={createAppTheme("light")}>
-        <MemoryRouter>
-          <Suspense fallback={<Loader text="Loading page" />}>
-            <Routes>
-              <Route path="/" element={<Home />} />
-            </Routes>
-          </Suspense>
-        </MemoryRouter>
-      </ThemeProvider>,
-    );
-
-    await waitFor(() => {
-      expect(screen.getByText("HRT")).toBeInTheDocument();
-    });
   });
 });

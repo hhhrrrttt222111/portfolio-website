@@ -3,7 +3,7 @@ import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import * as THREE from "three";
 import { motion } from "framer-motion";
 
-const NODE_COUNT = 120;
+const NODE_COUNT = 80;
 const SPHERE_RADIUS = 4;
 const FLOAT_RANGE = 8;
 const CONNECTION_DISTANCE = 3.5;
@@ -361,7 +361,7 @@ const SphereNetworkScene = ({ progress, isDarkMode = true }) => {
       <Canvas
         camera={{ position: [0, 0, 10], fov: 60 }}
         gl={{ antialias: true, alpha: true }}
-        style={{ background: "transparent" }}
+        // style={{ background: "transparent" }}
       >
         <Scene progress={progress} isDarkMode={isDarkMode} />
       </Canvas>

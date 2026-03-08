@@ -29,24 +29,14 @@ jest.mock("framer-motion", () => ({
 
 import Loader from "@/components/Loader/Loader";
 
-const renderLoader = (props?: { text?: string }) =>
+const renderLoader = () =>
   render(
     <ThemeProvider theme={createAppTheme("light")}>
-      <Loader {...props} />
+      <Loader />
     </ThemeProvider>,
   );
 
 describe("Loader", () => {
-  it("renders with default loading text", () => {
-    renderLoader();
-    expect(screen.getByText("Loading")).toBeInTheDocument();
-  });
-
-  it("renders with custom loading text", () => {
-    renderLoader({ text: "Please wait" });
-    expect(screen.getByText("Please wait")).toBeInTheDocument();
-  });
-
   it("has correct accessibility attributes", () => {
     renderLoader();
     const loader = screen.getByRole("status");

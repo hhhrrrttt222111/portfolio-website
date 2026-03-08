@@ -25,61 +25,9 @@ const VisualizationContainer = styled(Box)(({ theme }) => ({
       : "radial-gradient(ellipse at 50% 50%, #e8f5e9 0%, #c8e6c9 100%)",
 }));
 
-const StageIndicator = styled(Box)(({ theme }) => ({
-  position: "fixed",
-  bottom: theme.spacing(4),
-  right: theme.spacing(4),
-  display: "flex",
-  flexDirection: "column",
-  alignItems: "center",
-  gap: theme.spacing(1),
-  zIndex: 100,
-  [theme.breakpoints.down("md")]: {
-    bottom: theme.spacing(2),
-    right: theme.spacing(2),
-  },
-}));
-
 interface NetworkVisualizationProps {
   triggerRef: React.RefObject<HTMLElement | null>;
 }
-
-interface StageDotProps {
-  active: boolean;
-  isCurrentStage: boolean;
-}
-
-const StageDot = ({ active, isCurrentStage }: StageDotProps) => {
-  const theme = useTheme();
-
-  return (
-    <motion.div
-      style={{
-        width: 10,
-        height: 10,
-        borderRadius: "50%",
-        backgroundColor: active
-          ? theme.palette.primary.main
-          : theme.palette.mode === "dark"
-            ? "rgba(255, 255, 255, 0.3)"
-            : "rgba(0, 0, 0, 0.2)",
-        transition: "background-color 0.3s ease",
-        boxShadow: active
-          ? theme.palette.mode === "dark"
-            ? `0 0 10px ${theme.palette.primary.main}99`
-            : `0 0 10px ${theme.palette.primary.main}66`
-          : "none",
-      }}
-      animate={{
-        scale: isCurrentStage ? [1, 1.4, 1] : 1,
-      }}
-      transition={{
-        duration: 1,
-        repeat: isCurrentStage ? Infinity : 0,
-      }}
-    />
-  );
-};
 
 const GlowOverlay = () => {
   const theme = useTheme();
@@ -109,7 +57,6 @@ const GlowOverlay = () => {
 
 const NetworkVisualization = ({ triggerRef }: NetworkVisualizationProps) => {
   const [progress, setProgress] = useState(0);
-  const [currentStage, setCurrentStage] = useState(0);
   const containerRef = useRef<HTMLDivElement>(null);
   const theme = useTheme();
   const isDarkMode = theme.palette.mode === "dark";
@@ -126,13 +73,6 @@ const NetworkVisualization = ({ triggerRef }: NetworkVisualizationProps) => {
         onUpdate: (self) => {
           const newProgress = self.progress;
           setProgress(newProgress);
-
-          let stage = 0;
-          if (newProgress >= 0.75) stage = 3;
-          else if (newProgress >= 0.5) stage = 2;
-          else if (newProgress >= 0.25) stage = 1;
-
-          setCurrentStage(stage);
         },
       });
     });
@@ -143,22 +83,10 @@ const NetworkVisualization = ({ triggerRef }: NetworkVisualizationProps) => {
   }, [triggerRef]);
 
   return (
-    <>
-      <VisualizationContainer ref={containerRef}>
-        <GlowOverlay />
-        <SphereNetworkScene progress={progress} isDarkMode={isDarkMode} />
-      </VisualizationContainer>
-
-      <StageIndicator>
-        {[0, 1, 2, 3].map((stage) => (
-          <StageDot
-            key={stage}
-            active={currentStage >= stage}
-            isCurrentStage={currentStage === stage}
-          />
-        ))}
-      </StageIndicator>
-    </>
+    <VisualizationContainer ref={containerRef}>
+      <GlowOverlay />
+      <SphereNetworkScene progress={progress} isDarkMode={isDarkMode} />
+    </VisualizationContainer>
   );
 };
 

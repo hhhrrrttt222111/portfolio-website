@@ -8,8 +8,6 @@ export const ContactRoot = styled("section")(({ theme }) => ({
   paddingBottom: theme.spacing(6),
   backgroundColor:
     theme.palette.mode === "dark" ? "rgba(6, 18, 9, 0.4)" : "rgba(232, 245, 233, 0.5)",
-  backdropFilter: "blur(4px)",
-  WebkitBackdropFilter: "blur(4px)",
   position: "relative",
   overflow: "hidden",
   [theme.breakpoints.up("md")]: {

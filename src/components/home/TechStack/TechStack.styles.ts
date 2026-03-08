@@ -19,8 +19,6 @@ export const SectionRoot = styled("section")(({ theme }) => {
     paddingTop: theme.spacing(10),
     paddingBottom: theme.spacing(10),
     backgroundColor: isDark ? "rgba(6, 13, 8, 0.4)" : "rgba(240, 247, 238, 0.5)",
-    backdropFilter: "blur(4px)",
-    WebkitBackdropFilter: "blur(4px)",
     position: "relative",
     overflow: "hidden",
     "&::before": {

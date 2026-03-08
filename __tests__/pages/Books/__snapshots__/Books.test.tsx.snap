@@ -318,7 +318,7 @@ exports[`Books Page matches snapshot (dark mode) 1`] = `
       </div>
     </section>
     <footer
-      class="css-1p287yq"
+      class="css-1rtsoih"
       data-testid="footer"
     >
       <div
@@ -844,7 +844,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
       </div>
     </section>
     <footer
-      class="css-l1mh46"
+      class="css-1rtsoih"
       data-testid="footer"
     >
       <div

@@ -10,8 +10,8 @@ export const HeroRoot = styled("section")(({ theme }) => ({
   overflow: "hidden",
   backgroundColor:
     theme.palette.mode === "dark" ? "rgba(18, 38, 26, 0.4)" : "rgba(245, 241, 235, 0.5)",
-  backdropFilter: "blur(4px)",
-  WebkitBackdropFilter: "blur(4px)",
+  backdropFilter: "blur(10px)",
+  WebkitBackdropFilter: "blur(10px)",
   paddingBottom: theme.spacing(4),
 }));
 

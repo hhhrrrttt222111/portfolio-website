@@ -8,8 +8,6 @@ export const SectionRoot = styled("section")(({ theme }) => ({
   paddingBottom: theme.spacing(8),
   backgroundColor:
     theme.palette.mode === "dark" ? "rgba(10, 26, 15, 0.4)" : "rgba(241, 248, 233, 0.5)",
-  backdropFilter: "blur(4px)",
-  WebkitBackdropFilter: "blur(4px)",
   position: "relative",
   overflow: "hidden",
   [theme.breakpoints.up("md")]: {

@@ -3,11 +3,11 @@
 exports[`Services matches snapshot (dark mode) 1`] = `
 <div>
   <section
-    class="css-kwz5lb"
+    class="css-uonhhq"
     id="services"
   >
     <div
-      class="MuiBox-root css-26zu8x"
+      class="MuiBox-root css-42lq0"
     />
     <div
       class="MuiBox-root css-1xxox8e"
@@ -322,11 +322,11 @@ exports[`Services matches snapshot (dark mode) 1`] = `
 exports[`Services matches snapshot (light mode) 1`] = `
 <div>
   <section
-    class="css-17hmnen"
+    class="css-1nm8uox"
     id="services"
   >
     <div
-      class="MuiBox-root css-6kwdv7"
+      class="MuiBox-root css-g71ask"
     />
     <div
       class="MuiBox-root css-p80maf"

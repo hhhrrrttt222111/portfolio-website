@@ -7,7 +7,7 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
     id="projects"
   >
     <div
-      class="MuiBox-root css-11pcxdu"
+      class="MuiBox-root css-13sj1v5"
     />
     <div
       class="MuiBox-root css-hohvkg"
@@ -428,7 +428,7 @@ exports[`Projects matches snapshot (light mode) 1`] = `
     id="projects"
   >
     <div
-      class="MuiBox-root css-11pcxdu"
+      class="MuiBox-root css-13sj1v5"
     />
     <div
       class="MuiBox-root css-1kwrneb"

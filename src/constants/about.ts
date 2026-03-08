@@ -90,5 +90,3 @@ export const EXPERIENCES: Experience[] = [
 
 export const PHILOSOPHY_QUOTE =
   "Great products aren't just built. They are carefully crafted through empathy, iteration, and obsession with detail.";
-
-export const BOOK_REVIEW_BLOG_URL = "https://hemanthr.com/blog";

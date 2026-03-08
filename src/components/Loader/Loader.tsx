@@ -5,14 +5,9 @@ import {
   CenterNode,
   OrbitRing,
   OrbitNode,
-  LoadingText,
   ProgressBar,
   ProgressFill,
 } from "./Loader.styles";
-
-interface LoaderProps {
-  text?: string;
-}
 
 const orbitNodes = [
   { angle: 0, distance: 40, delay: 0 },
@@ -22,7 +17,7 @@ const orbitNodes = [
   { angle: 288, distance: 40, delay: 0.8 },
 ];
 
-const Loader = ({ text = "Loading" }: LoaderProps) => {
+const Loader = () => {
   return (
     <LoaderRoot role="status" aria-label="Loading content" aria-live="polite">
       <motion.div
@@ -41,14 +36,6 @@ const Loader = ({ text = "Loading" }: LoaderProps) => {
 
           <CenterNode />
         </NetworkContainer>
-      </motion.div>
-
-      <motion.div
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.3 }}
-      >
-        <LoadingText>{text}</LoadingText>
       </motion.div>
 
       <motion.div

@@ -124,28 +124,17 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                 >
                   When I'm not coding, you'll find me buried in a book. I'm an avid reader — fiction, non-fiction, philosophy, you name it. I believe reading shapes how I think and build.
                 </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body2 css-3fyyzz-MuiTypography-root"
+                <a
+                  data-discover="true"
+                  href="/books"
+                  style="color: inherit; text-decoration: none;"
                 >
-                  <a
-                    href="https://hemanthr.com/blog"
-                    rel="noopener noreferrer"
-                    target="_blank"
+                  <span
+                    class="MuiTypography-root MuiTypography-body2 css-l9qnjn-MuiTypography-root"
                   >
-                    Book Review Blog →
-                  </a>
-                  <a
-                    data-discover="true"
-                    href="/books"
-                    style="color: inherit; text-decoration: none;"
-                  >
-                    <span
-                      class="MuiTypography-root MuiTypography-body2 css-l9qnjn-MuiTypography-root"
-                    >
-                      My Reading List →
-                    </span>
-                  </a>
-                </p>
+                    My Reading List
+                  </span>
+                </a>
               </div>
             </div>
             <div
@@ -285,11 +274,6 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
               />
             </div>
           </div>
-          <span
-            class="scroll-text"
-          >
-            scroll
-          </span>
         </div>
       </div>
     </section>
@@ -756,7 +740,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
       </div>
     </section>
     <footer
-      class="css-1p287yq"
+      class="css-1rtsoih"
       data-testid="footer"
     >
       <div
@@ -1091,28 +1075,17 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                 >
                   When I'm not coding, you'll find me buried in a book. I'm an avid reader — fiction, non-fiction, philosophy, you name it. I believe reading shapes how I think and build.
                 </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body2 css-3fyyzz-MuiTypography-root"
+                <a
+                  data-discover="true"
+                  href="/books"
+                  style="color: inherit; text-decoration: none;"
                 >
-                  <a
-                    href="https://hemanthr.com/blog"
-                    rel="noopener noreferrer"
-                    target="_blank"
+                  <span
+                    class="MuiTypography-root MuiTypography-body2 css-1oc0vx0-MuiTypography-root"
                   >
-                    Book Review Blog →
-                  </a>
-                  <a
-                    data-discover="true"
-                    href="/books"
-                    style="color: inherit; text-decoration: none;"
-                  >
-                    <span
-                      class="MuiTypography-root MuiTypography-body2 css-1oc0vx0-MuiTypography-root"
-                    >
-                      My Reading List →
-                    </span>
-                  </a>
-                </p>
+                    My Reading List
+                  </span>
+                </a>
               </div>
             </div>
             <div
@@ -1252,11 +1225,6 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               />
             </div>
           </div>
-          <span
-            class="scroll-text"
-          >
-            scroll
-          </span>
         </div>
       </div>
     </section>
@@ -1723,7 +1691,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
       </div>
     </section>
     <footer
-      class="css-l1mh46"
+      class="css-1rtsoih"
       data-testid="footer"
     >
       <div

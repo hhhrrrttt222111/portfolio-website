@@ -3,7 +3,7 @@
 exports[`Contact matches snapshot (dark mode) 1`] = `
 <div>
   <section
-    class="css-1d6lm8h"
+    class="css-fn3470"
     data-testid="contact-section"
   >
     <div
@@ -282,7 +282,7 @@ exports[`Contact matches snapshot (dark mode) 1`] = `
 exports[`Contact matches snapshot (light mode) 1`] = `
 <div>
   <section
-    class="css-1kn07sr"
+    class="css-mvplxx"
     data-testid="contact-section"
   >
     <div

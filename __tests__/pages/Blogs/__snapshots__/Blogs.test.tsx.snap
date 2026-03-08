@@ -1468,7 +1468,7 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
       </div>
     </main>
     <footer
-      class="css-1p287yq"
+      class="css-1rtsoih"
       data-testid="footer"
     >
       <div
@@ -3147,7 +3147,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
       </div>
     </main>
     <footer
-      class="css-l1mh46"
+      class="css-1rtsoih"
       data-testid="footer"
     >
       <div

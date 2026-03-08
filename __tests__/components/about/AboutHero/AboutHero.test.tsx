@@ -94,14 +94,6 @@ describe("AboutHero", () => {
     expect(screen.getByText(/avid reader/)).toBeInTheDocument();
   });
 
-  it("renders the book review blog link", () => {
-    renderComponent();
-    const blogLink = screen.getByText(/Book Review Blog/);
-    expect(blogLink).toBeInTheDocument();
-    expect(blogLink.closest("a")).toHaveAttribute("href", "https://hemanthr.com/blog");
-    expect(blogLink.closest("a")).toHaveAttribute("target", "_blank");
-  });
-
   it("renders the reading list link to /books", () => {
     renderComponent();
     const readingLink = screen.getByText(/My Reading List/);
@@ -114,11 +106,6 @@ describe("AboutHero", () => {
     expect(screen.getByText("Started Coding")).toBeInTheDocument();
     expect(screen.getByText("First Freelance Project")).toBeInTheDocument();
     expect(screen.getByText("Joined a Startup")).toBeInTheDocument();
-  });
-
-  it("renders the scroll cue", () => {
-    renderComponent();
-    expect(screen.getByText("scroll")).toBeInTheDocument();
   });
 
   it("renders correctly in dark mode", () => {

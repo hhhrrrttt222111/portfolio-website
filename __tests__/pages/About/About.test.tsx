@@ -62,7 +62,6 @@ describe("About Page", () => {
 
   it("renders reading links", () => {
     renderAbout();
-    expect(screen.getByText(/Book Review Blog/)).toBeInTheDocument();
     expect(screen.getByText(/My Reading List/)).toBeInTheDocument();
   });
 

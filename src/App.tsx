@@ -30,7 +30,7 @@ const App = () => {
   }
 
   if (isInitialLoading) {
-    return <Loader text="Loading" />;
+    return <Loader />;
   }
 
   return (
@@ -46,7 +46,7 @@ const App = () => {
       <BrowserRouter>
         <CursorFollower />
         <DarkModeToggle />
-        <Suspense fallback={<Loader text="Loading page" />}>
+        <Suspense fallback={<Loader />}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
