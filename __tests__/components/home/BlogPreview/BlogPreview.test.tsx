@@ -108,11 +108,11 @@ describe("BlogPreview", () => {
     });
   });
 
-  it("renders the View All link pointing to /blogs", () => {
+  it("renders the View All link pointing to /blog", () => {
     renderWithTheme();
     const viewAll = screen.getByText("View all articles");
     expect(viewAll).toBeInTheDocument();
-    expect(viewAll.closest("a")).toHaveAttribute("href", "/blogs");
+    expect(viewAll.closest("a")).toHaveAttribute("href", "/blog");
   });
 
   it("renders correctly in dark mode", () => {

@@ -442,7 +442,7 @@ const BlogSection = ({ blog }: BlogSectionProps) => {
       whileInView="visible"
       viewport={{ once: true, amount: 0.1 }}
     >
-      <Box component="section" aria-labelledby={`${blog.id}-title`}>
+      <Box component="section" aria-labelledby={`${blog.id}-title`} height={"100%"}>
         <SectionWrapper variant={blog.theme}>
           {isHacker ? <HackerBackground /> : <LiteraryBackground />}
           {isHacker ? <TerminalGlow /> : <WarmGlow />}

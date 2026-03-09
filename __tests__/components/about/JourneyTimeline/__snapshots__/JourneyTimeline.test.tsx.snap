@@ -3,7 +3,7 @@
 exports[`JourneyTimeline matches snapshot (dark mode) 1`] = `
 <div>
   <div
-    class="MuiBox-root css-7921ya"
+    class="MuiBox-root css-1vamrj8"
     data-testid="journey-timeline"
   >
     <div
@@ -16,30 +16,78 @@ exports[`JourneyTimeline matches snapshot (dark mode) 1`] = `
           style="position: absolute; top: 20px; left: 10%; right: 10%; height: 2px; transform-origin: left center;"
         >
           <div
-            class="MuiBox-root css-lr20o4"
+            class="MuiBox-root css-5mn1cg"
           />
         </div>
         <div
-          aria-label="Started Coding - 2017"
+          aria-label="First Introduction to Computers - 2011"
           class="MuiBox-root css-1ev1ol4"
           role="button"
           tabindex="0"
         >
           <div>
             <div
-              class="MuiBox-root css-10lo4tu"
+              class="MuiBox-root css-1qbfobq"
             />
           </div>
           <div>
             <span
               class="css-u4jj8o"
             >
-              2017
+              2011
             </span>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
             >
-              Started Coding
+              First Introduction to Computers
+            </p>
+          </div>
+        </div>
+        <div
+          aria-label="Built My First Website - 2015"
+          class="MuiBox-root css-1ev1ol4"
+          role="button"
+          tabindex="0"
+        >
+          <div>
+            <div
+              class="MuiBox-root css-1qbfobq"
+            />
+          </div>
+          <div>
+            <span
+              class="css-u4jj8o"
+            >
+              2015
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
+            >
+              Built My First Website
+            </p>
+          </div>
+        </div>
+        <div
+          aria-label="Started Learning to Code - 2016"
+          class="MuiBox-root css-1ev1ol4"
+          role="button"
+          tabindex="0"
+        >
+          <div>
+            <div
+              class="MuiBox-root css-1qbfobq"
+            />
+          </div>
+          <div>
+            <span
+              class="css-u4jj8o"
+            >
+              2016
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
+            >
+              Started Learning to Code
             </p>
           </div>
         </div>
@@ -51,7 +99,7 @@ exports[`JourneyTimeline matches snapshot (dark mode) 1`] = `
         >
           <div>
             <div
-              class="MuiBox-root css-10lo4tu"
+              class="MuiBox-root css-1qbfobq"
             />
           </div>
           <div>
@@ -68,14 +116,38 @@ exports[`JourneyTimeline matches snapshot (dark mode) 1`] = `
           </div>
         </div>
         <div
-          aria-label="Joined a Startup - 2022"
+          aria-label="First Internship - 2021"
           class="MuiBox-root css-1ev1ol4"
           role="button"
           tabindex="0"
         >
           <div>
             <div
-              class="MuiBox-root css-10lo4tu"
+              class="MuiBox-root css-1qbfobq"
+            />
+          </div>
+          <div>
+            <span
+              class="css-u4jj8o"
+            >
+              2021
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
+            >
+              First Internship
+            </p>
+          </div>
+        </div>
+        <div
+          aria-label="Started Freelancing - 2022"
+          class="MuiBox-root css-1ev1ol4"
+          role="button"
+          tabindex="0"
+        >
+          <div>
+            <div
+              class="MuiBox-root css-1qbfobq"
             />
           </div>
           <div>
@@ -87,31 +159,31 @@ exports[`JourneyTimeline matches snapshot (dark mode) 1`] = `
             <p
               class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
             >
-              Joined a Startup
+              Started Freelancing
             </p>
           </div>
         </div>
         <div
-          aria-label="Built Products Used by Thousands - 2024"
+          aria-label="Landed My First Job - 2023"
           class="MuiBox-root css-1ev1ol4"
           role="button"
           tabindex="0"
         >
           <div>
             <div
-              class="MuiBox-root css-10lo4tu"
+              class="MuiBox-root css-1qbfobq"
             />
           </div>
           <div>
             <span
               class="css-u4jj8o"
             >
-              2024
+              2023
             </span>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
             >
-              Built Products Used by Thousands
+              Landed My First Job
             </p>
           </div>
         </div>
@@ -124,7 +196,7 @@ exports[`JourneyTimeline matches snapshot (dark mode) 1`] = `
 exports[`JourneyTimeline matches snapshot (light mode) 1`] = `
 <div>
   <div
-    class="MuiBox-root css-7921ya"
+    class="MuiBox-root css-1vamrj8"
     data-testid="journey-timeline"
   >
     <div
@@ -137,30 +209,78 @@ exports[`JourneyTimeline matches snapshot (light mode) 1`] = `
           style="position: absolute; top: 20px; left: 10%; right: 10%; height: 2px; transform-origin: left center;"
         >
           <div
-            class="MuiBox-root css-19ofp37"
+            class="MuiBox-root css-1wnmfj9"
           />
         </div>
         <div
-          aria-label="Started Coding - 2017"
+          aria-label="First Introduction to Computers - 2011"
           class="MuiBox-root css-1ev1ol4"
           role="button"
           tabindex="0"
         >
           <div>
             <div
-              class="MuiBox-root css-urvgpr"
+              class="MuiBox-root css-wdxwfc"
             />
           </div>
           <div>
             <span
               class="css-1rb3lmj"
             >
-              2017
+              2011
             </span>
             <p
               class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
             >
-              Started Coding
+              First Introduction to Computers
+            </p>
+          </div>
+        </div>
+        <div
+          aria-label="Built My First Website - 2015"
+          class="MuiBox-root css-1ev1ol4"
+          role="button"
+          tabindex="0"
+        >
+          <div>
+            <div
+              class="MuiBox-root css-wdxwfc"
+            />
+          </div>
+          <div>
+            <span
+              class="css-1rb3lmj"
+            >
+              2015
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+            >
+              Built My First Website
+            </p>
+          </div>
+        </div>
+        <div
+          aria-label="Started Learning to Code - 2016"
+          class="MuiBox-root css-1ev1ol4"
+          role="button"
+          tabindex="0"
+        >
+          <div>
+            <div
+              class="MuiBox-root css-wdxwfc"
+            />
+          </div>
+          <div>
+            <span
+              class="css-1rb3lmj"
+            >
+              2016
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+            >
+              Started Learning to Code
             </p>
           </div>
         </div>
@@ -172,7 +292,7 @@ exports[`JourneyTimeline matches snapshot (light mode) 1`] = `
         >
           <div>
             <div
-              class="MuiBox-root css-urvgpr"
+              class="MuiBox-root css-wdxwfc"
             />
           </div>
           <div>
@@ -189,14 +309,38 @@ exports[`JourneyTimeline matches snapshot (light mode) 1`] = `
           </div>
         </div>
         <div
-          aria-label="Joined a Startup - 2022"
+          aria-label="First Internship - 2021"
           class="MuiBox-root css-1ev1ol4"
           role="button"
           tabindex="0"
         >
           <div>
             <div
-              class="MuiBox-root css-urvgpr"
+              class="MuiBox-root css-wdxwfc"
+            />
+          </div>
+          <div>
+            <span
+              class="css-1rb3lmj"
+            >
+              2021
+            </span>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+            >
+              First Internship
+            </p>
+          </div>
+        </div>
+        <div
+          aria-label="Started Freelancing - 2022"
+          class="MuiBox-root css-1ev1ol4"
+          role="button"
+          tabindex="0"
+        >
+          <div>
+            <div
+              class="MuiBox-root css-wdxwfc"
             />
           </div>
           <div>
@@ -208,31 +352,31 @@ exports[`JourneyTimeline matches snapshot (light mode) 1`] = `
             <p
               class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
             >
-              Joined a Startup
+              Started Freelancing
             </p>
           </div>
         </div>
         <div
-          aria-label="Built Products Used by Thousands - 2024"
+          aria-label="Landed My First Job - 2023"
           class="MuiBox-root css-1ev1ol4"
           role="button"
           tabindex="0"
         >
           <div>
             <div
-              class="MuiBox-root css-urvgpr"
+              class="MuiBox-root css-wdxwfc"
             />
           </div>
           <div>
             <span
               class="css-1rb3lmj"
             >
-              2024
+              2023
             </span>
             <p
               class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
             >
-              Built Products Used by Thousands
+              Landed My First Job
             </p>
           </div>
         </div>

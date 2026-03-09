@@ -182,27 +182,43 @@ export const ViewAllLink = styled(Box)(({ theme }) => {
     marginTop: theme.spacing(6),
     "& a": {
       fontFamily: fontFamilies.body,
-      fontSize: "1rem",
+      fontSize: "0.95rem",
       fontWeight: 600,
-      color: theme.palette.primary.main,
+      color: isDark ? "#fff" : "#fff",
       textDecoration: "none",
       position: "relative",
-      padding: `${theme.spacing(1)} ${theme.spacing(3)}`,
-      borderRadius: theme.spacing(1),
-      border: `1px solid ${isDark ? "rgba(102,187,106,0.2)" : "rgba(46,125,50,0.15)"}`,
-      transition: "all 0.4s ease",
-      "&::after": {
-        content: '"→"',
-        marginLeft: theme.spacing(1),
-        display: "inline-block",
-        transition: "transform 0.4s ease",
+      padding: `${theme.spacing(1.5)} ${theme.spacing(4)}`,
+      borderRadius: theme.spacing(4),
+      background: `linear-gradient(135deg, ${theme.palette.primary.main} 0%, ${theme.palette.secondary.main} 100%)`,
+      boxShadow: isDark
+        ? `0 4px 20px ${theme.palette.primary.main}40, 0 2px 8px rgba(0,0,0,0.3)`
+        : `0 4px 20px ${theme.palette.primary.main}30, 0 2px 8px rgba(0,0,0,0.1)`,
+      transition: "all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1)",
+      overflow: "hidden",
+      "&::before": {
+        content: '""',
+        position: "absolute",
+        inset: 0,
+        background: `linear-gradient(135deg, ${theme.palette.secondary.main} 0%, ${theme.palette.primary.main} 100%)`,
+        opacity: 0,
+        transition: "opacity 0.3s ease",
+        borderRadius: "inherit",
       },
       "&:hover": {
-        background: isDark ? "rgba(102,187,106,0.08)" : "rgba(46,125,50,0.05)",
-        borderColor: theme.palette.primary.main,
-        "&::after": {
-          transform: "translateX(4px)",
+        transform: "translateY(-2px)",
+        boxShadow: isDark
+          ? `0 8px 32px ${theme.palette.primary.main}50, 0 4px 12px rgba(0,0,0,0.4)`
+          : `0 8px 32px ${theme.palette.primary.main}40, 0 4px 12px rgba(0,0,0,0.15)`,
+        "&::before": {
+          opacity: 1,
         },
+      },
+      "&:active": {
+        transform: "translateY(0)",
+      },
+      "& span": {
+        position: "relative",
+        zIndex: 1,
       },
     },
   };

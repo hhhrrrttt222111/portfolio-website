@@ -6,18 +6,18 @@ export const GridRoot = styled(Box)(({ theme }) => ({
   display: "grid",
   gridTemplateColumns: "repeat(2, 1fr)",
   gridAutoRows: "1fr",
-  gap: theme.spacing(2.5),
+  gap: theme.spacing(1.5),
   [theme.breakpoints.up("sm")]: {
     gridTemplateColumns: "repeat(3, 1fr)",
-    gap: theme.spacing(3),
+    gap: theme.spacing(2.5),
   },
   [theme.breakpoints.up("md")]: {
     gridTemplateColumns: "repeat(4, 1fr)",
-    gap: theme.spacing(3.5),
+    gap: theme.spacing(3),
   },
   [theme.breakpoints.up("lg")]: {
     gridTemplateColumns: "repeat(5, 1fr)",
-    gap: theme.spacing(4),
+    gap: theme.spacing(3.5),
   },
 }));
 

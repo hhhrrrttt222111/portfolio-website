@@ -84,8 +84,10 @@ describe("ExperienceTimeline", () => {
 
   it("renders all job titles", () => {
     renderComponent();
-    EXPERIENCES.forEach((exp) => {
-      expect(screen.getByText(exp.title)).toBeInTheDocument();
+    const uniqueTitles = [...new Set(EXPERIENCES.map((exp) => exp.title))];
+    uniqueTitles.forEach((title) => {
+      const elements = screen.getAllByText(title);
+      expect(elements.length).toBeGreaterThan(0);
     });
   });
 
@@ -112,8 +114,8 @@ describe("ExperienceTimeline", () => {
 
   it("renders correct number of experience cards", () => {
     renderComponent();
-    const titles = EXPERIENCES.map((exp) => screen.getByText(exp.title));
-    expect(titles).toHaveLength(EXPERIENCES.length);
+    const companies = EXPERIENCES.map((exp) => screen.getByText(exp.company));
+    expect(companies).toHaveLength(EXPERIENCES.length);
   });
 
   it("renders correctly in dark mode", () => {

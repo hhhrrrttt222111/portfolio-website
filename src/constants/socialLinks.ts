@@ -1,52 +1,71 @@
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import RedditIcon from "@mui/icons-material/Reddit";
-import MenuBookIcon from "@mui/icons-material/MenuBook";
-import type { SvgIconComponent } from "@mui/icons-material";
+import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
+import {
+  faGithub,
+  faLinkedinIn,
+  faXTwitter,
+  faInstagram,
+  faFacebookF,
+  faRedditAlien,
+  faGoodreadsG,
+  faMediumM,
+  faPinterestP,
+} from "@fortawesome/free-brands-svg-icons";
 
 export interface SocialLink {
   name: string;
   url: string;
-  Icon: SvgIconComponent;
+  icon: IconDefinition;
 }
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     name: "GitHub",
-    url: "https://github.com/hhhrrrttt22211",
-    Icon: GitHubIcon,
+    url: "https://github.com/hhhrrrttt222111",
+    icon: faGithub,
   },
   {
     name: "LinkedIn",
-    url: "https://linkedin.com/in/hhhrrrttt22211",
-    Icon: LinkedInIcon,
+    url: "https://linkedin.com/in/hhhrrrttt222111",
+    icon: faLinkedinIn,
   },
   {
-    name: "Twitter",
-    url: "https://twitter.com/hhhrrrttt22211",
-    Icon: TwitterIcon,
+    name: "X",
+    url: "https://x.com/hhhrrrttt222111",
+    icon: faXTwitter,
   },
   {
     name: "Instagram",
-    url: "https://instagram.com/hhhrrrttt22211",
-    Icon: InstagramIcon,
+    url: "https://instagram.com/hhhrrrttt222111",
+    icon: faInstagram,
   },
   {
     name: "Facebook",
-    url: "https://facebook.com/hhhrrrttt22211",
-    Icon: FacebookIcon,
+    url: "https://facebook.com/hhhrrrttt222111",
+    icon: faFacebookF,
   },
   {
     name: "Reddit",
-    url: "https://reddit.com/user/hhhrrrttt22211",
-    Icon: RedditIcon,
+    url: "https://reddit.com/user/hhhrrrttt222111",
+    icon: faRedditAlien,
   },
   {
     name: "Goodreads",
-    url: "https://goodreads.com/hhhrrrttt22211",
-    Icon: MenuBookIcon,
+    url: "https://goodreads.com/hhhrrrttt222111",
+    icon: faGoodreadsG,
+  },
+  {
+    name: "Medium",
+    url: "https://medium.com/@hhhrrrttt222111",
+    icon: faMediumM,
+  },
+  {
+    name: "Pinterest",
+    url: "https://pinterest.com/hhhrrrttt222111",
+    icon: faPinterestP,
   },
 ];
+
+export const SUBSTACK_LINK = {
+  name: "Substack",
+  url: "https://substack.com/@hhhrrrttt222111",
+};

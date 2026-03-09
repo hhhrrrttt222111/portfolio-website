@@ -4,6 +4,7 @@ import Box from "@mui/material/Box";
 import { CursorFollower, DarkModeToggle, OfflineFallback, ScrollIndicator } from "@/components";
 import Loader from "@/components/Loader/Loader";
 import { useNetwork } from "@/hooks";
+import { ScrollToTop } from "@/utils";
 
 const Home = lazy(() => import("@/pages/Home/Home"));
 const About = lazy(() => import("@/pages/About/About"));
@@ -44,6 +45,7 @@ const App = () => {
     >
       <ScrollIndicator />
       <BrowserRouter>
+        <ScrollToTop />
         <CursorFollower />
         <DarkModeToggle />
         <Suspense fallback={<Loader />}>

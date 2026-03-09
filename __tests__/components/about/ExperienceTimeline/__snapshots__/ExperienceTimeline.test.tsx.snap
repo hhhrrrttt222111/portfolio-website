@@ -3,7 +3,7 @@
 exports[`ExperienceTimeline matches snapshot (dark mode) 1`] = `
 <div>
   <section
-    class="css-1olc43o"
+    class="css-rvkvw2"
     data-testid="experience-section"
   >
     <div
@@ -43,24 +43,24 @@ exports[`ExperienceTimeline matches snapshot (dark mode) 1`] = `
                 class="MuiBox-root css-b6yup3"
               >
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1etytva-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
                 >
-                  Software Engineer
+                  Consultant Developer
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-16cn69d-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
                 >
-                  TechNova Solutions
+                  Thoughtworks
                 </p>
                 <p
                   class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
                 >
-                  Jan 2024 — Present
+                  Jul 2023 — Present
                 </p>
                 <p
                   class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
                 >
-                  Leading frontend architecture for a SaaS platform serving 10k+ users. Building performant, accessible interfaces with React, TypeScript, and a custom design system.
+                  Working as a consultant developer building scalable enterprise applications. Contributing to backend and frontend systems using Node.js, TypeScript, and modern development practices in a collaborative agile environment.
                 </p>
               </div>
             </div>
@@ -76,24 +76,24 @@ exports[`ExperienceTimeline matches snapshot (dark mode) 1`] = `
                 class="MuiBox-root css-b6yup3"
               >
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1etytva-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
                 >
-                  Frontend Developer
+                  Web Manager
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-16cn69d-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
                 >
-                  PixelCraft Studios
+                  Excel MEC
                 </p>
                 <p
                   class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
                 >
-                  Jun 2022 — Dec 2023
+                  Jun 2022 — Sep 2023
                 </p>
                 <p
                   class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
                 >
-                  Developed interactive web experiences and marketing sites for high-profile clients. Focused on animation, performance optimization, and cross-browser consistency.
+                  Managed and developed the organization's web presence, maintaining websites and building new features using React.js and modern web technologies while coordinating with the web team.
                 </p>
               </div>
             </div>
@@ -109,24 +109,123 @@ exports[`ExperienceTimeline matches snapshot (dark mode) 1`] = `
                 class="MuiBox-root css-b6yup3"
               >
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1etytva-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
                 >
-                  Junior Developer Intern
+                  Full Stack Developer (Freelance)
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-16cn69d-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
                 >
-                  CodeBridge Labs
+                  Svasthi Charitable Trust
                 </p>
                 <p
                   class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
                 >
-                  Jan 2022 — May 2022
+                  May 2023 — Jun 2023
                 </p>
                 <p
                   class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
                 >
-                  Built internal tools and contributed to the component library. Learned production workflows, code review culture, and agile development practices.
+                  Developed the official website for Svasthi Charitable Trust using React.js and Firebase, focusing on performance, responsiveness, and maintainable frontend architecture.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-e3wyqc"
+              />
+              <div
+                class="MuiBox-root css-b6yup3"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
+                >
+                  Full Stack Developer (Freelance)
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
+                >
+                  Advantus Life Sciences
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
+                >
+                  Sep 2021 — Jul 2022
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
+                >
+                  Built the official website for Advantus Life Sciences using Next.js, delivering a responsive and production-ready web platform for the organization.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-e3wyqc"
+              />
+              <div
+                class="MuiBox-root css-b6yup3"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
+                >
+                  Frontend Developer Intern
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
+                >
+                  TGH Tech
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
+                >
+                  Jun 2021 — Sep 2021
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
+                >
+                  Worked on two frontend projects using React.js and Firebase, gaining experience in building responsive interfaces and collaborating in a professional development environment.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-e3wyqc"
+              />
+              <div
+                class="MuiBox-root css-b6yup3"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
+                >
+                  React Developer
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
+                >
+                  Indic Law
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
+                >
+                  Nov 2020 — Mar 2021
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
+                >
+                  Developed the IndicLaw website using React.js and Material-UI, focusing on building reusable UI components and a clean, responsive interface.
                 </p>
               </div>
             </div>
@@ -141,7 +240,7 @@ exports[`ExperienceTimeline matches snapshot (dark mode) 1`] = `
 exports[`ExperienceTimeline matches snapshot (light mode) 1`] = `
 <div>
   <section
-    class="css-tj2q7h"
+    class="css-22hls8"
     data-testid="experience-section"
   >
     <div
@@ -181,24 +280,24 @@ exports[`ExperienceTimeline matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-otbqt4"
               >
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1rr4gyp-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-13bm994-MuiTypography-root"
                 >
-                  Software Engineer
+                  Consultant Developer
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1ls4srf-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-1d5kx48-MuiTypography-root"
                 >
-                  TechNova Solutions
+                  Thoughtworks
                 </p>
                 <p
                   class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
                 >
-                  Jan 2024 — Present
+                  Jul 2023 — Present
                 </p>
                 <p
                   class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
                 >
-                  Leading frontend architecture for a SaaS platform serving 10k+ users. Building performant, accessible interfaces with React, TypeScript, and a custom design system.
+                  Working as a consultant developer building scalable enterprise applications. Contributing to backend and frontend systems using Node.js, TypeScript, and modern development practices in a collaborative agile environment.
                 </p>
               </div>
             </div>
@@ -214,24 +313,24 @@ exports[`ExperienceTimeline matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-otbqt4"
               >
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1rr4gyp-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-13bm994-MuiTypography-root"
                 >
-                  Frontend Developer
+                  Web Manager
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1ls4srf-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-1d5kx48-MuiTypography-root"
                 >
-                  PixelCraft Studios
+                  Excel MEC
                 </p>
                 <p
                   class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
                 >
-                  Jun 2022 — Dec 2023
+                  Jun 2022 — Sep 2023
                 </p>
                 <p
                   class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
                 >
-                  Developed interactive web experiences and marketing sites for high-profile clients. Focused on animation, performance optimization, and cross-browser consistency.
+                  Managed and developed the organization's web presence, maintaining websites and building new features using React.js and modern web technologies while coordinating with the web team.
                 </p>
               </div>
             </div>
@@ -247,24 +346,123 @@ exports[`ExperienceTimeline matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-otbqt4"
               >
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1rr4gyp-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-13bm994-MuiTypography-root"
                 >
-                  Junior Developer Intern
+                  Full Stack Developer (Freelance)
                 </p>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1ls4srf-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-1d5kx48-MuiTypography-root"
                 >
-                  CodeBridge Labs
+                  Svasthi Charitable Trust
                 </p>
                 <p
                   class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
                 >
-                  Jan 2022 — May 2022
+                  May 2023 — Jun 2023
                 </p>
                 <p
                   class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
                 >
-                  Built internal tools and contributed to the component library. Learned production workflows, code review culture, and agile development practices.
+                  Developed the official website for Svasthi Charitable Trust using React.js and Firebase, focusing on performance, responsiveness, and maintainable frontend architecture.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-3lcha7"
+              />
+              <div
+                class="MuiBox-root css-otbqt4"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-13bm994-MuiTypography-root"
+                >
+                  Full Stack Developer (Freelance)
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1d5kx48-MuiTypography-root"
+                >
+                  Advantus Life Sciences
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
+                >
+                  Sep 2021 — Jul 2022
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
+                >
+                  Built the official website for Advantus Life Sciences using Next.js, delivering a responsive and production-ready web platform for the organization.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-3lcha7"
+              />
+              <div
+                class="MuiBox-root css-otbqt4"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-13bm994-MuiTypography-root"
+                >
+                  Frontend Developer Intern
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1d5kx48-MuiTypography-root"
+                >
+                  TGH Tech
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
+                >
+                  Jun 2021 — Sep 2021
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
+                >
+                  Worked on two frontend projects using React.js and Firebase, gaining experience in building responsive interfaces and collaborating in a professional development environment.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-3lcha7"
+              />
+              <div
+                class="MuiBox-root css-otbqt4"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-13bm994-MuiTypography-root"
+                >
+                  React Developer
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1d5kx48-MuiTypography-root"
+                >
+                  Indic Law
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
+                >
+                  Nov 2020 — Mar 2021
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
+                >
+                  Developed the IndicLaw website using React.js and Material-UI, focusing on building reusable UI components and a clean, responsive interface.
                 </p>
               </div>
             </div>

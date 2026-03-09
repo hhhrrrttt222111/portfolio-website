@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react";
 import { ThemeProvider } from "@mui/material/styles";
 import { createAppTheme } from "@/theme";
 import { Footer } from "@/components";
-import { SOCIAL_LINKS } from "@/constants";
+import { SOCIAL_LINKS, SUBSTACK_LINK } from "@/constants";
 
 jest.mock("framer-motion", () => {
   // eslint-disable-next-line @typescript-eslint/no-require-imports
@@ -67,6 +67,8 @@ jest.mock("framer-motion", () => {
   };
 });
 
+const ALL_SOCIAL_LINKS = [...SOCIAL_LINKS, SUBSTACK_LINK];
+
 const renderWithTheme = (mode: "light" | "dark" = "light") =>
   render(
     <ThemeProvider theme={createAppTheme(mode)}>
@@ -96,16 +98,16 @@ describe("Footer", () => {
     expect(screen.getByText(`© ${year} Hemanth R. All rights reserved.`)).toBeInTheDocument();
   });
 
-  it("renders all social media links", () => {
+  it("renders all social media links including Substack", () => {
     renderWithTheme();
-    SOCIAL_LINKS.forEach((link) => {
+    ALL_SOCIAL_LINKS.forEach((link) => {
       expect(screen.getByLabelText(link.name)).toBeInTheDocument();
     });
   });
 
   it("renders social links with correct href", () => {
     renderWithTheme();
-    SOCIAL_LINKS.forEach((link) => {
+    ALL_SOCIAL_LINKS.forEach((link) => {
       const anchor = screen.getByLabelText(link.name);
       expect(anchor).toHaveAttribute("href", link.url);
     });
@@ -113,11 +115,42 @@ describe("Footer", () => {
 
   it("renders social links that open in new tab", () => {
     renderWithTheme();
-    SOCIAL_LINKS.forEach((link) => {
+    ALL_SOCIAL_LINKS.forEach((link) => {
       const anchor = screen.getByLabelText(link.name);
       expect(anchor).toHaveAttribute("target", "_blank");
       expect(anchor).toHaveAttribute("rel", "noopener noreferrer");
     });
+  });
+
+  it("renders X (Twitter) link", () => {
+    renderWithTheme();
+    const xLink = screen.getByLabelText("X");
+    expect(xLink).toBeInTheDocument();
+    expect(xLink).toHaveAttribute("href", "https://x.com/hhhrrrttt222111");
+  });
+
+  it("renders Medium link", () => {
+    renderWithTheme();
+    const mediumLink = screen.getByLabelText("Medium");
+    expect(mediumLink).toBeInTheDocument();
+  });
+
+  it("renders Pinterest link", () => {
+    renderWithTheme();
+    const pinterestLink = screen.getByLabelText("Pinterest");
+    expect(pinterestLink).toBeInTheDocument();
+  });
+
+  it("renders Substack link", () => {
+    renderWithTheme();
+    const substackLink = screen.getByLabelText("Substack");
+    expect(substackLink).toBeInTheDocument();
+  });
+
+  it("renders Goodreads link", () => {
+    renderWithTheme();
+    const goodreadsLink = screen.getByLabelText("Goodreads");
+    expect(goodreadsLink).toBeInTheDocument();
   });
 
   it("renders wave SVG paths", () => {
@@ -132,6 +165,15 @@ describe("Footer", () => {
     const { container } = renderWithTheme("dark");
     expect(container.querySelector("footer")).toBeInTheDocument();
     expect(screen.getByTestId("footer")).toBeInTheDocument();
+  });
+
+  it("renders correct number of social links", () => {
+    renderWithTheme();
+    const expectedCount = SOCIAL_LINKS.length + 1; // +1 for Substack
+    const links = screen
+      .getAllByRole("link")
+      .filter((link) => link.getAttribute("target") === "_blank");
+    expect(links.length).toBe(expectedCount);
   });
 
   it("matches snapshot (light mode)", () => {

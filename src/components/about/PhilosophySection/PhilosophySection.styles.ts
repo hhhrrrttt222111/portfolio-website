@@ -23,8 +23,8 @@ const lineGrow = keyframes`
 export const SectionRoot = styled("section")(({ theme }) => {
   const isDark = theme.palette.mode === "dark";
   return {
-    paddingTop: theme.spacing(16),
-    paddingBottom: theme.spacing(16),
+    paddingTop: theme.spacing(10),
+    paddingBottom: theme.spacing(10),
     position: "relative",
     overflow: "hidden",
     background: isDark

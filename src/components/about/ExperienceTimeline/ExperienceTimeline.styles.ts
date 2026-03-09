@@ -16,8 +16,8 @@ const glowPulse = keyframes`
 export const SectionRoot = styled("section")(({ theme }) => {
   const isDark = theme.palette.mode === "dark";
   return {
-    paddingTop: theme.spacing(12),
-    paddingBottom: theme.spacing(12),
+    paddingTop: theme.spacing(8),
+    paddingBottom: theme.spacing(8),
     position: "relative",
     overflow: "hidden",
     background: isDark
@@ -189,21 +189,21 @@ export const TimelineCard = styled(Box)(({ theme }) => {
 });
 
 export const CardTitle = styled(Typography)(({ theme }) => ({
+  fontWeight: 600,
+  fontSize: "0.9rem",
+  color: theme.palette.text.secondary,
+  marginBottom: theme.spacing(0.5),
+}));
+
+export const CardCompany = styled(Typography)(({ theme }) => ({
   fontFamily: fontFamilies.heading,
   fontWeight: 600,
   fontSize: "1.15rem",
-  color: theme.palette.text.primary,
+  color: theme.palette.primary.main,
   marginBottom: theme.spacing(0.5),
   [theme.breakpoints.up("md")]: {
     fontSize: "1.25rem",
   },
-}));
-
-export const CardCompany = styled(Typography)(({ theme }) => ({
-  fontWeight: 600,
-  fontSize: "0.9rem",
-  color: theme.palette.primary.main,
-  marginBottom: theme.spacing(0.5),
 }));
 
 export const CardDate = styled(Typography)(({ theme }) => ({

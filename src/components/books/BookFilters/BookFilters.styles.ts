@@ -1,61 +1,78 @@
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
+import TextField from "@mui/material/TextField";
 import { fontFamilies } from "@/theme/theme";
 
 export const FiltersRoot = styled(Box)(({ theme }) => ({
   display: "flex",
   flexDirection: "column",
-  gap: theme.spacing(2),
-  marginBottom: theme.spacing(5),
+  gap: theme.spacing(1.5),
+  marginBottom: theme.spacing(4),
   [theme.breakpoints.up("sm")]: {
     flexDirection: "row",
     flexWrap: "wrap",
     alignItems: "center",
     gap: theme.spacing(2),
+    marginBottom: theme.spacing(5),
   },
   [theme.breakpoints.up("md")]: {
     marginBottom: theme.spacing(6),
   },
 }));
 
-export const SearchField = styled(Box)(({ theme }) => {
+export const StyledTextField = styled(TextField)(({ theme }) => {
   const isDark = theme.palette.mode === "dark";
   return {
-    position: "relative",
-    flex: "1 1 240px",
-    "& input": {
-      width: "100%",
-      padding: `${theme.spacing(1.5)} ${theme.spacing(2)} ${theme.spacing(1.5)} ${theme.spacing(5)}`,
+    width: "100%",
+    [theme.breakpoints.up("sm")]: {
+      flex: "1 1 240px",
+      width: "auto",
+    },
+    "& .MuiOutlinedInput-root": {
       borderRadius: theme.spacing(1.5),
-      border: `1px solid ${isDark ? "rgba(102,187,106,0.15)" : "rgba(46,125,50,0.12)"}`,
       background: isDark ? "rgba(18,38,26,0.4)" : "rgba(255,255,255,0.7)",
       backdropFilter: "blur(12px)",
-      color: theme.palette.text.primary,
       fontSize: "0.9rem",
       fontFamily: fontFamilies.body,
-      outline: "none",
       transition: "border-color 0.2s, box-shadow 0.2s",
+      "& fieldset": {
+        borderColor: isDark ? "rgba(102,187,106,0.15)" : "rgba(46,125,50,0.12)",
+        transition: "border-color 0.2s",
+      },
+      "&:hover fieldset": {
+        borderColor: isDark ? "rgba(102,187,106,0.3)" : "rgba(46,125,50,0.25)",
+      },
+      "&.Mui-focused fieldset": {
+        borderColor: theme.palette.primary.main,
+        borderWidth: 1,
+        boxShadow: `0 0 0 3px ${isDark ? "rgba(102,187,106,0.1)" : "rgba(46,125,50,0.08)"}`,
+      },
+    },
+    "& .MuiOutlinedInput-input": {
+      padding: theme.spacing(1.25, 1.5),
+      color: theme.palette.text.primary,
       "&::placeholder": {
         color: theme.palette.text.secondary,
         opacity: 0.6,
       },
-      "&:focus": {
-        borderColor: theme.palette.primary.main,
-        boxShadow: `0 0 0 3px ${isDark ? "rgba(102,187,106,0.1)" : "rgba(46,125,50,0.08)"}`,
-      },
     },
     "& .search-icon": {
-      position: "absolute",
-      left: theme.spacing(1.5),
-      top: "50%",
-      transform: "translateY(-50%)",
       color: theme.palette.text.secondary,
       opacity: 0.5,
-      pointerEvents: "none",
       fontSize: "1.1rem",
     },
   };
 });
+
+export const FilterRow = styled(Box)(({ theme }) => ({
+  display: "flex",
+  flexWrap: "wrap",
+  alignItems: "center",
+  gap: theme.spacing(1),
+  [theme.breakpoints.up("sm")]: {
+    gap: theme.spacing(2),
+  },
+}));
 
 export const FilterChipGroup = styled(Box)(({ theme }) => ({
   display: "flex",
@@ -69,6 +86,10 @@ export const FilterChip = styled(Box, {
 })<{ active: boolean }>(({ theme, active }) => {
   const isDark = theme.palette.mode === "dark";
   return {
+    display: "inline-flex",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: theme.spacing(0.5),
     padding: `${theme.spacing(0.75)} ${theme.spacing(2)}`,
     borderRadius: theme.spacing(3),
     fontSize: "0.8rem",
@@ -94,15 +115,19 @@ export const FilterChip = styled(Box, {
       borderColor: theme.palette.primary.main,
       color: theme.palette.primary.main,
     },
+    "& .star-icon": {
+      fontSize: "0.85rem",
+      display: "flex",
+    },
   };
 });
 
 export const SortButton = styled(Box)(({ theme }) => {
   const isDark = theme.palette.mode === "dark";
   return {
-    display: "flex",
+    display: "inline-flex",
     alignItems: "center",
-    gap: theme.spacing(0.75),
+    gap: theme.spacing(0.5),
     padding: `${theme.spacing(0.75)} ${theme.spacing(2)}`,
     borderRadius: theme.spacing(1.5),
     fontSize: "0.8rem",
@@ -118,6 +143,7 @@ export const SortButton = styled(Box)(({ theme }) => {
       color: theme.palette.primary.main,
     },
     "& .sort-arrow": {
+      fontSize: "1rem",
       transition: "transform 0.2s",
     },
   };

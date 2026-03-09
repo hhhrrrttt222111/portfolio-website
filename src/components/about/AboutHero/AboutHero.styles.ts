@@ -188,7 +188,7 @@ export const HeroParagraph = styled(Typography)(({ theme }) => ({
   fontSize: "1.05rem",
   lineHeight: 1.85,
   color: theme.palette.text.secondary,
-  maxWidth: 620,
+  maxWidth: 820,
   marginLeft: "auto",
   marginRight: "auto",
   marginBottom: theme.spacing(4),

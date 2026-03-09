@@ -4,76 +4,154 @@ exports[`BookFilters matches snapshot (dark mode) 1`] = `
 <div>
   <div>
     <div
-      class="MuiBox-root css-1es70xq"
+      class="MuiBox-root css-1xtv4gf"
       data-testid="book-filters"
     >
       <div
-        class="MuiBox-root css-12kp3n5"
+        aria-label="Search books"
+        class="MuiFormControl-root MuiTextField-root css-1txwt7g-MuiFormControl-root-MuiTextField-root"
       >
-        <span
-          class="search-icon"
+        <div
+          class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall MuiInputBase-adornedStart css-wvuz2n-MuiInputBase-root-MuiOutlinedInput-root"
         >
-          ⌕
-        </span>
-        <input
-          aria-label="Search books"
-          placeholder="Search by title or author..."
-          type="text"
-          value=""
-        />
+          <div
+            class="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-outlined MuiInputAdornment-sizeSmall css-1vbptb3-MuiInputAdornment-root"
+          >
+            <span
+              aria-hidden="true"
+              class="notranslate"
+            >
+              ​
+            </span>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium search-icon css-1umw9bq-MuiSvgIcon-root"
+              data-testid="SearchIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14"
+              />
+            </svg>
+          </div>
+          <input
+            aria-invalid="false"
+            class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedStart css-1x1alkd-MuiInputBase-input-MuiOutlinedInput-input"
+            id="_r_r_"
+            placeholder="Search by title or author..."
+            type="text"
+            value=""
+          />
+          <fieldset
+            aria-hidden="true"
+            class="MuiOutlinedInput-notchedOutline css-vy4cj6-MuiNotchedOutlined-root-MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              class="css-1nf2c5d-MuiNotchedOutlined-root"
+            >
+              <span
+                aria-hidden="true"
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+        </div>
       </div>
       <div
-        class="MuiBox-root css-1gjf2hg"
+        class="MuiBox-root css-13u2pj0"
       >
         <div
-          aria-label="Show all ratings"
-          class="MuiBox-root css-11bqctr"
-          role="button"
-          tabindex="0"
+          class="MuiBox-root css-1gjf2hg"
         >
-          All
+          <div
+            aria-label="Show all ratings"
+            class="MuiBox-root css-35dkeb"
+            role="button"
+            tabindex="0"
+          >
+            All
+          </div>
+          <div
+            aria-label="Filter by 5 stars"
+            class="MuiBox-root css-cklxst"
+            role="button"
+            tabindex="0"
+          >
+            5
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium star-icon css-1umw9bq-MuiSvgIcon-root"
+              data-testid="StarIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+              />
+            </svg>
+          </div>
+          <div
+            aria-label="Filter by 4 stars"
+            class="MuiBox-root css-cklxst"
+            role="button"
+            tabindex="0"
+          >
+            4
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium star-icon css-1umw9bq-MuiSvgIcon-root"
+              data-testid="StarIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+              />
+            </svg>
+          </div>
+          <div
+            aria-label="Filter by 3 stars"
+            class="MuiBox-root css-cklxst"
+            role="button"
+            tabindex="0"
+          >
+            3
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium star-icon css-1umw9bq-MuiSvgIcon-root"
+              data-testid="StarIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+              />
+            </svg>
+          </div>
         </div>
         <div
-          aria-label="Filter by 5 stars"
-          class="MuiBox-root css-1maep0a"
+          aria-label="Sort by oldest first"
+          class="MuiBox-root css-1xx8et"
           role="button"
           tabindex="0"
         >
-          5
-          ★
+          Newest
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium sort-arrow css-1umw9bq-MuiSvgIcon-root"
+            data-testid="ArrowDownwardIcon"
+            focusable="false"
+            style="transform: none;"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="m20 12-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8z"
+            />
+          </svg>
         </div>
-        <div
-          aria-label="Filter by 4 stars"
-          class="MuiBox-root css-1maep0a"
-          role="button"
-          tabindex="0"
-        >
-          4
-          ★
-        </div>
-        <div
-          aria-label="Filter by 3 stars"
-          class="MuiBox-root css-1maep0a"
-          role="button"
-          tabindex="0"
-        >
-          3
-          ★
-        </div>
-      </div>
-      <div
-        aria-label="Sort by oldest first"
-        class="MuiBox-root css-zxqfma"
-        role="button"
-        tabindex="0"
-      >
-        Newest
-        <span
-          class="sort-arrow"
-          style="transform: none;"
-        >
-          ↓
-        </span>
       </div>
       <div>
         <div
@@ -91,76 +169,154 @@ exports[`BookFilters matches snapshot (light mode) 1`] = `
 <div>
   <div>
     <div
-      class="MuiBox-root css-1es70xq"
+      class="MuiBox-root css-1xtv4gf"
       data-testid="book-filters"
     >
       <div
-        class="MuiBox-root css-hca540"
+        aria-label="Search books"
+        class="MuiFormControl-root MuiTextField-root css-1prt39n-MuiFormControl-root-MuiTextField-root"
       >
-        <span
-          class="search-icon"
+        <div
+          class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall MuiInputBase-adornedStart css-yjlbf4-MuiInputBase-root-MuiOutlinedInput-root"
         >
-          ⌕
-        </span>
-        <input
-          aria-label="Search books"
-          placeholder="Search by title or author..."
-          type="text"
-          value=""
-        />
+          <div
+            class="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-outlined MuiInputAdornment-sizeSmall css-1nowbqt-MuiInputAdornment-root"
+          >
+            <span
+              aria-hidden="true"
+              class="notranslate"
+            >
+              ​
+            </span>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium search-icon css-1umw9bq-MuiSvgIcon-root"
+              data-testid="SearchIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14"
+              />
+            </svg>
+          </div>
+          <input
+            aria-invalid="false"
+            class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedStart css-1q55ijt-MuiInputBase-input-MuiOutlinedInput-input"
+            id="_r_p_"
+            placeholder="Search by title or author..."
+            type="text"
+            value=""
+          />
+          <fieldset
+            aria-hidden="true"
+            class="MuiOutlinedInput-notchedOutline css-18p5xg2-MuiNotchedOutlined-root-MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              class="css-1nf2c5d-MuiNotchedOutlined-root"
+            >
+              <span
+                aria-hidden="true"
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+        </div>
       </div>
       <div
-        class="MuiBox-root css-1gjf2hg"
+        class="MuiBox-root css-13u2pj0"
       >
         <div
-          aria-label="Show all ratings"
-          class="MuiBox-root css-1wv0yxv"
-          role="button"
-          tabindex="0"
+          class="MuiBox-root css-1gjf2hg"
         >
-          All
+          <div
+            aria-label="Show all ratings"
+            class="MuiBox-root css-1sgnzn7"
+            role="button"
+            tabindex="0"
+          >
+            All
+          </div>
+          <div
+            aria-label="Filter by 5 stars"
+            class="MuiBox-root css-1wbqru6"
+            role="button"
+            tabindex="0"
+          >
+            5
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium star-icon css-1umw9bq-MuiSvgIcon-root"
+              data-testid="StarIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+              />
+            </svg>
+          </div>
+          <div
+            aria-label="Filter by 4 stars"
+            class="MuiBox-root css-1wbqru6"
+            role="button"
+            tabindex="0"
+          >
+            4
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium star-icon css-1umw9bq-MuiSvgIcon-root"
+              data-testid="StarIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+              />
+            </svg>
+          </div>
+          <div
+            aria-label="Filter by 3 stars"
+            class="MuiBox-root css-1wbqru6"
+            role="button"
+            tabindex="0"
+          >
+            3
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium star-icon css-1umw9bq-MuiSvgIcon-root"
+              data-testid="StarIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+              />
+            </svg>
+          </div>
         </div>
         <div
-          aria-label="Filter by 5 stars"
-          class="MuiBox-root css-1osbx9l"
+          aria-label="Sort by oldest first"
+          class="MuiBox-root css-c1k0vb"
           role="button"
           tabindex="0"
         >
-          5
-          ★
+          Newest
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium sort-arrow css-1umw9bq-MuiSvgIcon-root"
+            data-testid="ArrowDownwardIcon"
+            focusable="false"
+            style="transform: none;"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="m20 12-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8z"
+            />
+          </svg>
         </div>
-        <div
-          aria-label="Filter by 4 stars"
-          class="MuiBox-root css-1osbx9l"
-          role="button"
-          tabindex="0"
-        >
-          4
-          ★
-        </div>
-        <div
-          aria-label="Filter by 3 stars"
-          class="MuiBox-root css-1osbx9l"
-          role="button"
-          tabindex="0"
-        >
-          3
-          ★
-        </div>
-      </div>
-      <div
-        aria-label="Sort by oldest first"
-        class="MuiBox-root css-bdhru4"
-        role="button"
-        tabindex="0"
-      >
-        Newest
-        <span
-          class="sort-arrow"
-          style="transform: none;"
-        >
-          ↓
-        </span>
       </div>
       <div>
         <div

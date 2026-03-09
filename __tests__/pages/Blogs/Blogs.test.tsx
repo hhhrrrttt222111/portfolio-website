@@ -28,7 +28,7 @@ describe("Blogs Page", () => {
 
   it("renders the hero subtitle", () => {
     renderWithProviders();
-    expect(screen.getByText(/Thoughts on Technology and Literature/)).toBeInTheDocument();
+    expect(screen.getByText(/Reflections on technology and literature/)).toBeInTheDocument();
   });
 
   it("renders both blog sections", () => {

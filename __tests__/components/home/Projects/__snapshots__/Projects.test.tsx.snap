@@ -50,7 +50,7 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
         >
           <div>
             <div
-              aria-label="View Portfolio Website on GitHub"
+              aria-label="View Online Fatigue Detector on GitHub"
               class="MuiBox-root css-1yqqumb"
               role="button"
               tabindex="0"
@@ -63,73 +63,12 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body1 css-kzny1l-MuiTypography-root"
               >
-                Portfolio Website
+                Online Fatigue Detector
               </p>
               <p
                 class="MuiTypography-root MuiTypography-body1 css-1xv9bo0-MuiTypography-root"
               >
-                A modern, responsive portfolio website built with React and Material-UI
-              </p>
-              <div
-                class="MuiBox-root css-m4ph7b"
-              >
-                <div
-                  class="MuiBox-root css-2wv1j8"
-                >
-                  React
-                </div>
-                <div
-                  class="MuiBox-root css-2wv1j8"
-                >
-                  TypeScript
-                </div>
-                <div
-                  class="MuiBox-root css-2wv1j8"
-                >
-                  MUI
-                </div>
-              </div>
-              <div
-                class="github-icon MuiBox-root css-46xu3j"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                  data-testid="GitHubIcon"
-                  focusable="false"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
-                  />
-                </svg>
-                <span>
-                  View on GitHub
-                </span>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div
-              aria-label="View AI Assistant on GitHub"
-              class="MuiBox-root css-1yqqumb"
-              role="button"
-              tabindex="0"
-            >
-              <p
-                class="MuiTypography-root MuiTypography-body1 project-number css-s7r81f-MuiTypography-root"
-              >
-                02
-              </p>
-              <p
-                class="MuiTypography-root MuiTypography-body1 css-kzny1l-MuiTypography-root"
-              >
-                AI Assistant
-              </p>
-              <p
-                class="MuiTypography-root MuiTypography-body1 css-1xv9bo0-MuiTypography-root"
-              >
-                An intelligent chatbot powered by machine learning algorithms
+                A Flask application that detects fatigue during online classes by monitoring eye movements, helping students stay alert and attentive.
               </p>
               <div
                 class="MuiBox-root css-m4ph7b"
@@ -142,12 +81,22 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
                 <div
                   class="MuiBox-root css-2wv1j8"
                 >
-                  TensorFlow
+                  Flask
                 </div>
                 <div
                   class="MuiBox-root css-2wv1j8"
                 >
-                  NLP
+                  HTML
+                </div>
+                <div
+                  class="MuiBox-root css-2wv1j8"
+                >
+                  CSS
+                </div>
+                <div
+                  class="MuiBox-root css-2wv1j8"
+                >
+                  JavaScript
                 </div>
               </div>
               <div
@@ -172,7 +121,73 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
           </div>
           <div>
             <div
-              aria-label="View E-Commerce Platform on GitHub"
+              aria-label="View TravelApp on GitHub"
+              class="MuiBox-root css-1yqqumb"
+              role="button"
+              tabindex="0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 project-number css-s7r81f-MuiTypography-root"
+              >
+                02
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-kzny1l-MuiTypography-root"
+              >
+                TravelApp
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1xv9bo0-MuiTypography-root"
+              >
+                A travel planning web application built using the MERN stack for exploring and managing travel destinations.
+              </p>
+              <div
+                class="MuiBox-root css-m4ph7b"
+              >
+                <div
+                  class="MuiBox-root css-2wv1j8"
+                >
+                  React
+                </div>
+                <div
+                  class="MuiBox-root css-2wv1j8"
+                >
+                  MongoDB
+                </div>
+                <div
+                  class="MuiBox-root css-2wv1j8"
+                >
+                  Node.js
+                </div>
+                <div
+                  class="MuiBox-root css-2wv1j8"
+                >
+                  CSS
+                </div>
+              </div>
+              <div
+                class="github-icon MuiBox-root css-46xu3j"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                  data-testid="GitHubIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+                  />
+                </svg>
+                <span>
+                  View on GitHub
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              aria-label="View COVID-19 Tracker on GitHub"
               class="MuiBox-root css-1yqqumb"
               role="button"
               tabindex="0"
@@ -185,21 +200,16 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body1 css-kzny1l-MuiTypography-root"
               >
-                E-Commerce Platform
+                COVID-19 Tracker
               </p>
               <p
                 class="MuiTypography-root MuiTypography-body1 css-1xv9bo0-MuiTypography-root"
               >
-                Full-stack e-commerce solution with payment integration
+                A real-time COVID-19 statistics tracker built with React and Material-UI to visualize global pandemic data.
               </p>
               <div
                 class="MuiBox-root css-m4ph7b"
               >
-                <div
-                  class="MuiBox-root css-2wv1j8"
-                >
-                  Node.js
-                </div>
                 <div
                   class="MuiBox-root css-2wv1j8"
                 >
@@ -208,7 +218,12 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
                 <div
                   class="MuiBox-root css-2wv1j8"
                 >
-                  MongoDB
+                  Material UI
+                </div>
+                <div
+                  class="MuiBox-root css-2wv1j8"
+                >
+                  CSS
                 </div>
               </div>
               <div
@@ -233,7 +248,7 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
           </div>
           <div>
             <div
-              aria-label="View Task Manager on GitHub"
+              aria-label="View Dorkify on GitHub"
               class="MuiBox-root css-1yqqumb"
               role="button"
               tabindex="0"
@@ -246,12 +261,12 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body1 css-kzny1l-MuiTypography-root"
               >
-                Task Manager
+                Dorkify
               </p>
               <p
                 class="MuiTypography-root MuiTypography-body1 css-1xv9bo0-MuiTypography-root"
               >
-                A productivity app for managing tasks and projects efficiently
+                A Python tool that helps perform Google Dork searches efficiently for security research and information discovery.
               </p>
               <div
                 class="MuiBox-root css-m4ph7b"
@@ -259,17 +274,7 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
                 <div
                   class="MuiBox-root css-2wv1j8"
                 >
-                  React
-                </div>
-                <div
-                  class="MuiBox-root css-2wv1j8"
-                >
-                  Redux
-                </div>
-                <div
-                  class="MuiBox-root css-2wv1j8"
-                >
-                  Firebase
+                  Python
                 </div>
               </div>
               <div
@@ -294,7 +299,7 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
           </div>
           <div>
             <div
-              aria-label="View Weather Dashboard on GitHub"
+              aria-label="View Ethical Hacking Tools on GitHub"
               class="MuiBox-root css-1yqqumb"
               role="button"
               tabindex="0"
@@ -307,12 +312,12 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body1 css-kzny1l-MuiTypography-root"
               >
-                Weather Dashboard
+                Ethical Hacking Tools
               </p>
               <p
                 class="MuiTypography-root MuiTypography-body1 css-1xv9bo0-MuiTypography-root"
               >
-                Real-time weather tracking with beautiful visualizations
+                A curated collection and guide of tools used in ethical hacking and cybersecurity research.
               </p>
               <div
                 class="MuiBox-root css-m4ph7b"
@@ -320,78 +325,17 @@ exports[`Projects matches snapshot (dark mode) 1`] = `
                 <div
                   class="MuiBox-root css-2wv1j8"
                 >
-                  Vue.js
+                  Cybersecurity
                 </div>
                 <div
                   class="MuiBox-root css-2wv1j8"
                 >
-                  D3.js
+                  Ethical Hacking
                 </div>
                 <div
                   class="MuiBox-root css-2wv1j8"
                 >
-                  API
-                </div>
-              </div>
-              <div
-                class="github-icon MuiBox-root css-46xu3j"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                  data-testid="GitHubIcon"
-                  focusable="false"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
-                  />
-                </svg>
-                <span>
-                  View on GitHub
-                </span>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div
-              aria-label="View Code Editor on GitHub"
-              class="MuiBox-root css-1yqqumb"
-              role="button"
-              tabindex="0"
-            >
-              <p
-                class="MuiTypography-root MuiTypography-body1 project-number css-s7r81f-MuiTypography-root"
-              >
-                06
-              </p>
-              <p
-                class="MuiTypography-root MuiTypography-body1 css-kzny1l-MuiTypography-root"
-              >
-                Code Editor
-              </p>
-              <p
-                class="MuiTypography-root MuiTypography-body1 css-1xv9bo0-MuiTypography-root"
-              >
-                A lightweight browser-based code editor with syntax highlighting
-              </p>
-              <div
-                class="MuiBox-root css-m4ph7b"
-              >
-                <div
-                  class="MuiBox-root css-2wv1j8"
-                >
-                  JavaScript
-                </div>
-                <div
-                  class="MuiBox-root css-2wv1j8"
-                >
-                  Monaco
-                </div>
-                <div
-                  class="MuiBox-root css-2wv1j8"
-                >
-                  WebAssembly
+                  Security Tools
                 </div>
               </div>
               <div
@@ -471,7 +415,7 @@ exports[`Projects matches snapshot (light mode) 1`] = `
         >
           <div>
             <div
-              aria-label="View Portfolio Website on GitHub"
+              aria-label="View Online Fatigue Detector on GitHub"
               class="MuiBox-root css-n8z33w"
               role="button"
               tabindex="0"
@@ -484,73 +428,12 @@ exports[`Projects matches snapshot (light mode) 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body1 css-117kfkz-MuiTypography-root"
               >
-                Portfolio Website
+                Online Fatigue Detector
               </p>
               <p
                 class="MuiTypography-root MuiTypography-body1 css-18dkxuq-MuiTypography-root"
               >
-                A modern, responsive portfolio website built with React and Material-UI
-              </p>
-              <div
-                class="MuiBox-root css-m4ph7b"
-              >
-                <div
-                  class="MuiBox-root css-1mkg8z1"
-                >
-                  React
-                </div>
-                <div
-                  class="MuiBox-root css-1mkg8z1"
-                >
-                  TypeScript
-                </div>
-                <div
-                  class="MuiBox-root css-1mkg8z1"
-                >
-                  MUI
-                </div>
-              </div>
-              <div
-                class="github-icon MuiBox-root css-uuupg2"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                  data-testid="GitHubIcon"
-                  focusable="false"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
-                  />
-                </svg>
-                <span>
-                  View on GitHub
-                </span>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div
-              aria-label="View AI Assistant on GitHub"
-              class="MuiBox-root css-n8z33w"
-              role="button"
-              tabindex="0"
-            >
-              <p
-                class="MuiTypography-root MuiTypography-body1 project-number css-ahvct6-MuiTypography-root"
-              >
-                02
-              </p>
-              <p
-                class="MuiTypography-root MuiTypography-body1 css-117kfkz-MuiTypography-root"
-              >
-                AI Assistant
-              </p>
-              <p
-                class="MuiTypography-root MuiTypography-body1 css-18dkxuq-MuiTypography-root"
-              >
-                An intelligent chatbot powered by machine learning algorithms
+                A Flask application that detects fatigue during online classes by monitoring eye movements, helping students stay alert and attentive.
               </p>
               <div
                 class="MuiBox-root css-m4ph7b"
@@ -563,12 +446,22 @@ exports[`Projects matches snapshot (light mode) 1`] = `
                 <div
                   class="MuiBox-root css-1mkg8z1"
                 >
-                  TensorFlow
+                  Flask
                 </div>
                 <div
                   class="MuiBox-root css-1mkg8z1"
                 >
-                  NLP
+                  HTML
+                </div>
+                <div
+                  class="MuiBox-root css-1mkg8z1"
+                >
+                  CSS
+                </div>
+                <div
+                  class="MuiBox-root css-1mkg8z1"
+                >
+                  JavaScript
                 </div>
               </div>
               <div
@@ -593,7 +486,73 @@ exports[`Projects matches snapshot (light mode) 1`] = `
           </div>
           <div>
             <div
-              aria-label="View E-Commerce Platform on GitHub"
+              aria-label="View TravelApp on GitHub"
+              class="MuiBox-root css-n8z33w"
+              role="button"
+              tabindex="0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 project-number css-ahvct6-MuiTypography-root"
+              >
+                02
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-117kfkz-MuiTypography-root"
+              >
+                TravelApp
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-18dkxuq-MuiTypography-root"
+              >
+                A travel planning web application built using the MERN stack for exploring and managing travel destinations.
+              </p>
+              <div
+                class="MuiBox-root css-m4ph7b"
+              >
+                <div
+                  class="MuiBox-root css-1mkg8z1"
+                >
+                  React
+                </div>
+                <div
+                  class="MuiBox-root css-1mkg8z1"
+                >
+                  MongoDB
+                </div>
+                <div
+                  class="MuiBox-root css-1mkg8z1"
+                >
+                  Node.js
+                </div>
+                <div
+                  class="MuiBox-root css-1mkg8z1"
+                >
+                  CSS
+                </div>
+              </div>
+              <div
+                class="github-icon MuiBox-root css-uuupg2"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                  data-testid="GitHubIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+                  />
+                </svg>
+                <span>
+                  View on GitHub
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              aria-label="View COVID-19 Tracker on GitHub"
               class="MuiBox-root css-n8z33w"
               role="button"
               tabindex="0"
@@ -606,21 +565,16 @@ exports[`Projects matches snapshot (light mode) 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body1 css-117kfkz-MuiTypography-root"
               >
-                E-Commerce Platform
+                COVID-19 Tracker
               </p>
               <p
                 class="MuiTypography-root MuiTypography-body1 css-18dkxuq-MuiTypography-root"
               >
-                Full-stack e-commerce solution with payment integration
+                A real-time COVID-19 statistics tracker built with React and Material-UI to visualize global pandemic data.
               </p>
               <div
                 class="MuiBox-root css-m4ph7b"
               >
-                <div
-                  class="MuiBox-root css-1mkg8z1"
-                >
-                  Node.js
-                </div>
                 <div
                   class="MuiBox-root css-1mkg8z1"
                 >
@@ -629,7 +583,12 @@ exports[`Projects matches snapshot (light mode) 1`] = `
                 <div
                   class="MuiBox-root css-1mkg8z1"
                 >
-                  MongoDB
+                  Material UI
+                </div>
+                <div
+                  class="MuiBox-root css-1mkg8z1"
+                >
+                  CSS
                 </div>
               </div>
               <div
@@ -654,7 +613,7 @@ exports[`Projects matches snapshot (light mode) 1`] = `
           </div>
           <div>
             <div
-              aria-label="View Task Manager on GitHub"
+              aria-label="View Dorkify on GitHub"
               class="MuiBox-root css-n8z33w"
               role="button"
               tabindex="0"
@@ -667,12 +626,12 @@ exports[`Projects matches snapshot (light mode) 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body1 css-117kfkz-MuiTypography-root"
               >
-                Task Manager
+                Dorkify
               </p>
               <p
                 class="MuiTypography-root MuiTypography-body1 css-18dkxuq-MuiTypography-root"
               >
-                A productivity app for managing tasks and projects efficiently
+                A Python tool that helps perform Google Dork searches efficiently for security research and information discovery.
               </p>
               <div
                 class="MuiBox-root css-m4ph7b"
@@ -680,17 +639,7 @@ exports[`Projects matches snapshot (light mode) 1`] = `
                 <div
                   class="MuiBox-root css-1mkg8z1"
                 >
-                  React
-                </div>
-                <div
-                  class="MuiBox-root css-1mkg8z1"
-                >
-                  Redux
-                </div>
-                <div
-                  class="MuiBox-root css-1mkg8z1"
-                >
-                  Firebase
+                  Python
                 </div>
               </div>
               <div
@@ -715,7 +664,7 @@ exports[`Projects matches snapshot (light mode) 1`] = `
           </div>
           <div>
             <div
-              aria-label="View Weather Dashboard on GitHub"
+              aria-label="View Ethical Hacking Tools on GitHub"
               class="MuiBox-root css-n8z33w"
               role="button"
               tabindex="0"
@@ -728,12 +677,12 @@ exports[`Projects matches snapshot (light mode) 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body1 css-117kfkz-MuiTypography-root"
               >
-                Weather Dashboard
+                Ethical Hacking Tools
               </p>
               <p
                 class="MuiTypography-root MuiTypography-body1 css-18dkxuq-MuiTypography-root"
               >
-                Real-time weather tracking with beautiful visualizations
+                A curated collection and guide of tools used in ethical hacking and cybersecurity research.
               </p>
               <div
                 class="MuiBox-root css-m4ph7b"
@@ -741,78 +690,17 @@ exports[`Projects matches snapshot (light mode) 1`] = `
                 <div
                   class="MuiBox-root css-1mkg8z1"
                 >
-                  Vue.js
+                  Cybersecurity
                 </div>
                 <div
                   class="MuiBox-root css-1mkg8z1"
                 >
-                  D3.js
+                  Ethical Hacking
                 </div>
                 <div
                   class="MuiBox-root css-1mkg8z1"
                 >
-                  API
-                </div>
-              </div>
-              <div
-                class="github-icon MuiBox-root css-uuupg2"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                  data-testid="GitHubIcon"
-                  focusable="false"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
-                  />
-                </svg>
-                <span>
-                  View on GitHub
-                </span>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div
-              aria-label="View Code Editor on GitHub"
-              class="MuiBox-root css-n8z33w"
-              role="button"
-              tabindex="0"
-            >
-              <p
-                class="MuiTypography-root MuiTypography-body1 project-number css-ahvct6-MuiTypography-root"
-              >
-                06
-              </p>
-              <p
-                class="MuiTypography-root MuiTypography-body1 css-117kfkz-MuiTypography-root"
-              >
-                Code Editor
-              </p>
-              <p
-                class="MuiTypography-root MuiTypography-body1 css-18dkxuq-MuiTypography-root"
-              >
-                A lightweight browser-based code editor with syntax highlighting
-              </p>
-              <div
-                class="MuiBox-root css-m4ph7b"
-              >
-                <div
-                  class="MuiBox-root css-1mkg8z1"
-                >
-                  JavaScript
-                </div>
-                <div
-                  class="MuiBox-root css-1mkg8z1"
-                >
-                  Monaco
-                </div>
-                <div
-                  class="MuiBox-root css-1mkg8z1"
-                >
-                  WebAssembly
+                  Security Tools
                 </div>
               </div>
               <div

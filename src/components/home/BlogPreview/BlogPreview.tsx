@@ -58,7 +58,9 @@ const BlogPreview = () => {
           transition={{ duration: 0.5, delay: 0.5, ease: "easeOut" as const }}
         >
           <ViewAllLink>
-            <Link to="/blogs">View all articles</Link>
+            <Link to="/blog">
+              <span>View all articles</span>
+            </Link>
           </ViewAllLink>
         </motion.div>
       </Container>

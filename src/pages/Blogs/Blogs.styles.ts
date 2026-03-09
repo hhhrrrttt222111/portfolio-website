@@ -78,7 +78,11 @@ export const BlogsContainer = styled(Box)(({ theme }) => ({
   gap: 0,
   [theme.breakpoints.up("lg")]: {
     flexDirection: "row",
+    alignItems: "stretch",
     gap: 0,
+    "& > *:first-of-type, & > *:last-of-type": {
+      flex: 1,
+    },
   },
 }));
 

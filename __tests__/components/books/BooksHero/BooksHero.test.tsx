@@ -31,6 +31,8 @@ jest.mock("framer-motion", () => ({
   useReducedMotion: () => false,
 }));
 
+const INSTAGRAM_URL = "https://www.instagram.com/bibliosmia.brews/";
+
 const renderComponent = (bookCount = 10, mode: "light" | "dark" = "light") =>
   render(
     <ThemeProvider theme={createAppTheme(mode)}>
@@ -64,14 +66,38 @@ describe("BooksHero", () => {
     expect(screen.getByText(/collection of books/)).toBeInTheDocument();
   });
 
-  it("renders the book count", () => {
+  it("renders the book count number", () => {
     renderComponent(10);
-    expect(screen.getByText("10 books read")).toBeInTheDocument();
+    expect(screen.getByText("10")).toBeInTheDocument();
+  });
+
+  it("renders the book count label", () => {
+    renderComponent(10);
+    expect(screen.getByText("books read")).toBeInTheDocument();
   });
 
   it("renders different book count", () => {
     renderComponent(42);
-    expect(screen.getByText("42 books read")).toBeInTheDocument();
+    expect(screen.getByText("42")).toBeInTheDocument();
+  });
+
+  it("renders the Instagram link", () => {
+    renderComponent();
+    const instagramLink = screen.getByRole("link", { name: /follow.*instagram/i });
+    expect(instagramLink).toBeInTheDocument();
+    expect(instagramLink).toHaveAttribute("href", INSTAGRAM_URL);
+  });
+
+  it("Instagram link opens in new tab", () => {
+    renderComponent();
+    const instagramLink = screen.getByRole("link", { name: /follow.*instagram/i });
+    expect(instagramLink).toHaveAttribute("target", "_blank");
+    expect(instagramLink).toHaveAttribute("rel", "noopener noreferrer");
+  });
+
+  it("renders Instagram link text", () => {
+    renderComponent();
+    expect(screen.getByText("Follow for book updates")).toBeInTheDocument();
   });
 
   it("renders correctly in dark mode", () => {

@@ -42,49 +42,91 @@ export const EDUCATION: Education[] = [
 
 export const JOURNEY_MILESTONES: JourneyMilestone[] = [
   {
-    year: 2017,
-    title: "Started Coding",
-    description: "Wrote my first lines of code and fell in love with building things from scratch.",
+    year: 2011,
+    title: "First Introduction to Computers",
+    description:
+      "Discovered computers for the first time and became curious about how software and technology work.",
+  },
+  {
+    year: 2015,
+    title: "Built My First Website",
+    description:
+      "Created my first simple website, learning the basics of HTML, CSS, and how the web works.",
+  },
+  {
+    year: 2016,
+    title: "Started Learning to Code",
+    description:
+      "Began learning programming seriously, exploring core concepts and building small projects.",
   },
   {
     year: 2020,
     title: "First Freelance Project",
     description:
-      "Delivered a full-stack web app for a local business — learned more in weeks than months of tutorials.",
+      "Completed my first freelance project, building a real-world application and gaining hands-on experience.",
+  },
+  {
+    year: 2021,
+    title: "First Internship",
+    description:
+      "Worked in a professional development environment, collaborating with experienced developers and shipping real features.",
   },
   {
     year: 2022,
-    title: "Joined a Startup",
-    description: "Shipped production features at speed, wore many hats, and grew as an engineer.",
+    title: "Started Freelancing",
+    description:
+      "Began taking on freelance work regularly, delivering projects and refining practical development skills.",
   },
   {
-    year: 2024,
-    title: "Built Products Used by Thousands",
-    description: "Designed and developed applications that scaled to thousands of active users.",
+    year: 2023,
+    title: "Landed My First Job",
+    description:
+      "Started my professional career as a software developer, working on production systems and real-world products.",
   },
 ];
 
 export const EXPERIENCES: Experience[] = [
   {
-    title: "Software Engineer",
-    company: "TechNova Solutions",
-    dateRange: "Jan 2024 — Present",
+    title: "Consultant Developer",
+    company: "Thoughtworks",
+    dateRange: "Jul 2023 — Present",
     description:
-      "Leading frontend architecture for a SaaS platform serving 10k+ users. Building performant, accessible interfaces with React, TypeScript, and a custom design system.",
+      "Working as a consultant developer building scalable enterprise applications. Contributing to backend and frontend systems using Node.js, TypeScript, and modern development practices in a collaborative agile environment.",
   },
   {
-    title: "Frontend Developer",
-    company: "PixelCraft Studios",
-    dateRange: "Jun 2022 — Dec 2023",
+    title: "Web Manager",
+    company: "Excel MEC",
+    dateRange: "Jun 2022 — Sep 2023",
     description:
-      "Developed interactive web experiences and marketing sites for high-profile clients. Focused on animation, performance optimization, and cross-browser consistency.",
+      "Managed and developed the organization's web presence, maintaining websites and building new features using React.js and modern web technologies while coordinating with the web team.",
   },
   {
-    title: "Junior Developer Intern",
-    company: "CodeBridge Labs",
-    dateRange: "Jan 2022 — May 2022",
+    title: "Full Stack Developer (Freelance)",
+    company: "Svasthi Charitable Trust",
+    dateRange: "May 2023 — Jun 2023",
     description:
-      "Built internal tools and contributed to the component library. Learned production workflows, code review culture, and agile development practices.",
+      "Developed the official website for Svasthi Charitable Trust using React.js and Firebase, focusing on performance, responsiveness, and maintainable frontend architecture.",
+  },
+  {
+    title: "Full Stack Developer (Freelance)",
+    company: "Advantus Life Sciences",
+    dateRange: "Sep 2021 — Jul 2022",
+    description:
+      "Built the official website for Advantus Life Sciences using Next.js, delivering a responsive and production-ready web platform for the organization.",
+  },
+  {
+    title: "Frontend Developer Intern",
+    company: "TGH Tech",
+    dateRange: "Jun 2021 — Sep 2021",
+    description:
+      "Worked on two frontend projects using React.js and Firebase, gaining experience in building responsive interfaces and collaborating in a professional development environment.",
+  },
+  {
+    title: "React Developer",
+    company: "Indic Law",
+    dateRange: "Nov 2020 — Mar 2021",
+    description:
+      "Developed the IndicLaw website using React.js and Material-UI, focusing on building reusable UI components and a clean, responsive interface.",
   },
 ];
 

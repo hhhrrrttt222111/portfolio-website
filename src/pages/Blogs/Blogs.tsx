@@ -60,8 +60,9 @@ const Blogs = () => {
             >
               <HeroTitle>My Blogs</HeroTitle>
               <HeroSubtitle>
-                Thoughts on Technology and Literature — exploring the intersection of code and
-                creativity through two distinct lenses.
+                Reflections on technology and literature, exploring how programming, storytelling,
+                and creativity influence the way we think, build, and express ideas in a digital
+                world.
               </HeroSubtitle>
             </motion.div>
           </Container>

@@ -86,7 +86,7 @@ describe("AboutHero", () => {
 
   it("renders the personal story paragraph", () => {
     renderComponent();
-    expect(screen.getByText(/curious kid tinkering/)).toBeInTheDocument();
+    expect(screen.getByText(/fascinated by computers/)).toBeInTheDocument();
   });
 
   it("renders the reading note", () => {
@@ -103,9 +103,9 @@ describe("AboutHero", () => {
 
   it("renders journey milestones", () => {
     renderComponent();
-    expect(screen.getByText("Started Coding")).toBeInTheDocument();
     expect(screen.getByText("First Freelance Project")).toBeInTheDocument();
-    expect(screen.getByText("Joined a Startup")).toBeInTheDocument();
+    expect(screen.getByText("First Internship")).toBeInTheDocument();
+    expect(screen.getByText("Landed My First Job")).toBeInTheDocument();
   });
 
   it("renders correctly in dark mode", () => {

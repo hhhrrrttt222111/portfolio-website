@@ -3,36 +3,64 @@
 exports[`BooksHero matches snapshot (dark mode) 1`] = `
 <div>
   <section
-    class="css-rf02r8"
+    class="css-1a4nzdr"
     data-testid="books-hero"
   >
     <div
-      class="MuiContainer-root MuiContainer-maxWidthMd css-u4uvlt-MuiContainer-root"
+      class="css-10337n4"
     >
-      <div
-        style="display: flex; flex-direction: column; align-items: center;"
-      >
-        <div>
-          <p
-            class="MuiTypography-root MuiTypography-body1 css-dlcty3-MuiTypography-root"
-          >
-            10
-             books read
-          </p>
-        </div>
+      <div>
         <div>
           <h1
-            class="css-1s1yhwe"
+            class="css-nerfdt"
           >
             My Reading Library
           </h1>
         </div>
         <div>
-          <p
-            class="MuiTypography-root MuiTypography-body1 css-1yhe6c8-MuiTypography-root"
+          <div
+            class="css-lz3r7i"
           >
-            A collection of books that have shaped my thinking — from software craft to philosophy, psychology, and everything in between.
+            <span
+              class="css-pzqij8"
+            >
+              10
+            </span>
+            <span
+              class="css-34m0xp"
+            >
+              books read
+            </span>
+          </div>
+        </div>
+        <div>
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-5tr5ir-MuiTypography-root"
+          >
+            A collection of books that have influenced my thinking and perspective, from software engineering and technology to philosophy, psychology, and the deeper ideas that shape how we understand people and the world.
           </p>
+        </div>
+        <div>
+          <a
+            aria-label="Follow on Instagram for book updates"
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1yk10tj-MuiTypography-root-MuiLink-root"
+            href="https://www.instagram.com/bibliosmia.brews/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+              data-testid="InstagramIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"
+              />
+            </svg>
+            Follow for book updates
+          </a>
         </div>
       </div>
     </div>
@@ -43,36 +71,64 @@ exports[`BooksHero matches snapshot (dark mode) 1`] = `
 exports[`BooksHero matches snapshot (light mode) 1`] = `
 <div>
   <section
-    class="css-1pxfoyb"
+    class="css-6ge1bx"
     data-testid="books-hero"
   >
     <div
-      class="MuiContainer-root MuiContainer-maxWidthMd css-u4uvlt-MuiContainer-root"
+      class="css-10337n4"
     >
-      <div
-        style="display: flex; flex-direction: column; align-items: center;"
-      >
-        <div>
-          <p
-            class="MuiTypography-root MuiTypography-body1 css-1wlzstl-MuiTypography-root"
-          >
-            10
-             books read
-          </p>
-        </div>
+      <div>
         <div>
           <h1
-            class="css-6yer5h"
+            class="css-hymsop"
           >
             My Reading Library
           </h1>
         </div>
         <div>
-          <p
-            class="MuiTypography-root MuiTypography-body1 css-nfqx83-MuiTypography-root"
+          <div
+            class="css-1ty25zd"
           >
-            A collection of books that have shaped my thinking — from software craft to philosophy, psychology, and everything in between.
+            <span
+              class="css-1j3t953"
+            >
+              10
+            </span>
+            <span
+              class="css-1cdiw54"
+            >
+              books read
+            </span>
+          </div>
+        </div>
+        <div>
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-r2o6oo-MuiTypography-root"
+          >
+            A collection of books that have influenced my thinking and perspective, from software engineering and technology to philosophy, psychology, and the deeper ideas that shape how we understand people and the world.
           </p>
+        </div>
+        <div>
+          <a
+            aria-label="Follow on Instagram for book updates"
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1nyu04l-MuiTypography-root-MuiLink-root"
+            href="https://www.instagram.com/bibliosmia.brews/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+              data-testid="InstagramIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"
+              />
+            </svg>
+            Follow for book updates
+          </a>
         </div>
       </div>
     </div>

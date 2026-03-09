@@ -3,7 +3,7 @@
 exports[`PhilosophySection matches snapshot (dark mode) 1`] = `
 <div>
   <section
-    class="css-1yazao"
+    class="css-q3vomh"
     data-testid="philosophy-section"
   >
     <div
@@ -159,7 +159,7 @@ exports[`PhilosophySection matches snapshot (dark mode) 1`] = `
 exports[`PhilosophySection matches snapshot (light mode) 1`] = `
 <div>
   <section
-    class="css-12mbhks"
+    class="css-18ixmv"
     data-testid="philosophy-section"
   >
     <div

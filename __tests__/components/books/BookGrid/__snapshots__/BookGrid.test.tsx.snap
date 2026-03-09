@@ -6,7 +6,7 @@ exports[`BookGrid matches snapshot (dark mode) 1`] = `
     data-testid="book-grid"
   >
     <div
-      class="MuiBox-root css-qi0rix"
+      class="MuiBox-root css-1gw3adi"
     >
       <div
         style="height: 100%;"
@@ -19,7 +19,7 @@ exports[`BookGrid matches snapshot (dark mode) 1`] = `
             role="link"
           >
             <div
-              class="MuiBox-root css-1eekpyd"
+              class="MuiBox-root css-1bqgj03"
             >
               <img
                 alt="Cover of Atomic Habits"
@@ -30,26 +30,26 @@ exports[`BookGrid matches snapshot (dark mode) 1`] = `
               />
             </div>
             <div
-              class="MuiBox-root css-1hdogsu"
+              class="MuiBox-root css-xluy6d"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-5euya1-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1j3p2n-MuiTypography-root"
               >
                 Atomic Habits
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-13yxw41-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-11cl95w-MuiTypography-root"
               >
                 James Clear
               </p>
               <div
-                class="MuiBox-root css-jv665g"
+                class="MuiBox-root css-1vzbo3b"
               >
                 <div
                   class="MuiBox-root css-uklcv"
                 >
                   <div
-                    class="MuiBox-root css-1gr6vz7"
+                    class="MuiBox-root css-1wv9kn0"
                   >
                     <svg
                       fill="currentColor"
@@ -63,7 +63,7 @@ exports[`BookGrid matches snapshot (dark mode) 1`] = `
                     </svg>
                   </div>
                   <div
-                    class="MuiBox-root css-1gr6vz7"
+                    class="MuiBox-root css-1wv9kn0"
                   >
                     <svg
                       fill="currentColor"
@@ -77,7 +77,7 @@ exports[`BookGrid matches snapshot (dark mode) 1`] = `
                     </svg>
                   </div>
                   <div
-                    class="MuiBox-root css-1gr6vz7"
+                    class="MuiBox-root css-1wv9kn0"
                   >
                     <svg
                       fill="currentColor"
@@ -91,7 +91,7 @@ exports[`BookGrid matches snapshot (dark mode) 1`] = `
                     </svg>
                   </div>
                   <div
-                    class="MuiBox-root css-1gr6vz7"
+                    class="MuiBox-root css-1wv9kn0"
                   >
                     <svg
                       fill="currentColor"
@@ -105,7 +105,7 @@ exports[`BookGrid matches snapshot (dark mode) 1`] = `
                     </svg>
                   </div>
                   <div
-                    class="MuiBox-root css-1gr6vz7"
+                    class="MuiBox-root css-1wv9kn0"
                   >
                     <svg
                       fill="currentColor"
@@ -120,7 +120,7 @@ exports[`BookGrid matches snapshot (dark mode) 1`] = `
                   </div>
                 </div>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-rojdw0-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-1whzqkd-MuiTypography-root"
                 >
                   Jan 2025
                 </p>
@@ -140,7 +140,7 @@ exports[`BookGrid matches snapshot (dark mode) 1`] = `
             role="link"
           >
             <div
-              class="MuiBox-root css-1eekpyd"
+              class="MuiBox-root css-1bqgj03"
             >
               <img
                 alt="Cover of Deep Work"
@@ -151,26 +151,26 @@ exports[`BookGrid matches snapshot (dark mode) 1`] = `
               />
             </div>
             <div
-              class="MuiBox-root css-1hdogsu"
+              class="MuiBox-root css-xluy6d"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-5euya1-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1j3p2n-MuiTypography-root"
               >
                 Deep Work
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-13yxw41-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-11cl95w-MuiTypography-root"
               >
                 Cal Newport
               </p>
               <div
-                class="MuiBox-root css-jv665g"
+                class="MuiBox-root css-1vzbo3b"
               >
                 <div
                   class="MuiBox-root css-uklcv"
                 >
                   <div
-                    class="MuiBox-root css-1gr6vz7"
+                    class="MuiBox-root css-1wv9kn0"
                   >
                     <svg
                       fill="currentColor"
@@ -184,7 +184,7 @@ exports[`BookGrid matches snapshot (dark mode) 1`] = `
                     </svg>
                   </div>
                   <div
-                    class="MuiBox-root css-1gr6vz7"
+                    class="MuiBox-root css-1wv9kn0"
                   >
                     <svg
                       fill="currentColor"
@@ -198,7 +198,7 @@ exports[`BookGrid matches snapshot (dark mode) 1`] = `
                     </svg>
                   </div>
                   <div
-                    class="MuiBox-root css-1gr6vz7"
+                    class="MuiBox-root css-1wv9kn0"
                   >
                     <svg
                       fill="currentColor"
@@ -212,7 +212,7 @@ exports[`BookGrid matches snapshot (dark mode) 1`] = `
                     </svg>
                   </div>
                   <div
-                    class="MuiBox-root css-1gr6vz7"
+                    class="MuiBox-root css-1wv9kn0"
                   >
                     <svg
                       fill="currentColor"
@@ -226,7 +226,7 @@ exports[`BookGrid matches snapshot (dark mode) 1`] = `
                     </svg>
                   </div>
                   <div
-                    class="MuiBox-root css-3gnda5"
+                    class="MuiBox-root css-1yqht2x"
                   >
                     <svg
                       fill="none"
@@ -241,7 +241,7 @@ exports[`BookGrid matches snapshot (dark mode) 1`] = `
                   </div>
                 </div>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-rojdw0-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-1whzqkd-MuiTypography-root"
                 >
                   Feb 2025
                 </p>
@@ -288,7 +288,7 @@ exports[`BookGrid matches snapshot (light mode) 1`] = `
     data-testid="book-grid"
   >
     <div
-      class="MuiBox-root css-qi0rix"
+      class="MuiBox-root css-1gw3adi"
     >
       <div
         style="height: 100%;"
@@ -301,7 +301,7 @@ exports[`BookGrid matches snapshot (light mode) 1`] = `
             role="link"
           >
             <div
-              class="MuiBox-root css-1duyvry"
+              class="MuiBox-root css-qmvy1j"
             >
               <img
                 alt="Cover of Atomic Habits"
@@ -312,26 +312,26 @@ exports[`BookGrid matches snapshot (light mode) 1`] = `
               />
             </div>
             <div
-              class="MuiBox-root css-1hdogsu"
+              class="MuiBox-root css-xluy6d"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-er58ni-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-8tt4nq-MuiTypography-root"
               >
                 Atomic Habits
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1s6gn43-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1ls2klx-MuiTypography-root"
               >
                 James Clear
               </p>
               <div
-                class="MuiBox-root css-jv665g"
+                class="MuiBox-root css-1vzbo3b"
               >
                 <div
                   class="MuiBox-root css-uklcv"
                 >
                   <div
-                    class="MuiBox-root css-1gr6vz7"
+                    class="MuiBox-root css-1wv9kn0"
                   >
                     <svg
                       fill="currentColor"
@@ -345,7 +345,7 @@ exports[`BookGrid matches snapshot (light mode) 1`] = `
                     </svg>
                   </div>
                   <div
-                    class="MuiBox-root css-1gr6vz7"
+                    class="MuiBox-root css-1wv9kn0"
                   >
                     <svg
                       fill="currentColor"
@@ -359,7 +359,7 @@ exports[`BookGrid matches snapshot (light mode) 1`] = `
                     </svg>
                   </div>
                   <div
-                    class="MuiBox-root css-1gr6vz7"
+                    class="MuiBox-root css-1wv9kn0"
                   >
                     <svg
                       fill="currentColor"
@@ -373,7 +373,7 @@ exports[`BookGrid matches snapshot (light mode) 1`] = `
                     </svg>
                   </div>
                   <div
-                    class="MuiBox-root css-1gr6vz7"
+                    class="MuiBox-root css-1wv9kn0"
                   >
                     <svg
                       fill="currentColor"
@@ -387,7 +387,7 @@ exports[`BookGrid matches snapshot (light mode) 1`] = `
                     </svg>
                   </div>
                   <div
-                    class="MuiBox-root css-1gr6vz7"
+                    class="MuiBox-root css-1wv9kn0"
                   >
                     <svg
                       fill="currentColor"
@@ -402,7 +402,7 @@ exports[`BookGrid matches snapshot (light mode) 1`] = `
                   </div>
                 </div>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1gk8641-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-1cdvyhq-MuiTypography-root"
                 >
                   Jan 2025
                 </p>
@@ -422,7 +422,7 @@ exports[`BookGrid matches snapshot (light mode) 1`] = `
             role="link"
           >
             <div
-              class="MuiBox-root css-1duyvry"
+              class="MuiBox-root css-qmvy1j"
             >
               <img
                 alt="Cover of Deep Work"
@@ -433,26 +433,26 @@ exports[`BookGrid matches snapshot (light mode) 1`] = `
               />
             </div>
             <div
-              class="MuiBox-root css-1hdogsu"
+              class="MuiBox-root css-xluy6d"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-er58ni-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-8tt4nq-MuiTypography-root"
               >
                 Deep Work
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1s6gn43-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1ls2klx-MuiTypography-root"
               >
                 Cal Newport
               </p>
               <div
-                class="MuiBox-root css-jv665g"
+                class="MuiBox-root css-1vzbo3b"
               >
                 <div
                   class="MuiBox-root css-uklcv"
                 >
                   <div
-                    class="MuiBox-root css-1gr6vz7"
+                    class="MuiBox-root css-1wv9kn0"
                   >
                     <svg
                       fill="currentColor"
@@ -466,7 +466,7 @@ exports[`BookGrid matches snapshot (light mode) 1`] = `
                     </svg>
                   </div>
                   <div
-                    class="MuiBox-root css-1gr6vz7"
+                    class="MuiBox-root css-1wv9kn0"
                   >
                     <svg
                       fill="currentColor"
@@ -480,7 +480,7 @@ exports[`BookGrid matches snapshot (light mode) 1`] = `
                     </svg>
                   </div>
                   <div
-                    class="MuiBox-root css-1gr6vz7"
+                    class="MuiBox-root css-1wv9kn0"
                   >
                     <svg
                       fill="currentColor"
@@ -494,7 +494,7 @@ exports[`BookGrid matches snapshot (light mode) 1`] = `
                     </svg>
                   </div>
                   <div
-                    class="MuiBox-root css-1gr6vz7"
+                    class="MuiBox-root css-1wv9kn0"
                   >
                     <svg
                       fill="currentColor"
@@ -508,7 +508,7 @@ exports[`BookGrid matches snapshot (light mode) 1`] = `
                     </svg>
                   </div>
                   <div
-                    class="MuiBox-root css-1tvuuia"
+                    class="MuiBox-root css-1ygrwtt"
                   >
                     <svg
                       fill="none"
@@ -523,7 +523,7 @@ exports[`BookGrid matches snapshot (light mode) 1`] = `
                   </div>
                 </div>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1gk8641-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-1cdvyhq-MuiTypography-root"
                 >
                   Feb 2025
                 </p>

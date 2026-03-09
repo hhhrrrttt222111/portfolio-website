@@ -2,7 +2,8 @@ import Container from "@mui/material/Container";
 import Tooltip from "@mui/material/Tooltip";
 import { useTheme } from "@mui/material/styles";
 import { motion, useReducedMotion } from "framer-motion";
-import { SOCIAL_LINKS } from "@/constants";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { SOCIAL_LINKS, SUBSTACK_LINK } from "@/constants";
 import {
   FooterRoot,
   WaveContainer,
@@ -10,6 +11,7 @@ import {
   SocialGrid,
   SocialIconButton,
   CopyrightText,
+  StyledTooltip,
 } from "./Footer.styles";
 
 const WAVE_PATHS = [
@@ -22,6 +24,12 @@ const iconVariants = {
   hidden: { opacity: 0, scale: 0.6 },
   visible: { opacity: 1, scale: 1, transition: { duration: 0.4, ease: "easeOut" as const } },
 };
+
+const SubstackIcon = () => (
+  <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em">
+    <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z" />
+  </svg>
+);
 
 const Footer = () => {
   const theme = useTheme();
@@ -85,18 +93,57 @@ const Footer = () => {
                   whileHover={prefersReduced ? undefined : { y: -4, scale: 1.08 }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  <Tooltip title={link.name} arrow>
+                  <Tooltip
+                    title={link.name}
+                    arrow
+                    slots={{ tooltip: StyledTooltip }}
+                    slotProps={{
+                      arrow: {
+                        sx: {
+                          color: isDark ? "rgba(18, 38, 26, 0.95)" : "rgba(255, 255, 255, 0.95)",
+                        },
+                      },
+                    }}
+                  >
                     <SocialIconButton
                       href={link.url}
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label={link.name}
                     >
-                      <link.Icon />
+                      <FontAwesomeIcon icon={link.icon} />
                     </SocialIconButton>
                   </Tooltip>
                 </motion.div>
               ))}
+              <motion.div
+                key={SUBSTACK_LINK.name}
+                variants={prefersReduced ? undefined : iconVariants}
+                whileHover={prefersReduced ? undefined : { y: -4, scale: 1.08 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                <Tooltip
+                  title={SUBSTACK_LINK.name}
+                  arrow
+                  slots={{ tooltip: StyledTooltip }}
+                  slotProps={{
+                    arrow: {
+                      sx: {
+                        color: isDark ? "rgba(18, 38, 26, 0.95)" : "rgba(255, 255, 255, 0.95)",
+                      },
+                    },
+                  }}
+                >
+                  <SocialIconButton
+                    href={SUBSTACK_LINK.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={SUBSTACK_LINK.name}
+                  >
+                    <SubstackIcon />
+                  </SocialIconButton>
+                </Tooltip>
+              </motion.div>
             </SocialGrid>
           </motion.div>
 

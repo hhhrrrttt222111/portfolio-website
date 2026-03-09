@@ -1,8 +1,13 @@
 import { memo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import SearchIcon from "@mui/icons-material/Search";
+import StarIcon from "@mui/icons-material/Star";
+import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
+import InputAdornment from "@mui/material/InputAdornment";
 import {
   FiltersRoot,
-  SearchField,
+  StyledTextField,
+  FilterRow,
   FilterChipGroup,
   FilterChip,
   SortButton,
@@ -42,55 +47,62 @@ const BookFilters = memo(
         transition={{ duration: 0.5, delay: 0.3 }}
       >
         <FiltersRoot data-testid="book-filters">
-          <SearchField>
-            <span className="search-icon">⌕</span>
-            <input
-              type="text"
-              placeholder="Search by title or author..."
-              value={search}
-              onChange={(e) => onSearchChange(e.target.value)}
-              aria-label="Search books"
-            />
-          </SearchField>
+          <StyledTextField
+            placeholder="Search by title or author..."
+            value={search}
+            onChange={(e) => onSearchChange(e.target.value)}
+            aria-label="Search books"
+            size="small"
+            slotProps={{
+              input: {
+                startAdornment: (
+                  <InputAdornment position="start">
+                    <SearchIcon className="search-icon" />
+                  </InputAdornment>
+                ),
+              },
+            }}
+          />
 
-          <FilterChipGroup>
-            <FilterChip
-              active={ratingFilter === null}
-              onClick={() => onRatingFilterChange(null)}
-              role="button"
-              tabIndex={0}
-              aria-label="Show all ratings"
-            >
-              All
-            </FilterChip>
-            {RATING_OPTIONS.map((r) => (
+          <FilterRow>
+            <FilterChipGroup>
               <FilterChip
-                key={r}
-                active={ratingFilter === r}
-                onClick={() => onRatingFilterChange(ratingFilter === r ? null : r)}
+                active={ratingFilter === null}
+                onClick={() => onRatingFilterChange(null)}
                 role="button"
                 tabIndex={0}
-                aria-label={`Filter by ${r} stars`}
+                aria-label="Show all ratings"
               >
-                {r}★
+                All
               </FilterChip>
-            ))}
-          </FilterChipGroup>
+              {RATING_OPTIONS.map((r) => (
+                <FilterChip
+                  key={r}
+                  active={ratingFilter === r}
+                  onClick={() => onRatingFilterChange(ratingFilter === r ? null : r)}
+                  role="button"
+                  tabIndex={0}
+                  aria-label={`Filter by ${r} stars`}
+                >
+                  {r}
+                  <StarIcon className="star-icon" />
+                </FilterChip>
+              ))}
+            </FilterChipGroup>
 
-          <SortButton
-            onClick={() => onSortOrderChange(sortOrder === "newest" ? "oldest" : "newest")}
-            role="button"
-            tabIndex={0}
-            aria-label={`Sort by ${sortOrder === "newest" ? "oldest" : "newest"} first`}
-          >
-            {sortOrder === "newest" ? "Newest" : "Oldest"}
-            <span
-              className="sort-arrow"
-              style={{ transform: sortOrder === "oldest" ? "rotate(180deg)" : "none" }}
+            <SortButton
+              onClick={() => onSortOrderChange(sortOrder === "newest" ? "oldest" : "newest")}
+              role="button"
+              tabIndex={0}
+              aria-label={`Sort by ${sortOrder === "newest" ? "oldest" : "newest"} first`}
             >
-              ↓
-            </span>
-          </SortButton>
+              {sortOrder === "newest" ? "Newest" : "Oldest"}
+              <ArrowDownwardIcon
+                className="sort-arrow"
+                style={{ transform: sortOrder === "oldest" ? "rotate(180deg)" : "none" }}
+              />
+            </SortButton>
+          </FilterRow>
 
           <AnimatePresence mode="wait">
             <motion.div

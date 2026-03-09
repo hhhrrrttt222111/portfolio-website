@@ -110,9 +110,19 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
             </div>
             <div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-bhf9p5-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-of8e2j-MuiTypography-root"
               >
-                I started as a curious kid tinkering with HTML in a school computer lab, and that spark never faded. Over the years, I've gone from building toy projects to shipping production software — learning that great engineering is equal parts craft, empathy, and relentless iteration. Today, I focus on creating interfaces that feel intuitive, performant, and genuinely delightful to use.
+                I’ve been fascinated by computers for as long as I can remember. What started as curiosity in a school computer lab—tinkering with HTML and exploring how websites work—quickly turned into a lifelong passion for building things with code. Over time, that curiosity grew from experimenting with small projects to developing production software and contributing to real-world products.
+                <br />
+                For me, software engineering is more than writing code. It’s a craft that combines problem-solving, empathy for users, and continuous learning. I enjoy building interfaces and systems that are intuitive, performant, and thoughtfully designed—products that people genuinely enjoy using.
+                <br />
+                <br />
+                Driven by a childhood dream to work in technology, I’ve spent countless hours learning and improving my skills. Along the way I’ve worked with a variety of programming languages and technologies, including C, C++, Python, Java, and modern web development tools. These experiences have allowed me to build meaningful projects, collaborate with others, and grow as an engineer.
+                <br />
+                <br />
+                When I’m not coding or exploring new technologies, you’ll probably find me playing football or cricket. Just like software development, these sports remind me that improvement comes through practice, persistence, and teamwork.
+                <br />
+                <br />
               </p>
             </div>
             <div>
@@ -138,7 +148,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
               </div>
             </div>
             <div
-              class="MuiBox-root css-7921ya"
+              class="MuiBox-root css-1vamrj8"
               data-testid="journey-timeline"
             >
               <div
@@ -153,30 +163,78 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                     style="position: absolute; top: 20px; left: 10%; right: 10%; height: 2px; transform-origin: left center;"
                   >
                     <div
-                      class="MuiBox-root css-lr20o4"
+                      class="MuiBox-root css-5mn1cg"
                     />
                   </div>
                   <div
-                    aria-label="Started Coding - 2017"
+                    aria-label="First Introduction to Computers - 2011"
                     class="MuiBox-root css-1ev1ol4"
                     role="button"
                     tabindex="0"
                   >
                     <div>
                       <div
-                        class="MuiBox-root css-10lo4tu"
+                        class="MuiBox-root css-1qbfobq"
                       />
                     </div>
                     <div>
                       <span
                         class="css-u4jj8o"
                       >
-                        2017
+                        2011
                       </span>
                       <p
                         class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
                       >
-                        Started Coding
+                        First Introduction to Computers
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    aria-label="Built My First Website - 2015"
+                    class="MuiBox-root css-1ev1ol4"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <div>
+                      <div
+                        class="MuiBox-root css-1qbfobq"
+                      />
+                    </div>
+                    <div>
+                      <span
+                        class="css-u4jj8o"
+                      >
+                        2015
+                      </span>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
+                      >
+                        Built My First Website
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    aria-label="Started Learning to Code - 2016"
+                    class="MuiBox-root css-1ev1ol4"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <div>
+                      <div
+                        class="MuiBox-root css-1qbfobq"
+                      />
+                    </div>
+                    <div>
+                      <span
+                        class="css-u4jj8o"
+                      >
+                        2016
+                      </span>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
+                      >
+                        Started Learning to Code
                       </p>
                     </div>
                   </div>
@@ -188,7 +246,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                   >
                     <div>
                       <div
-                        class="MuiBox-root css-10lo4tu"
+                        class="MuiBox-root css-1qbfobq"
                       />
                     </div>
                     <div>
@@ -205,14 +263,38 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                     </div>
                   </div>
                   <div
-                    aria-label="Joined a Startup - 2022"
+                    aria-label="First Internship - 2021"
                     class="MuiBox-root css-1ev1ol4"
                     role="button"
                     tabindex="0"
                   >
                     <div>
                       <div
-                        class="MuiBox-root css-10lo4tu"
+                        class="MuiBox-root css-1qbfobq"
+                      />
+                    </div>
+                    <div>
+                      <span
+                        class="css-u4jj8o"
+                      >
+                        2021
+                      </span>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
+                      >
+                        First Internship
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    aria-label="Started Freelancing - 2022"
+                    class="MuiBox-root css-1ev1ol4"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <div>
+                      <div
+                        class="MuiBox-root css-1qbfobq"
                       />
                     </div>
                     <div>
@@ -224,31 +306,31 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                       <p
                         class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
                       >
-                        Joined a Startup
+                        Started Freelancing
                       </p>
                     </div>
                   </div>
                   <div
-                    aria-label="Built Products Used by Thousands - 2024"
+                    aria-label="Landed My First Job - 2023"
                     class="MuiBox-root css-1ev1ol4"
                     role="button"
                     tabindex="0"
                   >
                     <div>
                       <div
-                        class="MuiBox-root css-10lo4tu"
+                        class="MuiBox-root css-1qbfobq"
                       />
                     </div>
                     <div>
                       <span
                         class="css-u4jj8o"
                       >
-                        2024
+                        2023
                       </span>
                       <p
                         class="MuiTypography-root MuiTypography-body1 css-1l4z83q-MuiTypography-root"
                       >
-                        Built Products Used by Thousands
+                        Landed My First Job
                       </p>
                     </div>
                   </div>
@@ -278,7 +360,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
       </div>
     </section>
     <section
-      class="css-1gihe1w"
+      class="css-10skod6"
       data-testid="education-section"
     >
       <div
@@ -390,7 +472,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
       </div>
     </section>
     <section
-      class="css-1olc43o"
+      class="css-rvkvw2"
       data-testid="experience-section"
     >
       <div
@@ -436,24 +518,24 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                   class="MuiBox-root css-b6yup3"
                 >
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1etytva-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
                   >
-                    Software Engineer
+                    Consultant Developer
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-16cn69d-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
                   >
-                    TechNova Solutions
+                    Thoughtworks
                   </p>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
                   >
-                    Jan 2024 — Present
+                    Jul 2023 — Present
                   </p>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
                   >
-                    Leading frontend architecture for a SaaS platform serving 10k+ users. Building performant, accessible interfaces with React, TypeScript, and a custom design system.
+                    Working as a consultant developer building scalable enterprise applications. Contributing to backend and frontend systems using Node.js, TypeScript, and modern development practices in a collaborative agile environment.
                   </p>
                 </div>
               </div>
@@ -472,24 +554,24 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                   class="MuiBox-root css-b6yup3"
                 >
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1etytva-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
                   >
-                    Frontend Developer
+                    Web Manager
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-16cn69d-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
                   >
-                    PixelCraft Studios
+                    Excel MEC
                   </p>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
                   >
-                    Jun 2022 — Dec 2023
+                    Jun 2022 — Sep 2023
                   </p>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
                   >
-                    Developed interactive web experiences and marketing sites for high-profile clients. Focused on animation, performance optimization, and cross-browser consistency.
+                    Managed and developed the organization's web presence, maintaining websites and building new features using React.js and modern web technologies while coordinating with the web team.
                   </p>
                 </div>
               </div>
@@ -508,24 +590,132 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
                   class="MuiBox-root css-b6yup3"
                 >
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1etytva-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
                   >
-                    Junior Developer Intern
+                    Full Stack Developer (Freelance)
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-16cn69d-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
                   >
-                    CodeBridge Labs
+                    Svasthi Charitable Trust
                   </p>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
                   >
-                    Jan 2022 — May 2022
+                    May 2023 — Jun 2023
                   </p>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
                   >
-                    Built internal tools and contributed to the component library. Learned production workflows, code review culture, and agile development practices.
+                    Developed the official website for Svasthi Charitable Trust using React.js and Firebase, focusing on performance, responsiveness, and maintainable frontend architecture.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              viewport="[object Object]"
+              whileinview="visible"
+            >
+              <div
+                class="MuiBox-root css-r8as64"
+              >
+                <div
+                  class="MuiBox-root css-e3wyqc"
+                />
+                <div
+                  class="MuiBox-root css-b6yup3"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
+                  >
+                    Full Stack Developer (Freelance)
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
+                  >
+                    Advantus Life Sciences
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
+                  >
+                    Sep 2021 — Jul 2022
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
+                  >
+                    Built the official website for Advantus Life Sciences using Next.js, delivering a responsive and production-ready web platform for the organization.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              viewport="[object Object]"
+              whileinview="visible"
+            >
+              <div
+                class="MuiBox-root css-r8as64"
+              >
+                <div
+                  class="MuiBox-root css-e3wyqc"
+                />
+                <div
+                  class="MuiBox-root css-b6yup3"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
+                  >
+                    Frontend Developer Intern
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
+                  >
+                    TGH Tech
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
+                  >
+                    Jun 2021 — Sep 2021
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
+                  >
+                    Worked on two frontend projects using React.js and Firebase, gaining experience in building responsive interfaces and collaborating in a professional development environment.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              viewport="[object Object]"
+              whileinview="visible"
+            >
+              <div
+                class="MuiBox-root css-r8as64"
+              >
+                <div
+                  class="MuiBox-root css-e3wyqc"
+                />
+                <div
+                  class="MuiBox-root css-b6yup3"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
+                  >
+                    React Developer
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
+                  >
+                    Indic Law
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
+                  >
+                    Nov 2020 — Mar 2021
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
+                  >
+                    Developed the IndicLaw website using React.js and Material-UI, focusing on building reusable UI components and a clean, responsive interface.
                   </p>
                 </div>
               </div>
@@ -535,7 +725,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
       </div>
     </section>
     <section
-      class="css-1yazao"
+      class="css-q3vomh"
       data-testid="philosophy-section"
     >
       <div
@@ -776,26 +966,28 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
             whileinview="visible"
           >
             <div
-              class="MuiBox-root css-1644976"
+              class="MuiBox-root css-1c4jngl"
             >
               <div>
                 <a
                   aria-label="GitHub"
-                  class="css-tqba5o"
+                  class="css-r6b1d5"
                   data-mui-internal-clone-element="true"
-                  href="https://github.com/hhhrrrttt22211"
+                  href="https://github.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <svg
                     aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                    data-testid="GitHubIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
+                    class="svg-inline--fa fa-github"
+                    data-icon="github"
+                    data-prefix="fab"
+                    role="img"
+                    viewBox="0 0 512 512"
                   >
                     <path
-                      d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+                      d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM252.8 8c-138.7 0-244.8 105.3-244.8 244 0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1 100-33.2 167.8-128.1 167.8-239 0-138.7-112.5-244-251.2-244zM105.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                      fill="currentColor"
                     />
                   </svg>
                 </a>
@@ -803,43 +995,47 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
               <div>
                 <a
                   aria-label="LinkedIn"
-                  class="css-tqba5o"
+                  class="css-r6b1d5"
                   data-mui-internal-clone-element="true"
-                  href="https://linkedin.com/in/hhhrrrttt22211"
+                  href="https://linkedin.com/in/hhhrrrttt222111"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <svg
                     aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                    data-testid="LinkedInIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
+                    class="svg-inline--fa fa-linkedin-in"
+                    data-icon="linkedin-in"
+                    data-prefix="fab"
+                    role="img"
+                    viewBox="0 0 448 512"
                   >
                     <path
-                      d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"
+                      d="M100.3 448l-92.9 0 0-299.1 92.9 0 0 299.1zM53.8 108.1C24.1 108.1 0 83.5 0 53.8 0 39.5 5.7 25.9 15.8 15.8s23.8-15.8 38-15.8 27.9 5.7 38 15.8 15.8 23.8 15.8 38c0 29.7-24.1 54.3-53.8 54.3zM447.9 448l-92.7 0 0-145.6c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7l0 148.1-92.8 0 0-299.1 89.1 0 0 40.8 1.3 0c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3l0 164.3-.1 0z"
+                      fill="currentColor"
                     />
                   </svg>
                 </a>
               </div>
               <div>
                 <a
-                  aria-label="Twitter"
-                  class="css-tqba5o"
+                  aria-label="X"
+                  class="css-r6b1d5"
                   data-mui-internal-clone-element="true"
-                  href="https://twitter.com/hhhrrrttt22211"
+                  href="https://x.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <svg
                     aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                    data-testid="TwitterIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
+                    class="svg-inline--fa fa-x-twitter"
+                    data-icon="x-twitter"
+                    data-prefix="fab"
+                    role="img"
+                    viewBox="0 0 448 512"
                   >
                     <path
-                      d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"
+                      d="M357.2 48L427.8 48 273.6 224.2 455 464 313 464 201.7 318.6 74.5 464 3.8 464 168.7 275.5-5.2 48 140.4 48 240.9 180.9 357.2 48zM332.4 421.8l39.1 0-252.4-333.8-42 0 255.3 333.8z"
+                      fill="currentColor"
                     />
                   </svg>
                 </a>
@@ -847,21 +1043,23 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
               <div>
                 <a
                   aria-label="Instagram"
-                  class="css-tqba5o"
+                  class="css-r6b1d5"
                   data-mui-internal-clone-element="true"
-                  href="https://instagram.com/hhhrrrttt22211"
+                  href="https://instagram.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <svg
                     aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                    data-testid="InstagramIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
+                    class="svg-inline--fa fa-instagram"
+                    data-icon="instagram"
+                    data-prefix="fab"
+                    role="img"
+                    viewBox="0 0 448 512"
                   >
                     <path
-                      d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"
+                      d="M224.3 141a115 115 0 1 0 -.6 230 115 115 0 1 0 .6-230zm-.6 40.4a74.6 74.6 0 1 1 .6 149.2 74.6 74.6 0 1 1 -.6-149.2zm93.4-45.1a26.8 26.8 0 1 1 53.6 0 26.8 26.8 0 1 1 -53.6 0zm129.7 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM399 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                      fill="currentColor"
                     />
                   </svg>
                 </a>
@@ -869,21 +1067,23 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
               <div>
                 <a
                   aria-label="Facebook"
-                  class="css-tqba5o"
+                  class="css-r6b1d5"
                   data-mui-internal-clone-element="true"
-                  href="https://facebook.com/hhhrrrttt22211"
+                  href="https://facebook.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <svg
                     aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                    data-testid="FacebookIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
+                    class="svg-inline--fa fa-facebook-f"
+                    data-icon="facebook-f"
+                    data-prefix="fab"
+                    role="img"
+                    viewBox="0 0 320 512"
                   >
                     <path
-                      d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m13 2h-2.5A3.5 3.5 0 0 0 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9a1 1 0 0 1 1-1h2V5z"
+                      d="M80 299.3l0 212.7 116 0 0-212.7 86.5 0 18-97.8-104.5 0 0-34.6c0-51.7 20.3-71.5 72.7-71.5 16.3 0 29.4 .4 37 1.2l0-88.7C291.4 4 256.4 0 236.2 0 129.3 0 80 50.5 80 159.4l0 42.1-66 0 0 97.8 66 0z"
+                      fill="currentColor"
                     />
                   </svg>
                 </a>
@@ -891,21 +1091,23 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
               <div>
                 <a
                   aria-label="Reddit"
-                  class="css-tqba5o"
+                  class="css-r6b1d5"
                   data-mui-internal-clone-element="true"
-                  href="https://reddit.com/user/hhhrrrttt22211"
+                  href="https://reddit.com/user/hhhrrrttt222111"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <svg
                     aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                    data-testid="RedditIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
+                    class="svg-inline--fa fa-reddit-alien"
+                    data-icon="reddit-alien"
+                    data-prefix="fab"
+                    role="img"
+                    viewBox="0 0 512 512"
                   >
                     <path
-                      d="M22 12.14a2.19 2.19 0 0 0-3.71-1.57 10.93 10.93 0 0 0-5.86-1.87l1-4.7 3.27.71a1.56 1.56 0 1 0 .16-.76l-3.64-.77c-.11-.02-.22 0-.29.06-.09.05-.14.14-.16.26l-1.11 5.22c-2.33.07-4.43.78-5.95 1.86A2.2 2.2 0 0 0 4.19 10a2.16 2.16 0 0 0-.9 4.15 3.6 3.6 0 0 0-.05.66c0 3.37 3.92 6.12 8.76 6.12s8.76-2.73 8.76-6.12c0-.21-.01-.44-.05-.66A2.21 2.21 0 0 0 22 12.14M7 13.7c0-.86.68-1.56 1.54-1.56s1.56.7 1.56 1.56a1.56 1.56 0 0 1-1.56 1.56c-.86.02-1.54-.7-1.54-1.56m8.71 4.14C14.63 18.92 12.59 19 12 19c-.61 0-2.65-.1-3.71-1.16a.4.4 0 0 1 0-.57.4.4 0 0 1 .57 0c.68.68 2.14.91 3.14.91s2.47-.23 3.14-.91a.4.4 0 0 1 .57 0c.14.16.14.41 0 .57m-.29-2.56c-.86 0-1.56-.7-1.56-1.56a1.56 1.56 0 0 1 1.56-1.56c.86 0 1.58.7 1.58 1.56a1.6 1.6 0 0 1-1.58 1.56z"
+                      d="M373 138.6c-25.2 0-46.3-17.5-51.9-41-30.6 4.3-54.2 30.7-54.2 62.4l0 .2c47.4 1.8 90.6 15.1 124.9 36.3 12.6-9.7 28.4-15.5 45.5-15.5 41.3 0 74.7 33.4 74.7 74.7 0 29.8-17.4 55.5-42.7 67.5-2.4 86.8-97 156.6-213.2 156.6S45.5 410.1 43 323.4c-25.4-11.9-43-37.7-43-67.7 0-41.3 33.4-74.7 74.7-74.7 17.2 0 33 5.8 45.7 15.6 34-21.1 76.8-34.4 123.7-36.4l0-.3c0-44.3 33.7-80.9 76.8-85.5 4.9-24.2 26.3-42.4 52.1-42.4 29.4 0 53.3 23.9 53.3 53.3s-23.9 53.3-53.3 53.3zM157.5 255.3c-20.9 0-38.9 20.8-40.2 47.9s17.1 38.1 38 38.1 36.6-9.8 37.8-36.9-14.7-49.1-35.7-49.1l.1 0zM395 303.1c-1.2-27.1-19.2-47.9-40.2-47.9s-36.9 22-35.7 49.1 16.9 36.9 37.8 36.9 39.3-11 38-38.1l.1 0zm-60.1 70.8c1.5-3.6-1-7.7-4.9-8.1-23-2.3-47.9-3.6-73.8-3.6s-50.8 1.3-73.8 3.6c-3.9 .4-6.4 4.5-4.9 8.1 12.9 30.8 43.3 52.4 78.7 52.4s65.8-21.6 78.7-52.4z"
+                      fill="currentColor"
                     />
                   </svg>
                 </a>
@@ -913,24 +1115,92 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
               <div>
                 <a
                   aria-label="Goodreads"
-                  class="css-tqba5o"
+                  class="css-r6b1d5"
                   data-mui-internal-clone-element="true"
-                  href="https://goodreads.com/hhhrrrttt22211"
+                  href="https://goodreads.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <svg
                     aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                    data-testid="MenuBookIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
+                    class="svg-inline--fa fa-goodreads-g"
+                    data-icon="goodreads-g"
+                    data-prefix="fab"
+                    role="img"
+                    viewBox="0 0 320 512"
                   >
                     <path
-                      d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1m0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5z"
+                      d="M10.8 403.3l2.8 0c12.7 0 25.5 0 38.2 .1 1.6 0 3.1-.4 3.6 2.1 7.1 34.9 30 54.6 62.9 63.9 26.9 7.6 54.1 7.8 81.3 1.8 33.8-7.4 56-28.3 68-60.4 8-21.5 10.7-43.8 11-66.5 .1-5.8 .3-47-.2-52.8l-.9-.3c-.8 1.5-1.7 2.9-2.5 4.4-22.1 43.1-61.3 67.4-105.4 69.1-103 4-169.4-57-172-176.2-.5-23.7 1.8-46.9 8.3-69.7 20.6-71.1 74.6-118.2 153.9-118.8 61.3-.4 101.5 38.7 116.2 70.3 .5 1.1 1.3 2.3 2.4 1.9l0-61.6 44.3 0c0 280.3 .1 332.2 .1 332.2-.1 78.5-26.7 143.7-103 162.2-69.5 16.9-159 4.8-196-57.2-8-13.5-11.8-28.3-13-44.5zM157.1 36.5c-52.5-.5-108.5 40.7-115 133.8-4.1 59 14.8 122.2 71.5 148.6 27.6 12.9 74.3 15 108.3-8.7 47.6-33.2 62.7-97 54.8-154-9.7-71.1-47.8-120-119.6-119.7z"
+                      fill="currentColor"
                     />
+                  </svg>
+                </a>
+              </div>
+              <div>
+                <a
+                  aria-label="Medium"
+                  class="css-r6b1d5"
+                  data-mui-internal-clone-element="true"
+                  href="https://medium.com/@hhhrrrttt222111"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-medium"
+                    data-icon="medium"
+                    data-prefix="fab"
+                    role="img"
+                    viewBox="0 0 448 512"
+                  >
                     <path
-                      d="M17.5 10.5c.88 0 1.73.09 2.5.26V9.24c-.79-.15-1.64-.24-2.5-.24-1.7 0-3.24.29-4.5.83v1.66c1.13-.64 2.7-.99 4.5-.99M13 12.49v1.66c1.13-.64 2.7-.99 4.5-.99.88 0 1.73.09 2.5.26V11.9c-.79-.15-1.64-.24-2.5-.24-1.7 0-3.24.3-4.5.83m4.5 1.84c-1.7 0-3.24.29-4.5.83v1.66c1.13-.64 2.7-.99 4.5-.99.88 0 1.73.09 2.5.26v-1.52c-.79-.16-1.64-.24-2.5-.24"
+                      d="M369.4 32c43.4 0 78.6 35.2 78.6 78.6l0 83.8c-1.9-.1-3.8-.2-5.7-.2l-.4 0c-10 0-22.3 2.4-31.1 6.8-10 4.6-18.7 11.5-26 20.6-11.8 14.6-18.9 34.3-20.6 56.4-.1 .7-.1 1.3-.2 2s-.1 1.2-.1 1.9c-.1 1.2-.1 2.4-.1 3.6 0 1.9-.1 3.8 0 5.8 1.2 50.1 28.2 90.2 76.3 90.2 2.7 0 5.3-.1 7.9-.4l0 20.4c0 43.4-35.2 78.6-78.6 78.6L78.6 480C35.2 480 0 444.8 0 401.4L0 110.6C0 67.2 35.2 32 78.6 32l290.8 0zM82.3 138.9l.3 .1c13.2 3 19.8 7.4 19.8 23.4l0 187.2c0 16-6.7 20.4-19.9 23.4l-.3 .1 0 2.8 52.8 0 0-2.8-.3-.1c-13.2-3-19.9-7.4-19.9-23.4l0-176.3 86.1 202.5 4.9 0 88.6-208.2 0 186.6c-1.1 12.6-7.8 16.5-19.7 19.2l-.3 .1 0 2.7 91.9 0 0-2.7-.3-.1c-11.9-2.7-18.7-6.6-19.9-19.2l-.1-191.8 .1 0c0-16 6.7-20.4 19.9-23.4l.3-.1 0-2.7-72.2 0-67 157.4-67-157.4-77.8 0 0 2.7zM448 340.3c-25.1-7.4-43-35.1-41.2-67.8l0 0 41.1 0 0 67.8zm-6.4-135.6c2.3 0 4.4 .3 6.4 .9l0 57.4-40.2 0c1.5-33.6 13.6-57.9 33.8-58.3z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div>
+                <a
+                  aria-label="Pinterest"
+                  class="css-r6b1d5"
+                  data-mui-internal-clone-element="true"
+                  href="https://pinterest.com/hhhrrrttt222111"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-pinterest-p"
+                    data-icon="pinterest-p"
+                    data-prefix="fab"
+                    role="img"
+                    viewBox="0 0 384 512"
+                  >
+                    <path
+                      d="M204 6.5c-102.6 0-204 68.4-204 179.1 0 70.4 39.6 110.4 63.6 110.4 9.9 0 15.6-27.6 15.6-35.4 0-9.3-23.7-29.1-23.7-67.8 0-80.4 61.2-137.4 140.4-137.4 68.1 0 118.5 38.7 118.5 109.8 0 53.1-21.3 152.7-90.3 152.7-24.9 0-46.2-18-46.2-43.8 0-37.8 26.4-74.4 26.4-113.4 0-66.2-93.9-54.2-93.9 25.8 0 16.8 2.1 35.4 9.6 50.7-13.8 59.4-42 147.9-42 209.1 0 18.9 2.7 37.5 4.5 56.4 3.4 3.8 1.7 3.4 6.9 1.5 50.4-69 48.6-82.5 71.4-172.8 12.3 23.4 44.1 36 69.3 36 106.2 0 153.9-103.5 153.9-196.8 0-99.3-85.8-164.1-180-164.1z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div>
+                <a
+                  aria-label="Substack"
+                  class="css-r6b1d5"
+                  data-mui-internal-clone-element="true"
+                  href="https://substack.com/@hhhrrrttt222111"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                  >
+                    <path
+                      d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"
                     />
                   </svg>
                 </a>
@@ -1061,9 +1331,19 @@ exports[`About Page matches snapshot (light mode) 1`] = `
             </div>
             <div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-19dp2o-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-typhwk-MuiTypography-root"
               >
-                I started as a curious kid tinkering with HTML in a school computer lab, and that spark never faded. Over the years, I've gone from building toy projects to shipping production software — learning that great engineering is equal parts craft, empathy, and relentless iteration. Today, I focus on creating interfaces that feel intuitive, performant, and genuinely delightful to use.
+                I’ve been fascinated by computers for as long as I can remember. What started as curiosity in a school computer lab—tinkering with HTML and exploring how websites work—quickly turned into a lifelong passion for building things with code. Over time, that curiosity grew from experimenting with small projects to developing production software and contributing to real-world products.
+                <br />
+                For me, software engineering is more than writing code. It’s a craft that combines problem-solving, empathy for users, and continuous learning. I enjoy building interfaces and systems that are intuitive, performant, and thoughtfully designed—products that people genuinely enjoy using.
+                <br />
+                <br />
+                Driven by a childhood dream to work in technology, I’ve spent countless hours learning and improving my skills. Along the way I’ve worked with a variety of programming languages and technologies, including C, C++, Python, Java, and modern web development tools. These experiences have allowed me to build meaningful projects, collaborate with others, and grow as an engineer.
+                <br />
+                <br />
+                When I’m not coding or exploring new technologies, you’ll probably find me playing football or cricket. Just like software development, these sports remind me that improvement comes through practice, persistence, and teamwork.
+                <br />
+                <br />
               </p>
             </div>
             <div>
@@ -1089,7 +1369,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               </div>
             </div>
             <div
-              class="MuiBox-root css-7921ya"
+              class="MuiBox-root css-1vamrj8"
               data-testid="journey-timeline"
             >
               <div
@@ -1104,30 +1384,78 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                     style="position: absolute; top: 20px; left: 10%; right: 10%; height: 2px; transform-origin: left center;"
                   >
                     <div
-                      class="MuiBox-root css-19ofp37"
+                      class="MuiBox-root css-1wnmfj9"
                     />
                   </div>
                   <div
-                    aria-label="Started Coding - 2017"
+                    aria-label="First Introduction to Computers - 2011"
                     class="MuiBox-root css-1ev1ol4"
                     role="button"
                     tabindex="0"
                   >
                     <div>
                       <div
-                        class="MuiBox-root css-urvgpr"
+                        class="MuiBox-root css-wdxwfc"
                       />
                     </div>
                     <div>
                       <span
                         class="css-1rb3lmj"
                       >
-                        2017
+                        2011
                       </span>
                       <p
                         class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
                       >
-                        Started Coding
+                        First Introduction to Computers
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    aria-label="Built My First Website - 2015"
+                    class="MuiBox-root css-1ev1ol4"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <div>
+                      <div
+                        class="MuiBox-root css-wdxwfc"
+                      />
+                    </div>
+                    <div>
+                      <span
+                        class="css-1rb3lmj"
+                      >
+                        2015
+                      </span>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+                      >
+                        Built My First Website
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    aria-label="Started Learning to Code - 2016"
+                    class="MuiBox-root css-1ev1ol4"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <div>
+                      <div
+                        class="MuiBox-root css-wdxwfc"
+                      />
+                    </div>
+                    <div>
+                      <span
+                        class="css-1rb3lmj"
+                      >
+                        2016
+                      </span>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+                      >
+                        Started Learning to Code
                       </p>
                     </div>
                   </div>
@@ -1139,7 +1467,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                   >
                     <div>
                       <div
-                        class="MuiBox-root css-urvgpr"
+                        class="MuiBox-root css-wdxwfc"
                       />
                     </div>
                     <div>
@@ -1156,14 +1484,38 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                     </div>
                   </div>
                   <div
-                    aria-label="Joined a Startup - 2022"
+                    aria-label="First Internship - 2021"
                     class="MuiBox-root css-1ev1ol4"
                     role="button"
                     tabindex="0"
                   >
                     <div>
                       <div
-                        class="MuiBox-root css-urvgpr"
+                        class="MuiBox-root css-wdxwfc"
+                      />
+                    </div>
+                    <div>
+                      <span
+                        class="css-1rb3lmj"
+                      >
+                        2021
+                      </span>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+                      >
+                        First Internship
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    aria-label="Started Freelancing - 2022"
+                    class="MuiBox-root css-1ev1ol4"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <div>
+                      <div
+                        class="MuiBox-root css-wdxwfc"
                       />
                     </div>
                     <div>
@@ -1175,31 +1527,31 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                       <p
                         class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
                       >
-                        Joined a Startup
+                        Started Freelancing
                       </p>
                     </div>
                   </div>
                   <div
-                    aria-label="Built Products Used by Thousands - 2024"
+                    aria-label="Landed My First Job - 2023"
                     class="MuiBox-root css-1ev1ol4"
                     role="button"
                     tabindex="0"
                   >
                     <div>
                       <div
-                        class="MuiBox-root css-urvgpr"
+                        class="MuiBox-root css-wdxwfc"
                       />
                     </div>
                     <div>
                       <span
                         class="css-1rb3lmj"
                       >
-                        2024
+                        2023
                       </span>
                       <p
                         class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
                       >
-                        Built Products Used by Thousands
+                        Landed My First Job
                       </p>
                     </div>
                   </div>
@@ -1229,7 +1581,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
       </div>
     </section>
     <section
-      class="css-2ienta"
+      class="css-162n787"
       data-testid="education-section"
     >
       <div
@@ -1341,7 +1693,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
       </div>
     </section>
     <section
-      class="css-tj2q7h"
+      class="css-22hls8"
       data-testid="experience-section"
     >
       <div
@@ -1387,24 +1739,24 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                   class="MuiBox-root css-otbqt4"
                 >
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1rr4gyp-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-13bm994-MuiTypography-root"
                   >
-                    Software Engineer
+                    Consultant Developer
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1ls4srf-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1d5kx48-MuiTypography-root"
                   >
-                    TechNova Solutions
+                    Thoughtworks
                   </p>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
                   >
-                    Jan 2024 — Present
+                    Jul 2023 — Present
                   </p>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
                   >
-                    Leading frontend architecture for a SaaS platform serving 10k+ users. Building performant, accessible interfaces with React, TypeScript, and a custom design system.
+                    Working as a consultant developer building scalable enterprise applications. Contributing to backend and frontend systems using Node.js, TypeScript, and modern development practices in a collaborative agile environment.
                   </p>
                 </div>
               </div>
@@ -1423,24 +1775,24 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                   class="MuiBox-root css-otbqt4"
                 >
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1rr4gyp-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-13bm994-MuiTypography-root"
                   >
-                    Frontend Developer
+                    Web Manager
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1ls4srf-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1d5kx48-MuiTypography-root"
                   >
-                    PixelCraft Studios
+                    Excel MEC
                   </p>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
                   >
-                    Jun 2022 — Dec 2023
+                    Jun 2022 — Sep 2023
                   </p>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
                   >
-                    Developed interactive web experiences and marketing sites for high-profile clients. Focused on animation, performance optimization, and cross-browser consistency.
+                    Managed and developed the organization's web presence, maintaining websites and building new features using React.js and modern web technologies while coordinating with the web team.
                   </p>
                 </div>
               </div>
@@ -1459,24 +1811,132 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                   class="MuiBox-root css-otbqt4"
                 >
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1rr4gyp-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-13bm994-MuiTypography-root"
                   >
-                    Junior Developer Intern
+                    Full Stack Developer (Freelance)
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1ls4srf-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1d5kx48-MuiTypography-root"
                   >
-                    CodeBridge Labs
+                    Svasthi Charitable Trust
                   </p>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
                   >
-                    Jan 2022 — May 2022
+                    May 2023 — Jun 2023
                   </p>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
                   >
-                    Built internal tools and contributed to the component library. Learned production workflows, code review culture, and agile development practices.
+                    Developed the official website for Svasthi Charitable Trust using React.js and Firebase, focusing on performance, responsiveness, and maintainable frontend architecture.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              viewport="[object Object]"
+              whileinview="visible"
+            >
+              <div
+                class="MuiBox-root css-r8as64"
+              >
+                <div
+                  class="MuiBox-root css-3lcha7"
+                />
+                <div
+                  class="MuiBox-root css-otbqt4"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-13bm994-MuiTypography-root"
+                  >
+                    Full Stack Developer (Freelance)
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1d5kx48-MuiTypography-root"
+                  >
+                    Advantus Life Sciences
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
+                  >
+                    Sep 2021 — Jul 2022
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
+                  >
+                    Built the official website for Advantus Life Sciences using Next.js, delivering a responsive and production-ready web platform for the organization.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              viewport="[object Object]"
+              whileinview="visible"
+            >
+              <div
+                class="MuiBox-root css-r8as64"
+              >
+                <div
+                  class="MuiBox-root css-3lcha7"
+                />
+                <div
+                  class="MuiBox-root css-otbqt4"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-13bm994-MuiTypography-root"
+                  >
+                    Frontend Developer Intern
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1d5kx48-MuiTypography-root"
+                  >
+                    TGH Tech
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
+                  >
+                    Jun 2021 — Sep 2021
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
+                  >
+                    Worked on two frontend projects using React.js and Firebase, gaining experience in building responsive interfaces and collaborating in a professional development environment.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              viewport="[object Object]"
+              whileinview="visible"
+            >
+              <div
+                class="MuiBox-root css-r8as64"
+              >
+                <div
+                  class="MuiBox-root css-3lcha7"
+                />
+                <div
+                  class="MuiBox-root css-otbqt4"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-13bm994-MuiTypography-root"
+                  >
+                    React Developer
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-1d5kx48-MuiTypography-root"
+                  >
+                    Indic Law
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
+                  >
+                    Nov 2020 — Mar 2021
+                  </p>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
+                  >
+                    Developed the IndicLaw website using React.js and Material-UI, focusing on building reusable UI components and a clean, responsive interface.
                   </p>
                 </div>
               </div>
@@ -1486,7 +1946,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
       </div>
     </section>
     <section
-      class="css-12mbhks"
+      class="css-18ixmv"
       data-testid="philosophy-section"
     >
       <div
@@ -1727,26 +2187,28 @@ exports[`About Page matches snapshot (light mode) 1`] = `
             whileinview="visible"
           >
             <div
-              class="MuiBox-root css-1644976"
+              class="MuiBox-root css-1c4jngl"
             >
               <div>
                 <a
                   aria-label="GitHub"
-                  class="css-z9rceo"
+                  class="css-3uuibb"
                   data-mui-internal-clone-element="true"
-                  href="https://github.com/hhhrrrttt22211"
+                  href="https://github.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <svg
                     aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                    data-testid="GitHubIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
+                    class="svg-inline--fa fa-github"
+                    data-icon="github"
+                    data-prefix="fab"
+                    role="img"
+                    viewBox="0 0 512 512"
                   >
                     <path
-                      d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+                      d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM252.8 8c-138.7 0-244.8 105.3-244.8 244 0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1 100-33.2 167.8-128.1 167.8-239 0-138.7-112.5-244-251.2-244zM105.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                      fill="currentColor"
                     />
                   </svg>
                 </a>
@@ -1754,43 +2216,47 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="LinkedIn"
-                  class="css-z9rceo"
+                  class="css-3uuibb"
                   data-mui-internal-clone-element="true"
-                  href="https://linkedin.com/in/hhhrrrttt22211"
+                  href="https://linkedin.com/in/hhhrrrttt222111"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <svg
                     aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                    data-testid="LinkedInIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
+                    class="svg-inline--fa fa-linkedin-in"
+                    data-icon="linkedin-in"
+                    data-prefix="fab"
+                    role="img"
+                    viewBox="0 0 448 512"
                   >
                     <path
-                      d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"
+                      d="M100.3 448l-92.9 0 0-299.1 92.9 0 0 299.1zM53.8 108.1C24.1 108.1 0 83.5 0 53.8 0 39.5 5.7 25.9 15.8 15.8s23.8-15.8 38-15.8 27.9 5.7 38 15.8 15.8 23.8 15.8 38c0 29.7-24.1 54.3-53.8 54.3zM447.9 448l-92.7 0 0-145.6c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7l0 148.1-92.8 0 0-299.1 89.1 0 0 40.8 1.3 0c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3l0 164.3-.1 0z"
+                      fill="currentColor"
                     />
                   </svg>
                 </a>
               </div>
               <div>
                 <a
-                  aria-label="Twitter"
-                  class="css-z9rceo"
+                  aria-label="X"
+                  class="css-3uuibb"
                   data-mui-internal-clone-element="true"
-                  href="https://twitter.com/hhhrrrttt22211"
+                  href="https://x.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <svg
                     aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                    data-testid="TwitterIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
+                    class="svg-inline--fa fa-x-twitter"
+                    data-icon="x-twitter"
+                    data-prefix="fab"
+                    role="img"
+                    viewBox="0 0 448 512"
                   >
                     <path
-                      d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"
+                      d="M357.2 48L427.8 48 273.6 224.2 455 464 313 464 201.7 318.6 74.5 464 3.8 464 168.7 275.5-5.2 48 140.4 48 240.9 180.9 357.2 48zM332.4 421.8l39.1 0-252.4-333.8-42 0 255.3 333.8z"
+                      fill="currentColor"
                     />
                   </svg>
                 </a>
@@ -1798,21 +2264,23 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Instagram"
-                  class="css-z9rceo"
+                  class="css-3uuibb"
                   data-mui-internal-clone-element="true"
-                  href="https://instagram.com/hhhrrrttt22211"
+                  href="https://instagram.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <svg
                     aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                    data-testid="InstagramIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
+                    class="svg-inline--fa fa-instagram"
+                    data-icon="instagram"
+                    data-prefix="fab"
+                    role="img"
+                    viewBox="0 0 448 512"
                   >
                     <path
-                      d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"
+                      d="M224.3 141a115 115 0 1 0 -.6 230 115 115 0 1 0 .6-230zm-.6 40.4a74.6 74.6 0 1 1 .6 149.2 74.6 74.6 0 1 1 -.6-149.2zm93.4-45.1a26.8 26.8 0 1 1 53.6 0 26.8 26.8 0 1 1 -53.6 0zm129.7 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM399 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                      fill="currentColor"
                     />
                   </svg>
                 </a>
@@ -1820,21 +2288,23 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Facebook"
-                  class="css-z9rceo"
+                  class="css-3uuibb"
                   data-mui-internal-clone-element="true"
-                  href="https://facebook.com/hhhrrrttt22211"
+                  href="https://facebook.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <svg
                     aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                    data-testid="FacebookIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
+                    class="svg-inline--fa fa-facebook-f"
+                    data-icon="facebook-f"
+                    data-prefix="fab"
+                    role="img"
+                    viewBox="0 0 320 512"
                   >
                     <path
-                      d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m13 2h-2.5A3.5 3.5 0 0 0 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9a1 1 0 0 1 1-1h2V5z"
+                      d="M80 299.3l0 212.7 116 0 0-212.7 86.5 0 18-97.8-104.5 0 0-34.6c0-51.7 20.3-71.5 72.7-71.5 16.3 0 29.4 .4 37 1.2l0-88.7C291.4 4 256.4 0 236.2 0 129.3 0 80 50.5 80 159.4l0 42.1-66 0 0 97.8 66 0z"
+                      fill="currentColor"
                     />
                   </svg>
                 </a>
@@ -1842,21 +2312,23 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Reddit"
-                  class="css-z9rceo"
+                  class="css-3uuibb"
                   data-mui-internal-clone-element="true"
-                  href="https://reddit.com/user/hhhrrrttt22211"
+                  href="https://reddit.com/user/hhhrrrttt222111"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <svg
                     aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                    data-testid="RedditIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
+                    class="svg-inline--fa fa-reddit-alien"
+                    data-icon="reddit-alien"
+                    data-prefix="fab"
+                    role="img"
+                    viewBox="0 0 512 512"
                   >
                     <path
-                      d="M22 12.14a2.19 2.19 0 0 0-3.71-1.57 10.93 10.93 0 0 0-5.86-1.87l1-4.7 3.27.71a1.56 1.56 0 1 0 .16-.76l-3.64-.77c-.11-.02-.22 0-.29.06-.09.05-.14.14-.16.26l-1.11 5.22c-2.33.07-4.43.78-5.95 1.86A2.2 2.2 0 0 0 4.19 10a2.16 2.16 0 0 0-.9 4.15 3.6 3.6 0 0 0-.05.66c0 3.37 3.92 6.12 8.76 6.12s8.76-2.73 8.76-6.12c0-.21-.01-.44-.05-.66A2.21 2.21 0 0 0 22 12.14M7 13.7c0-.86.68-1.56 1.54-1.56s1.56.7 1.56 1.56a1.56 1.56 0 0 1-1.56 1.56c-.86.02-1.54-.7-1.54-1.56m8.71 4.14C14.63 18.92 12.59 19 12 19c-.61 0-2.65-.1-3.71-1.16a.4.4 0 0 1 0-.57.4.4 0 0 1 .57 0c.68.68 2.14.91 3.14.91s2.47-.23 3.14-.91a.4.4 0 0 1 .57 0c.14.16.14.41 0 .57m-.29-2.56c-.86 0-1.56-.7-1.56-1.56a1.56 1.56 0 0 1 1.56-1.56c.86 0 1.58.7 1.58 1.56a1.6 1.6 0 0 1-1.58 1.56z"
+                      d="M373 138.6c-25.2 0-46.3-17.5-51.9-41-30.6 4.3-54.2 30.7-54.2 62.4l0 .2c47.4 1.8 90.6 15.1 124.9 36.3 12.6-9.7 28.4-15.5 45.5-15.5 41.3 0 74.7 33.4 74.7 74.7 0 29.8-17.4 55.5-42.7 67.5-2.4 86.8-97 156.6-213.2 156.6S45.5 410.1 43 323.4c-25.4-11.9-43-37.7-43-67.7 0-41.3 33.4-74.7 74.7-74.7 17.2 0 33 5.8 45.7 15.6 34-21.1 76.8-34.4 123.7-36.4l0-.3c0-44.3 33.7-80.9 76.8-85.5 4.9-24.2 26.3-42.4 52.1-42.4 29.4 0 53.3 23.9 53.3 53.3s-23.9 53.3-53.3 53.3zM157.5 255.3c-20.9 0-38.9 20.8-40.2 47.9s17.1 38.1 38 38.1 36.6-9.8 37.8-36.9-14.7-49.1-35.7-49.1l.1 0zM395 303.1c-1.2-27.1-19.2-47.9-40.2-47.9s-36.9 22-35.7 49.1 16.9 36.9 37.8 36.9 39.3-11 38-38.1l.1 0zm-60.1 70.8c1.5-3.6-1-7.7-4.9-8.1-23-2.3-47.9-3.6-73.8-3.6s-50.8 1.3-73.8 3.6c-3.9 .4-6.4 4.5-4.9 8.1 12.9 30.8 43.3 52.4 78.7 52.4s65.8-21.6 78.7-52.4z"
+                      fill="currentColor"
                     />
                   </svg>
                 </a>
@@ -1864,24 +2336,92 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Goodreads"
-                  class="css-z9rceo"
+                  class="css-3uuibb"
                   data-mui-internal-clone-element="true"
-                  href="https://goodreads.com/hhhrrrttt22211"
+                  href="https://goodreads.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <svg
                     aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                    data-testid="MenuBookIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
+                    class="svg-inline--fa fa-goodreads-g"
+                    data-icon="goodreads-g"
+                    data-prefix="fab"
+                    role="img"
+                    viewBox="0 0 320 512"
                   >
                     <path
-                      d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1m0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5z"
+                      d="M10.8 403.3l2.8 0c12.7 0 25.5 0 38.2 .1 1.6 0 3.1-.4 3.6 2.1 7.1 34.9 30 54.6 62.9 63.9 26.9 7.6 54.1 7.8 81.3 1.8 33.8-7.4 56-28.3 68-60.4 8-21.5 10.7-43.8 11-66.5 .1-5.8 .3-47-.2-52.8l-.9-.3c-.8 1.5-1.7 2.9-2.5 4.4-22.1 43.1-61.3 67.4-105.4 69.1-103 4-169.4-57-172-176.2-.5-23.7 1.8-46.9 8.3-69.7 20.6-71.1 74.6-118.2 153.9-118.8 61.3-.4 101.5 38.7 116.2 70.3 .5 1.1 1.3 2.3 2.4 1.9l0-61.6 44.3 0c0 280.3 .1 332.2 .1 332.2-.1 78.5-26.7 143.7-103 162.2-69.5 16.9-159 4.8-196-57.2-8-13.5-11.8-28.3-13-44.5zM157.1 36.5c-52.5-.5-108.5 40.7-115 133.8-4.1 59 14.8 122.2 71.5 148.6 27.6 12.9 74.3 15 108.3-8.7 47.6-33.2 62.7-97 54.8-154-9.7-71.1-47.8-120-119.6-119.7z"
+                      fill="currentColor"
                     />
+                  </svg>
+                </a>
+              </div>
+              <div>
+                <a
+                  aria-label="Medium"
+                  class="css-3uuibb"
+                  data-mui-internal-clone-element="true"
+                  href="https://medium.com/@hhhrrrttt222111"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-medium"
+                    data-icon="medium"
+                    data-prefix="fab"
+                    role="img"
+                    viewBox="0 0 448 512"
+                  >
                     <path
-                      d="M17.5 10.5c.88 0 1.73.09 2.5.26V9.24c-.79-.15-1.64-.24-2.5-.24-1.7 0-3.24.29-4.5.83v1.66c1.13-.64 2.7-.99 4.5-.99M13 12.49v1.66c1.13-.64 2.7-.99 4.5-.99.88 0 1.73.09 2.5.26V11.9c-.79-.15-1.64-.24-2.5-.24-1.7 0-3.24.3-4.5.83m4.5 1.84c-1.7 0-3.24.29-4.5.83v1.66c1.13-.64 2.7-.99 4.5-.99.88 0 1.73.09 2.5.26v-1.52c-.79-.16-1.64-.24-2.5-.24"
+                      d="M369.4 32c43.4 0 78.6 35.2 78.6 78.6l0 83.8c-1.9-.1-3.8-.2-5.7-.2l-.4 0c-10 0-22.3 2.4-31.1 6.8-10 4.6-18.7 11.5-26 20.6-11.8 14.6-18.9 34.3-20.6 56.4-.1 .7-.1 1.3-.2 2s-.1 1.2-.1 1.9c-.1 1.2-.1 2.4-.1 3.6 0 1.9-.1 3.8 0 5.8 1.2 50.1 28.2 90.2 76.3 90.2 2.7 0 5.3-.1 7.9-.4l0 20.4c0 43.4-35.2 78.6-78.6 78.6L78.6 480C35.2 480 0 444.8 0 401.4L0 110.6C0 67.2 35.2 32 78.6 32l290.8 0zM82.3 138.9l.3 .1c13.2 3 19.8 7.4 19.8 23.4l0 187.2c0 16-6.7 20.4-19.9 23.4l-.3 .1 0 2.8 52.8 0 0-2.8-.3-.1c-13.2-3-19.9-7.4-19.9-23.4l0-176.3 86.1 202.5 4.9 0 88.6-208.2 0 186.6c-1.1 12.6-7.8 16.5-19.7 19.2l-.3 .1 0 2.7 91.9 0 0-2.7-.3-.1c-11.9-2.7-18.7-6.6-19.9-19.2l-.1-191.8 .1 0c0-16 6.7-20.4 19.9-23.4l.3-.1 0-2.7-72.2 0-67 157.4-67-157.4-77.8 0 0 2.7zM448 340.3c-25.1-7.4-43-35.1-41.2-67.8l0 0 41.1 0 0 67.8zm-6.4-135.6c2.3 0 4.4 .3 6.4 .9l0 57.4-40.2 0c1.5-33.6 13.6-57.9 33.8-58.3z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div>
+                <a
+                  aria-label="Pinterest"
+                  class="css-3uuibb"
+                  data-mui-internal-clone-element="true"
+                  href="https://pinterest.com/hhhrrrttt222111"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-pinterest-p"
+                    data-icon="pinterest-p"
+                    data-prefix="fab"
+                    role="img"
+                    viewBox="0 0 384 512"
+                  >
+                    <path
+                      d="M204 6.5c-102.6 0-204 68.4-204 179.1 0 70.4 39.6 110.4 63.6 110.4 9.9 0 15.6-27.6 15.6-35.4 0-9.3-23.7-29.1-23.7-67.8 0-80.4 61.2-137.4 140.4-137.4 68.1 0 118.5 38.7 118.5 109.8 0 53.1-21.3 152.7-90.3 152.7-24.9 0-46.2-18-46.2-43.8 0-37.8 26.4-74.4 26.4-113.4 0-66.2-93.9-54.2-93.9 25.8 0 16.8 2.1 35.4 9.6 50.7-13.8 59.4-42 147.9-42 209.1 0 18.9 2.7 37.5 4.5 56.4 3.4 3.8 1.7 3.4 6.9 1.5 50.4-69 48.6-82.5 71.4-172.8 12.3 23.4 44.1 36 69.3 36 106.2 0 153.9-103.5 153.9-196.8 0-99.3-85.8-164.1-180-164.1z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div>
+                <a
+                  aria-label="Substack"
+                  class="css-3uuibb"
+                  data-mui-internal-clone-element="true"
+                  href="https://substack.com/@hhhrrrttt222111"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                  >
+                    <path
+                      d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"
                     />
                   </svg>
                 </a>

@@ -3,7 +3,7 @@
 exports[`EducationSection matches snapshot (dark mode) 1`] = `
 <div>
   <section
-    class="css-1gihe1w"
+    class="css-10skod6"
     data-testid="education-section"
   >
     <div
@@ -108,7 +108,7 @@ exports[`EducationSection matches snapshot (dark mode) 1`] = `
 exports[`EducationSection matches snapshot (light mode) 1`] = `
 <div>
   <section
-    class="css-2ienta"
+    class="css-162n787"
     data-testid="education-section"
   >
     <div

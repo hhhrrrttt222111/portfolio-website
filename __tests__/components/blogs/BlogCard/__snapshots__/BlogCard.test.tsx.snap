@@ -51,7 +51,7 @@ exports[`BlogCard matches snapshot (hacker dark) 1`] = `
         This is a test excerpt for the blog post that should be displayed on the card.
       </p>
       <div
-        class="MuiBox-root css-91umvt"
+        class="MuiBox-root css-19m56m4"
       >
         <div
           class="MuiBox-root css-8t9i87"
@@ -138,7 +138,7 @@ exports[`BlogCard matches snapshot (literary light) 1`] = `
         This is a test excerpt for the blog post that should be displayed on the card.
       </p>
       <div
-        class="MuiBox-root css-91umvt"
+        class="MuiBox-root css-19m56m4"
       >
         <div
           class="MuiBox-root css-lzpecq"

@@ -11,8 +11,8 @@ const shimmerLine = keyframes`
 export const SectionRoot = styled("section")(({ theme }) => {
   const isDark = theme.palette.mode === "dark";
   return {
-    paddingTop: theme.spacing(12),
-    paddingBottom: theme.spacing(12),
+    paddingTop: theme.spacing(8),
+    paddingBottom: theme.spacing(8),
     position: "relative",
     overflow: "hidden",
     background: isDark

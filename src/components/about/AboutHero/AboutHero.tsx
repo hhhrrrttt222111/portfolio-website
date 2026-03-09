@@ -85,11 +85,30 @@ const AboutHero = () => {
 
             <motion.div variants={fadeUp}>
               <HeroParagraph>
-                I started as a curious kid tinkering with HTML in a school computer lab, and that
-                spark never faded. Over the years, I've gone from building toy projects to shipping
-                production software — learning that great engineering is equal parts craft, empathy,
-                and relentless iteration. Today, I focus on creating interfaces that feel intuitive,
-                performant, and genuinely delightful to use.
+                I’ve been fascinated by computers for as long as I can remember. What started as
+                curiosity in a school computer lab—tinkering with HTML and exploring how websites
+                work—quickly turned into a lifelong passion for building things with code. Over
+                time, that curiosity grew from experimenting with small projects to developing
+                production software and contributing to real-world products.
+                <br />
+                For me, software engineering is more than writing code. It’s a craft that combines
+                problem-solving, empathy for users, and continuous learning. I enjoy building
+                interfaces and systems that are intuitive, performant, and thoughtfully
+                designed—products that people genuinely enjoy using.
+                <br />
+                <br />
+                Driven by a childhood dream to work in technology, I’ve spent countless hours
+                learning and improving my skills. Along the way I’ve worked with a variety of
+                programming languages and technologies, including C, C++, Python, Java, and modern
+                web development tools. These experiences have allowed me to build meaningful
+                projects, collaborate with others, and grow as an engineer.
+                <br />
+                <br />
+                When I’m not coding or exploring new technologies, you’ll probably find me playing
+                football or cricket. Just like software development, these sports remind me that
+                improvement comes through practice, persistence, and teamwork.
+                <br />
+                <br />
               </HeroParagraph>
             </motion.div>
 

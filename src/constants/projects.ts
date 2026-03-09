@@ -8,45 +8,43 @@ export interface Project {
 
 export const PROJECTS: Project[] = [
   {
-    id: "portfolio-website",
-    title: "Portfolio Website",
-    description: "A modern, responsive portfolio website built with React and Material-UI",
-    githubUrl: "https://github.com/hemanthr/portfolio-website",
-    tags: ["React", "TypeScript", "MUI"],
+    id: "online-fatigue-detector",
+    title: "Online Fatigue Detector",
+    description:
+      "A Flask application that detects fatigue during online classes by monitoring eye movements, helping students stay alert and attentive.",
+    githubUrl: "https://github.com/hhhrrrttt222111/fatigue-detector",
+    tags: ["Python", "Flask", "HTML", "CSS", "JavaScript"],
   },
   {
-    id: "ai-assistant",
-    title: "AI Assistant",
-    description: "An intelligent chatbot powered by machine learning algorithms",
-    githubUrl: "https://github.com/hemanthr/ai-assistant",
-    tags: ["Python", "TensorFlow", "NLP"],
+    id: "travel-app",
+    title: "TravelApp",
+    description:
+      "A travel planning web application built using the MERN stack for exploring and managing travel destinations.",
+    githubUrl: "https://github.com/hhhrrrttt222111/TravelApp",
+    tags: ["React", "MongoDB", "Node.js", "CSS"],
   },
   {
-    id: "e-commerce-platform",
-    title: "E-Commerce Platform",
-    description: "Full-stack e-commerce solution with payment integration",
-    githubUrl: "https://github.com/hemanthr/e-commerce-platform",
-    tags: ["Node.js", "React", "MongoDB"],
+    id: "covid-19-tracker",
+    title: "COVID-19 Tracker",
+    description:
+      "A real-time COVID-19 statistics tracker built with React and Material-UI to visualize global pandemic data.",
+    githubUrl: "https://github.com/hhhrrrttt222111/covid-tracker",
+    tags: ["React", "Material UI", "CSS"],
   },
   {
-    id: "task-manager",
-    title: "Task Manager",
-    description: "A productivity app for managing tasks and projects efficiently",
-    githubUrl: "https://github.com/hemanthr/task-manager",
-    tags: ["React", "Redux", "Firebase"],
+    id: "dorkify",
+    title: "Dorkify",
+    description:
+      "A Python tool that helps perform Google Dork searches efficiently for security research and information discovery.",
+    githubUrl: "https://github.com/hhhrrrttt222111/Dorkify",
+    tags: ["Python"],
   },
   {
-    id: "weather-dashboard",
-    title: "Weather Dashboard",
-    description: "Real-time weather tracking with beautiful visualizations",
-    githubUrl: "https://github.com/hemanthr/weather-dashboard",
-    tags: ["Vue.js", "D3.js", "API"],
-  },
-  {
-    id: "code-editor",
-    title: "Code Editor",
-    description: "A lightweight browser-based code editor with syntax highlighting",
-    githubUrl: "https://github.com/hemanthr/code-editor",
-    tags: ["JavaScript", "Monaco", "WebAssembly"],
+    id: "ethical-hacking-tools",
+    title: "Ethical Hacking Tools",
+    description:
+      "A curated collection and guide of tools used in ethical hacking and cybersecurity research.",
+    githubUrl: "https://github.com/hhhrrrttt222111/Ethical-Hacking-Tools",
+    tags: ["Cybersecurity", "Ethical Hacking", "Security Tools"],
   },
 ];

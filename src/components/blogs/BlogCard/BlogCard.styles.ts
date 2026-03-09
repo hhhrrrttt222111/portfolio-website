@@ -245,6 +245,8 @@ export const CardTagsContainer = styled(Box)(({ theme }) => ({
   marginBottom: theme.spacing(2),
   position: "relative",
   zIndex: 1,
+  minHeight: 52,
+  alignContent: "flex-start",
 }));
 
 export const CardTag = styled(Box, {

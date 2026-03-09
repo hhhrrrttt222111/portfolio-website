@@ -8,10 +8,10 @@ exports[`BlogSection matches snapshot (hacker dark) 1`] = `
   >
     <section
       aria-labelledby="hackzism-title"
-      class="MuiBox-root css-0"
+      class="MuiBox-root css-10klw3m"
     >
       <div
-        class="MuiBox-root css-syvjtw"
+        class="MuiBox-root css-liowfu"
       >
         <div
           class="MuiBox-root css-1pb01fr"
@@ -120,7 +120,7 @@ exports[`BlogSection matches snapshot (hacker dark) 1`] = `
             </div>
           </div>
           <div
-            class="MuiBox-root css-rud7fc"
+            class="MuiBox-root css-nrfwzo"
           >
             <div
               viewport="[object Object]"
@@ -174,7 +174,7 @@ exports[`BlogSection matches snapshot (hacker dark) 1`] = `
                   Test excerpt for hacker post 1
                 </p>
                 <div
-                  class="MuiBox-root css-91umvt"
+                  class="MuiBox-root css-19m56m4"
                 >
                   <div
                     class="MuiBox-root css-8t9i87"
@@ -257,7 +257,7 @@ exports[`BlogSection matches snapshot (hacker dark) 1`] = `
                   Test excerpt for hacker post 2
                 </p>
                 <div
-                  class="MuiBox-root css-91umvt"
+                  class="MuiBox-root css-19m56m4"
                 >
                   <div
                     class="MuiBox-root css-8t9i87"
@@ -326,10 +326,10 @@ exports[`BlogSection matches snapshot (literary light) 1`] = `
   >
     <section
       aria-labelledby="bibliosmia-title"
-      class="MuiBox-root css-0"
+      class="MuiBox-root css-10klw3m"
     >
       <div
-        class="MuiBox-root css-15tr5kw"
+        class="MuiBox-root css-1xa2dx8"
       >
         <div
           class="MuiBox-root css-2tl1ac"
@@ -412,7 +412,7 @@ exports[`BlogSection matches snapshot (literary light) 1`] = `
                 The intoxicating scent of good books
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1n77bs1-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1cx5bk4-MuiTypography-root"
               >
                 A personal journey through literature.
               </p>
@@ -438,7 +438,7 @@ exports[`BlogSection matches snapshot (literary light) 1`] = `
             </div>
           </div>
           <div
-            class="MuiBox-root css-rud7fc"
+            class="MuiBox-root css-nrfwzo"
           >
             <div
               viewport="[object Object]"
@@ -489,7 +489,7 @@ exports[`BlogSection matches snapshot (literary light) 1`] = `
                   Test excerpt for literary post 1
                 </p>
                 <div
-                  class="MuiBox-root css-91umvt"
+                  class="MuiBox-root css-19m56m4"
                 >
                   <div
                     class="MuiBox-root css-lzpecq"

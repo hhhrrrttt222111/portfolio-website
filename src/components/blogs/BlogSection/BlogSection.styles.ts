@@ -46,6 +46,9 @@ export const SectionWrapper = styled(Box, {
     position: "relative",
     padding: theme.spacing(8, 2),
     overflow: "hidden",
+    display: "flex",
+    flexDirection: "column",
+    height: "100%",
     background: isHacker
       ? isDark
         ? "linear-gradient(135deg, #0a0f0a 0%, #0d1a10 50%, #081008 100%)"
@@ -284,7 +287,7 @@ export const SectionDescription = styled(Typography, {
         : "rgba(80, 60, 40, 0.9)",
     maxWidth: 500,
     marginBottom: t.spacing(3),
-    ...(isHacker ? {} : { margin: "0 auto", marginBottom: t.spacing(3) }),
+    ...(isHacker ? {} : { margin: `${t.spacing(3)} auto` }),
     [t.breakpoints.up("md")]: {
       fontSize: "0.95rem",
     },
@@ -338,13 +341,14 @@ export const TopicTag = styled(Box, {
 export const PostsGrid = styled(Box)(({ theme }) => ({
   display: "grid",
   gridTemplateColumns: "1fr",
+  gridAutoRows: "1fr",
   gap: theme.spacing(3),
   position: "relative",
   zIndex: 1,
   [theme.breakpoints.up("sm")]: {
     gridTemplateColumns: "repeat(2, 1fr)",
   },
-  [theme.breakpoints.up("xl")]: {
+  [theme.breakpoints.up("lg")]: {
     gridTemplateColumns: "repeat(3, 1fr)",
   },
 }));

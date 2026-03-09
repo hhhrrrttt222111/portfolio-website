@@ -40,7 +40,7 @@ export const CoverWrapper = styled(Box)(({ theme }) => {
   return {
     position: "relative",
     width: "100%",
-    aspectRatio: "2 / 3",
+    height: 180,
     overflow: "hidden",
     background: isDark
       ? "linear-gradient(135deg, #0d2018, #12261a)"
@@ -51,6 +51,12 @@ export const CoverWrapper = styled(Box)(({ theme }) => {
       inset: 0,
       background: `linear-gradient(180deg, transparent 60%, ${isDark ? "rgba(10,26,15,0.9)" : "rgba(241,248,233,0.85)"})`,
       pointerEvents: "none",
+    },
+    [theme.breakpoints.up("sm")]: {
+      height: 200,
+    },
+    [theme.breakpoints.up("md")]: {
+      height: 220,
     },
   };
 });
@@ -84,35 +90,44 @@ export const CoverPlaceholder = styled(Box)(({ theme }) => {
 });
 
 export const CardContent = styled(Box)(({ theme }) => ({
-  padding: theme.spacing(2.5),
+  padding: theme.spacing(1.5),
   display: "flex",
   flexDirection: "column",
-  gap: theme.spacing(1),
+  gap: theme.spacing(0.5),
   flex: 1,
+  [theme.breakpoints.up("sm")]: {
+    padding: theme.spacing(2),
+    gap: theme.spacing(0.75),
+  },
   [theme.breakpoints.up("md")]: {
-    padding: theme.spacing(3),
+    padding: theme.spacing(2.5),
+    gap: theme.spacing(1),
   },
 }));
 
 export const CardTitle = styled(Typography)(({ theme }) => ({
   fontFamily: fontFamilies.heading,
   fontWeight: 600,
-  fontSize: "0.95rem",
+  fontSize: "0.8rem",
   lineHeight: 1.35,
   color: theme.palette.text.primary,
   display: "-webkit-box",
   WebkitLineClamp: 2,
   WebkitBoxOrient: "vertical",
   overflow: "hidden",
-  minHeight: `calc(0.95rem * 1.35 * 2)`,
+  minHeight: `calc(0.8rem * 1.35 * 2)`,
+  [theme.breakpoints.up("sm")]: {
+    fontSize: "0.9rem",
+    minHeight: `calc(0.9rem * 1.35 * 2)`,
+  },
   [theme.breakpoints.up("md")]: {
-    fontSize: "1.05rem",
-    minHeight: `calc(1.05rem * 1.35 * 2)`,
+    fontSize: "1rem",
+    minHeight: `calc(1rem * 1.35 * 2)`,
   },
 }));
 
 export const CardAuthor = styled(Typography)(({ theme }) => ({
-  fontSize: "0.8rem",
+  fontSize: "0.7rem",
   fontWeight: 500,
   lineHeight: 1.4,
   color: theme.palette.text.secondary,
@@ -120,13 +135,22 @@ export const CardAuthor = styled(Typography)(({ theme }) => ({
   WebkitLineClamp: 1,
   WebkitBoxOrient: "vertical",
   overflow: "hidden",
-  minHeight: `calc(0.8rem * 1.4)`,
+  minHeight: `calc(0.7rem * 1.4)`,
+  [theme.breakpoints.up("sm")]: {
+    fontSize: "0.75rem",
+    minHeight: `calc(0.75rem * 1.4)`,
+  },
+  [theme.breakpoints.up("md")]: {
+    fontSize: "0.8rem",
+    minHeight: `calc(0.8rem * 1.4)`,
+  },
 }));
 
 export const CardMeta = styled(Box)(({ theme }) => ({
   display: "flex",
   alignItems: "center",
   justifyContent: "space-between",
+  gap: theme.spacing(1),
   marginTop: "auto",
   paddingTop: theme.spacing(1),
 }));
@@ -142,22 +166,35 @@ export const StarIcon = styled(Box, {
 })<{ filled: boolean }>(({ theme, filled }) => {
   const isDark = theme.palette.mode === "dark";
   return {
-    width: 14,
-    height: 14,
+    width: 12,
+    height: 12,
     display: "inline-flex",
     color: filled ? "#f5a623" : isDark ? "rgba(255,255,255,0.15)" : "rgba(0,0,0,0.12)",
     "& svg": {
       width: "100%",
       height: "100%",
     },
+    [theme.breakpoints.up("sm")]: {
+      width: 14,
+      height: 14,
+    },
   };
 });
 
 export const ReadDate = styled(Typography)(({ theme }) => ({
-  fontSize: "0.68rem",
+  fontSize: "0.6rem",
   fontWeight: 600,
   color: theme.palette.text.secondary,
   fontFamily: fontFamilies.mono,
   opacity: 0.7,
   letterSpacing: "0.02em",
+  textAlign: "right",
+  whiteSpace: "nowrap",
+  flexShrink: 0,
+  [theme.breakpoints.up("sm")]: {
+    fontSize: "0.65rem",
+  },
+  [theme.breakpoints.up("md")]: {
+    fontSize: "0.68rem",
+  },
 }));

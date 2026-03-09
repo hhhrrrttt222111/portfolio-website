@@ -18,7 +18,7 @@ export const TimelineRoot = styled(Box)(({ theme }) => ({
   paddingBottom: theme.spacing(2),
   [theme.breakpoints.up("md")]: {
     marginTop: theme.spacing(10),
-    paddingTop: theme.spacing(18),
+    paddingTop: theme.spacing(8),
   },
 }));
 
@@ -118,6 +118,7 @@ export const TimelineLine = styled(Box)(({ theme }) => {
       ? `linear-gradient(90deg, transparent, ${theme.palette.primary.main}, transparent)`
       : `linear-gradient(90deg, transparent, ${theme.palette.primary.dark}, transparent)`,
     transformOrigin: "left center",
+    zIndex: 1,
   };
 });
 
@@ -136,7 +137,8 @@ export const MilestoneDot = styled(Box)(({ theme }) => {
     width: 18,
     height: 18,
     borderRadius: "50%",
-    background: `linear-gradient(135deg, ${theme.palette.primary.main}, ${theme.palette.secondary.main})`,
+    background: isDark ? theme.palette.background.default : theme.palette.background.paper,
+    border: `3px solid ${theme.palette.primary.main}`,
     color: theme.palette.primary.main,
     boxShadow: isDark
       ? `0 0 12px ${theme.palette.primary.main}40, 0 0 24px ${theme.palette.primary.main}20`
@@ -147,7 +149,7 @@ export const MilestoneDot = styled(Box)(({ theme }) => {
     "&::after": {
       content: '""',
       position: "absolute",
-      inset: -4,
+      inset: -6,
       borderRadius: "50%",
       border: `1.5px solid ${isDark ? "rgba(102,187,106,0.2)" : "rgba(46,125,50,0.15)"}`,
       opacity: 0,

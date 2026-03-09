@@ -80,14 +80,14 @@ describe("BookFilters", () => {
   it("renders rating filter chips", () => {
     renderComponent();
     expect(screen.getByText("All")).toBeInTheDocument();
-    expect(screen.getByText("5★")).toBeInTheDocument();
-    expect(screen.getByText("4★")).toBeInTheDocument();
-    expect(screen.getByText("3★")).toBeInTheDocument();
+    expect(screen.getByLabelText("Filter by 5 stars")).toBeInTheDocument();
+    expect(screen.getByLabelText("Filter by 4 stars")).toBeInTheDocument();
+    expect(screen.getByLabelText("Filter by 3 stars")).toBeInTheDocument();
   });
 
   it("calls onRatingFilterChange when clicking a rating chip", () => {
     renderComponent();
-    fireEvent.click(screen.getByText("5★"));
+    fireEvent.click(screen.getByLabelText("Filter by 5 stars"));
     expect(defaultProps.onRatingFilterChange).toHaveBeenCalledWith(5);
   });
 
