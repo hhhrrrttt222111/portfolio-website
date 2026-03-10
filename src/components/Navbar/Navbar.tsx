@@ -2,7 +2,7 @@ import { useState, useCallback, useEffect, useMemo } from "react";
 import Box from "@mui/material/Box";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { motion, AnimatePresence, type Variants } from "framer-motion";
 import MobileNav from "./MobileNav";
 import {
@@ -144,12 +144,23 @@ const HamburgerIcon = ({ isOpen }: { isOpen: boolean }) => (
   </HamburgerIconWrapper>
 );
 
+const SCROLL_PADDING = 100;
+
+const scrollToContact = () => {
+  const contactSection = document.getElementById("contact");
+  if (contactSection) {
+    const top = contactSection.getBoundingClientRect().top + window.scrollY - SCROLL_PADDING;
+    window.scrollTo({ top, behavior: "smooth" });
+  }
+};
+
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
   const location = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -172,6 +183,19 @@ const Navbar = () => {
   const toggleMobile = useCallback(() => {
     setMobileOpen((prev) => !prev);
   }, []);
+
+  const handleContactClick = useCallback(
+    (e: React.MouseEvent<HTMLAnchorElement>) => {
+      e.preventDefault();
+      if (location.pathname !== "/") {
+        navigate("/");
+        setTimeout(() => scrollToContact(), 100);
+      } else {
+        scrollToContact();
+      }
+    },
+    [location.pathname, navigate],
+  );
 
   const navLinks = useMemo(() => [...NAV_LINKS], []);
 
@@ -203,7 +227,7 @@ const Navbar = () => {
                 />
               ))}
               <motion.div variants={ctaVariants} initial="hidden" animate="visible">
-                <ContactButton to={CTA_LINK.path}>
+                <ContactButton to={CTA_LINK.path} onClick={handleContactClick}>
                   <span>{CTA_LINK.label}</span>
                 </ContactButton>
               </motion.div>
@@ -224,7 +248,9 @@ const Navbar = () => {
       </MotionNavbarRoot>
 
       <AnimatePresence>
-        {isMobile && mobileOpen && <MobileNav onClose={toggleMobile} links={navLinks} />}
+        {isMobile && mobileOpen && (
+          <MobileNav onClose={toggleMobile} links={navLinks} onContactClick={handleContactClick} />
+        )}
       </AnimatePresence>
     </>
   );

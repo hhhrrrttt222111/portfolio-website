@@ -116,12 +116,12 @@ exports[`EducationSection matches snapshot (light mode) 1`] = `
     >
       <div>
         <h2
-          class="css-2aktko"
+          class="css-13kw4wz"
         >
           Education
         </h2>
         <p
-          class="MuiTypography-root MuiTypography-body1 css-1i1q88g-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-body1 css-1ee07eo-MuiTypography-root"
         >
           The foundation that shaped my thinking and technical skills.
         </p>
@@ -131,10 +131,10 @@ exports[`EducationSection matches snapshot (light mode) 1`] = `
       >
         <div>
           <div
-            class="MuiBox-root css-xggkmz"
+            class="MuiBox-root css-fg8qv"
           >
             <div
-              class="MuiBox-root css-48ismi"
+              class="MuiBox-root css-1m3or4a"
             >
               <span
                 class="year-text"
@@ -143,12 +143,12 @@ exports[`EducationSection matches snapshot (light mode) 1`] = `
               </span>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-1vwo7a-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-125v6kj-MuiTypography-root"
             >
               Primary Secondary Education
             </p>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-15to6sp-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-1jaguo5-MuiTypography-root"
             >
               Bhavans Bala Mandir, Eroor
             </p>
@@ -156,10 +156,10 @@ exports[`EducationSection matches snapshot (light mode) 1`] = `
         </div>
         <div>
           <div
-            class="MuiBox-root css-xggkmz"
+            class="MuiBox-root css-fg8qv"
           >
             <div
-              class="MuiBox-root css-48ismi"
+              class="MuiBox-root css-1m3or4a"
             >
               <span
                 class="year-text"
@@ -168,12 +168,12 @@ exports[`EducationSection matches snapshot (light mode) 1`] = `
               </span>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-1vwo7a-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-125v6kj-MuiTypography-root"
             >
               Higher Secondary Education
             </p>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-15to6sp-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-1jaguo5-MuiTypography-root"
             >
               Bhavans Vidya Mandir, Eroor
             </p>
@@ -181,10 +181,10 @@ exports[`EducationSection matches snapshot (light mode) 1`] = `
         </div>
         <div>
           <div
-            class="MuiBox-root css-xggkmz"
+            class="MuiBox-root css-fg8qv"
           >
             <div
-              class="MuiBox-root css-48ismi"
+              class="MuiBox-root css-1m3or4a"
             >
               <span
                 class="year-text"
@@ -193,12 +193,12 @@ exports[`EducationSection matches snapshot (light mode) 1`] = `
               </span>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-1vwo7a-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-125v6kj-MuiTypography-root"
             >
               B.Tech in Computer Science
             </p>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-15to6sp-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-1jaguo5-MuiTypography-root"
             >
               Model Engineering College, Thrikkakara
             </p>

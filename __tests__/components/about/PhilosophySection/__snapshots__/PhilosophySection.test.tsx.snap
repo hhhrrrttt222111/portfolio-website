@@ -179,11 +179,11 @@ exports[`PhilosophySection matches snapshot (light mode) 1`] = `
         >
           <div>
             <div
-              class="MuiBox-root css-tj57u3"
+              class="MuiBox-root css-1al23o"
             />
           </div>
           <blockquote
-            class="css-pf4d29"
+            class="css-1l0t9r5"
           >
             <span>
               <span
@@ -300,7 +300,7 @@ exports[`PhilosophySection matches snapshot (light mode) 1`] = `
           </blockquote>
           <div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-11z7609-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-o5e9mu-MuiTypography-root"
             >
               — my design philosophy
             </p>

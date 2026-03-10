@@ -53,7 +53,7 @@ exports[`Books Page matches snapshot (dark mode) 1`] = `
             <a
               class="css-omc921"
               data-discover="true"
-              href="/contact"
+              href="/#contact"
             >
               <span>
                 Contact Me
@@ -718,7 +718,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
     class="MuiBox-root css-0"
   >
     <header
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-je3t1l-MuiPaper-root-MuiAppBar-root"
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-cipzl4-MuiPaper-root-MuiAppBar-root"
       style="--Paper-shadow: none;"
     >
       <div
@@ -726,7 +726,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
       >
         <div>
           <a
-            class="css-s7ixlb"
+            class="css-1ht0g0v"
             data-discover="true"
             href="/"
           >
@@ -743,7 +743,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
             class="css-19sk4h4"
           >
             <a
-              class="css-q1a495"
+              class="css-1cm8dne"
               data-discover="true"
               href="/about"
             >
@@ -754,7 +754,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
             class="css-19sk4h4"
           >
             <a
-              class="css-q1a495"
+              class="css-1cm8dne"
               data-discover="true"
               href="/blog"
             >
@@ -763,9 +763,9 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
           </div>
           <div>
             <a
-              class="css-agkxxa"
+              class="css-1qu5wrq"
               data-discover="true"
-              href="/contact"
+              href="/#contact"
             >
               <span>
                 Contact Me
@@ -785,7 +785,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
         <div>
           <div>
             <h1
-              class="css-hymsop"
+              class="css-1ifdnp7"
             >
               My Reading Library
             </h1>
@@ -795,12 +795,12 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
               class="css-1ty25zd"
             >
               <span
-                class="css-1j3t953"
+                class="css-1j14lhg"
               >
                 1
               </span>
               <span
-                class="css-1cdiw54"
+                class="css-xh4ikz"
               >
                 books read
               </span>
@@ -808,7 +808,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
           </div>
           <div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-r2o6oo-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-59y5so-MuiTypography-root"
             >
               A collection of books that have influenced my thinking and perspective, from software engineering and technology to philosophy, psychology, and the deeper ideas that shape how we understand people and the world.
             </p>
@@ -816,7 +816,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
           <div>
             <a
               aria-label="Follow on Instagram for book updates"
-              class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1nyu04l-MuiTypography-root-MuiLink-root"
+              class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-zeiix-MuiTypography-root-MuiLink-root"
               href="https://www.instagram.com/bibliosmia.brews/"
               rel="noopener noreferrer"
               target="_blank"
@@ -851,10 +851,10 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
           >
             <div
               aria-label="Search books"
-              class="MuiFormControl-root MuiTextField-root css-1prt39n-MuiFormControl-root-MuiTextField-root"
+              class="MuiFormControl-root MuiTextField-root css-i059qa-MuiFormControl-root-MuiTextField-root"
             >
               <div
-                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall MuiInputBase-adornedStart css-yjlbf4-MuiInputBase-root-MuiOutlinedInput-root"
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall MuiInputBase-adornedStart css-rkqga4-MuiInputBase-root-MuiOutlinedInput-root"
               >
                 <div
                   class="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-outlined MuiInputAdornment-sizeSmall css-1nowbqt-MuiInputAdornment-root"
@@ -910,7 +910,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
               >
                 <div
                   aria-label="Show all ratings"
-                  class="MuiBox-root css-1sgnzn7"
+                  class="MuiBox-root css-eezbtq"
                   role="button"
                   tabindex="0"
                 >
@@ -918,7 +918,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
                 </div>
                 <div
                   aria-label="Filter by 5 stars"
-                  class="MuiBox-root css-1wbqru6"
+                  class="MuiBox-root css-gjw8w9"
                   role="button"
                   tabindex="0"
                 >
@@ -937,7 +937,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
                 </div>
                 <div
                   aria-label="Filter by 4 stars"
-                  class="MuiBox-root css-1wbqru6"
+                  class="MuiBox-root css-gjw8w9"
                   role="button"
                   tabindex="0"
                 >
@@ -956,7 +956,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
                 </div>
                 <div
                   aria-label="Filter by 3 stars"
-                  class="MuiBox-root css-1wbqru6"
+                  class="MuiBox-root css-gjw8w9"
                   role="button"
                   tabindex="0"
                 >
@@ -976,7 +976,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
               </div>
               <div
                 aria-label="Sort by oldest first"
-                class="MuiBox-root css-c1k0vb"
+                class="MuiBox-root css-xm11id"
                 role="button"
                 tabindex="0"
               >
@@ -997,7 +997,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
             </div>
             <div>
               <div
-                class="MuiBox-root css-1g5yu0l"
+                class="MuiBox-root css-1ylwpbc"
               >
                 1 books
               </div>
@@ -1016,7 +1016,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
               <div>
                 <div
                   aria-label="Atomic Habits by James Clear on Goodreads"
-                  class="MuiBox-root css-1pslrmu"
+                  class="MuiBox-root css-2zlmtt"
                   data-testid="book-card"
                   role="link"
                 >
@@ -1035,12 +1035,12 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
                     class="MuiBox-root css-xluy6d"
                   >
                     <p
-                      class="MuiTypography-root MuiTypography-body1 css-8tt4nq-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body1 css-idvr2y-MuiTypography-root"
                     >
                       Atomic Habits
                     </p>
                     <p
-                      class="MuiTypography-root MuiTypography-body1 css-1ls2klx-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body1 css-13ry3gs-MuiTypography-root"
                     >
                       James Clear
                     </p>
@@ -1122,7 +1122,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
                         </div>
                       </div>
                       <p
-                        class="MuiTypography-root MuiTypography-body1 css-1cdvyhq-MuiTypography-root"
+                        class="MuiTypography-root MuiTypography-body1 css-uxjtoa-MuiTypography-root"
                       >
                         Jan 2025
                       </p>
@@ -1174,7 +1174,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="GitHub"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://github.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -1198,7 +1198,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="LinkedIn"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://linkedin.com/in/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -1222,7 +1222,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="X"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://x.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -1246,7 +1246,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Instagram"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://instagram.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -1270,7 +1270,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Facebook"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://facebook.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -1294,7 +1294,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Reddit"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://reddit.com/user/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -1318,7 +1318,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Goodreads"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://goodreads.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -1342,7 +1342,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Medium"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://medium.com/@hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -1366,7 +1366,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Pinterest"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://pinterest.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -1390,7 +1390,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Substack"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://substack.com/@hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -1411,7 +1411,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
             </div>
           </div>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-1vsjjcz-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-xmez6a-MuiTypography-root"
           >
             © 
             2026

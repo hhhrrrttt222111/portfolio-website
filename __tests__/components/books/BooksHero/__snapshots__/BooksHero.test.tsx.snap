@@ -80,7 +80,7 @@ exports[`BooksHero matches snapshot (light mode) 1`] = `
       <div>
         <div>
           <h1
-            class="css-hymsop"
+            class="css-1ifdnp7"
           >
             My Reading Library
           </h1>
@@ -90,12 +90,12 @@ exports[`BooksHero matches snapshot (light mode) 1`] = `
             class="css-1ty25zd"
           >
             <span
-              class="css-1j3t953"
+              class="css-1j14lhg"
             >
               10
             </span>
             <span
-              class="css-1cdiw54"
+              class="css-xh4ikz"
             >
               books read
             </span>
@@ -103,7 +103,7 @@ exports[`BooksHero matches snapshot (light mode) 1`] = `
         </div>
         <div>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-r2o6oo-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-59y5so-MuiTypography-root"
           >
             A collection of books that have influenced my thinking and perspective, from software engineering and technology to philosophy, psychology, and the deeper ideas that shape how we understand people and the world.
           </p>
@@ -111,7 +111,7 @@ exports[`BooksHero matches snapshot (light mode) 1`] = `
         <div>
           <a
             aria-label="Follow on Instagram for book updates"
-            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1nyu04l-MuiTypography-root-MuiLink-root"
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-zeiix-MuiTypography-root-MuiLink-root"
             href="https://www.instagram.com/bibliosmia.brews/"
             rel="noopener noreferrer"
             target="_blank"

@@ -268,12 +268,12 @@ exports[`BookGrid matches snapshot (empty state) 1`] = `
         📚
       </div>
       <p
-        class="MuiTypography-root MuiTypography-body1 css-o5r26m-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body1 css-u38kl1-MuiTypography-root"
       >
         No books found
       </p>
       <p
-        class="MuiTypography-root MuiTypography-body1 css-112gkyv-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body1 css-h2226g-MuiTypography-root"
       >
         Try adjusting your search or filters to find what you're looking for.
       </p>
@@ -296,7 +296,7 @@ exports[`BookGrid matches snapshot (light mode) 1`] = `
         <div>
           <div
             aria-label="Atomic Habits by James Clear on Goodreads"
-            class="MuiBox-root css-1pslrmu"
+            class="MuiBox-root css-2zlmtt"
             data-testid="book-card"
             role="link"
           >
@@ -315,12 +315,12 @@ exports[`BookGrid matches snapshot (light mode) 1`] = `
               class="MuiBox-root css-xluy6d"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-8tt4nq-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-idvr2y-MuiTypography-root"
               >
                 Atomic Habits
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1ls2klx-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-13ry3gs-MuiTypography-root"
               >
                 James Clear
               </p>
@@ -402,7 +402,7 @@ exports[`BookGrid matches snapshot (light mode) 1`] = `
                   </div>
                 </div>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1cdvyhq-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-uxjtoa-MuiTypography-root"
                 >
                   Jan 2025
                 </p>
@@ -417,7 +417,7 @@ exports[`BookGrid matches snapshot (light mode) 1`] = `
         <div>
           <div
             aria-label="Deep Work by Cal Newport on Goodreads"
-            class="MuiBox-root css-1pslrmu"
+            class="MuiBox-root css-2zlmtt"
             data-testid="book-card"
             role="link"
           >
@@ -436,12 +436,12 @@ exports[`BookGrid matches snapshot (light mode) 1`] = `
               class="MuiBox-root css-xluy6d"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-8tt4nq-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-idvr2y-MuiTypography-root"
               >
                 Deep Work
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1ls2klx-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-13ry3gs-MuiTypography-root"
               >
                 Cal Newport
               </p>
@@ -523,7 +523,7 @@ exports[`BookGrid matches snapshot (light mode) 1`] = `
                   </div>
                 </div>
                 <p
-                  class="MuiTypography-root MuiTypography-body1 css-1cdvyhq-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body1 css-uxjtoa-MuiTypography-root"
                 >
                   Feb 2025
                 </p>

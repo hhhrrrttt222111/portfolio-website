@@ -83,7 +83,7 @@ exports[`MobileNav matches snapshot 1`] = `
         <a
           class="css-13yrarr"
           data-discover="true"
-          href="/contact"
+          href="/#contact"
         >
           <span>
             Contact Me

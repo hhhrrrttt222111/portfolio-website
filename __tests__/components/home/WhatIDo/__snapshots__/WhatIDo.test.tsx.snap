@@ -209,12 +209,12 @@ exports[`WhatIDo matches snapshot (light mode) 1`] = `
     >
       <div>
         <h3
-          class="css-74d2uv"
+          class="css-o4th2f"
         >
           What I Do
         </h3>
         <p
-          class="MuiTypography-root MuiTypography-body1 css-hv5og2-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-body1 css-n8thz1-MuiTypography-root"
         >
           I specialize in building exceptional digital experiences — from architecting scalable frontends to crafting performant backend services.
         </p>
@@ -234,7 +234,7 @@ exports[`WhatIDo matches snapshot (light mode) 1`] = `
               >
                 <div>
                   <div
-                    class="MuiBox-root css-frjhu3"
+                    class="MuiBox-root css-a065mx"
                   >
                     <svg
                       aria-hidden="true"
@@ -250,17 +250,17 @@ exports[`WhatIDo matches snapshot (light mode) 1`] = `
                   </div>
                 </div>
                 <h6
-                  class="MuiTypography-root MuiTypography-h6 css-1u7650z-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-h6 css-mxq0iu-MuiTypography-root"
                 >
                   Frontend Architecture
                 </h6>
                 <p
-                  class="MuiTypography-root MuiTypography-body2 css-1chj8ha-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body2 css-bszh6l-MuiTypography-root"
                 >
                   Designing scalable, maintainable frontend systems with modular patterns, state management strategies, and clean component hierarchies.
                 </p>
                 <div
-                  class="accent-bar MuiBox-root css-aerzn4"
+                  class="accent-bar MuiBox-root css-11ldz3g"
                 />
               </div>
             </div>
@@ -276,7 +276,7 @@ exports[`WhatIDo matches snapshot (light mode) 1`] = `
               >
                 <div>
                   <div
-                    class="MuiBox-root css-frjhu3"
+                    class="MuiBox-root css-a065mx"
                   >
                     <svg
                       aria-hidden="true"
@@ -292,17 +292,17 @@ exports[`WhatIDo matches snapshot (light mode) 1`] = `
                   </div>
                 </div>
                 <h6
-                  class="MuiTypography-root MuiTypography-h6 css-1u7650z-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-h6 css-mxq0iu-MuiTypography-root"
                 >
                   UI Engineering
                 </h6>
                 <p
-                  class="MuiTypography-root MuiTypography-body2 css-1chj8ha-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body2 css-bszh6l-MuiTypography-root"
                 >
                   Crafting pixel-perfect interfaces with fluid animations, responsive layouts, and accessible design that delights users across every device.
                 </p>
                 <div
-                  class="accent-bar MuiBox-root css-aerzn4"
+                  class="accent-bar MuiBox-root css-11ldz3g"
                 />
               </div>
             </div>
@@ -318,7 +318,7 @@ exports[`WhatIDo matches snapshot (light mode) 1`] = `
               >
                 <div>
                   <div
-                    class="MuiBox-root css-frjhu3"
+                    class="MuiBox-root css-a065mx"
                   >
                     <svg
                       aria-hidden="true"
@@ -334,17 +334,17 @@ exports[`WhatIDo matches snapshot (light mode) 1`] = `
                   </div>
                 </div>
                 <h6
-                  class="MuiTypography-root MuiTypography-h6 css-1u7650z-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-h6 css-mxq0iu-MuiTypography-root"
                 >
                   Performance Optimization
                 </h6>
                 <p
-                  class="MuiTypography-root MuiTypography-body2 css-1chj8ha-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body2 css-bszh6l-MuiTypography-root"
                 >
                   Squeezing every millisecond out of load times through code splitting, lazy loading, caching strategies, and runtime profiling.
                 </p>
                 <div
-                  class="accent-bar MuiBox-root css-aerzn4"
+                  class="accent-bar MuiBox-root css-11ldz3g"
                 />
               </div>
             </div>
@@ -360,7 +360,7 @@ exports[`WhatIDo matches snapshot (light mode) 1`] = `
               >
                 <div>
                   <div
-                    class="MuiBox-root css-frjhu3"
+                    class="MuiBox-root css-a065mx"
                   >
                     <svg
                       aria-hidden="true"
@@ -376,17 +376,17 @@ exports[`WhatIDo matches snapshot (light mode) 1`] = `
                   </div>
                 </div>
                 <h6
-                  class="MuiTypography-root MuiTypography-h6 css-1u7650z-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-h6 css-mxq0iu-MuiTypography-root"
                 >
                   Backend APIs
                 </h6>
                 <p
-                  class="MuiTypography-root MuiTypography-body2 css-1chj8ha-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body2 css-bszh6l-MuiTypography-root"
                 >
                   Building robust RESTful and GraphQL APIs with clean architecture, authentication layers, and efficient database interactions.
                 </p>
                 <div
-                  class="accent-bar MuiBox-root css-aerzn4"
+                  class="accent-bar MuiBox-root css-11ldz3g"
                 />
               </div>
             </div>

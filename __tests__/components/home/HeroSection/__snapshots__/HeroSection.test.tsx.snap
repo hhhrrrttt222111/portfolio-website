@@ -178,14 +178,14 @@ exports[`HeroSection matches snapshot (light mode) 1`] = `
         >
           <div>
             <h1
-              class="css-1ho04rl"
+              class="css-1v1pc3l"
             >
               portfólio
             </h1>
           </div>
           <div>
             <span
-              class="css-13uaspd"
+              class="css-cvwpc6"
             >
               2026
             </span>
@@ -193,7 +193,7 @@ exports[`HeroSection matches snapshot (light mode) 1`] = `
         </div>
         <div>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-1x7h70q-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-134jras-MuiTypography-root"
           >
             [ Hemanth R ]
           </p>

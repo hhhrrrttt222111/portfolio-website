@@ -174,10 +174,10 @@ exports[`BookFilters matches snapshot (light mode) 1`] = `
     >
       <div
         aria-label="Search books"
-        class="MuiFormControl-root MuiTextField-root css-1prt39n-MuiFormControl-root-MuiTextField-root"
+        class="MuiFormControl-root MuiTextField-root css-i059qa-MuiFormControl-root-MuiTextField-root"
       >
         <div
-          class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall MuiInputBase-adornedStart css-yjlbf4-MuiInputBase-root-MuiOutlinedInput-root"
+          class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall MuiInputBase-adornedStart css-rkqga4-MuiInputBase-root-MuiOutlinedInput-root"
         >
           <div
             class="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-outlined MuiInputAdornment-sizeSmall css-1nowbqt-MuiInputAdornment-root"
@@ -233,7 +233,7 @@ exports[`BookFilters matches snapshot (light mode) 1`] = `
         >
           <div
             aria-label="Show all ratings"
-            class="MuiBox-root css-1sgnzn7"
+            class="MuiBox-root css-eezbtq"
             role="button"
             tabindex="0"
           >
@@ -241,7 +241,7 @@ exports[`BookFilters matches snapshot (light mode) 1`] = `
           </div>
           <div
             aria-label="Filter by 5 stars"
-            class="MuiBox-root css-1wbqru6"
+            class="MuiBox-root css-gjw8w9"
             role="button"
             tabindex="0"
           >
@@ -260,7 +260,7 @@ exports[`BookFilters matches snapshot (light mode) 1`] = `
           </div>
           <div
             aria-label="Filter by 4 stars"
-            class="MuiBox-root css-1wbqru6"
+            class="MuiBox-root css-gjw8w9"
             role="button"
             tabindex="0"
           >
@@ -279,7 +279,7 @@ exports[`BookFilters matches snapshot (light mode) 1`] = `
           </div>
           <div
             aria-label="Filter by 3 stars"
-            class="MuiBox-root css-1wbqru6"
+            class="MuiBox-root css-gjw8w9"
             role="button"
             tabindex="0"
           >
@@ -299,7 +299,7 @@ exports[`BookFilters matches snapshot (light mode) 1`] = `
         </div>
         <div
           aria-label="Sort by oldest first"
-          class="MuiBox-root css-c1k0vb"
+          class="MuiBox-root css-xm11id"
           role="button"
           tabindex="0"
         >
@@ -320,7 +320,7 @@ exports[`BookFilters matches snapshot (light mode) 1`] = `
       </div>
       <div>
         <div
-          class="MuiBox-root css-1g5yu0l"
+          class="MuiBox-root css-1ylwpbc"
         >
           10 books
         </div>

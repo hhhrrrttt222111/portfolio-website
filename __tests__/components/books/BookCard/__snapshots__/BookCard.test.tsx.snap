@@ -127,7 +127,7 @@ exports[`BookCard matches snapshot (light mode) 1`] = `
   <div>
     <div
       aria-label="Atomic Habits by James Clear on Goodreads"
-      class="MuiBox-root css-1pslrmu"
+      class="MuiBox-root css-2zlmtt"
       data-testid="book-card"
       role="link"
     >
@@ -146,12 +146,12 @@ exports[`BookCard matches snapshot (light mode) 1`] = `
         class="MuiBox-root css-xluy6d"
       >
         <p
-          class="MuiTypography-root MuiTypography-body1 css-8tt4nq-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-body1 css-idvr2y-MuiTypography-root"
         >
           Atomic Habits
         </p>
         <p
-          class="MuiTypography-root MuiTypography-body1 css-1ls2klx-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-body1 css-13ry3gs-MuiTypography-root"
         >
           James Clear
         </p>
@@ -233,7 +233,7 @@ exports[`BookCard matches snapshot (light mode) 1`] = `
             </div>
           </div>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-1cdvyhq-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-uxjtoa-MuiTypography-root"
           >
             Jan 2025
           </p>

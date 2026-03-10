@@ -200,14 +200,14 @@ exports[`BlogPreview matches snapshot (light mode) 1`] = `
       <div>
         <div>
           <h2
-            class="css-6ecw7o"
+            class="css-1vjc282"
           >
             From the Desk
           </h2>
         </div>
         <div>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-hvvbkq-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-glirf2-MuiTypography-root"
           >
             Musings on cybersecurity, hacking tools, and the books that shaped my thinking. Here are a few pieces.
           </p>
@@ -220,7 +220,7 @@ exports[`BlogPreview matches snapshot (light mode) 1`] = `
           style="perspective: 600px;"
         >
           <a
-            class="MuiBox-root css-1c7iavw"
+            class="MuiBox-root css-59hsit"
             href="https://hackzism.blogspot.com/2020/06/fsociety-hacking-tools-from-mr-robot.html"
             rel="noopener noreferrer"
             target="_blank"
@@ -229,22 +229,22 @@ exports[`BlogPreview matches snapshot (light mode) 1`] = `
               class="MuiBox-root css-14inuc3"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-tag css-1kojclp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-tag css-ekbvqu-MuiTypography-root"
               >
                 Tools
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-kcngmx-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-3r2rrl-MuiTypography-root"
               >
                 FSOCIETY hacking tools from Mr. Robot
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-o2uynp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-7u6sbj-MuiTypography-root"
               >
                 June 28, 2020
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-arrow css-14dpbay-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-arrow css-11bnwcz-MuiTypography-root"
               >
                 read article →
               </p>
@@ -255,7 +255,7 @@ exports[`BlogPreview matches snapshot (light mode) 1`] = `
           style="perspective: 600px;"
         >
           <a
-            class="MuiBox-root css-1c7iavw"
+            class="MuiBox-root css-59hsit"
             href="https://hackzism.blogspot.com/2020/06/see-previously-connected-wifi-passwords.html"
             rel="noopener noreferrer"
             target="_blank"
@@ -264,22 +264,22 @@ exports[`BlogPreview matches snapshot (light mode) 1`] = `
               class="MuiBox-root css-14inuc3"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-tag css-1kojclp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-tag css-ekbvqu-MuiTypography-root"
               >
                 Networking
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-kcngmx-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-3r2rrl-MuiTypography-root"
               >
                 See previously connected wifi passwords using cmd
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-o2uynp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-7u6sbj-MuiTypography-root"
               >
                 June 09, 2020
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-arrow css-14dpbay-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-arrow css-11bnwcz-MuiTypography-root"
               >
                 read article →
               </p>
@@ -290,7 +290,7 @@ exports[`BlogPreview matches snapshot (light mode) 1`] = `
           style="perspective: 600px;"
         >
           <a
-            class="MuiBox-root css-1c7iavw"
+            class="MuiBox-root css-59hsit"
             href="https://hackzism.blogspot.com/2020/05/keylogger-with-python.html"
             rel="noopener noreferrer"
             target="_blank"
@@ -299,22 +299,22 @@ exports[`BlogPreview matches snapshot (light mode) 1`] = `
               class="MuiBox-root css-14inuc3"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-tag css-1kojclp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-tag css-ekbvqu-MuiTypography-root"
               >
                 Python
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-kcngmx-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-3r2rrl-MuiTypography-root"
               >
                 Keylogger with Python — capture every keystroke
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-o2uynp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-7u6sbj-MuiTypography-root"
               >
                 May 15, 2020
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-arrow css-14dpbay-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-arrow css-11bnwcz-MuiTypography-root"
               >
                 read article →
               </p>
@@ -325,7 +325,7 @@ exports[`BlogPreview matches snapshot (light mode) 1`] = `
           style="perspective: 600px;"
         >
           <a
-            class="MuiBox-root css-1c7iavw"
+            class="MuiBox-root css-59hsit"
             href="https://hhhrrrttt222111.blogspot.com/2018/06/rebecca-romance-mystery-horror-evilness.html"
             rel="noopener noreferrer"
             target="_blank"
@@ -334,22 +334,22 @@ exports[`BlogPreview matches snapshot (light mode) 1`] = `
               class="MuiBox-root css-14inuc3"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-tag css-1kojclp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-tag css-ekbvqu-MuiTypography-root"
               >
                 Literature
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-kcngmx-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-3r2rrl-MuiTypography-root"
               >
                 Rebecca
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-o2uynp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-7u6sbj-MuiTypography-root"
               >
                 June 24, 2018
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 blog-arrow css-14dpbay-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 blog-arrow css-11bnwcz-MuiTypography-root"
               >
                 read article →
               </p>
@@ -359,7 +359,7 @@ exports[`BlogPreview matches snapshot (light mode) 1`] = `
       </div>
       <div>
         <div
-          class="MuiBox-root css-lyenqp"
+          class="MuiBox-root css-bpdn5t"
         >
           <a
             data-discover="true"

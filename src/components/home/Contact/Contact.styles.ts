@@ -92,7 +92,7 @@ export const InfoSection = styled(Box)(({ theme }) => ({
   },
 }));
 
-export const InfoCard = styled(Box)(({ theme }) => {
+export const InfoCard = styled("a")(({ theme }) => {
   const isDark = theme.palette.mode === "dark";
 
   return {

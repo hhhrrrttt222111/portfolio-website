@@ -50,7 +50,7 @@ exports[`Navbar matches snapshot 1`] = `
           <a
             class="css-e05sg8"
             data-discover="true"
-            href="/contact"
+            href="/#contact"
           >
             <span>
               Contact Me

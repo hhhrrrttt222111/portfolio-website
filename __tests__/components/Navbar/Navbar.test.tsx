@@ -76,7 +76,24 @@ describe("Navbar", () => {
   it("CTA button has correct href", () => {
     renderNavbar();
     const ctaButton = screen.getByRole("link", { name: CTA_LINK.label });
-    expect(ctaButton).toHaveAttribute("href", CTA_LINK.path);
+    expect(ctaButton).toHaveAttribute("href", "/#contact");
+  });
+
+  it("CTA button scrolls to contact section on click", () => {
+    const scrollToSpy = jest.fn();
+    window.scrollTo = scrollToSpy;
+
+    const contactSection = document.createElement("div");
+    contactSection.id = "contact";
+    document.body.appendChild(contactSection);
+
+    renderNavbar();
+    const ctaButton = screen.getByRole("link", { name: CTA_LINK.label });
+    fireEvent.click(ctaButton);
+
+    expect(scrollToSpy).toHaveBeenCalledWith(expect.objectContaining({ behavior: "smooth" }));
+
+    document.body.removeChild(contactSection);
   });
 
   it("matches snapshot", () => {

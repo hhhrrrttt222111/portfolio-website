@@ -9,9 +9,9 @@ const fontFamilies = {
 
 const scrollbar = (mode: PaletteMode) => {
   const isLight = mode === "light";
-  const track = isLight ? "#e8f0e0" : "#0d1f14";
-  const thumb = isLight ? "#2e7d32" : "#66bb6a";
-  const thumbHover = isLight ? "#1b5e20" : "#43a047";
+  const track = isLight ? "#e0e8dc" : "#0d1f14";
+  const thumb = isLight ? "#5a8a5e" : "#66bb6a";
+  const thumbHover = isLight ? "#3d6b40" : "#43a047";
 
   return {
     "*::-webkit-scrollbar": {
@@ -40,24 +40,24 @@ const getDesignTokens = (mode: PaletteMode) => ({
     ...(mode === "light"
       ? {
           primary: {
-            main: "#2e7d32",
-            light: "#4caf50",
-            dark: "#1b5e20",
+            main: "#3d6b40",
+            light: "#5a8a5e",
+            dark: "#2d5030",
           },
           secondary: {
-            main: "#00897b",
-            light: "#4db6ac",
-            dark: "#00695c",
+            main: "#4a7c72",
+            light: "#6b9a90",
+            dark: "#3a6258",
           },
           background: {
-            default: "#f1f8e9",
-            paper: "#ffffff",
+            default: "#d4ddd0",
+            paper: "#e2e8de",
           },
           text: {
-            primary: "#1b2e1b",
-            secondary: "#4a5d4a",
+            primary: "#2a3d2a",
+            secondary: "#5a6d5a",
           },
-          divider: "rgba(0, 0, 0, 0.12)",
+          divider: "rgba(0, 0, 0, 0.1)",
         }
       : {
           primary: {

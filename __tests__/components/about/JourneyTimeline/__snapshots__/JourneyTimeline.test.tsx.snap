@@ -209,7 +209,7 @@ exports[`JourneyTimeline matches snapshot (light mode) 1`] = `
           style="position: absolute; top: 20px; left: 10%; right: 10%; height: 2px; transform-origin: left center;"
         >
           <div
-            class="MuiBox-root css-1wnmfj9"
+            class="MuiBox-root css-i0n9dq"
           />
         </div>
         <div
@@ -220,17 +220,17 @@ exports[`JourneyTimeline matches snapshot (light mode) 1`] = `
         >
           <div>
             <div
-              class="MuiBox-root css-wdxwfc"
+              class="MuiBox-root css-7aohw0"
             />
           </div>
           <div>
             <span
-              class="css-1rb3lmj"
+              class="css-wb96k3"
             >
               2011
             </span>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-ywpbp0-MuiTypography-root"
             >
               First Introduction to Computers
             </p>
@@ -244,17 +244,17 @@ exports[`JourneyTimeline matches snapshot (light mode) 1`] = `
         >
           <div>
             <div
-              class="MuiBox-root css-wdxwfc"
+              class="MuiBox-root css-7aohw0"
             />
           </div>
           <div>
             <span
-              class="css-1rb3lmj"
+              class="css-wb96k3"
             >
               2015
             </span>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-ywpbp0-MuiTypography-root"
             >
               Built My First Website
             </p>
@@ -268,17 +268,17 @@ exports[`JourneyTimeline matches snapshot (light mode) 1`] = `
         >
           <div>
             <div
-              class="MuiBox-root css-wdxwfc"
+              class="MuiBox-root css-7aohw0"
             />
           </div>
           <div>
             <span
-              class="css-1rb3lmj"
+              class="css-wb96k3"
             >
               2016
             </span>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-ywpbp0-MuiTypography-root"
             >
               Started Learning to Code
             </p>
@@ -292,17 +292,17 @@ exports[`JourneyTimeline matches snapshot (light mode) 1`] = `
         >
           <div>
             <div
-              class="MuiBox-root css-wdxwfc"
+              class="MuiBox-root css-7aohw0"
             />
           </div>
           <div>
             <span
-              class="css-1rb3lmj"
+              class="css-wb96k3"
             >
               2020
             </span>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-ywpbp0-MuiTypography-root"
             >
               First Freelance Project
             </p>
@@ -316,17 +316,17 @@ exports[`JourneyTimeline matches snapshot (light mode) 1`] = `
         >
           <div>
             <div
-              class="MuiBox-root css-wdxwfc"
+              class="MuiBox-root css-7aohw0"
             />
           </div>
           <div>
             <span
-              class="css-1rb3lmj"
+              class="css-wb96k3"
             >
               2021
             </span>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-ywpbp0-MuiTypography-root"
             >
               First Internship
             </p>
@@ -340,17 +340,17 @@ exports[`JourneyTimeline matches snapshot (light mode) 1`] = `
         >
           <div>
             <div
-              class="MuiBox-root css-wdxwfc"
+              class="MuiBox-root css-7aohw0"
             />
           </div>
           <div>
             <span
-              class="css-1rb3lmj"
+              class="css-wb96k3"
             >
               2022
             </span>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-ywpbp0-MuiTypography-root"
             >
               Started Freelancing
             </p>
@@ -364,17 +364,17 @@ exports[`JourneyTimeline matches snapshot (light mode) 1`] = `
         >
           <div>
             <div
-              class="MuiBox-root css-wdxwfc"
+              class="MuiBox-root css-7aohw0"
             />
           </div>
           <div>
             <span
-              class="css-1rb3lmj"
+              class="css-wb96k3"
             >
               2023
             </span>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-ywpbp0-MuiTypography-root"
             >
               Landed My First Job
             </p>

@@ -7,11 +7,15 @@ import { NAV_LINKS, LOGO_TEXT, CTA_LINK } from "@/constants";
 
 const theme = createTheme();
 
-const renderMobileNav = (onClose = jest.fn(), initialRoute = "/") =>
+const renderMobileNav = (
+  onClose = jest.fn(),
+  initialRoute = "/",
+  onContactClick?: (e: React.MouseEvent<HTMLAnchorElement>) => void,
+) =>
   render(
     <ThemeProvider theme={theme}>
       <MemoryRouter initialEntries={[initialRoute]}>
-        <MobileNav onClose={onClose} links={[...NAV_LINKS]} />
+        <MobileNav onClose={onClose} links={[...NAV_LINKS]} onContactClick={onContactClick} />
       </MemoryRouter>
     </ThemeProvider>,
   );
@@ -95,7 +99,16 @@ describe("MobileNav", () => {
   it("CTA button has correct href", () => {
     renderMobileNav();
     const ctaButton = screen.getByRole("link", { name: CTA_LINK.label });
-    expect(ctaButton).toHaveAttribute("href", CTA_LINK.path);
+    expect(ctaButton).toHaveAttribute("href", "/#contact");
+  });
+
+  it("calls onContactClick when Contact Me link is clicked", () => {
+    const onClose = jest.fn();
+    const onContactClick = jest.fn();
+    renderMobileNav(onClose, "/", onContactClick);
+    fireEvent.click(screen.getByRole("link", { name: CTA_LINK.label }));
+    expect(onContactClick).toHaveBeenCalledTimes(1);
+    expect(onClose).toHaveBeenCalledTimes(1);
   });
 
   it("shows active indicator for current route", async () => {

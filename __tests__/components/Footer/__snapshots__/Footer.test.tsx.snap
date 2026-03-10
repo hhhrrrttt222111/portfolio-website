@@ -331,7 +331,7 @@ exports[`Footer matches snapshot (light mode) 1`] = `
             <div>
               <a
                 aria-label="GitHub"
-                class="css-3uuibb"
+                class="css-1xdijdn"
                 data-mui-internal-clone-element="true"
                 href="https://github.com/hhhrrrttt222111"
                 rel="noopener noreferrer"
@@ -355,7 +355,7 @@ exports[`Footer matches snapshot (light mode) 1`] = `
             <div>
               <a
                 aria-label="LinkedIn"
-                class="css-3uuibb"
+                class="css-1xdijdn"
                 data-mui-internal-clone-element="true"
                 href="https://linkedin.com/in/hhhrrrttt222111"
                 rel="noopener noreferrer"
@@ -379,7 +379,7 @@ exports[`Footer matches snapshot (light mode) 1`] = `
             <div>
               <a
                 aria-label="X"
-                class="css-3uuibb"
+                class="css-1xdijdn"
                 data-mui-internal-clone-element="true"
                 href="https://x.com/hhhrrrttt222111"
                 rel="noopener noreferrer"
@@ -403,7 +403,7 @@ exports[`Footer matches snapshot (light mode) 1`] = `
             <div>
               <a
                 aria-label="Instagram"
-                class="css-3uuibb"
+                class="css-1xdijdn"
                 data-mui-internal-clone-element="true"
                 href="https://instagram.com/hhhrrrttt222111"
                 rel="noopener noreferrer"
@@ -427,7 +427,7 @@ exports[`Footer matches snapshot (light mode) 1`] = `
             <div>
               <a
                 aria-label="Facebook"
-                class="css-3uuibb"
+                class="css-1xdijdn"
                 data-mui-internal-clone-element="true"
                 href="https://facebook.com/hhhrrrttt222111"
                 rel="noopener noreferrer"
@@ -451,7 +451,7 @@ exports[`Footer matches snapshot (light mode) 1`] = `
             <div>
               <a
                 aria-label="Reddit"
-                class="css-3uuibb"
+                class="css-1xdijdn"
                 data-mui-internal-clone-element="true"
                 href="https://reddit.com/user/hhhrrrttt222111"
                 rel="noopener noreferrer"
@@ -475,7 +475,7 @@ exports[`Footer matches snapshot (light mode) 1`] = `
             <div>
               <a
                 aria-label="Goodreads"
-                class="css-3uuibb"
+                class="css-1xdijdn"
                 data-mui-internal-clone-element="true"
                 href="https://goodreads.com/hhhrrrttt222111"
                 rel="noopener noreferrer"
@@ -499,7 +499,7 @@ exports[`Footer matches snapshot (light mode) 1`] = `
             <div>
               <a
                 aria-label="Medium"
-                class="css-3uuibb"
+                class="css-1xdijdn"
                 data-mui-internal-clone-element="true"
                 href="https://medium.com/@hhhrrrttt222111"
                 rel="noopener noreferrer"
@@ -523,7 +523,7 @@ exports[`Footer matches snapshot (light mode) 1`] = `
             <div>
               <a
                 aria-label="Pinterest"
-                class="css-3uuibb"
+                class="css-1xdijdn"
                 data-mui-internal-clone-element="true"
                 href="https://pinterest.com/hhhrrrttt222111"
                 rel="noopener noreferrer"
@@ -547,7 +547,7 @@ exports[`Footer matches snapshot (light mode) 1`] = `
             <div>
               <a
                 aria-label="Substack"
-                class="css-3uuibb"
+                class="css-1xdijdn"
                 data-mui-internal-clone-element="true"
                 href="https://substack.com/@hhhrrrttt222111"
                 rel="noopener noreferrer"
@@ -568,7 +568,7 @@ exports[`Footer matches snapshot (light mode) 1`] = `
           </div>
         </div>
         <p
-          class="MuiTypography-root MuiTypography-body1 css-1vsjjcz-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-body1 css-xmez6a-MuiTypography-root"
         >
           © 
           2026

@@ -12,5 +12,5 @@ export const LOGO_TEXT = "HRT";
 
 export const CTA_LINK: NavLink = {
   label: "Contact Me",
-  path: "/contact",
+  path: "/#contact",
 };

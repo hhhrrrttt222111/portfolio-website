@@ -330,21 +330,21 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
         >
           <div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-fnmglg-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-3li8h5-MuiTypography-root"
             >
               About Me
             </p>
           </div>
           <div>
             <h1
-              class="css-sdsz4r"
+              class="css-1r6it5m"
             >
               Hi, I'm Hemanth. I design thoughtful digital experiences.
             </h1>
           </div>
           <div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-typhwk-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-108glad-MuiTypography-root"
             >
               I’ve been fascinated by computers for as long as I can remember. What started as curiosity in a school computer lab—tinkering with HTML and exploring how websites work—quickly turned into a lifelong passion for building things with code. Over time, that curiosity grew from experimenting with small projects to developing production software and contributing to real-world products.
               <br />
@@ -361,10 +361,10 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
           </div>
           <div>
             <div
-              class="MuiBox-root css-jl4oqu"
+              class="MuiBox-root css-1vn1sk3"
             >
               <p
-                class="MuiTypography-root MuiTypography-body2 css-k9b86f-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-ikwv0r-MuiTypography-root"
               >
                 When I'm not coding, you'll find me buried in a book. I'm an avid reader — fiction, non-fiction, philosophy, you name it. I believe reading shapes how I think and build.
               </p>
@@ -374,7 +374,7 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
                 style="color: inherit; text-decoration: none;"
               >
                 <span
-                  class="MuiTypography-root MuiTypography-body2 css-1oc0vx0-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body2 css-3nwy5l-MuiTypography-root"
                 >
                   My Reading List
                 </span>
@@ -395,7 +395,7 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
                   style="position: absolute; top: 20px; left: 10%; right: 10%; height: 2px; transform-origin: left center;"
                 >
                   <div
-                    class="MuiBox-root css-1wnmfj9"
+                    class="MuiBox-root css-i0n9dq"
                   />
                 </div>
                 <div
@@ -406,17 +406,17 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
                 >
                   <div>
                     <div
-                      class="MuiBox-root css-wdxwfc"
+                      class="MuiBox-root css-7aohw0"
                     />
                   </div>
                   <div>
                     <span
-                      class="css-1rb3lmj"
+                      class="css-wb96k3"
                     >
                       2011
                     </span>
                     <p
-                      class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body1 css-ywpbp0-MuiTypography-root"
                     >
                       First Introduction to Computers
                     </p>
@@ -430,17 +430,17 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
                 >
                   <div>
                     <div
-                      class="MuiBox-root css-wdxwfc"
+                      class="MuiBox-root css-7aohw0"
                     />
                   </div>
                   <div>
                     <span
-                      class="css-1rb3lmj"
+                      class="css-wb96k3"
                     >
                       2015
                     </span>
                     <p
-                      class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body1 css-ywpbp0-MuiTypography-root"
                     >
                       Built My First Website
                     </p>
@@ -454,17 +454,17 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
                 >
                   <div>
                     <div
-                      class="MuiBox-root css-wdxwfc"
+                      class="MuiBox-root css-7aohw0"
                     />
                   </div>
                   <div>
                     <span
-                      class="css-1rb3lmj"
+                      class="css-wb96k3"
                     >
                       2016
                     </span>
                     <p
-                      class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body1 css-ywpbp0-MuiTypography-root"
                     >
                       Started Learning to Code
                     </p>
@@ -478,17 +478,17 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
                 >
                   <div>
                     <div
-                      class="MuiBox-root css-wdxwfc"
+                      class="MuiBox-root css-7aohw0"
                     />
                   </div>
                   <div>
                     <span
-                      class="css-1rb3lmj"
+                      class="css-wb96k3"
                     >
                       2020
                     </span>
                     <p
-                      class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body1 css-ywpbp0-MuiTypography-root"
                     >
                       First Freelance Project
                     </p>
@@ -502,17 +502,17 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
                 >
                   <div>
                     <div
-                      class="MuiBox-root css-wdxwfc"
+                      class="MuiBox-root css-7aohw0"
                     />
                   </div>
                   <div>
                     <span
-                      class="css-1rb3lmj"
+                      class="css-wb96k3"
                     >
                       2021
                     </span>
                     <p
-                      class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body1 css-ywpbp0-MuiTypography-root"
                     >
                       First Internship
                     </p>
@@ -526,17 +526,17 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
                 >
                   <div>
                     <div
-                      class="MuiBox-root css-wdxwfc"
+                      class="MuiBox-root css-7aohw0"
                     />
                   </div>
                   <div>
                     <span
-                      class="css-1rb3lmj"
+                      class="css-wb96k3"
                     >
                       2022
                     </span>
                     <p
-                      class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body1 css-ywpbp0-MuiTypography-root"
                     >
                       Started Freelancing
                     </p>
@@ -550,17 +550,17 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
                 >
                   <div>
                     <div
-                      class="MuiBox-root css-wdxwfc"
+                      class="MuiBox-root css-7aohw0"
                     />
                   </div>
                   <div>
                     <span
-                      class="css-1rb3lmj"
+                      class="css-wb96k3"
                     >
                       2023
                     </span>
                     <p
-                      class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-body1 css-ywpbp0-MuiTypography-root"
                     >
                       Landed My First Job
                     </p>
@@ -574,7 +574,7 @@ exports[`AboutHero matches snapshot (light mode) 1`] = `
     </div>
     <div>
       <div
-        class="MuiBox-root css-1odelyx"
+        class="MuiBox-root css-26utr6"
       >
         <div>
           <div

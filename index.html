@@ -88,6 +88,23 @@
     </script>
   </head>
   <body>
+    <style>
+      html, body, #root {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+      }
+    </style>
+    <script>
+      (function() {
+        var savedTheme = localStorage.getItem('color-mode');
+        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var isDark = savedTheme === 'dark' || (!savedTheme && prefersDark);
+        var bgColor = isDark ? '#0a1a0f' : '#d4ddd0';
+        document.documentElement.style.backgroundColor = bgColor;
+        document.body.style.backgroundColor = bgColor;
+      })();
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

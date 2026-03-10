@@ -53,7 +53,7 @@ exports[`About Page matches snapshot (dark mode) 1`] = `
             <a
               class="css-omc921"
               data-discover="true"
-              href="/contact"
+              href="/#contact"
             >
               <span>
                 Contact Me
@@ -1227,7 +1227,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
     class="MuiBox-root css-0"
   >
     <header
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-je3t1l-MuiPaper-root-MuiAppBar-root"
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-cipzl4-MuiPaper-root-MuiAppBar-root"
       style="--Paper-shadow: none;"
     >
       <div
@@ -1235,7 +1235,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
       >
         <div>
           <a
-            class="css-s7ixlb"
+            class="css-1ht0g0v"
             data-discover="true"
             href="/"
           >
@@ -1252,7 +1252,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
             class="css-19sk4h4"
           >
             <a
-              class="css-q1a495"
+              class="css-1cm8dne"
               data-discover="true"
               href="/about"
             >
@@ -1263,7 +1263,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
             class="css-19sk4h4"
           >
             <a
-              class="css-q1a495"
+              class="css-1cm8dne"
               data-discover="true"
               href="/blog"
             >
@@ -1272,9 +1272,9 @@ exports[`About Page matches snapshot (light mode) 1`] = `
           </div>
           <div>
             <a
-              class="css-agkxxa"
+              class="css-1qu5wrq"
               data-discover="true"
-              href="/contact"
+              href="/#contact"
             >
               <span>
                 Contact Me
@@ -1317,21 +1317,21 @@ exports[`About Page matches snapshot (light mode) 1`] = `
           >
             <div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-fnmglg-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-3li8h5-MuiTypography-root"
               >
                 About Me
               </p>
             </div>
             <div>
               <h1
-                class="css-sdsz4r"
+                class="css-1r6it5m"
               >
                 Hi, I'm Hemanth. I design thoughtful digital experiences.
               </h1>
             </div>
             <div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-typhwk-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-108glad-MuiTypography-root"
               >
                 I’ve been fascinated by computers for as long as I can remember. What started as curiosity in a school computer lab—tinkering with HTML and exploring how websites work—quickly turned into a lifelong passion for building things with code. Over time, that curiosity grew from experimenting with small projects to developing production software and contributing to real-world products.
                 <br />
@@ -1348,10 +1348,10 @@ exports[`About Page matches snapshot (light mode) 1`] = `
             </div>
             <div>
               <div
-                class="MuiBox-root css-jl4oqu"
+                class="MuiBox-root css-1vn1sk3"
               >
                 <p
-                  class="MuiTypography-root MuiTypography-body2 css-k9b86f-MuiTypography-root"
+                  class="MuiTypography-root MuiTypography-body2 css-ikwv0r-MuiTypography-root"
                 >
                   When I'm not coding, you'll find me buried in a book. I'm an avid reader — fiction, non-fiction, philosophy, you name it. I believe reading shapes how I think and build.
                 </p>
@@ -1361,7 +1361,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                   style="color: inherit; text-decoration: none;"
                 >
                   <span
-                    class="MuiTypography-root MuiTypography-body2 css-1oc0vx0-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body2 css-3nwy5l-MuiTypography-root"
                   >
                     My Reading List
                   </span>
@@ -1384,7 +1384,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                     style="position: absolute; top: 20px; left: 10%; right: 10%; height: 2px; transform-origin: left center;"
                   >
                     <div
-                      class="MuiBox-root css-1wnmfj9"
+                      class="MuiBox-root css-i0n9dq"
                     />
                   </div>
                   <div
@@ -1395,17 +1395,17 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                   >
                     <div>
                       <div
-                        class="MuiBox-root css-wdxwfc"
+                        class="MuiBox-root css-7aohw0"
                       />
                     </div>
                     <div>
                       <span
-                        class="css-1rb3lmj"
+                        class="css-wb96k3"
                       >
                         2011
                       </span>
                       <p
-                        class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+                        class="MuiTypography-root MuiTypography-body1 css-ywpbp0-MuiTypography-root"
                       >
                         First Introduction to Computers
                       </p>
@@ -1419,17 +1419,17 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                   >
                     <div>
                       <div
-                        class="MuiBox-root css-wdxwfc"
+                        class="MuiBox-root css-7aohw0"
                       />
                     </div>
                     <div>
                       <span
-                        class="css-1rb3lmj"
+                        class="css-wb96k3"
                       >
                         2015
                       </span>
                       <p
-                        class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+                        class="MuiTypography-root MuiTypography-body1 css-ywpbp0-MuiTypography-root"
                       >
                         Built My First Website
                       </p>
@@ -1443,17 +1443,17 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                   >
                     <div>
                       <div
-                        class="MuiBox-root css-wdxwfc"
+                        class="MuiBox-root css-7aohw0"
                       />
                     </div>
                     <div>
                       <span
-                        class="css-1rb3lmj"
+                        class="css-wb96k3"
                       >
                         2016
                       </span>
                       <p
-                        class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+                        class="MuiTypography-root MuiTypography-body1 css-ywpbp0-MuiTypography-root"
                       >
                         Started Learning to Code
                       </p>
@@ -1467,17 +1467,17 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                   >
                     <div>
                       <div
-                        class="MuiBox-root css-wdxwfc"
+                        class="MuiBox-root css-7aohw0"
                       />
                     </div>
                     <div>
                       <span
-                        class="css-1rb3lmj"
+                        class="css-wb96k3"
                       >
                         2020
                       </span>
                       <p
-                        class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+                        class="MuiTypography-root MuiTypography-body1 css-ywpbp0-MuiTypography-root"
                       >
                         First Freelance Project
                       </p>
@@ -1491,17 +1491,17 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                   >
                     <div>
                       <div
-                        class="MuiBox-root css-wdxwfc"
+                        class="MuiBox-root css-7aohw0"
                       />
                     </div>
                     <div>
                       <span
-                        class="css-1rb3lmj"
+                        class="css-wb96k3"
                       >
                         2021
                       </span>
                       <p
-                        class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+                        class="MuiTypography-root MuiTypography-body1 css-ywpbp0-MuiTypography-root"
                       >
                         First Internship
                       </p>
@@ -1515,17 +1515,17 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                   >
                     <div>
                       <div
-                        class="MuiBox-root css-wdxwfc"
+                        class="MuiBox-root css-7aohw0"
                       />
                     </div>
                     <div>
                       <span
-                        class="css-1rb3lmj"
+                        class="css-wb96k3"
                       >
                         2022
                       </span>
                       <p
-                        class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+                        class="MuiTypography-root MuiTypography-body1 css-ywpbp0-MuiTypography-root"
                       >
                         Started Freelancing
                       </p>
@@ -1539,17 +1539,17 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                   >
                     <div>
                       <div
-                        class="MuiBox-root css-wdxwfc"
+                        class="MuiBox-root css-7aohw0"
                       />
                     </div>
                     <div>
                       <span
-                        class="css-1rb3lmj"
+                        class="css-wb96k3"
                       >
                         2023
                       </span>
                       <p
-                        class="MuiTypography-root MuiTypography-body1 css-14kffx5-MuiTypography-root"
+                        class="MuiTypography-root MuiTypography-body1 css-ywpbp0-MuiTypography-root"
                       >
                         Landed My First Job
                       </p>
@@ -1563,7 +1563,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
       </div>
       <div>
         <div
-          class="MuiBox-root css-1odelyx"
+          class="MuiBox-root css-26utr6"
         >
           <div>
             <div
@@ -1592,12 +1592,12 @@ exports[`About Page matches snapshot (light mode) 1`] = `
           whileinview="[object Object]"
         >
           <h2
-            class="css-2aktko"
+            class="css-13kw4wz"
           >
             Education
           </h2>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-1i1q88g-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-1ee07eo-MuiTypography-root"
           >
             The foundation that shaped my thinking and technical skills.
           </p>
@@ -1610,10 +1610,10 @@ exports[`About Page matches snapshot (light mode) 1`] = `
             whileinview="visible"
           >
             <div
-              class="MuiBox-root css-xggkmz"
+              class="MuiBox-root css-fg8qv"
             >
               <div
-                class="MuiBox-root css-48ismi"
+                class="MuiBox-root css-1m3or4a"
               >
                 <span
                   class="year-text"
@@ -1622,12 +1622,12 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                 </span>
               </div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1vwo7a-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-125v6kj-MuiTypography-root"
               >
                 Primary Secondary Education
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-15to6sp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1jaguo5-MuiTypography-root"
               >
                 Bhavans Bala Mandir, Eroor
               </p>
@@ -1638,10 +1638,10 @@ exports[`About Page matches snapshot (light mode) 1`] = `
             whileinview="visible"
           >
             <div
-              class="MuiBox-root css-xggkmz"
+              class="MuiBox-root css-fg8qv"
             >
               <div
-                class="MuiBox-root css-48ismi"
+                class="MuiBox-root css-1m3or4a"
               >
                 <span
                   class="year-text"
@@ -1650,12 +1650,12 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                 </span>
               </div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1vwo7a-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-125v6kj-MuiTypography-root"
               >
                 Higher Secondary Education
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-15to6sp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1jaguo5-MuiTypography-root"
               >
                 Bhavans Vidya Mandir, Eroor
               </p>
@@ -1666,10 +1666,10 @@ exports[`About Page matches snapshot (light mode) 1`] = `
             whileinview="visible"
           >
             <div
-              class="MuiBox-root css-xggkmz"
+              class="MuiBox-root css-fg8qv"
             >
               <div
-                class="MuiBox-root css-48ismi"
+                class="MuiBox-root css-1m3or4a"
               >
                 <span
                   class="year-text"
@@ -1678,12 +1678,12 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                 </span>
               </div>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-1vwo7a-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-125v6kj-MuiTypography-root"
               >
                 B.Tech in Computer Science
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-15to6sp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1jaguo5-MuiTypography-root"
               >
                 Model Engineering College, Thrikkakara
               </p>
@@ -1704,12 +1704,12 @@ exports[`About Page matches snapshot (light mode) 1`] = `
           whileinview="[object Object]"
         >
           <h2
-            class="css-2aktko"
+            class="css-13kw4wz"
           >
             Experience
           </h2>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-1i1q88g-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-1ee07eo-MuiTypography-root"
           >
             A timeline of roles where I've grown, shipped, and learned.
           </p>
@@ -1721,7 +1721,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
             style="position: absolute; inset: 0; width: 100%; transform-origin: top center; pointer-events: none;"
           >
             <div
-              class="MuiBox-root css-1xnce73"
+              class="MuiBox-root css-ur375c"
             />
           </div>
           <div>
@@ -1733,28 +1733,28 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-r8as64"
               >
                 <div
-                  class="MuiBox-root css-3lcha7"
+                  class="MuiBox-root css-t89bmm"
                 />
                 <div
-                  class="MuiBox-root css-otbqt4"
+                  class="MuiBox-root css-2hdeff"
                 >
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-13bm994-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-2ltn2f-MuiTypography-root"
                   >
                     Consultant Developer
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1d5kx48-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-19o5gyf-MuiTypography-root"
                   >
                     Thoughtworks
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-2ljj4-MuiTypography-root"
                   >
                     Jul 2023 — Present
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1briw2t-MuiTypography-root"
                   >
                     Working as a consultant developer building scalable enterprise applications. Contributing to backend and frontend systems using Node.js, TypeScript, and modern development practices in a collaborative agile environment.
                   </p>
@@ -1769,28 +1769,28 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-r8as64"
               >
                 <div
-                  class="MuiBox-root css-3lcha7"
+                  class="MuiBox-root css-t89bmm"
                 />
                 <div
-                  class="MuiBox-root css-otbqt4"
+                  class="MuiBox-root css-2hdeff"
                 >
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-13bm994-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-2ltn2f-MuiTypography-root"
                   >
                     Web Manager
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1d5kx48-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-19o5gyf-MuiTypography-root"
                   >
                     Excel MEC
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-2ljj4-MuiTypography-root"
                   >
                     Jun 2022 — Sep 2023
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1briw2t-MuiTypography-root"
                   >
                     Managed and developed the organization's web presence, maintaining websites and building new features using React.js and modern web technologies while coordinating with the web team.
                   </p>
@@ -1805,28 +1805,28 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-r8as64"
               >
                 <div
-                  class="MuiBox-root css-3lcha7"
+                  class="MuiBox-root css-t89bmm"
                 />
                 <div
-                  class="MuiBox-root css-otbqt4"
+                  class="MuiBox-root css-2hdeff"
                 >
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-13bm994-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-2ltn2f-MuiTypography-root"
                   >
                     Full Stack Developer (Freelance)
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1d5kx48-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-19o5gyf-MuiTypography-root"
                   >
                     Svasthi Charitable Trust
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-2ljj4-MuiTypography-root"
                   >
                     May 2023 — Jun 2023
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1briw2t-MuiTypography-root"
                   >
                     Developed the official website for Svasthi Charitable Trust using React.js and Firebase, focusing on performance, responsiveness, and maintainable frontend architecture.
                   </p>
@@ -1841,28 +1841,28 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-r8as64"
               >
                 <div
-                  class="MuiBox-root css-3lcha7"
+                  class="MuiBox-root css-t89bmm"
                 />
                 <div
-                  class="MuiBox-root css-otbqt4"
+                  class="MuiBox-root css-2hdeff"
                 >
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-13bm994-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-2ltn2f-MuiTypography-root"
                   >
                     Full Stack Developer (Freelance)
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1d5kx48-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-19o5gyf-MuiTypography-root"
                   >
                     Advantus Life Sciences
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-2ljj4-MuiTypography-root"
                   >
                     Sep 2021 — Jul 2022
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1briw2t-MuiTypography-root"
                   >
                     Built the official website for Advantus Life Sciences using Next.js, delivering a responsive and production-ready web platform for the organization.
                   </p>
@@ -1877,28 +1877,28 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-r8as64"
               >
                 <div
-                  class="MuiBox-root css-3lcha7"
+                  class="MuiBox-root css-t89bmm"
                 />
                 <div
-                  class="MuiBox-root css-otbqt4"
+                  class="MuiBox-root css-2hdeff"
                 >
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-13bm994-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-2ltn2f-MuiTypography-root"
                   >
                     Frontend Developer Intern
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1d5kx48-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-19o5gyf-MuiTypography-root"
                   >
                     TGH Tech
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-2ljj4-MuiTypography-root"
                   >
                     Jun 2021 — Sep 2021
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1briw2t-MuiTypography-root"
                   >
                     Worked on two frontend projects using React.js and Firebase, gaining experience in building responsive interfaces and collaborating in a professional development environment.
                   </p>
@@ -1913,28 +1913,28 @@ exports[`About Page matches snapshot (light mode) 1`] = `
                 class="MuiBox-root css-r8as64"
               >
                 <div
-                  class="MuiBox-root css-3lcha7"
+                  class="MuiBox-root css-t89bmm"
                 />
                 <div
-                  class="MuiBox-root css-otbqt4"
+                  class="MuiBox-root css-2hdeff"
                 >
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-13bm994-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-2ltn2f-MuiTypography-root"
                   >
                     React Developer
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1d5kx48-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-19o5gyf-MuiTypography-root"
                   >
                     Indic Law
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-5iwnds-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-2ljj4-MuiTypography-root"
                   >
                     Nov 2020 — Mar 2021
                   </p>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-6z3bvu-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1briw2t-MuiTypography-root"
                   >
                     Developed the IndicLaw website using React.js and Material-UI, focusing on building reusable UI components and a clean, responsive interface.
                   </p>
@@ -1969,11 +1969,11 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               whileinview="[object Object]"
             >
               <div
-                class="MuiBox-root css-tj57u3"
+                class="MuiBox-root css-1al23o"
               />
             </div>
             <blockquote
-              class="css-pf4d29"
+              class="css-1l0t9r5"
             >
               <span
                 viewport="[object Object]"
@@ -2141,7 +2141,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               whileinview="[object Object]"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-11z7609-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-o5e9mu-MuiTypography-root"
               >
                 — my design philosophy
               </p>
@@ -2192,7 +2192,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="GitHub"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://github.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -2216,7 +2216,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="LinkedIn"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://linkedin.com/in/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -2240,7 +2240,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="X"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://x.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -2264,7 +2264,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Instagram"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://instagram.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -2288,7 +2288,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Facebook"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://facebook.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -2312,7 +2312,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Reddit"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://reddit.com/user/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -2336,7 +2336,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Goodreads"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://goodreads.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -2360,7 +2360,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Medium"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://medium.com/@hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -2384,7 +2384,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Pinterest"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://pinterest.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -2408,7 +2408,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Substack"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://substack.com/@hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -2429,7 +2429,7 @@ exports[`About Page matches snapshot (light mode) 1`] = `
             </div>
           </div>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-1vsjjcz-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-xmez6a-MuiTypography-root"
           >
             © 
             2026

@@ -29,6 +29,7 @@ const MotionMobileMenuFooter = motion.create(MobileMenuFooter);
 interface MobileNavProps {
   onClose: () => void;
   links: NavLink[];
+  onContactClick?: (e: React.MouseEvent<HTMLAnchorElement>) => void;
 }
 
 const easeOutCubic: [number, number, number, number] = [0.4, 0, 0.2, 1];
@@ -94,7 +95,7 @@ const footerVariants: Variants = {
   },
 };
 
-const MobileNav: FC<MobileNavProps> = ({ onClose, links }) => {
+const MobileNav: FC<MobileNavProps> = ({ onClose, links, onContactClick }) => {
   const location = useLocation();
 
   useEffect(() => {
@@ -179,7 +180,12 @@ const MobileNav: FC<MobileNavProps> = ({ onClose, links }) => {
         <MotionMobileMenuFooter variants={footerVariants}>
           <MotionDrawerContactButton
             to={CTA_LINK.path}
-            onClick={onClose}
+            onClick={(e: React.MouseEvent<HTMLAnchorElement>) => {
+              if (onContactClick) {
+                onContactClick(e);
+              }
+              onClose();
+            }}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
           >

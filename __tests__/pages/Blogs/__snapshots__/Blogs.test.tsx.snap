@@ -53,7 +53,7 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
             <a
               class="css-omc921"
               data-discover="true"
-              href="/contact"
+              href="/#contact"
             >
               <span>
                 Contact Me
@@ -1732,10 +1732,10 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
 exports[`Blogs Page matches snapshot (light mode) 1`] = `
 <div>
   <div
-    class="MuiBox-root css-gaaqr7"
+    class="MuiBox-root css-184x53"
   >
     <header
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-je3t1l-MuiPaper-root-MuiAppBar-root"
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-cipzl4-MuiPaper-root-MuiAppBar-root"
       style="--Paper-shadow: none;"
     >
       <div
@@ -1743,7 +1743,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
       >
         <div>
           <a
-            class="css-s7ixlb"
+            class="css-1ht0g0v"
             data-discover="true"
             href="/"
           >
@@ -1760,7 +1760,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
             class="css-19sk4h4"
           >
             <a
-              class="css-q1a495"
+              class="css-1cm8dne"
               data-discover="true"
               href="/about"
             >
@@ -1771,7 +1771,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
             class="css-19sk4h4"
           >
             <a
-              class="css-q1a495"
+              class="css-1cm8dne"
               data-discover="true"
               href="/blog"
             >
@@ -1780,9 +1780,9 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
           </div>
           <div>
             <a
-              class="css-agkxxa"
+              class="css-1qu5wrq"
               data-discover="true"
-              href="/contact"
+              href="/#contact"
             >
               <span>
                 Contact Me
@@ -1803,12 +1803,12 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
         >
           <div>
             <h1
-              class="css-zzo47k"
+              class="css-1uodfga"
             >
               My Blogs
             </h1>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-1h1nlt7-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-16pqizf-MuiTypography-root"
             >
               Reflections on technology and literature, exploring how programming, storytelling, and creativity influence the way we think, build, and express ideas in a digital world.
             </p>
@@ -2481,7 +2481,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                 >
                   <button
                     aria-label="Visit Hackzism blog"
-                    class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-eyq5q1-MuiButtonBase-root-MuiButton-root"
+                    class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-fc278u-MuiButtonBase-root-MuiButton-root"
                     tabindex="0"
                     type="button"
                   >
@@ -3138,7 +3138,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                 >
                   <button
                     aria-label="Visit Bibliosmia blog"
-                    class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-34zy1z-MuiButtonBase-root-MuiButton-root"
+                    class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1tzppad-MuiButtonBase-root-MuiButton-root"
                     tabindex="0"
                     type="button"
                   >
@@ -3208,7 +3208,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="GitHub"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://github.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -3232,7 +3232,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="LinkedIn"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://linkedin.com/in/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -3256,7 +3256,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="X"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://x.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -3280,7 +3280,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Instagram"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://instagram.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -3304,7 +3304,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Facebook"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://facebook.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -3328,7 +3328,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Reddit"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://reddit.com/user/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -3352,7 +3352,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Goodreads"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://goodreads.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -3376,7 +3376,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Medium"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://medium.com/@hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -3400,7 +3400,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Pinterest"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://pinterest.com/hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -3424,7 +3424,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
               <div>
                 <a
                   aria-label="Substack"
-                  class="css-3uuibb"
+                  class="css-1xdijdn"
                   data-mui-internal-clone-element="true"
                   href="https://substack.com/@hhhrrrttt222111"
                   rel="noopener noreferrer"
@@ -3445,7 +3445,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
             </div>
           </div>
           <p
-            class="MuiTypography-root MuiTypography-body1 css-1vsjjcz-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-xmez6a-MuiTypography-root"
           >
             © 
             2026

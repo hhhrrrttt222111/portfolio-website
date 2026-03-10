@@ -135,7 +135,7 @@ const Contact = () => {
   };
 
   return (
-    <ContactRoot data-testid="contact-section">
+    <ContactRoot id="contact" data-testid="contact-section">
       <Container maxWidth="lg">
         <motion.div
           variants={prefersReduced ? undefined : containerVariants}
@@ -185,7 +185,11 @@ const Contact = () => {
                   </svg>
                 </FloatingIcon>
 
-                <InfoCard>
+                <InfoCard
+                  as="a"
+                  href="tel:+918281627763"
+                  sx={{ textDecoration: "none", cursor: "pointer" }}
+                >
                   <PhoneIcon />
                   <Stack>
                     <InfoLabel>Phone</InfoLabel>
@@ -193,7 +197,11 @@ const Contact = () => {
                   </Stack>
                 </InfoCard>
 
-                <InfoCard>
+                <InfoCard
+                  as="a"
+                  href="mailto:hemanththanal@gmail.com"
+                  sx={{ textDecoration: "none", cursor: "pointer" }}
+                >
                   <EmailIcon />
                   <Stack>
                     <InfoLabel>Email</InfoLabel>
