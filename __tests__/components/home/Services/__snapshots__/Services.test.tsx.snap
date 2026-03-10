@@ -3,7 +3,7 @@
 exports[`Services matches snapshot (dark mode) 1`] = `
 <div>
   <section
-    class="css-uonhhq"
+    class="css-12vfram"
     id="services"
   >
     <div
@@ -322,7 +322,7 @@ exports[`Services matches snapshot (dark mode) 1`] = `
 exports[`Services matches snapshot (light mode) 1`] = `
 <div>
   <section
-    class="css-1nm8uox"
+    class="css-bdq6w9"
     id="services"
   >
     <div

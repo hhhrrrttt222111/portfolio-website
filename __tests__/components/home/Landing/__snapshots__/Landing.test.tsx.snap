@@ -3,7 +3,7 @@
 exports[`Landing matches snapshot 1`] = `
 <div>
   <section
-    class="css-19ba9tn"
+    class="css-uifhc8"
   >
     <div
       class="MuiBox-root css-15q6k31"
@@ -31,52 +31,142 @@ exports[`Landing matches snapshot 1`] = `
       class="MuiStack-root css-1wrrns3-MuiStack-root"
     >
       <div
-        class="MuiStack-root css-12lrk8f-MuiStack-root"
+        class="css-1bf6lxh"
       >
         <div
-          class="MuiStack-root css-1sazv7p-MuiStack-root"
+          class="MuiStack-root css-wjfgw-MuiStack-root"
         >
-          <p
-            class="MuiTypography-root MuiTypography-body1 css-6dogy4-MuiTypography-root"
+          <div
+            class="MuiStack-root css-1sazv7p-MuiStack-root"
           >
-            Hey, I'm a
-          </p>
-          <h1
-            class="css-az5fk7"
-          >
-            Creative 
-            <br
-              class="MuiBox-root css-130f8nx"
-            />
-            <span
-              class="highlight"
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-6dogy4-MuiTypography-root"
             >
-              Director
-            </span>
-          </h1>
-        </div>
-        <div
-          class="MuiStack-root css-dp9xmh-MuiStack-root"
-        >
-          <p
-            class="css-sxf45r"
-          >
-            Great design should feel 
-            <span
-              class="accent"
+              Hey, I'm a
+            </p>
+            <h1
+              class="css-az5fk7"
             >
-              invisible.
-            </span>
-          </p>
-          <p
-            class="MuiTypography-root MuiTypography-body1 css-12h1pj8-MuiTypography-root"
+              <span
+                class="char"
+                style="display: inline-block;"
+              >
+                F
+              </span>
+              <span
+                class="char"
+                style="display: inline-block;"
+              >
+                r
+              </span>
+              <span
+                class="char"
+                style="display: inline-block;"
+              >
+                e
+              </span>
+              <span
+                class="char"
+                style="display: inline-block;"
+              >
+                e
+              </span>
+              <span
+                class="char"
+                style="display: inline-block;"
+              >
+                l
+              </span>
+              <span
+                class="char"
+                style="display: inline-block;"
+              >
+                a
+              </span>
+              <span
+                class="char"
+                style="display: inline-block;"
+              >
+                n
+              </span>
+              <span
+                class="char"
+                style="display: inline-block;"
+              >
+                c
+              </span>
+              <span
+                class="char"
+                style="display: inline-block;"
+              >
+                e
+              </span>
+              <br
+                class="MuiBox-root css-1rb0nos"
+              />
+              <span
+                class="MuiBox-root css-1xxi8hl"
+              >
+                <span
+                  class="highlight"
+                  style="background-image: linear-gradient(transparent 85%, currentColor 85%); background-repeat: no-repeat; background-position: 0px 0px; background-size: 0% 100%;"
+                >
+                  Software
+                </span>
+                 
+                <span
+                  class="highlight"
+                  style="background-image: linear-gradient(transparent 85%, currentColor 85%); background-repeat: no-repeat; background-position: 0px 0px; background-size: 0% 100%;"
+                >
+                  Developer
+                </span>
+              </span>
+            </h1>
+          </div>
+          <div
+            class="MuiStack-root css-7vr6qx-MuiStack-root"
           >
-            From logo to language, I build brands that connect and convert.
-          </p>
+            <p
+              class="css-12te28g"
+            >
+              Great design should feel 
+              <span
+                class="accent"
+              >
+                invisible.
+              </span>
+               I build modern, scalable web applications that are 
+              <span
+                class="accent"
+              >
+                fast
+              </span>
+              ,
+               
+              <span
+                class="accent"
+              >
+                intuitive
+              </span>
+              , and
+               
+              <span
+                class="accent"
+              >
+                reliable
+              </span>
+              .
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-12h1pj8-MuiTypography-root"
+            >
+              From idea to production, I help turn concepts into high-quality digital products using modern web technologies.
+            </p>
+          </div>
         </div>
       </div>
       <div
-        class="MuiBox-root css-oavodi"
+        class="MuiBox-root css-1jju39i"
       >
         <img
           alt="Portrait"

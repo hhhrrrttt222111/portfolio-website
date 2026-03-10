@@ -16,8 +16,8 @@ const pulse = keyframes`
 export const SectionRoot = styled("section")(({ theme }) => {
   const isDark = theme.palette.mode === "dark";
   return {
-    paddingTop: theme.spacing(10),
-    paddingBottom: theme.spacing(10),
+    paddingTop: theme.spacing(8),
+    paddingBottom: theme.spacing(8),
     backgroundColor: isDark ? "rgba(8, 18, 12, 0.98)" : "rgba(252, 255, 252, 0.98)",
     position: "relative",
     overflow: "hidden",
@@ -33,8 +33,8 @@ export const SectionRoot = styled("section")(({ theme }) => {
       pointerEvents: "none",
     },
     [theme.breakpoints.up("md")]: {
-      paddingTop: theme.spacing(14),
-      paddingBottom: theme.spacing(14),
+      paddingTop: theme.spacing(12),
+      paddingBottom: theme.spacing(12),
     },
   };
 });

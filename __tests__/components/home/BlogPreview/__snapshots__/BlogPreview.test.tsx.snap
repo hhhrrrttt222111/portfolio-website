@@ -21,7 +21,7 @@ exports[`BlogPreview matches snapshot (dark mode) 1`] = `
           <p
             class="MuiTypography-root MuiTypography-body1 css-62jhto-MuiTypography-root"
           >
-            Musings on cybersecurity, hacking tools, and the books that shaped my thinking. Here are a few recent pieces.
+            Musings on cybersecurity, hacking tools, and the books that shaped my thinking. Here are a few pieces.
           </p>
         </div>
       </div>
@@ -209,7 +209,7 @@ exports[`BlogPreview matches snapshot (light mode) 1`] = `
           <p
             class="MuiTypography-root MuiTypography-body1 css-hvvbkq-MuiTypography-root"
           >
-            Musings on cybersecurity, hacking tools, and the books that shaped my thinking. Here are a few recent pieces.
+            Musings on cybersecurity, hacking tools, and the books that shaped my thinking. Here are a few pieces.
           </p>
         </div>
       </div>

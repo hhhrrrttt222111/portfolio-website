@@ -40,7 +40,7 @@ const BlogPreview = () => {
           <motion.div variants={prefersReduced ? undefined : itemVariants}>
             <SectionSubtitle>
               Musings on cybersecurity, hacking tools, and the books that shaped my thinking. Here
-              are a few recent pieces.
+              are a few pieces.
             </SectionSubtitle>
           </motion.div>
         </motion.div>

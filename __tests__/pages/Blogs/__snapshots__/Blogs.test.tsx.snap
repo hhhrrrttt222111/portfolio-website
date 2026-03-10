@@ -437,7 +437,7 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                               d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
                             />
                           </svg>
-                          5 min read
+                          10 min read
                         </p>
                       </div>
                       <p
@@ -580,7 +580,7 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                     whileinview="visible"
                   >
                     <div
-                      aria-label="Read article: Getting Started with Kali Linux for Beginners"
+                      aria-label="Read article: Tracing packets with Traceroute"
                       class="MuiBox-root css-tdqyiy"
                       role="article"
                       tabindex="0"
@@ -594,7 +594,7 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                         <p
                           class="MuiTypography-root MuiTypography-body1 css-1s770fn-MuiTypography-root"
                         >
-                          April 22, 2020
+                          August 03, 2020
                         </p>
                         <p
                           class="MuiTypography-root MuiTypography-body1 css-36nrfq-MuiTypography-root"
@@ -613,18 +613,18 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                               d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
                             />
                           </svg>
-                          15 min read
+                          5 min read
                         </p>
                       </div>
                       <p
                         class="MuiTypography-root MuiTypography-body1 css-18vsnw6-MuiTypography-root"
                       >
-                        Getting Started with Kali Linux for Beginners
+                        Tracing packets with Traceroute
                       </p>
                       <p
                         class="MuiTypography-root MuiTypography-body1 css-cebrzr-MuiTypography-root"
                       >
-                        Your comprehensive introduction to Kali Linux, the premier penetration testing distribution. Learn installation, essential tools, and best practices for setting up your ethical hacking environment.
+                        Traceroute is a command which shows the path a packet of information from user computer to destination.
                       </p>
                       <div
                         class="MuiBox-root css-19m56m4"
@@ -632,17 +632,12 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                         <div
                           class="MuiBox-root css-8t9i87"
                         >
-                          Kali Linux
+                          Networking
                         </div>
                         <div
                           class="MuiBox-root css-8t9i87"
                         >
-                          Beginner
-                        </div>
-                        <div
-                          class="MuiBox-root css-8t9i87"
-                        >
-                          Setup Guide
+                          Traceroute
                         </div>
                       </div>
                       <div
@@ -668,7 +663,7 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                     whileinview="visible"
                   >
                     <div
-                      aria-label="Read article: Network Scanning with Nmap — Complete Tutorial"
+                      aria-label="Read article: Scraping Billboard and IMDB using python Selenium"
                       class="MuiBox-root css-tdqyiy"
                       role="article"
                       tabindex="0"
@@ -682,7 +677,7 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                         <p
                           class="MuiTypography-root MuiTypography-body1 css-1s770fn-MuiTypography-root"
                         >
-                          March 10, 2020
+                          July 01, 2020
                         </p>
                         <p
                           class="MuiTypography-root MuiTypography-body1 css-36nrfq-MuiTypography-root"
@@ -701,18 +696,18 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                               d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
                             />
                           </svg>
-                          18 min read
+                          4 min read
                         </p>
                       </div>
                       <p
                         class="MuiTypography-root MuiTypography-body1 css-18vsnw6-MuiTypography-root"
                       >
-                        Network Scanning with Nmap — Complete Tutorial
+                        Scraping Billboard and IMDB using python Selenium
                       </p>
                       <p
                         class="MuiTypography-root MuiTypography-body1 css-cebrzr-MuiTypography-root"
                       >
-                        Master the art of network reconnaissance with Nmap. This comprehensive tutorial covers port scanning, service detection, OS fingerprinting, and scripting engine usage for thorough network analysis.
+                        Learn how to scrape the Billboard and IMDB websites using Python and Selenium to extract movie data. This tutorial covers web scraping techniques, handling dynamic content, and managing browser interactions for efficient data collection.
                       </p>
                       <div
                         class="MuiBox-root css-19m56m4"
@@ -720,17 +715,17 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                         <div
                           class="MuiBox-root css-8t9i87"
                         >
-                          Nmap
+                          Python
                         </div>
                         <div
                           class="MuiBox-root css-8t9i87"
                         >
-                          Network Scanning
+                          Selenium
                         </div>
                         <div
                           class="MuiBox-root css-8t9i87"
                         >
-                          Reconnaissance
+                          Web Scraping
                         </div>
                       </div>
                       <div
@@ -2171,7 +2166,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                               d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
                             />
                           </svg>
-                          5 min read
+                          10 min read
                         </p>
                       </div>
                       <p
@@ -2314,7 +2309,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                     whileinview="visible"
                   >
                     <div
-                      aria-label="Read article: Getting Started with Kali Linux for Beginners"
+                      aria-label="Read article: Tracing packets with Traceroute"
                       class="MuiBox-root css-vjnvlj"
                       role="article"
                       tabindex="0"
@@ -2328,7 +2323,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                         <p
                           class="MuiTypography-root MuiTypography-body1 css-1rtrtc0-MuiTypography-root"
                         >
-                          April 22, 2020
+                          August 03, 2020
                         </p>
                         <p
                           class="MuiTypography-root MuiTypography-body1 css-14ke1ki-MuiTypography-root"
@@ -2347,18 +2342,18 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                               d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
                             />
                           </svg>
-                          15 min read
+                          5 min read
                         </p>
                       </div>
                       <p
                         class="MuiTypography-root MuiTypography-body1 css-1vg6in0-MuiTypography-root"
                       >
-                        Getting Started with Kali Linux for Beginners
+                        Tracing packets with Traceroute
                       </p>
                       <p
                         class="MuiTypography-root MuiTypography-body1 css-1eew5ip-MuiTypography-root"
                       >
-                        Your comprehensive introduction to Kali Linux, the premier penetration testing distribution. Learn installation, essential tools, and best practices for setting up your ethical hacking environment.
+                        Traceroute is a command which shows the path a packet of information from user computer to destination.
                       </p>
                       <div
                         class="MuiBox-root css-19m56m4"
@@ -2366,17 +2361,12 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                         <div
                           class="MuiBox-root css-6t4dzk"
                         >
-                          Kali Linux
+                          Networking
                         </div>
                         <div
                           class="MuiBox-root css-6t4dzk"
                         >
-                          Beginner
-                        </div>
-                        <div
-                          class="MuiBox-root css-6t4dzk"
-                        >
-                          Setup Guide
+                          Traceroute
                         </div>
                       </div>
                       <div
@@ -2402,7 +2392,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                     whileinview="visible"
                   >
                     <div
-                      aria-label="Read article: Network Scanning with Nmap — Complete Tutorial"
+                      aria-label="Read article: Scraping Billboard and IMDB using python Selenium"
                       class="MuiBox-root css-vjnvlj"
                       role="article"
                       tabindex="0"
@@ -2416,7 +2406,7 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                         <p
                           class="MuiTypography-root MuiTypography-body1 css-1rtrtc0-MuiTypography-root"
                         >
-                          March 10, 2020
+                          July 01, 2020
                         </p>
                         <p
                           class="MuiTypography-root MuiTypography-body1 css-14ke1ki-MuiTypography-root"
@@ -2435,18 +2425,18 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                               d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
                             />
                           </svg>
-                          18 min read
+                          4 min read
                         </p>
                       </div>
                       <p
                         class="MuiTypography-root MuiTypography-body1 css-1vg6in0-MuiTypography-root"
                       >
-                        Network Scanning with Nmap — Complete Tutorial
+                        Scraping Billboard and IMDB using python Selenium
                       </p>
                       <p
                         class="MuiTypography-root MuiTypography-body1 css-1eew5ip-MuiTypography-root"
                       >
-                        Master the art of network reconnaissance with Nmap. This comprehensive tutorial covers port scanning, service detection, OS fingerprinting, and scripting engine usage for thorough network analysis.
+                        Learn how to scrape the Billboard and IMDB websites using Python and Selenium to extract movie data. This tutorial covers web scraping techniques, handling dynamic content, and managing browser interactions for efficient data collection.
                       </p>
                       <div
                         class="MuiBox-root css-19m56m4"
@@ -2454,17 +2444,17 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                         <div
                           class="MuiBox-root css-6t4dzk"
                         >
-                          Nmap
+                          Python
                         </div>
                         <div
                           class="MuiBox-root css-6t4dzk"
                         >
-                          Network Scanning
+                          Selenium
                         </div>
                         <div
                           class="MuiBox-root css-6t4dzk"
                         >
-                          Reconnaissance
+                          Web Scraping
                         </div>
                       </div>
                       <div

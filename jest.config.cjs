@@ -4,7 +4,12 @@ module.exports = {
     roots: ['<rootDir>/__tests__'],
     setupFilesAfterEnv: ['<rootDir>/src/setupTests.ts'],
     transform: {
-      '^.+\\.(ts|tsx)$': ['ts-jest', { tsconfig: 'tsconfig.test.json' }],
+      '^.+\\.(ts|tsx)$': ['ts-jest', { 
+        tsconfig: 'tsconfig.test.json',
+        diagnostics: {
+          ignoreCodes: [1343]
+        }
+      }],
       '^.+\\.(js|jsx)$': 'babel-jest',
     },
     moduleNameMapper: {
@@ -16,6 +21,7 @@ module.exports = {
       'three': '<rootDir>/__mocks__/threeMock.js',
       '^framer-motion$': '<rootDir>/__mocks__/framer-motion.cjs',
       '^lottie-react$': '<rootDir>/__mocks__/lottie-react.js',
+      '^@/config$': '<rootDir>/__mocks__/config.js',
       '^@/(.*)$': '<rootDir>/src/$1',
     },
     testPathIgnorePatterns: ['/node_modules/', '\\.d\\.ts$'],

@@ -5,16 +5,30 @@ import { fontFamilies } from "@/theme/theme";
 export const LandingRoot = styled("section")(({ theme }) => ({
   backgroundColor:
     theme.palette.mode === "dark" ? "rgba(10, 26, 15, 0.4)" : "rgba(241, 248, 233, 0.5)",
-  height: "100vh",
+  minHeight: "100vh",
   position: "relative",
   overflow: "hidden",
   display: "flex",
   alignItems: "center",
+  paddingTop: theme.spacing(10),
   [theme.breakpoints.up("md")]: {
-    padding: theme.spacing(0, 0, 0, 8),
+    paddingTop: 0,
+  },
+}));
+
+export const TextContent = styled("div")(({ theme }) => ({
+  flex: 1,
+  padding: theme.spacing(0, 2, 4, 2),
+  [theme.breakpoints.up("sm")]: {
+    padding: theme.spacing(0, 3, 4, 3),
+  },
+  [theme.breakpoints.up("md")]: {
+    padding: theme.spacing(0, 4, 0, 8),
+    maxWidth: 660,
   },
   [theme.breakpoints.up("lg")]: {
-    padding: theme.spacing(0, 0, 0, 12),
+    padding: theme.spacing(0, 6, 0, 12),
+    maxWidth: 800,
   },
 }));
 
@@ -47,7 +61,7 @@ export const TagLine = styled("p")(({ theme }) => ({
   fontSize: "clamp(1.1rem, 2vw, 1.5rem)",
   color: theme.palette.text.primary,
   lineHeight: 1.4,
-  maxWidth: 320,
+  maxWidth: 520,
   margin: 0,
   "& .accent": {
     color: theme.palette.primary.light,
@@ -69,6 +83,12 @@ export const ImageWrapper = styled(Box)(({ theme }) => ({
   justifyContent: "flex-end",
   alignSelf: "flex-end",
   flexShrink: 0,
+  width: "100%",
+  marginTop: theme.spacing(4),
+  [theme.breakpoints.up("md")]: {
+    width: "auto",
+    marginTop: 0,
+  },
   "&::before": {
     content: '""',
     position: "absolute",
@@ -85,11 +105,14 @@ export const ImageWrapper = styled(Box)(({ theme }) => ({
     position: "relative",
     zIndex: 1,
     width: "100%",
-    maxWidth: 360,
+    maxWidth: 320,
     height: "auto",
     objectFit: "contain",
     pointerEvents: "none",
     filter: "drop-shadow(0 20px 40px rgba(0,0,0,0.3))",
+    [theme.breakpoints.up("sm")]: {
+      maxWidth: 360,
+    },
     [theme.breakpoints.up("md")]: {
       maxWidth: 500,
     },

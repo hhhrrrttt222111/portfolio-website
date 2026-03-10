@@ -47,6 +47,36 @@ jest.mock("framer-motion", () => {
   };
 });
 
+jest.mock("gsap", () => ({
+  default: {
+    registerPlugin: jest.fn(),
+    context: (fn: () => void) => {
+      fn();
+      return { revert: jest.fn() };
+    },
+    fromTo: jest.fn(),
+  },
+  gsap: {
+    registerPlugin: jest.fn(),
+    context: (fn: () => void) => {
+      fn();
+      return { revert: jest.fn() };
+    },
+    fromTo: jest.fn(),
+  },
+  registerPlugin: jest.fn(),
+  context: (fn: () => void) => {
+    fn();
+    return { revert: jest.fn() };
+  },
+  fromTo: jest.fn(),
+}));
+
+jest.mock("gsap/ScrollTrigger", () => ({
+  default: {},
+  ScrollTrigger: {},
+}));
+
 describe("Landing", () => {
   it("renders without crashing", () => {
     const { container } = render(<Landing />);
@@ -58,11 +88,11 @@ describe("Landing", () => {
     expect(container.querySelector("section")).toBeInTheDocument();
   });
 
-  it("renders the hero heading", () => {
+  it("renders the hero heading with Freelance text", () => {
     render(<Landing />);
     expect(screen.getByRole("heading", { level: 1 })).toBeInTheDocument();
-    expect(screen.getByText("Creative")).toBeInTheDocument();
-    expect(screen.getByText("Director")).toBeInTheDocument();
+    expect(screen.getByText("Software")).toBeInTheDocument();
+    expect(screen.getByText("Developer")).toBeInTheDocument();
   });
 
   it("renders the subtitle", () => {
@@ -73,13 +103,12 @@ describe("Landing", () => {
   it("renders the tagline", () => {
     render(<Landing />);
     expect(screen.getByText(/Great design should feel/)).toBeInTheDocument();
-    expect(screen.getByText("invisible.")).toBeInTheDocument();
   });
 
   it("renders the description", () => {
     render(<Landing />);
     expect(
-      screen.getByText("From logo to language, I build brands that connect and convert."),
+      screen.getByText(/From idea to production, I help turn concepts into high-quality/),
     ).toBeInTheDocument();
   });
 
@@ -88,6 +117,13 @@ describe("Landing", () => {
     const img = screen.getByAltText("Portrait");
     expect(img).toBeInTheDocument();
     expect(img.tagName).toBe("IMG");
+  });
+
+  it("renders accent text elements", () => {
+    render(<Landing />);
+    expect(screen.getByText("fast")).toBeInTheDocument();
+    expect(screen.getByText("intuitive")).toBeInTheDocument();
+    expect(screen.getByText("reliable")).toBeInTheDocument();
   });
 
   it("matches snapshot", () => {
