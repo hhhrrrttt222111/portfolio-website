@@ -1,6 +1,6 @@
-export type CellValue = "X" | "O" | null;
-export type Board = CellValue[];
-export type GameResult = "X" | "O" | "draw" | null;
+import type { CellValue, Board, GameResult } from "@/types";
+
+export type { CellValue, Board, GameResult };
 
 const WIN_COMBOS = [
   [0, 1, 2],

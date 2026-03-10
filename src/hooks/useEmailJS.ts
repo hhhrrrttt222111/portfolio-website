@@ -1,22 +1,9 @@
 import { useState, useCallback } from "react";
 import emailjs from "@emailjs/browser";
 import { getEmailJSConfig } from "@/config";
+import type { EmailFormData, SendEmailResult, UseEmailJSReturn } from "@/types";
 
-export interface EmailFormData {
-  name: string;
-  email: string;
-  message: string;
-}
-
-export interface SendEmailResult {
-  success: boolean;
-  error: string | null;
-}
-
-export interface UseEmailJSReturn {
-  sendEmail: (formData: EmailFormData) => Promise<SendEmailResult>;
-  isLoading: boolean;
-}
+export type { EmailFormData, SendEmailResult, UseEmailJSReturn };
 
 const useEmailJS = (): UseEmailJSReturn => {
   const [isLoading, setIsLoading] = useState(false);

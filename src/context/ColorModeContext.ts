@@ -1,8 +1,5 @@
 import { createContext } from "react";
-
-interface ColorModeContextType {
-  toggleColorMode: () => void;
-}
+import type { ColorModeContextType } from "@/types";
 
 const ColorModeContext = createContext<ColorModeContextType>({
   toggleColorMode: () => {},

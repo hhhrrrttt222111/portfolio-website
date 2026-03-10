@@ -1,5 +1,241 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
+exports[`JourneyTimeline - Mobile View matches snapshot (mobile view) 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1vamrj8"
+    data-testid="journey-timeline"
+  >
+    <div>
+      <div
+        class="MuiBox-root css-rr4buu"
+      >
+        <div
+          class="MuiBox-root css-npjzq5"
+        />
+        <div>
+          <div
+            aria-label="First Introduction to Computers - 2011"
+            class="MuiBox-root css-uqg5if"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiBox-root css-amfizm"
+            />
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-13vt9kx-MuiTypography-root"
+            >
+              2011
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1ghkcas-MuiTypography-root"
+            >
+              First Introduction to Computers
+            </p>
+            <div
+              style="overflow: hidden;"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1x52qdy-MuiTypography-root"
+              >
+                Discovered computers for the first time and became curious about how software and technology work.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            aria-label="Built My First Website - 2015"
+            class="MuiBox-root css-uqg5if"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiBox-root css-amfizm"
+            />
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-13vt9kx-MuiTypography-root"
+            >
+              2015
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1ghkcas-MuiTypography-root"
+            >
+              Built My First Website
+            </p>
+            <div
+              style="overflow: hidden;"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1x52qdy-MuiTypography-root"
+              >
+                Created my first simple website, learning the basics of HTML, CSS, and how the web works.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            aria-label="Started Learning to Code - 2016"
+            class="MuiBox-root css-uqg5if"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiBox-root css-amfizm"
+            />
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-13vt9kx-MuiTypography-root"
+            >
+              2016
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1ghkcas-MuiTypography-root"
+            >
+              Started Learning to Code
+            </p>
+            <div
+              style="overflow: hidden;"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1x52qdy-MuiTypography-root"
+              >
+                Began learning programming seriously, exploring core concepts and building small projects.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            aria-label="First Freelance Project - 2020"
+            class="MuiBox-root css-uqg5if"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiBox-root css-amfizm"
+            />
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-13vt9kx-MuiTypography-root"
+            >
+              2020
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1ghkcas-MuiTypography-root"
+            >
+              First Freelance Project
+            </p>
+            <div
+              style="overflow: hidden;"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1x52qdy-MuiTypography-root"
+              >
+                Completed my first freelance project, building a real-world application and gaining hands-on experience.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            aria-label="First Internship - 2021"
+            class="MuiBox-root css-uqg5if"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiBox-root css-amfizm"
+            />
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-13vt9kx-MuiTypography-root"
+            >
+              2021
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1ghkcas-MuiTypography-root"
+            >
+              First Internship
+            </p>
+            <div
+              style="overflow: hidden;"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1x52qdy-MuiTypography-root"
+              >
+                Worked in a professional development environment, collaborating with experienced developers and shipping real features.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            aria-label="Started Freelancing - 2022"
+            class="MuiBox-root css-uqg5if"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiBox-root css-amfizm"
+            />
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-13vt9kx-MuiTypography-root"
+            >
+              2022
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1ghkcas-MuiTypography-root"
+            >
+              Started Freelancing
+            </p>
+            <div
+              style="overflow: hidden;"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1x52qdy-MuiTypography-root"
+              >
+                Began taking on freelance work regularly, delivering projects and refining practical development skills.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            aria-label="Landed My First Job - 2023"
+            class="MuiBox-root css-uqg5if"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiBox-root css-amfizm"
+            />
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-13vt9kx-MuiTypography-root"
+            >
+              2023
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1ghkcas-MuiTypography-root"
+            >
+              Landed My First Job
+            </p>
+            <div
+              style="overflow: hidden;"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1x52qdy-MuiTypography-root"
+              >
+                Started my professional career as a software developer, working on production systems and real-world products.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`JourneyTimeline matches snapshot (dark mode) 1`] = `
 <div>
   <div

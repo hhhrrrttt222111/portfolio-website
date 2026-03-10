@@ -1,243 +1,6 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
-exports[`ExperienceTimeline matches snapshot (dark mode) 1`] = `
-<div>
-  <section
-    class="css-rvkvw2"
-    data-testid="experience-section"
-  >
-    <div
-      class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
-    >
-      <div>
-        <h2
-          class="css-k88837"
-        >
-          Experience
-        </h2>
-        <p
-          class="MuiTypography-root MuiTypography-body1 css-wfrkm6-MuiTypography-root"
-        >
-          A timeline of roles where I've grown, shipped, and learned.
-        </p>
-      </div>
-      <div
-        class="MuiBox-root css-1out4g5"
-      >
-        <div
-          style="position: absolute; inset: 0; width: 100%; transform-origin: top center; pointer-events: none;"
-        >
-          <div
-            class="MuiBox-root css-xzfthn"
-          />
-        </div>
-        <div>
-          <div>
-            <div
-              class="MuiBox-root css-r8as64"
-            >
-              <div
-                class="MuiBox-root css-e3wyqc"
-              />
-              <div
-                class="MuiBox-root css-b6yup3"
-              >
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
-                >
-                  Consultant Developer
-                </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
-                >
-                  Thoughtworks
-                </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
-                >
-                  Jul 2023 — Present
-                </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
-                >
-                  Working as a consultant developer building scalable enterprise applications. Contributing to backend and frontend systems using Node.js, TypeScript, and modern development practices in a collaborative agile environment.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div
-              class="MuiBox-root css-r8as64"
-            >
-              <div
-                class="MuiBox-root css-e3wyqc"
-              />
-              <div
-                class="MuiBox-root css-b6yup3"
-              >
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
-                >
-                  Web Manager
-                </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
-                >
-                  Excel MEC
-                </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
-                >
-                  Jun 2022 — Sep 2023
-                </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
-                >
-                  Managed and developed the organization's web presence, maintaining websites and building new features using React.js and modern web technologies while coordinating with the web team.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div
-              class="MuiBox-root css-r8as64"
-            >
-              <div
-                class="MuiBox-root css-e3wyqc"
-              />
-              <div
-                class="MuiBox-root css-b6yup3"
-              >
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
-                >
-                  Full Stack Developer (Freelance)
-                </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
-                >
-                  Svasthi Charitable Trust
-                </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
-                >
-                  May 2023 — Jun 2023
-                </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
-                >
-                  Developed the official website for Svasthi Charitable Trust using React.js and Firebase, focusing on performance, responsiveness, and maintainable frontend architecture.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div
-              class="MuiBox-root css-r8as64"
-            >
-              <div
-                class="MuiBox-root css-e3wyqc"
-              />
-              <div
-                class="MuiBox-root css-b6yup3"
-              >
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
-                >
-                  Full Stack Developer (Freelance)
-                </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
-                >
-                  Advantus Life Sciences
-                </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
-                >
-                  Sep 2021 — Jul 2022
-                </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
-                >
-                  Built the official website for Advantus Life Sciences using Next.js, delivering a responsive and production-ready web platform for the organization.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div
-              class="MuiBox-root css-r8as64"
-            >
-              <div
-                class="MuiBox-root css-e3wyqc"
-              />
-              <div
-                class="MuiBox-root css-b6yup3"
-              >
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
-                >
-                  Frontend Developer Intern
-                </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
-                >
-                  TGH Tech
-                </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
-                >
-                  Jun 2021 — Sep 2021
-                </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
-                >
-                  Worked on two frontend projects using React.js and Firebase, gaining experience in building responsive interfaces and collaborating in a professional development environment.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div
-              class="MuiBox-root css-r8as64"
-            >
-              <div
-                class="MuiBox-root css-e3wyqc"
-              />
-              <div
-                class="MuiBox-root css-b6yup3"
-              >
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
-                >
-                  React Developer
-                </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
-                >
-                  Indic Law
-                </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
-                >
-                  Nov 2020 — Mar 2021
-                </p>
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
-                >
-                  Developed the IndicLaw website using React.js and Material-UI, focusing on building reusable UI components and a clean, responsive interface.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
-`;
-
-exports[`ExperienceTimeline matches snapshot (light mode) 1`] = `
+exports[`ExperienceTimeline - Mobile View matches snapshot (mobile view) 1`] = `
 <div>
   <section
     class="css-22hls8"
@@ -440,6 +203,504 @@ exports[`ExperienceTimeline matches snapshot (light mode) 1`] = `
             >
               <div
                 class="MuiBox-root css-t89bmm"
+              />
+              <div
+                class="MuiBox-root css-2hdeff"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-2ltn2f-MuiTypography-root"
+                >
+                  React Developer
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-19o5gyf-MuiTypography-root"
+                >
+                  Indic Law
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-2ljj4-MuiTypography-root"
+                >
+                  Nov 2020 — Mar 2021
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1briw2t-MuiTypography-root"
+                >
+                  Developed the IndicLaw website using React.js and Material-UI, focusing on building reusable UI components and a clean, responsive interface.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`ExperienceTimeline matches snapshot (dark mode) 1`] = `
+<div>
+  <section
+    class="css-rvkvw2"
+    data-testid="experience-section"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+    >
+      <div>
+        <h2
+          class="css-k88837"
+        >
+          Experience
+        </h2>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-wfrkm6-MuiTypography-root"
+        >
+          A timeline of roles where I've grown, shipped, and learned.
+        </p>
+      </div>
+      <div
+        class="MuiBox-root css-1out4g5"
+      >
+        <div
+          style="position: absolute; inset: 0; width: 100%; transform-origin: top center; pointer-events: none;"
+        >
+          <div
+            class="MuiBox-root css-xzfthn"
+          />
+        </div>
+        <div
+          class="MuiBox-root css-1ol9k5p"
+        >
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-e3wyqc"
+                side="left"
+              />
+              <div
+                class="MuiBox-root css-b6yup3"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
+                >
+                  Consultant Developer
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
+                >
+                  Thoughtworks
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
+                >
+                  Jul 2023 — Present
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
+                >
+                  Working as a consultant developer building scalable enterprise applications. Contributing to backend and frontend systems using Node.js, TypeScript, and modern development practices in a collaborative agile environment.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-e3wyqc"
+                side="left"
+              />
+              <div
+                class="MuiBox-root css-b6yup3"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
+                >
+                  Full Stack Developer (Freelance)
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
+                >
+                  Svasthi Charitable Trust
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
+                >
+                  May 2023 — Jun 2023
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
+                >
+                  Developed the official website for Svasthi Charitable Trust using React.js and Firebase, focusing on performance, responsiveness, and maintainable frontend architecture.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-e3wyqc"
+                side="left"
+              />
+              <div
+                class="MuiBox-root css-b6yup3"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
+                >
+                  Frontend Developer Intern
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
+                >
+                  TGH Tech
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
+                >
+                  Jun 2021 — Sep 2021
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
+                >
+                  Worked on two frontend projects using React.js and Firebase, gaining experience in building responsive interfaces and collaborating in a professional development environment.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-1xteuk4"
+        >
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-mwb4j7"
+                side="right"
+              />
+              <div
+                class="MuiBox-root css-b6yup3"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
+                >
+                  Web Manager
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
+                >
+                  Excel MEC
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
+                >
+                  Jun 2022 — Sep 2023
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
+                >
+                  Managed and developed the organization's web presence, maintaining websites and building new features using React.js and modern web technologies while coordinating with the web team.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-mwb4j7"
+                side="right"
+              />
+              <div
+                class="MuiBox-root css-b6yup3"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
+                >
+                  Full Stack Developer (Freelance)
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
+                >
+                  Advantus Life Sciences
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
+                >
+                  Sep 2021 — Jul 2022
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
+                >
+                  Built the official website for Advantus Life Sciences using Next.js, delivering a responsive and production-ready web platform for the organization.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-mwb4j7"
+                side="right"
+              />
+              <div
+                class="MuiBox-root css-b6yup3"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1ohw2mx-MuiTypography-root"
+                >
+                  React Developer
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-rggk9e-MuiTypography-root"
+                >
+                  Indic Law
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-16i7t20-MuiTypography-root"
+                >
+                  Nov 2020 — Mar 2021
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1xzsp8b-MuiTypography-root"
+                >
+                  Developed the IndicLaw website using React.js and Material-UI, focusing on building reusable UI components and a clean, responsive interface.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`ExperienceTimeline matches snapshot (light mode) 1`] = `
+<div>
+  <section
+    class="css-22hls8"
+    data-testid="experience-section"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-5c1adp-MuiContainer-root"
+    >
+      <div>
+        <h2
+          class="css-13kw4wz"
+        >
+          Experience
+        </h2>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1ee07eo-MuiTypography-root"
+        >
+          A timeline of roles where I've grown, shipped, and learned.
+        </p>
+      </div>
+      <div
+        class="MuiBox-root css-1out4g5"
+      >
+        <div
+          style="position: absolute; inset: 0; width: 100%; transform-origin: top center; pointer-events: none;"
+        >
+          <div
+            class="MuiBox-root css-ur375c"
+          />
+        </div>
+        <div
+          class="MuiBox-root css-1ol9k5p"
+        >
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-t89bmm"
+                side="left"
+              />
+              <div
+                class="MuiBox-root css-2hdeff"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-2ltn2f-MuiTypography-root"
+                >
+                  Consultant Developer
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-19o5gyf-MuiTypography-root"
+                >
+                  Thoughtworks
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-2ljj4-MuiTypography-root"
+                >
+                  Jul 2023 — Present
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1briw2t-MuiTypography-root"
+                >
+                  Working as a consultant developer building scalable enterprise applications. Contributing to backend and frontend systems using Node.js, TypeScript, and modern development practices in a collaborative agile environment.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-t89bmm"
+                side="left"
+              />
+              <div
+                class="MuiBox-root css-2hdeff"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-2ltn2f-MuiTypography-root"
+                >
+                  Full Stack Developer (Freelance)
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-19o5gyf-MuiTypography-root"
+                >
+                  Svasthi Charitable Trust
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-2ljj4-MuiTypography-root"
+                >
+                  May 2023 — Jun 2023
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1briw2t-MuiTypography-root"
+                >
+                  Developed the official website for Svasthi Charitable Trust using React.js and Firebase, focusing on performance, responsiveness, and maintainable frontend architecture.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-t89bmm"
+                side="left"
+              />
+              <div
+                class="MuiBox-root css-2hdeff"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-2ltn2f-MuiTypography-root"
+                >
+                  Frontend Developer Intern
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-19o5gyf-MuiTypography-root"
+                >
+                  TGH Tech
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-2ljj4-MuiTypography-root"
+                >
+                  Jun 2021 — Sep 2021
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1briw2t-MuiTypography-root"
+                >
+                  Worked on two frontend projects using React.js and Firebase, gaining experience in building responsive interfaces and collaborating in a professional development environment.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-1xteuk4"
+        >
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-brbe3e"
+                side="right"
+              />
+              <div
+                class="MuiBox-root css-2hdeff"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-2ltn2f-MuiTypography-root"
+                >
+                  Web Manager
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-19o5gyf-MuiTypography-root"
+                >
+                  Excel MEC
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-2ljj4-MuiTypography-root"
+                >
+                  Jun 2022 — Sep 2023
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1briw2t-MuiTypography-root"
+                >
+                  Managed and developed the organization's web presence, maintaining websites and building new features using React.js and modern web technologies while coordinating with the web team.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-brbe3e"
+                side="right"
+              />
+              <div
+                class="MuiBox-root css-2hdeff"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-2ltn2f-MuiTypography-root"
+                >
+                  Full Stack Developer (Freelance)
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-19o5gyf-MuiTypography-root"
+                >
+                  Advantus Life Sciences
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-2ljj4-MuiTypography-root"
+                >
+                  Sep 2021 — Jul 2022
+                </p>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-1briw2t-MuiTypography-root"
+                >
+                  Built the official website for Advantus Life Sciences using Next.js, delivering a responsive and production-ready web platform for the organization.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="MuiBox-root css-r8as64"
+            >
+              <div
+                class="MuiBox-root css-brbe3e"
+                side="right"
               />
               <div
                 class="MuiBox-root css-2hdeff"

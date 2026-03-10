@@ -16,7 +16,8 @@ import {
   MobileMenuFooter,
   DrawerContactButton,
 } from "./MobileNav.styles";
-import { LOGO_TEXT, CTA_LINK, type NavLink } from "@/constants";
+import { LOGO_TEXT, CTA_LINK } from "@/constants";
+import type { NavLink } from "@/types";
 import {
   overlayVariants,
   menuVariants,

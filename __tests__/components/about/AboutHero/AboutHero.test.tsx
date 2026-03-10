@@ -31,6 +31,8 @@ const mockMotionValue = (initial: number) => ({
   on: () => () => {},
 });
 
+let mockUseReducedMotion = false;
+
 jest.mock("framer-motion", () => ({
   motion: {
     div: React.forwardRef<HTMLDivElement, Record<string, unknown>>((props, ref) => (
@@ -40,7 +42,7 @@ jest.mock("framer-motion", () => ({
       <span ref={ref} {...filterProps(props)} />
     )),
   },
-  useReducedMotion: () => false,
+  useReducedMotion: () => mockUseReducedMotion,
   useMotionValue: (initial: number) => mockMotionValue(initial),
   useSpring: (source: unknown) => source,
   useScroll: () => ({ scrollYProgress: mockMotionValue(0) }),
@@ -59,6 +61,9 @@ const renderComponent = (mode: "light" | "dark" = "light") =>
   );
 
 describe("AboutHero", () => {
+  beforeEach(() => {
+    mockUseReducedMotion = false;
+  });
   it("renders without crashing", () => {
     const { container } = renderComponent();
     expect(container.firstChild).toBeTruthy();
@@ -122,5 +127,11 @@ describe("AboutHero", () => {
   it("matches snapshot (dark mode)", () => {
     const { container } = renderComponent("dark");
     expect(container).toMatchSnapshot();
+  });
+
+  it("renders with reduced motion preference", () => {
+    mockUseReducedMotion = true;
+    renderComponent();
+    expect(screen.getByText(/I'm Hemanth/)).toBeInTheDocument();
   });
 });

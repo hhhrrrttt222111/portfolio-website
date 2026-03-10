@@ -1,5 +1,5 @@
 import React from "react";
-import { render, screen } from "@testing-library/react";
+import { render, screen, fireEvent } from "@testing-library/react";
 import { ThemeProvider } from "@mui/material/styles";
 import { MemoryRouter } from "react-router-dom";
 import { createAppTheme } from "@/theme";
@@ -78,6 +78,15 @@ jest.mock("@/hooks/useGoodreadsData", () => ({
         readDate: "2025-01-12",
         link: "https://goodreads.com/book/1",
       },
+      {
+        title: "Deep Work",
+        author: "Cal Newport",
+        cover: "https://example.com/cover2.jpg",
+        rating: 4,
+        avgRating: 4.2,
+        readDate: "2024-06-15",
+        link: "https://goodreads.com/book/2",
+      },
     ],
     loading: false,
     error: null,
@@ -137,6 +146,30 @@ describe("Books Page", () => {
   it("displays books from hook", () => {
     renderBooks();
     expect(screen.getByText("Atomic Habits")).toBeInTheDocument();
+  });
+
+  it("filters books by search query (title)", () => {
+    renderBooks();
+    const searchInput = screen.getByPlaceholderText("Search by title or author...");
+    fireEvent.change(searchInput, { target: { value: "Atomic" } });
+    expect(screen.getByText("Atomic Habits")).toBeInTheDocument();
+  });
+
+  it("filters books by search query (author)", () => {
+    renderBooks();
+    const searchInput = screen.getByPlaceholderText("Search by title or author...");
+    fireEvent.change(searchInput, { target: { value: "Cal" } });
+    expect(screen.getByText("Deep Work")).toBeInTheDocument();
+  });
+
+  it("filters books by rating", () => {
+    renderBooks();
+    const ratingButtons = screen.getAllByRole("button");
+    const ratingButton = ratingButtons.find((btn) => btn.textContent?.includes("★"));
+    if (ratingButton) {
+      fireEvent.click(ratingButton);
+    }
+    expect(screen.getByTestId("book-filters")).toBeInTheDocument();
   });
 
   it("renders the navbar", () => {

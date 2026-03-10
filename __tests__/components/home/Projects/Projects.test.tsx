@@ -19,6 +19,8 @@ const FRAMER_PROPS = new Set([
   "onMouseLeave",
 ]);
 
+let mockUseReducedMotion = false;
+
 jest.mock("framer-motion", () => ({
   motion: {
     div: React.forwardRef<HTMLDivElement, Record<string, unknown>>((props, ref) => {
@@ -28,7 +30,7 @@ jest.mock("framer-motion", () => ({
       return <div ref={ref} {...filtered} />;
     }),
   },
-  useReducedMotion: () => false,
+  useReducedMotion: () => mockUseReducedMotion,
   useInView: () => true,
 }));
 
@@ -48,6 +50,7 @@ const renderWithTheme = (mode: "light" | "dark" = "light") =>
 describe("Projects", () => {
   beforeEach(() => {
     mockWindowOpen.mockClear();
+    mockUseReducedMotion = false;
   });
 
   it("renders without crashing", () => {
@@ -165,5 +168,18 @@ describe("Projects", () => {
   it("matches snapshot (dark mode)", () => {
     const { container } = renderWithTheme("dark");
     expect(container).toMatchSnapshot();
+  });
+
+  it("renders with reduced motion preference", () => {
+    mockUseReducedMotion = true;
+    renderWithTheme();
+    expect(screen.getByText("Projects")).toBeInTheDocument();
+  });
+
+  it("does not open link for other keys", () => {
+    renderWithTheme();
+    const firstProjectCard = screen.getByLabelText(`View ${PROJECTS[0].title} on GitHub`);
+    fireEvent.keyDown(firstProjectCard, { key: "Tab" });
+    expect(mockWindowOpen).not.toHaveBeenCalled();
   });
 });

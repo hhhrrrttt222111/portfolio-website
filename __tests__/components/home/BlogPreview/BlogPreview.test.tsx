@@ -24,13 +24,15 @@ const FRAMER_PROPS = new Set([
 const filterProps = (props: Record<string, unknown>) =>
   Object.fromEntries(Object.entries(props).filter(([key]) => !FRAMER_PROPS.has(key)));
 
+let mockUseReducedMotion = false;
+
 jest.mock("framer-motion", () => ({
   motion: {
     div: React.forwardRef<HTMLDivElement, Record<string, unknown>>((props, ref) => (
       <div ref={ref} {...filterProps(props)} />
     )),
   },
-  useReducedMotion: () => false,
+  useReducedMotion: () => mockUseReducedMotion,
 }));
 
 const renderWithTheme = (mode: "light" | "dark" = "light") =>
@@ -43,6 +45,9 @@ const renderWithTheme = (mode: "light" | "dark" = "light") =>
   );
 
 describe("BlogPreview", () => {
+  beforeEach(() => {
+    mockUseReducedMotion = false;
+  });
   it("renders without crashing", () => {
     const { container } = renderWithTheme();
     expect(container.firstChild).toBeTruthy();
@@ -129,5 +134,11 @@ describe("BlogPreview", () => {
   it("matches snapshot (dark mode)", () => {
     const { container } = renderWithTheme("dark");
     expect(container).toMatchSnapshot();
+  });
+
+  it("renders with reduced motion preference", () => {
+    mockUseReducedMotion = true;
+    renderWithTheme();
+    expect(screen.getByText("From the Desk")).toBeInTheDocument();
   });
 });

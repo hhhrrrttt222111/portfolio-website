@@ -2,15 +2,7 @@ import WebIcon from "@mui/icons-material/Web";
 import LightbulbIcon from "@mui/icons-material/Lightbulb";
 import DesignServicesIcon from "@mui/icons-material/DesignServices";
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
-import type { SvgIconComponent } from "@mui/icons-material";
-
-export interface Service {
-  id: string;
-  title: string;
-  description: string;
-  icon: SvgIconComponent;
-  features: string[];
-}
+import type { Service } from "@/types";
 
 export const SERVICES: Service[] = [
   {

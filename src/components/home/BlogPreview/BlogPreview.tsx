@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import Container from "@mui/material/Container";
 import { motion, useReducedMotion } from "framer-motion";
-import { BLOG_POSTS, type LegacyBlogPost } from "@/constants";
+import { BLOG_POSTS } from "@/constants";
+import type { LegacyBlogPost } from "@/types";
 import { sectionHeaderVariants, sectionItemVariants } from "@/animations";
 import {
   SectionRoot,

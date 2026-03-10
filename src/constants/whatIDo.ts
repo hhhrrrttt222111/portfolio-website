@@ -2,13 +2,7 @@ import CodeIcon from "@mui/icons-material/Code";
 import BrushIcon from "@mui/icons-material/Brush";
 import SpeedIcon from "@mui/icons-material/Speed";
 import StorageIcon from "@mui/icons-material/Storage";
-import type { SvgIconComponent } from "@mui/icons-material";
-
-export interface WhatIDoCard {
-  title: string;
-  description: string;
-  Icon: SvgIconComponent;
-}
+import type { WhatIDoCard } from "@/types";
 
 export const WHAT_I_DO_CARDS: WhatIDoCard[] = [
   {

@@ -316,6 +316,177 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                     whileinview="visible"
                   >
                     <div
+                      aria-label="Read article: Tracing packets with Traceroute"
+                      class="MuiBox-root css-tdqyiy"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="card-scanline MuiBox-root css-147xby8"
+                      />
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1s770fn-MuiTypography-root"
+                        >
+                          August 03, 2020
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-36nrfq-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          5 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-18vsnw6-MuiTypography-root"
+                      >
+                        Tracing packets with Traceroute
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-cebrzr-MuiTypography-root"
+                      >
+                        Traceroute is a command which shows the path a packet of information from user computer to destination.
+                      </p>
+                      <div
+                        class="MuiBox-root css-19m56m4"
+                      >
+                        <div
+                          class="MuiBox-root css-8t9i87"
+                        >
+                          Networking
+                        </div>
+                        <div
+                          class="MuiBox-root css-8t9i87"
+                        >
+                          Traceroute
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-wfu9k9"
+                      >
+                        $ read_article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: Scraping Billboard and IMDB using python Selenium"
+                      class="MuiBox-root css-tdqyiy"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="card-scanline MuiBox-root css-147xby8"
+                      />
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1s770fn-MuiTypography-root"
+                        >
+                          July 01, 2020
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-36nrfq-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          4 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-18vsnw6-MuiTypography-root"
+                      >
+                        Scraping Billboard and IMDB using python Selenium
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-cebrzr-MuiTypography-root"
+                      >
+                        Learn how to scrape the Billboard and IMDB websites using Python and Selenium to extract movie data. This tutorial covers web scraping techniques, handling dynamic content, and managing browser interactions for efficient data collection.
+                      </p>
+                      <div
+                        class="MuiBox-root css-19m56m4"
+                      >
+                        <div
+                          class="MuiBox-root css-8t9i87"
+                        >
+                          Python
+                        </div>
+                        <div
+                          class="MuiBox-root css-8t9i87"
+                        >
+                          Selenium
+                        </div>
+                        <div
+                          class="MuiBox-root css-8t9i87"
+                        >
+                          Web Scraping
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-wfu9k9"
+                      >
+                        $ read_article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
                       aria-label="Read article: FSOCIETY Hacking Tools from Mr. Robot"
                       class="MuiBox-root css-tdqyiy"
                       role="article"
@@ -575,177 +746,6 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                       </div>
                     </div>
                   </div>
-                  <div
-                    viewport="[object Object]"
-                    whileinview="visible"
-                  >
-                    <div
-                      aria-label="Read article: Tracing packets with Traceroute"
-                      class="MuiBox-root css-tdqyiy"
-                      role="article"
-                      tabindex="0"
-                    >
-                      <div
-                        class="card-scanline MuiBox-root css-147xby8"
-                      />
-                      <div
-                        class="MuiBox-root css-1jlxnzq"
-                      >
-                        <p
-                          class="MuiTypography-root MuiTypography-body1 css-1s770fn-MuiTypography-root"
-                        >
-                          August 03, 2020
-                        </p>
-                        <p
-                          class="MuiTypography-root MuiTypography-body1 css-36nrfq-MuiTypography-root"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
-                            data-testid="AccessTimeIcon"
-                            focusable="false"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
-                            />
-                            <path
-                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
-                            />
-                          </svg>
-                          5 min read
-                        </p>
-                      </div>
-                      <p
-                        class="MuiTypography-root MuiTypography-body1 css-18vsnw6-MuiTypography-root"
-                      >
-                        Tracing packets with Traceroute
-                      </p>
-                      <p
-                        class="MuiTypography-root MuiTypography-body1 css-cebrzr-MuiTypography-root"
-                      >
-                        Traceroute is a command which shows the path a packet of information from user computer to destination.
-                      </p>
-                      <div
-                        class="MuiBox-root css-19m56m4"
-                      >
-                        <div
-                          class="MuiBox-root css-8t9i87"
-                        >
-                          Networking
-                        </div>
-                        <div
-                          class="MuiBox-root css-8t9i87"
-                        >
-                          Traceroute
-                        </div>
-                      </div>
-                      <div
-                        class="read-article-btn MuiBox-root css-wfu9k9"
-                      >
-                        $ read_article
-                        <svg
-                          aria-hidden="true"
-                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                          data-testid="ArrowForwardIcon"
-                          focusable="false"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-                          />
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    viewport="[object Object]"
-                    whileinview="visible"
-                  >
-                    <div
-                      aria-label="Read article: Scraping Billboard and IMDB using python Selenium"
-                      class="MuiBox-root css-tdqyiy"
-                      role="article"
-                      tabindex="0"
-                    >
-                      <div
-                        class="card-scanline MuiBox-root css-147xby8"
-                      />
-                      <div
-                        class="MuiBox-root css-1jlxnzq"
-                      >
-                        <p
-                          class="MuiTypography-root MuiTypography-body1 css-1s770fn-MuiTypography-root"
-                        >
-                          July 01, 2020
-                        </p>
-                        <p
-                          class="MuiTypography-root MuiTypography-body1 css-36nrfq-MuiTypography-root"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
-                            data-testid="AccessTimeIcon"
-                            focusable="false"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
-                            />
-                            <path
-                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
-                            />
-                          </svg>
-                          4 min read
-                        </p>
-                      </div>
-                      <p
-                        class="MuiTypography-root MuiTypography-body1 css-18vsnw6-MuiTypography-root"
-                      >
-                        Scraping Billboard and IMDB using python Selenium
-                      </p>
-                      <p
-                        class="MuiTypography-root MuiTypography-body1 css-cebrzr-MuiTypography-root"
-                      >
-                        Learn how to scrape the Billboard and IMDB websites using Python and Selenium to extract movie data. This tutorial covers web scraping techniques, handling dynamic content, and managing browser interactions for efficient data collection.
-                      </p>
-                      <div
-                        class="MuiBox-root css-19m56m4"
-                      >
-                        <div
-                          class="MuiBox-root css-8t9i87"
-                        >
-                          Python
-                        </div>
-                        <div
-                          class="MuiBox-root css-8t9i87"
-                        >
-                          Selenium
-                        </div>
-                        <div
-                          class="MuiBox-root css-8t9i87"
-                        >
-                          Web Scraping
-                        </div>
-                      </div>
-                      <div
-                        class="read-article-btn MuiBox-root css-wfu9k9"
-                      >
-                        $ read_article
-                        <svg
-                          aria-hidden="true"
-                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                          data-testid="ArrowForwardIcon"
-                          focusable="false"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-                          />
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
                 </div>
                 <div
                   class="MuiBox-root css-twgz0t"
@@ -918,251 +918,6 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                 <div
                   class="MuiBox-root css-nrfwzo"
                 >
-                  <div
-                    viewport="[object Object]"
-                    whileinview="visible"
-                  >
-                    <div
-                      aria-label="Read article: The Da Vinci Code"
-                      class="MuiBox-root css-temzbe"
-                      role="article"
-                      tabindex="0"
-                    >
-                      <div
-                        class="MuiBox-root css-1jlxnzq"
-                      >
-                        <p
-                          class="MuiTypography-root MuiTypography-body1 css-1toa2ql-MuiTypography-root"
-                        >
-                          May 31, 2018
-                        </p>
-                        <p
-                          class="MuiTypography-root MuiTypography-body1 css-1vc9v5a-MuiTypography-root"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
-                            data-testid="AccessTimeIcon"
-                            focusable="false"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
-                            />
-                            <path
-                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
-                            />
-                          </svg>
-                          1 min read
-                        </p>
-                      </div>
-                      <p
-                        class="MuiTypography-root MuiTypography-body1 css-qlumrc-MuiTypography-root"
-                      >
-                        The Da Vinci Code
-                      </p>
-                      <p
-                        class="MuiTypography-root MuiTypography-body1 css-n530hl-MuiTypography-root"
-                      >
-                        The Da Vinci Code is a thrilling mystery that follows symbologist Robert Langdon as he investigates the murder of a renowned curator at the Louvre. He discovers that the ancient order of the Priory of Sion is linked to a centuries-old conspiracy to protect the secret of Jesus Christ's bloodline.
-                      </p>
-                      <div
-                        class="MuiBox-root css-19m56m4"
-                      >
-                        <div
-                          class="MuiBox-root css-c348pp"
-                        >
-                          Fiction
-                        </div>
-                        <div
-                          class="MuiBox-root css-c348pp"
-                        >
-                          Mystery
-                        </div>
-                        <div
-                          class="MuiBox-root css-c348pp"
-                        >
-                          Dan Brown
-                        </div>
-                      </div>
-                      <div
-                        class="read-article-btn MuiBox-root css-9g8n22"
-                      >
-                        Read Article
-                        <svg
-                          aria-hidden="true"
-                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                          data-testid="ArrowForwardIcon"
-                          focusable="false"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-                          />
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    viewport="[object Object]"
-                    whileinview="visible"
-                  >
-                    <div
-                      aria-label="Read article: Murder on the Orient Express"
-                      class="MuiBox-root css-temzbe"
-                      role="article"
-                      tabindex="0"
-                    >
-                      <div
-                        class="MuiBox-root css-1jlxnzq"
-                      >
-                        <p
-                          class="MuiTypography-root MuiTypography-body1 css-1toa2ql-MuiTypography-root"
-                        >
-                          May 30, 2018
-                        </p>
-                        <p
-                          class="MuiTypography-root MuiTypography-body1 css-1vc9v5a-MuiTypography-root"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
-                            data-testid="AccessTimeIcon"
-                            focusable="false"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
-                            />
-                            <path
-                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
-                            />
-                          </svg>
-                          1 min read
-                        </p>
-                      </div>
-                      <p
-                        class="MuiTypography-root MuiTypography-body1 css-qlumrc-MuiTypography-root"
-                      >
-                        Murder on the Orient Express
-                      </p>
-                      <p
-                        class="MuiTypography-root MuiTypography-body1 css-n530hl-MuiTypography-root"
-                      >
-                        Murder on the Orient Express is a classic murder mystery novel written by Agatha Christie. It is one of the most famous and influential detective stories of all time. The novel follows the investigation of a murder that takes place on a train traveling from Istanbul to London.
-                      </p>
-                      <div
-                        class="MuiBox-root css-19m56m4"
-                      >
-                        <div
-                          class="MuiBox-root css-c348pp"
-                        >
-                          Mystery
-                        </div>
-                        <div
-                          class="MuiBox-root css-c348pp"
-                        >
-                           Agatha Christie
-                        </div>
-                      </div>
-                      <div
-                        class="read-article-btn MuiBox-root css-9g8n22"
-                      >
-                        Read Article
-                        <svg
-                          aria-hidden="true"
-                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                          data-testid="ArrowForwardIcon"
-                          focusable="false"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-                          />
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    viewport="[object Object]"
-                    whileinview="visible"
-                  >
-                    <div
-                      aria-label="Read article: Anna Karenina"
-                      class="MuiBox-root css-temzbe"
-                      role="article"
-                      tabindex="0"
-                    >
-                      <div
-                        class="MuiBox-root css-1jlxnzq"
-                      >
-                        <p
-                          class="MuiTypography-root MuiTypography-body1 css-1toa2ql-MuiTypography-root"
-                        >
-                          June 1, 2018
-                        </p>
-                        <p
-                          class="MuiTypography-root MuiTypography-body1 css-1vc9v5a-MuiTypography-root"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
-                            data-testid="AccessTimeIcon"
-                            focusable="false"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
-                            />
-                            <path
-                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
-                            />
-                          </svg>
-                          1 min read
-                        </p>
-                      </div>
-                      <p
-                        class="MuiTypography-root MuiTypography-body1 css-qlumrc-MuiTypography-root"
-                      >
-                        Anna Karenina
-                      </p>
-                      <p
-                        class="MuiTypography-root MuiTypography-body1 css-n530hl-MuiTypography-root"
-                      >
-                        Anna Karenina is a classic novel written by Leo Tolstoy. It is one of the most famous and influential novels of all time. The novel follows the story of Anna Karenina, a beautiful woman who is caught in a web of love and infidelity.
-                      </p>
-                      <div
-                        class="MuiBox-root css-19m56m4"
-                      >
-                        <div
-                          class="MuiBox-root css-c348pp"
-                        >
-                          Novel
-                        </div>
-                        <div
-                          class="MuiBox-root css-c348pp"
-                        >
-                          Leo Tolstoy
-                        </div>
-                      </div>
-                      <div
-                        class="read-article-btn MuiBox-root css-9g8n22"
-                      >
-                        Read Article
-                        <svg
-                          aria-hidden="true"
-                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                          data-testid="ArrowForwardIcon"
-                          focusable="false"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-                          />
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
                   <div
                     viewport="[object Object]"
                     whileinview="visible"
@@ -1383,6 +1138,251 @@ exports[`Blogs Page matches snapshot (dark mode) 1`] = `
                           class="MuiBox-root css-c348pp"
                         >
                           Alexandre Dumas
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-9g8n22"
+                      >
+                        Read Article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: Anna Karenina"
+                      class="MuiBox-root css-temzbe"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1toa2ql-MuiTypography-root"
+                        >
+                          June 1, 2018
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1vc9v5a-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          1 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-qlumrc-MuiTypography-root"
+                      >
+                        Anna Karenina
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-n530hl-MuiTypography-root"
+                      >
+                        Anna Karenina is a classic novel written by Leo Tolstoy. It is one of the most famous and influential novels of all time. The novel follows the story of Anna Karenina, a beautiful woman who is caught in a web of love and infidelity.
+                      </p>
+                      <div
+                        class="MuiBox-root css-19m56m4"
+                      >
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          Novel
+                        </div>
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          Leo Tolstoy
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-9g8n22"
+                      >
+                        Read Article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: The Da Vinci Code"
+                      class="MuiBox-root css-temzbe"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1toa2ql-MuiTypography-root"
+                        >
+                          May 31, 2018
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1vc9v5a-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          1 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-qlumrc-MuiTypography-root"
+                      >
+                        The Da Vinci Code
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-n530hl-MuiTypography-root"
+                      >
+                        The Da Vinci Code is a thrilling mystery that follows symbologist Robert Langdon as he investigates the murder of a renowned curator at the Louvre. He discovers that the ancient order of the Priory of Sion is linked to a centuries-old conspiracy to protect the secret of Jesus Christ's bloodline.
+                      </p>
+                      <div
+                        class="MuiBox-root css-19m56m4"
+                      >
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          Fiction
+                        </div>
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          Mystery
+                        </div>
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          Dan Brown
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-9g8n22"
+                      >
+                        Read Article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: Murder on the Orient Express"
+                      class="MuiBox-root css-temzbe"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1toa2ql-MuiTypography-root"
+                        >
+                          May 30, 2018
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1vc9v5a-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          1 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-qlumrc-MuiTypography-root"
+                      >
+                        Murder on the Orient Express
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-n530hl-MuiTypography-root"
+                      >
+                        Murder on the Orient Express is a classic murder mystery novel written by Agatha Christie. It is one of the most famous and influential detective stories of all time. The novel follows the investigation of a murder that takes place on a train traveling from Istanbul to London.
+                      </p>
+                      <div
+                        class="MuiBox-root css-19m56m4"
+                      >
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                          Mystery
+                        </div>
+                        <div
+                          class="MuiBox-root css-c348pp"
+                        >
+                           Agatha Christie
                         </div>
                       </div>
                       <div
@@ -2045,6 +2045,177 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                     whileinview="visible"
                   >
                     <div
+                      aria-label="Read article: Tracing packets with Traceroute"
+                      class="MuiBox-root css-vjnvlj"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="card-scanline MuiBox-root css-147xby8"
+                      />
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1rtrtc0-MuiTypography-root"
+                        >
+                          August 03, 2020
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-14ke1ki-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          5 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1vg6in0-MuiTypography-root"
+                      >
+                        Tracing packets with Traceroute
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1eew5ip-MuiTypography-root"
+                      >
+                        Traceroute is a command which shows the path a packet of information from user computer to destination.
+                      </p>
+                      <div
+                        class="MuiBox-root css-19m56m4"
+                      >
+                        <div
+                          class="MuiBox-root css-6t4dzk"
+                        >
+                          Networking
+                        </div>
+                        <div
+                          class="MuiBox-root css-6t4dzk"
+                        >
+                          Traceroute
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-x9kljw"
+                      >
+                        $ read_article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: Scraping Billboard and IMDB using python Selenium"
+                      class="MuiBox-root css-vjnvlj"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="card-scanline MuiBox-root css-147xby8"
+                      />
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1rtrtc0-MuiTypography-root"
+                        >
+                          July 01, 2020
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-14ke1ki-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          4 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1vg6in0-MuiTypography-root"
+                      >
+                        Scraping Billboard and IMDB using python Selenium
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1eew5ip-MuiTypography-root"
+                      >
+                        Learn how to scrape the Billboard and IMDB websites using Python and Selenium to extract movie data. This tutorial covers web scraping techniques, handling dynamic content, and managing browser interactions for efficient data collection.
+                      </p>
+                      <div
+                        class="MuiBox-root css-19m56m4"
+                      >
+                        <div
+                          class="MuiBox-root css-6t4dzk"
+                        >
+                          Python
+                        </div>
+                        <div
+                          class="MuiBox-root css-6t4dzk"
+                        >
+                          Selenium
+                        </div>
+                        <div
+                          class="MuiBox-root css-6t4dzk"
+                        >
+                          Web Scraping
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-x9kljw"
+                      >
+                        $ read_article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
                       aria-label="Read article: FSOCIETY Hacking Tools from Mr. Robot"
                       class="MuiBox-root css-vjnvlj"
                       role="article"
@@ -2304,177 +2475,6 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                       </div>
                     </div>
                   </div>
-                  <div
-                    viewport="[object Object]"
-                    whileinview="visible"
-                  >
-                    <div
-                      aria-label="Read article: Tracing packets with Traceroute"
-                      class="MuiBox-root css-vjnvlj"
-                      role="article"
-                      tabindex="0"
-                    >
-                      <div
-                        class="card-scanline MuiBox-root css-147xby8"
-                      />
-                      <div
-                        class="MuiBox-root css-1jlxnzq"
-                      >
-                        <p
-                          class="MuiTypography-root MuiTypography-body1 css-1rtrtc0-MuiTypography-root"
-                        >
-                          August 03, 2020
-                        </p>
-                        <p
-                          class="MuiTypography-root MuiTypography-body1 css-14ke1ki-MuiTypography-root"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
-                            data-testid="AccessTimeIcon"
-                            focusable="false"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
-                            />
-                            <path
-                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
-                            />
-                          </svg>
-                          5 min read
-                        </p>
-                      </div>
-                      <p
-                        class="MuiTypography-root MuiTypography-body1 css-1vg6in0-MuiTypography-root"
-                      >
-                        Tracing packets with Traceroute
-                      </p>
-                      <p
-                        class="MuiTypography-root MuiTypography-body1 css-1eew5ip-MuiTypography-root"
-                      >
-                        Traceroute is a command which shows the path a packet of information from user computer to destination.
-                      </p>
-                      <div
-                        class="MuiBox-root css-19m56m4"
-                      >
-                        <div
-                          class="MuiBox-root css-6t4dzk"
-                        >
-                          Networking
-                        </div>
-                        <div
-                          class="MuiBox-root css-6t4dzk"
-                        >
-                          Traceroute
-                        </div>
-                      </div>
-                      <div
-                        class="read-article-btn MuiBox-root css-x9kljw"
-                      >
-                        $ read_article
-                        <svg
-                          aria-hidden="true"
-                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                          data-testid="ArrowForwardIcon"
-                          focusable="false"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-                          />
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    viewport="[object Object]"
-                    whileinview="visible"
-                  >
-                    <div
-                      aria-label="Read article: Scraping Billboard and IMDB using python Selenium"
-                      class="MuiBox-root css-vjnvlj"
-                      role="article"
-                      tabindex="0"
-                    >
-                      <div
-                        class="card-scanline MuiBox-root css-147xby8"
-                      />
-                      <div
-                        class="MuiBox-root css-1jlxnzq"
-                      >
-                        <p
-                          class="MuiTypography-root MuiTypography-body1 css-1rtrtc0-MuiTypography-root"
-                        >
-                          July 01, 2020
-                        </p>
-                        <p
-                          class="MuiTypography-root MuiTypography-body1 css-14ke1ki-MuiTypography-root"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
-                            data-testid="AccessTimeIcon"
-                            focusable="false"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
-                            />
-                            <path
-                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
-                            />
-                          </svg>
-                          4 min read
-                        </p>
-                      </div>
-                      <p
-                        class="MuiTypography-root MuiTypography-body1 css-1vg6in0-MuiTypography-root"
-                      >
-                        Scraping Billboard and IMDB using python Selenium
-                      </p>
-                      <p
-                        class="MuiTypography-root MuiTypography-body1 css-1eew5ip-MuiTypography-root"
-                      >
-                        Learn how to scrape the Billboard and IMDB websites using Python and Selenium to extract movie data. This tutorial covers web scraping techniques, handling dynamic content, and managing browser interactions for efficient data collection.
-                      </p>
-                      <div
-                        class="MuiBox-root css-19m56m4"
-                      >
-                        <div
-                          class="MuiBox-root css-6t4dzk"
-                        >
-                          Python
-                        </div>
-                        <div
-                          class="MuiBox-root css-6t4dzk"
-                        >
-                          Selenium
-                        </div>
-                        <div
-                          class="MuiBox-root css-6t4dzk"
-                        >
-                          Web Scraping
-                        </div>
-                      </div>
-                      <div
-                        class="read-article-btn MuiBox-root css-x9kljw"
-                      >
-                        $ read_article
-                        <svg
-                          aria-hidden="true"
-                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                          data-testid="ArrowForwardIcon"
-                          focusable="false"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-                          />
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
                 </div>
                 <div
                   class="MuiBox-root css-twgz0t"
@@ -2647,251 +2647,6 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                 <div
                   class="MuiBox-root css-nrfwzo"
                 >
-                  <div
-                    viewport="[object Object]"
-                    whileinview="visible"
-                  >
-                    <div
-                      aria-label="Read article: The Da Vinci Code"
-                      class="MuiBox-root css-1j0lfos"
-                      role="article"
-                      tabindex="0"
-                    >
-                      <div
-                        class="MuiBox-root css-1jlxnzq"
-                      >
-                        <p
-                          class="MuiTypography-root MuiTypography-body1 css-hbel9u-MuiTypography-root"
-                        >
-                          May 31, 2018
-                        </p>
-                        <p
-                          class="MuiTypography-root MuiTypography-body1 css-1l6eyjc-MuiTypography-root"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
-                            data-testid="AccessTimeIcon"
-                            focusable="false"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
-                            />
-                            <path
-                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
-                            />
-                          </svg>
-                          1 min read
-                        </p>
-                      </div>
-                      <p
-                        class="MuiTypography-root MuiTypography-body1 css-15tssl6-MuiTypography-root"
-                      >
-                        The Da Vinci Code
-                      </p>
-                      <p
-                        class="MuiTypography-root MuiTypography-body1 css-m36p6y-MuiTypography-root"
-                      >
-                        The Da Vinci Code is a thrilling mystery that follows symbologist Robert Langdon as he investigates the murder of a renowned curator at the Louvre. He discovers that the ancient order of the Priory of Sion is linked to a centuries-old conspiracy to protect the secret of Jesus Christ's bloodline.
-                      </p>
-                      <div
-                        class="MuiBox-root css-19m56m4"
-                      >
-                        <div
-                          class="MuiBox-root css-lzpecq"
-                        >
-                          Fiction
-                        </div>
-                        <div
-                          class="MuiBox-root css-lzpecq"
-                        >
-                          Mystery
-                        </div>
-                        <div
-                          class="MuiBox-root css-lzpecq"
-                        >
-                          Dan Brown
-                        </div>
-                      </div>
-                      <div
-                        class="read-article-btn MuiBox-root css-1xdfsjn"
-                      >
-                        Read Article
-                        <svg
-                          aria-hidden="true"
-                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                          data-testid="ArrowForwardIcon"
-                          focusable="false"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-                          />
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    viewport="[object Object]"
-                    whileinview="visible"
-                  >
-                    <div
-                      aria-label="Read article: Murder on the Orient Express"
-                      class="MuiBox-root css-1j0lfos"
-                      role="article"
-                      tabindex="0"
-                    >
-                      <div
-                        class="MuiBox-root css-1jlxnzq"
-                      >
-                        <p
-                          class="MuiTypography-root MuiTypography-body1 css-hbel9u-MuiTypography-root"
-                        >
-                          May 30, 2018
-                        </p>
-                        <p
-                          class="MuiTypography-root MuiTypography-body1 css-1l6eyjc-MuiTypography-root"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
-                            data-testid="AccessTimeIcon"
-                            focusable="false"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
-                            />
-                            <path
-                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
-                            />
-                          </svg>
-                          1 min read
-                        </p>
-                      </div>
-                      <p
-                        class="MuiTypography-root MuiTypography-body1 css-15tssl6-MuiTypography-root"
-                      >
-                        Murder on the Orient Express
-                      </p>
-                      <p
-                        class="MuiTypography-root MuiTypography-body1 css-m36p6y-MuiTypography-root"
-                      >
-                        Murder on the Orient Express is a classic murder mystery novel written by Agatha Christie. It is one of the most famous and influential detective stories of all time. The novel follows the investigation of a murder that takes place on a train traveling from Istanbul to London.
-                      </p>
-                      <div
-                        class="MuiBox-root css-19m56m4"
-                      >
-                        <div
-                          class="MuiBox-root css-lzpecq"
-                        >
-                          Mystery
-                        </div>
-                        <div
-                          class="MuiBox-root css-lzpecq"
-                        >
-                           Agatha Christie
-                        </div>
-                      </div>
-                      <div
-                        class="read-article-btn MuiBox-root css-1xdfsjn"
-                      >
-                        Read Article
-                        <svg
-                          aria-hidden="true"
-                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                          data-testid="ArrowForwardIcon"
-                          focusable="false"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-                          />
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    viewport="[object Object]"
-                    whileinview="visible"
-                  >
-                    <div
-                      aria-label="Read article: Anna Karenina"
-                      class="MuiBox-root css-1j0lfos"
-                      role="article"
-                      tabindex="0"
-                    >
-                      <div
-                        class="MuiBox-root css-1jlxnzq"
-                      >
-                        <p
-                          class="MuiTypography-root MuiTypography-body1 css-hbel9u-MuiTypography-root"
-                        >
-                          June 1, 2018
-                        </p>
-                        <p
-                          class="MuiTypography-root MuiTypography-body1 css-1l6eyjc-MuiTypography-root"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
-                            data-testid="AccessTimeIcon"
-                            focusable="false"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
-                            />
-                            <path
-                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
-                            />
-                          </svg>
-                          1 min read
-                        </p>
-                      </div>
-                      <p
-                        class="MuiTypography-root MuiTypography-body1 css-15tssl6-MuiTypography-root"
-                      >
-                        Anna Karenina
-                      </p>
-                      <p
-                        class="MuiTypography-root MuiTypography-body1 css-m36p6y-MuiTypography-root"
-                      >
-                        Anna Karenina is a classic novel written by Leo Tolstoy. It is one of the most famous and influential novels of all time. The novel follows the story of Anna Karenina, a beautiful woman who is caught in a web of love and infidelity.
-                      </p>
-                      <div
-                        class="MuiBox-root css-19m56m4"
-                      >
-                        <div
-                          class="MuiBox-root css-lzpecq"
-                        >
-                          Novel
-                        </div>
-                        <div
-                          class="MuiBox-root css-lzpecq"
-                        >
-                          Leo Tolstoy
-                        </div>
-                      </div>
-                      <div
-                        class="read-article-btn MuiBox-root css-1xdfsjn"
-                      >
-                        Read Article
-                        <svg
-                          aria-hidden="true"
-                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
-                          data-testid="ArrowForwardIcon"
-                          focusable="false"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-                          />
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
                   <div
                     viewport="[object Object]"
                     whileinview="visible"
@@ -3112,6 +2867,251 @@ exports[`Blogs Page matches snapshot (light mode) 1`] = `
                           class="MuiBox-root css-lzpecq"
                         >
                           Alexandre Dumas
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-1xdfsjn"
+                      >
+                        Read Article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: Anna Karenina"
+                      class="MuiBox-root css-1j0lfos"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-hbel9u-MuiTypography-root"
+                        >
+                          June 1, 2018
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1l6eyjc-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          1 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-15tssl6-MuiTypography-root"
+                      >
+                        Anna Karenina
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-m36p6y-MuiTypography-root"
+                      >
+                        Anna Karenina is a classic novel written by Leo Tolstoy. It is one of the most famous and influential novels of all time. The novel follows the story of Anna Karenina, a beautiful woman who is caught in a web of love and infidelity.
+                      </p>
+                      <div
+                        class="MuiBox-root css-19m56m4"
+                      >
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          Novel
+                        </div>
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          Leo Tolstoy
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-1xdfsjn"
+                      >
+                        Read Article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: The Da Vinci Code"
+                      class="MuiBox-root css-1j0lfos"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-hbel9u-MuiTypography-root"
+                        >
+                          May 31, 2018
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1l6eyjc-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          1 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-15tssl6-MuiTypography-root"
+                      >
+                        The Da Vinci Code
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-m36p6y-MuiTypography-root"
+                      >
+                        The Da Vinci Code is a thrilling mystery that follows symbologist Robert Langdon as he investigates the murder of a renowned curator at the Louvre. He discovers that the ancient order of the Priory of Sion is linked to a centuries-old conspiracy to protect the secret of Jesus Christ's bloodline.
+                      </p>
+                      <div
+                        class="MuiBox-root css-19m56m4"
+                      >
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          Fiction
+                        </div>
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          Mystery
+                        </div>
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          Dan Brown
+                        </div>
+                      </div>
+                      <div
+                        class="read-article-btn MuiBox-root css-1xdfsjn"
+                      >
+                        Read Article
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                          data-testid="ArrowForwardIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    viewport="[object Object]"
+                    whileinview="visible"
+                  >
+                    <div
+                      aria-label="Read article: Murder on the Orient Express"
+                      class="MuiBox-root css-1j0lfos"
+                      role="article"
+                      tabindex="0"
+                    >
+                      <div
+                        class="MuiBox-root css-1jlxnzq"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-hbel9u-MuiTypography-root"
+                        >
+                          May 30, 2018
+                        </p>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-1l6eyjc-MuiTypography-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-8onr3q-MuiSvgIcon-root"
+                            data-testid="AccessTimeIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2M12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8"
+                            />
+                            <path
+                              d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                            />
+                          </svg>
+                          1 min read
+                        </p>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-15tssl6-MuiTypography-root"
+                      >
+                        Murder on the Orient Express
+                      </p>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-m36p6y-MuiTypography-root"
+                      >
+                        Murder on the Orient Express is a classic murder mystery novel written by Agatha Christie. It is one of the most famous and influential detective stories of all time. The novel follows the investigation of a murder that takes place on a train traveling from Istanbul to London.
+                      </p>
+                      <div
+                        class="MuiBox-root css-19m56m4"
+                      >
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                          Mystery
+                        </div>
+                        <div
+                          class="MuiBox-root css-lzpecq"
+                        >
+                           Agatha Christie
                         </div>
                       </div>
                       <div

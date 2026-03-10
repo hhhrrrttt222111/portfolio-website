@@ -1,5 +1,5 @@
 import React from "react";
-import { render, screen } from "@testing-library/react";
+import { render, screen, fireEvent } from "@testing-library/react";
 import { ThemeProvider } from "@mui/material/styles";
 import { createAppTheme } from "@/theme";
 import BookCard from "@/components/books/BookCard/BookCard";
@@ -55,6 +55,16 @@ const renderComponent = (book: Book = mockBook, mode: "light" | "dark" = "light"
   );
 
 describe("BookCard", () => {
+  const originalOpen = window.open;
+
+  beforeEach(() => {
+    window.open = jest.fn();
+  });
+
+  afterEach(() => {
+    window.open = originalOpen;
+  });
+
   it("renders without crashing", () => {
     const { container } = renderComponent();
     expect(container.firstChild).toBeTruthy();
@@ -103,6 +113,44 @@ describe("BookCard", () => {
   it("renders placeholder when cover is empty", () => {
     renderComponent({ ...mockBook, cover: "" });
     expect(screen.getByText("📖")).toBeInTheDocument();
+  });
+
+  it("opens link when card is clicked", () => {
+    renderComponent();
+    const card = screen.getByTestId("book-card");
+    fireEvent.click(card);
+    expect(window.open).toHaveBeenCalledWith(mockBook.link, "_blank", "noopener,noreferrer");
+  });
+
+  it("handles image load event", () => {
+    renderComponent();
+    const img = screen.getByAltText("Cover of Atomic Habits");
+    fireEvent.load(img);
+    expect(img).toHaveStyle({ opacity: "1" });
+  });
+
+  it("handles image error event and shows placeholder", () => {
+    renderComponent();
+    const img = screen.getByAltText("Cover of Atomic Habits");
+    fireEvent.error(img);
+    expect(screen.getByText("📖")).toBeInTheDocument();
+  });
+
+  it("renders without read date", () => {
+    renderComponent({ ...mockBook, readDate: "" });
+    expect(screen.getByText("Atomic Habits")).toBeInTheDocument();
+  });
+
+  it("handles invalid date format gracefully", () => {
+    renderComponent({ ...mockBook, readDate: "invalid-date" });
+    expect(screen.getByText("Atomic Habits")).toBeInTheDocument();
+  });
+
+  it("renders with different ratings", () => {
+    renderComponent({ ...mockBook, rating: 3 });
+    const { container } = renderComponent({ ...mockBook, rating: 3 });
+    const stars = container.querySelectorAll("svg");
+    expect(stars).toHaveLength(5);
   });
 
   it("renders correctly in dark mode", () => {

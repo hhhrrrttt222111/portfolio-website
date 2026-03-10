@@ -1,7 +1,7 @@
 import { motion, useReducedMotion, type Variants } from "framer-motion";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
-import type { BlogPost } from "@/constants/blogs";
+import type { BlogPost } from "@/types";
 import {
   CardWrapper,
   ScanlineEffect,

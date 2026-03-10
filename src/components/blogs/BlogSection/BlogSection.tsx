@@ -4,7 +4,7 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import Lottie from "lottie-react";
-import type { Blog } from "@/constants/blogs";
+import type { Blog } from "@/types";
 import { blogSectionVariants, blogHeaderVariants } from "@/animations";
 import BlogCard from "../BlogCard/BlogCard";
 import {

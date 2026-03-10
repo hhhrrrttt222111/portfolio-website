@@ -22,13 +22,15 @@ const FRAMER_PROPS = new Set([
 const filterProps = (props: Record<string, unknown>) =>
   Object.fromEntries(Object.entries(props).filter(([key]) => !FRAMER_PROPS.has(key)));
 
+let mockUseReducedMotion = false;
+
 jest.mock("framer-motion", () => ({
   motion: {
     div: React.forwardRef<HTMLDivElement, Record<string, unknown>>((props, ref) => (
       <div ref={ref} {...filterProps(props)} />
     )),
   },
-  useReducedMotion: () => false,
+  useReducedMotion: () => mockUseReducedMotion,
 }));
 
 const INSTAGRAM_URL = "https://www.instagram.com/bibliosmia.brews/";
@@ -41,6 +43,9 @@ const renderComponent = (bookCount = 10, mode: "light" | "dark" = "light") =>
   );
 
 describe("BooksHero", () => {
+  beforeEach(() => {
+    mockUseReducedMotion = false;
+  });
   it("renders without crashing", () => {
     const { container } = renderComponent();
     expect(container.firstChild).toBeTruthy();
@@ -113,5 +118,11 @@ describe("BooksHero", () => {
   it("matches snapshot (dark mode)", () => {
     const { container } = renderComponent(10, "dark");
     expect(container).toMatchSnapshot();
+  });
+
+  it("renders with reduced motion preference", () => {
+    mockUseReducedMotion = true;
+    renderComponent();
+    expect(screen.getByText("My Reading Library")).toBeInTheDocument();
   });
 });

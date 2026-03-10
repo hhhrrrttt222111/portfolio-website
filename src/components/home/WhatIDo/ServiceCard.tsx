@@ -1,7 +1,7 @@
 import { useState, useCallback } from "react";
 import Grid from "@mui/material/Grid";
 import { motion, useReducedMotion, type Variants } from "framer-motion";
-import type { WhatIDoCard } from "@/constants";
+import type { WhatIDoCard } from "@/types";
 import { GlassCard, CardTitle, CardDescription, AccentBar, IconWrapper } from "./WhatIDo.styles";
 
 const cardVariants: Variants = {

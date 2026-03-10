@@ -3,7 +3,7 @@ import { render, screen, fireEvent } from "@testing-library/react";
 import { ThemeProvider } from "@mui/material/styles";
 import { createAppTheme } from "@/theme";
 import BlogSection from "@/components/blogs/BlogSection/BlogSection";
-import type { Blog } from "@/constants/blogs";
+import type { Blog } from "@/types";
 
 const mockHackerBlog: Blog = {
   id: "hackzism",

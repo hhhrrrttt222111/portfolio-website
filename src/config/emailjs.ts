@@ -1,8 +1,6 @@
-export interface EmailJSConfig {
-  serviceId: string;
-  templateId: string;
-  publicKey: string;
-}
+import type { EmailJSConfig } from "@/types";
+
+export type { EmailJSConfig };
 
 export const getEmailJSConfig = (): EmailJSConfig => ({
   serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID || "",

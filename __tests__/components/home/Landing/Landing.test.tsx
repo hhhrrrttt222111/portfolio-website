@@ -2,6 +2,8 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import { Landing } from "@/components";
 
+let mockUseReducedMotion = false;
+
 jest.mock("framer-motion", () => {
   // eslint-disable-next-line @typescript-eslint/no-require-imports
   const React = require("react");
@@ -44,6 +46,7 @@ jest.mock("framer-motion", () => {
     },
     AnimatePresence: ({ children }: { children: React.ReactNode }) =>
       React.createElement(React.Fragment, null, children),
+    useReducedMotion: () => mockUseReducedMotion,
   };
 });
 
@@ -78,6 +81,10 @@ jest.mock("gsap/ScrollTrigger", () => ({
 }));
 
 describe("Landing", () => {
+  beforeEach(() => {
+    mockUseReducedMotion = false;
+  });
+
   it("renders without crashing", () => {
     const { container } = render(<Landing />);
     expect(container.firstChild).toBeTruthy();
@@ -124,6 +131,13 @@ describe("Landing", () => {
     expect(screen.getByText("fast")).toBeInTheDocument();
     expect(screen.getByText("intuitive")).toBeInTheDocument();
     expect(screen.getByText("reliable")).toBeInTheDocument();
+  });
+
+  it("renders with reduced motion preference", () => {
+    mockUseReducedMotion = true;
+    const { container } = render(<Landing />);
+    expect(container.querySelector("section")).toBeInTheDocument();
+    expect(screen.getByText("Software")).toBeInTheDocument();
   });
 
   it("matches snapshot", () => {

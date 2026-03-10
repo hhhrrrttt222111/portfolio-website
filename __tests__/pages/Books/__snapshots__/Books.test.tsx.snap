@@ -85,7 +85,7 @@ exports[`Books Page matches snapshot (dark mode) 1`] = `
               <span
                 class="css-pzqij8"
               >
-                1
+                2
               </span>
               <span
                 class="css-34m0xp"
@@ -168,7 +168,7 @@ exports[`Books Page matches snapshot (dark mode) 1`] = `
                 <input
                   aria-invalid="false"
                   class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedStart css-1x1alkd-MuiInputBase-input-MuiOutlinedInput-input"
-                  id="_r_9d_"
+                  id="_r_c7_"
                   placeholder="Search by title or author..."
                   type="text"
                   value=""
@@ -287,7 +287,7 @@ exports[`Books Page matches snapshot (dark mode) 1`] = `
               <div
                 class="MuiBox-root css-14qpgm9"
               >
-                1 books
+                2 books
               </div>
             </div>
           </div>
@@ -413,6 +413,127 @@ exports[`Books Page matches snapshot (dark mode) 1`] = `
                         class="MuiTypography-root MuiTypography-body1 css-1whzqkd-MuiTypography-root"
                       >
                         Jan 2025
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              style="height: 100%;"
+            >
+              <div>
+                <div
+                  aria-label="Deep Work by Cal Newport on Goodreads"
+                  class="MuiBox-root css-juqqx6"
+                  data-testid="book-card"
+                  role="link"
+                >
+                  <div
+                    class="MuiBox-root css-1bqgj03"
+                  >
+                    <img
+                      alt="Cover of Deep Work"
+                      class="css-ekopze"
+                      loading="lazy"
+                      src="https://example.com/cover2.jpg"
+                      style="opacity: 0; transition: opacity 0.4s;"
+                    />
+                  </div>
+                  <div
+                    class="MuiBox-root css-xluy6d"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-1j3p2n-MuiTypography-root"
+                    >
+                      Deep Work
+                    </p>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-11cl95w-MuiTypography-root"
+                    >
+                      Cal Newport
+                    </p>
+                    <div
+                      class="MuiBox-root css-1vzbo3b"
+                    >
+                      <div
+                        class="MuiBox-root css-uklcv"
+                      >
+                        <div
+                          class="MuiBox-root css-1wv9kn0"
+                        >
+                          <svg
+                            fill="currentColor"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                            />
+                          </svg>
+                        </div>
+                        <div
+                          class="MuiBox-root css-1wv9kn0"
+                        >
+                          <svg
+                            fill="currentColor"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                            />
+                          </svg>
+                        </div>
+                        <div
+                          class="MuiBox-root css-1wv9kn0"
+                        >
+                          <svg
+                            fill="currentColor"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                            />
+                          </svg>
+                        </div>
+                        <div
+                          class="MuiBox-root css-1wv9kn0"
+                        >
+                          <svg
+                            fill="currentColor"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                            />
+                          </svg>
+                        </div>
+                        <div
+                          class="MuiBox-root css-1yqht2x"
+                        >
+                          <svg
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-1whzqkd-MuiTypography-root"
+                      >
+                        Jun 2024
                       </p>
                     </div>
                   </div>
@@ -797,7 +918,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
               <span
                 class="css-1j14lhg"
               >
-                1
+                2
               </span>
               <span
                 class="css-xh4ikz"
@@ -880,7 +1001,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
                 <input
                   aria-invalid="false"
                   class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedStart css-1q55ijt-MuiInputBase-input-MuiOutlinedInput-input"
-                  id="_r_8f_"
+                  id="_r_b9_"
                   placeholder="Search by title or author..."
                   type="text"
                   value=""
@@ -999,7 +1120,7 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
               <div
                 class="MuiBox-root css-1ylwpbc"
               >
-                1 books
+                2 books
               </div>
             </div>
           </div>
@@ -1125,6 +1246,127 @@ exports[`Books Page matches snapshot (light mode) 1`] = `
                         class="MuiTypography-root MuiTypography-body1 css-uxjtoa-MuiTypography-root"
                       >
                         Jan 2025
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              style="height: 100%;"
+            >
+              <div>
+                <div
+                  aria-label="Deep Work by Cal Newport on Goodreads"
+                  class="MuiBox-root css-2zlmtt"
+                  data-testid="book-card"
+                  role="link"
+                >
+                  <div
+                    class="MuiBox-root css-qmvy1j"
+                  >
+                    <img
+                      alt="Cover of Deep Work"
+                      class="css-ekopze"
+                      loading="lazy"
+                      src="https://example.com/cover2.jpg"
+                      style="opacity: 0; transition: opacity 0.4s;"
+                    />
+                  </div>
+                  <div
+                    class="MuiBox-root css-xluy6d"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-idvr2y-MuiTypography-root"
+                    >
+                      Deep Work
+                    </p>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-13ry3gs-MuiTypography-root"
+                    >
+                      Cal Newport
+                    </p>
+                    <div
+                      class="MuiBox-root css-1vzbo3b"
+                    >
+                      <div
+                        class="MuiBox-root css-uklcv"
+                      >
+                        <div
+                          class="MuiBox-root css-1wv9kn0"
+                        >
+                          <svg
+                            fill="currentColor"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                            />
+                          </svg>
+                        </div>
+                        <div
+                          class="MuiBox-root css-1wv9kn0"
+                        >
+                          <svg
+                            fill="currentColor"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                            />
+                          </svg>
+                        </div>
+                        <div
+                          class="MuiBox-root css-1wv9kn0"
+                        >
+                          <svg
+                            fill="currentColor"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                            />
+                          </svg>
+                        </div>
+                        <div
+                          class="MuiBox-root css-1wv9kn0"
+                        >
+                          <svg
+                            fill="currentColor"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                            />
+                          </svg>
+                        </div>
+                        <div
+                          class="MuiBox-root css-1ygrwtt"
+                        >
+                          <svg
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                      <p
+                        class="MuiTypography-root MuiTypography-body1 css-uxjtoa-MuiTypography-root"
+                      >
+                        Jun 2024
                       </p>
                     </div>
                   </div>

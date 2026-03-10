@@ -31,6 +31,9 @@ const mockMotionValue = (initial: number) => ({
   on: () => () => {},
 });
 
+let mockUseReducedMotion = false;
+let mockIsDesktop = true;
+
 jest.mock("framer-motion", () => ({
   motion: {
     div: React.forwardRef<HTMLDivElement, Record<string, unknown>>((props, ref) => (
@@ -40,13 +43,18 @@ jest.mock("framer-motion", () => ({
       <span ref={ref} {...filterProps(props)} />
     )),
   },
-  useReducedMotion: () => false,
+  useReducedMotion: () => mockUseReducedMotion,
   useMotionValue: (initial: number) => mockMotionValue(initial),
   useSpring: (source: unknown) => source,
   useScroll: () => ({ scrollYProgress: mockMotionValue(0) }),
   useTransform: () => mockMotionValue(0),
   AnimatePresence: ({ children }: { children: React.ReactNode }) => <>{children}</>,
   useInView: () => true,
+}));
+
+jest.mock("@mui/material/useMediaQuery", () => ({
+  __esModule: true,
+  default: () => mockIsDesktop,
 }));
 
 const renderComponent = (mode: "light" | "dark" = "light") =>
@@ -57,6 +65,11 @@ const renderComponent = (mode: "light" | "dark" = "light") =>
   );
 
 describe("ExperienceTimeline", () => {
+  beforeEach(() => {
+    mockUseReducedMotion = false;
+    mockIsDesktop = true;
+  });
+
   it("renders without crashing", () => {
     const { container } = renderComponent();
     expect(container.firstChild).toBeTruthy();
@@ -124,6 +137,12 @@ describe("ExperienceTimeline", () => {
     expect(screen.getByText("Experience")).toBeInTheDocument();
   });
 
+  it("renders with reduced motion preference", () => {
+    mockUseReducedMotion = true;
+    renderComponent();
+    expect(screen.getByTestId("experience-section")).toBeInTheDocument();
+  });
+
   it("matches snapshot (light mode)", () => {
     const { container } = renderComponent("light");
     expect(container).toMatchSnapshot();
@@ -131,6 +150,38 @@ describe("ExperienceTimeline", () => {
 
   it("matches snapshot (dark mode)", () => {
     const { container } = renderComponent("dark");
+    expect(container).toMatchSnapshot();
+  });
+});
+
+describe("ExperienceTimeline - Mobile View", () => {
+  beforeEach(() => {
+    mockUseReducedMotion = false;
+    mockIsDesktop = false;
+  });
+
+  it("renders mobile layout when on mobile", () => {
+    renderComponent();
+    expect(screen.getByTestId("experience-section")).toBeInTheDocument();
+    EXPERIENCES.forEach((exp) => {
+      expect(screen.getByText(exp.company)).toBeInTheDocument();
+    });
+  });
+
+  it("renders all experiences in mobile view", () => {
+    renderComponent();
+    const companies = EXPERIENCES.map((exp) => screen.getByText(exp.company));
+    expect(companies).toHaveLength(EXPERIENCES.length);
+  });
+
+  it("renders with reduced motion in mobile view", () => {
+    mockUseReducedMotion = true;
+    renderComponent();
+    expect(screen.getByTestId("experience-section")).toBeInTheDocument();
+  });
+
+  it("matches snapshot (mobile view)", () => {
+    const { container } = renderComponent("light");
     expect(container).toMatchSnapshot();
   });
 });

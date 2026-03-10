@@ -1,1 +1,11 @@
 export type { Book } from "./book";
+export type { BlogPost, Blog, LegacyBlogPost } from "./blog";
+export type { NavLink } from "./navigation";
+export type { SocialLink } from "./social";
+export type { Project } from "./project";
+export type { Education, JourneyMilestone, Experience } from "./about";
+export type { Service, WhatIDoCard } from "./service";
+export type { SkillCategory } from "./techStack";
+export type { EmailJSConfig, EmailFormData, SendEmailResult, UseEmailJSReturn } from "./email";
+export type { CellValue, Board, GameResult } from "./game";
+export type { ColorModeContextType } from "./context";

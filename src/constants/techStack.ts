@@ -1,10 +1,4 @@
-export interface SkillCategory {
-  id: string;
-  label: string;
-  command: string;
-  skills: string[];
-  accentColor: string;
-}
+import type { SkillCategory } from "@/types";
 
 export const TECH_STACK: SkillCategory[] = [
   {

@@ -19,6 +19,8 @@ const FRAMER_PROPS = new Set([
   "onMouseLeave",
 ]);
 
+let mockUseReducedMotion = false;
+
 jest.mock("framer-motion", () => ({
   motion: {
     div: React.forwardRef<HTMLDivElement, Record<string, unknown>>((props, ref) => {
@@ -28,7 +30,7 @@ jest.mock("framer-motion", () => ({
       return <div ref={ref} {...filtered} />;
     }),
   },
-  useReducedMotion: () => false,
+  useReducedMotion: () => mockUseReducedMotion,
   useInView: () => true,
 }));
 
@@ -40,6 +42,9 @@ const renderWithTheme = (mode: "light" | "dark" = "light") =>
   );
 
 describe("Services", () => {
+  beforeEach(() => {
+    mockUseReducedMotion = false;
+  });
   it("renders without crashing", () => {
     const { container } = renderWithTheme();
     expect(container.firstChild).toBeTruthy();
@@ -141,5 +146,11 @@ describe("Services", () => {
   it("matches snapshot (dark mode)", () => {
     const { container } = renderWithTheme("dark");
     expect(container).toMatchSnapshot();
+  });
+
+  it("renders with reduced motion preference", () => {
+    mockUseReducedMotion = true;
+    renderWithTheme();
+    expect(screen.getByText("Services")).toBeInTheDocument();
   });
 });

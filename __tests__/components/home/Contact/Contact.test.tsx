@@ -1,5 +1,5 @@
 import React from "react";
-import { render, screen, fireEvent, waitFor } from "@testing-library/react";
+import { render, screen, fireEvent, waitFor, act } from "@testing-library/react";
 import { ThemeProvider } from "@mui/material/styles";
 import { createAppTheme } from "@/theme";
 import Contact from "@/components/home/Contact/Contact";
@@ -40,6 +40,8 @@ const FRAMER_PROPS = new Set([
   "onMouseLeave",
 ]);
 
+let mockUseReducedMotion = false;
+
 jest.mock("framer-motion", () => ({
   motion: {
     div: React.forwardRef<HTMLDivElement, Record<string, unknown>>((props, ref) => {
@@ -56,7 +58,7 @@ jest.mock("framer-motion", () => ({
         return <Component ref={ref} {...filtered} />;
       }),
   },
-  useReducedMotion: () => true,
+  useReducedMotion: () => mockUseReducedMotion,
   AnimatePresence: ({ children }: { children: React.ReactNode }) =>
     React.createElement(React.Fragment, null, children),
 }));
@@ -73,10 +75,11 @@ describe("Contact", () => {
     jest.useFakeTimers();
     mockSendEmail.mockClear();
     mockReset.mockClear();
-    mockSendEmail.mockResolvedValue(true);
+    mockSendEmail.mockResolvedValue({ success: true });
     mockIsLoading = false;
     mockError = null;
     mockSuccess = false;
+    mockUseReducedMotion = false;
   });
 
   afterEach(() => {
@@ -169,6 +172,82 @@ describe("Contact", () => {
         message: "Hello!",
       });
     });
+  });
+
+  it("shows success snackbar and clears form on successful submit", async () => {
+    mockSendEmail.mockResolvedValue({ success: true });
+    mockUseReducedMotion = true;
+    const { container } = renderWithTheme();
+    const nameInput = screen.getByLabelText(/Your Name/) as HTMLInputElement;
+    const emailInput = screen.getByLabelText(/Your Email/) as HTMLInputElement;
+    const messageInput = screen.getByLabelText(/Your Message/) as HTMLTextAreaElement;
+    const form = container.querySelector("form") as HTMLFormElement;
+
+    fireEvent.change(nameInput, { target: { name: "name", value: "John" } });
+    fireEvent.change(emailInput, { target: { name: "email", value: "john@test.com" } });
+    fireEvent.change(messageInput, { target: { name: "message", value: "Hello!" } });
+
+    await act(async () => {
+      fireEvent.submit(form);
+    });
+
+    await waitFor(() => {
+      expect(nameInput.value).toBe("");
+      expect(emailInput.value).toBe("");
+      expect(messageInput.value).toBe("");
+    });
+  });
+
+  it("shows success with animation when reduced motion is not preferred", async () => {
+    mockSendEmail.mockResolvedValue({ success: true });
+    mockUseReducedMotion = false;
+    const { container } = renderWithTheme();
+    const form = container.querySelector("form") as HTMLFormElement;
+
+    await act(async () => {
+      fireEvent.submit(form);
+    });
+
+    await act(async () => {
+      jest.advanceTimersByTime(100);
+    });
+
+    await act(async () => {
+      jest.advanceTimersByTime(1600);
+    });
+
+    expect(mockSendEmail).toHaveBeenCalled();
+  });
+
+  it("shows error snackbar on failed submit", async () => {
+    mockSendEmail.mockResolvedValue({ success: false, error: "Failed to send" });
+    const { container } = renderWithTheme();
+    const form = container.querySelector("form") as HTMLFormElement;
+
+    await act(async () => {
+      fireEvent.submit(form);
+    });
+
+    await waitFor(() => {
+      expect(mockSendEmail).toHaveBeenCalled();
+    });
+  });
+
+  it("snackbar auto-closes after timeout", async () => {
+    mockSendEmail.mockResolvedValue({ success: true });
+    mockUseReducedMotion = true;
+    const { container } = renderWithTheme();
+    const form = container.querySelector("form") as HTMLFormElement;
+
+    await act(async () => {
+      fireEvent.submit(form);
+    });
+
+    await act(async () => {
+      jest.advanceTimersByTime(4000);
+    });
+
+    expect(screen.getByTestId("contact-section")).toBeInTheDocument();
   });
 
   it("renders correctly in dark mode", () => {

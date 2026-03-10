@@ -1,5 +1,5 @@
 import { motion, useReducedMotion } from "framer-motion";
-import type { LegacyBlogPost } from "@/constants";
+import type { LegacyBlogPost } from "@/types";
 import {
   CardOuter,
   CardInner,

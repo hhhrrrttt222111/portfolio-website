@@ -1,4 +1,3 @@
-import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import {
   faGithub,
   faLinkedinIn,
@@ -10,12 +9,7 @@ import {
   faMediumM,
   faPinterestP,
 } from "@fortawesome/free-brands-svg-icons";
-
-export interface SocialLink {
-  name: string;
-  url: string;
-  icon: IconDefinition;
-}
+import type { SocialLink } from "@/types";
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {

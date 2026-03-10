@@ -3,7 +3,7 @@ import { render, screen, fireEvent } from "@testing-library/react";
 import { ThemeProvider } from "@mui/material/styles";
 import { createAppTheme } from "@/theme";
 import BlogCard from "@/components/blogs/BlogCard/BlogCard";
-import type { BlogPost } from "@/constants/blogs";
+import type { BlogPost } from "@/types";
 
 const FRAMER_PROPS = new Set([
   "initial",

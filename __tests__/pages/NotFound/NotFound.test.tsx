@@ -148,6 +148,63 @@ describe("NotFound", () => {
     expect(screen.getByText(/Time: 15s/)).toBeInTheDocument();
   });
 
+  it("restarts game when space key is pressed after game ends", () => {
+    renderNotFound();
+
+    fireEvent.keyDown(window, { code: "Space", key: " " });
+
+    act(() => {
+      jest.advanceTimersByTime(15000);
+    });
+
+    fireEvent.keyDown(window, { code: "Space", key: " " });
+
+    expect(screen.getByText(/Time: 15s/)).toBeInTheDocument();
+  });
+
+  it("allows clicking ball with keyboard Enter", () => {
+    renderNotFound();
+
+    const startButton = screen.getByRole("button", { name: /start game/i });
+    fireEvent.click(startButton);
+
+    const ball = screen.getByRole("button", { name: /click to catch ball/i });
+    fireEvent.keyDown(ball, { key: "Enter" });
+
+    expect(screen.getByText(/Score:/)).toHaveTextContent("1");
+  });
+
+  it("allows clicking ball with keyboard Space", () => {
+    renderNotFound();
+
+    const startButton = screen.getByRole("button", { name: /start game/i });
+    fireEvent.click(startButton);
+
+    const ball = screen.getByRole("button", { name: /click to catch ball/i });
+    fireEvent.keyDown(ball, { key: " " });
+
+    expect(screen.getByText(/Score:/)).toHaveTextContent("1");
+  });
+
+  it("shows new high score message when beating previous score", () => {
+    localStorage.setItem("notfound-highscore", "1");
+    renderNotFound();
+
+    const startButton = screen.getByRole("button", { name: /start game/i });
+    fireEvent.click(startButton);
+
+    const ball = screen.getByRole("button", { name: /click to catch ball/i });
+    fireEvent.click(ball);
+    fireEvent.click(ball);
+    fireEvent.click(ball);
+
+    act(() => {
+      jest.advanceTimersByTime(15000);
+    });
+
+    expect(screen.getByText("🎉 New High Score!")).toBeInTheDocument();
+  });
+
   it("saves high score to localStorage", () => {
     renderNotFound();
 

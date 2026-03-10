@@ -4,7 +4,7 @@ import Dialog from "@mui/material/Dialog";
 import Slide from "@mui/material/Slide";
 import type { TransitionProps } from "@mui/material/transitions";
 import { motion, AnimatePresence, useInView, useReducedMotion } from "framer-motion";
-import type { SkillCategory as SkillCategoryType } from "@/constants";
+import type { SkillCategory as SkillCategoryType } from "@/types";
 import {
   TerminalWindow,
   TerminalTitleBar,
