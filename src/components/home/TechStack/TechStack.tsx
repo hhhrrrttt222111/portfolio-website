@@ -2,6 +2,7 @@ import { useMemo } from "react";
 import Container from "@mui/material/Container";
 import { motion, useReducedMotion } from "framer-motion";
 import { TECH_STACK } from "@/constants";
+import { sectionHeaderVariants, sectionItemVariants } from "@/animations";
 import {
   SectionRoot,
   ScanlineOverlay,
@@ -10,16 +11,6 @@ import {
   MasonryGrid,
 } from "./TechStack.styles";
 import SkillCategory from "./SkillCategory";
-
-const headerVariants = {
-  hidden: { opacity: 0 },
-  visible: { opacity: 1, transition: { staggerChildren: 0.15 } },
-};
-
-const itemVariants = {
-  hidden: { opacity: 0, y: 24 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" as const } },
-};
 
 const TechStack = () => {
   const prefersReduced = useReducedMotion();
@@ -35,16 +26,16 @@ const TechStack = () => {
 
       <Container maxWidth="lg" sx={{ position: "relative", zIndex: 1 }}>
         <motion.div
-          variants={prefersReduced ? undefined : headerVariants}
+          variants={prefersReduced ? undefined : sectionHeaderVariants}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
         >
-          <motion.div variants={prefersReduced ? undefined : itemVariants}>
+          <motion.div variants={prefersReduced ? undefined : sectionItemVariants}>
             <SectionTitle>{">"} Tech Stack</SectionTitle>
           </motion.div>
 
-          <motion.div variants={prefersReduced ? undefined : itemVariants}>
+          <motion.div variants={prefersReduced ? undefined : sectionItemVariants}>
             <SectionSubtitle>
               {totalSkills} tools & technologies across {TECH_STACK.length} domains.
               <br />

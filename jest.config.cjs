@@ -25,12 +25,32 @@ module.exports = {
       '^@/(.*)$': '<rootDir>/src/$1',
     },
     testPathIgnorePatterns: ['/node_modules/', '\\.d\\.ts$'],
+    collectCoverageFrom: [
+      'src/**/*.{ts,tsx}',
+      '!src/**/*.test.{ts,tsx}',
+      '!src/**/index.ts',
+      '!src/main.tsx',
+      '!src/vite-env.d.ts',
+      '!src/setupTests.ts',
+      '!src/types/**/*.d.ts',
+      '!src/components/visualization/**',
+    ],
     coveragePathIgnorePatterns: [
       '/node_modules/',
       'src/.*/index\\.ts$',
       'src/main\\.tsx$',
       'src/components/visualization/',
     ],
+    coverageDirectory: './coverage',
+    coverageReporters: ['text', 'lcov', 'html'],
+    coverageThreshold: {
+      global: {
+        branches: 70,
+        functions: 79,
+        lines: 80,
+        statements: 80,
+      },
+    },
     transformIgnorePatterns: [
       '/node_modules/(?!(@react-three|three)/)',
     ],

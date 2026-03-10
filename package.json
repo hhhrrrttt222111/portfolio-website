@@ -19,7 +19,8 @@
     "format:check": "prettier --check \"src/**/*.{ts,tsx,css}\" \"__tests__/**/*.{ts,tsx}\"",
     "preview": "vite preview",
     "test": "jest",
-    "coverage": "nyc npm run test",
+    "test:coverage": "jest --coverage",
+    "coverage": "jest --coverage",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },

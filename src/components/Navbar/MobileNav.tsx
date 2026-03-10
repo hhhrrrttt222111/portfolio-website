@@ -1,6 +1,6 @@
 import { type FC, useEffect, useCallback } from "react";
 import { useLocation } from "react-router-dom";
-import { motion, type Variants } from "framer-motion";
+import { motion } from "framer-motion";
 import CloseIcon from "@mui/icons-material/Close";
 import {
   Overlay,
@@ -17,6 +17,14 @@ import {
   DrawerContactButton,
 } from "./MobileNav.styles";
 import { LOGO_TEXT, CTA_LINK, type NavLink } from "@/constants";
+import {
+  overlayVariants,
+  menuVariants,
+  mobileHeaderVariants,
+  mobileNavItemVariants,
+  mobileFooterVariants,
+  activeNavIndicatorVariants,
+} from "@/animations";
 
 const MotionOverlay = motion.create(Overlay);
 const MotionMobileMenuContainer = motion.create(MobileMenuContainer);
@@ -31,69 +39,6 @@ interface MobileNavProps {
   links: NavLink[];
   onContactClick?: (e: React.MouseEvent<HTMLAnchorElement>) => void;
 }
-
-const easeOutCubic: [number, number, number, number] = [0.4, 0, 0.2, 1];
-
-const overlayVariants: Variants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: { duration: 0.3, ease: easeOutCubic },
-  },
-  exit: {
-    opacity: 0,
-    transition: { duration: 0.2, ease: easeOutCubic, delay: 0.1 },
-  },
-};
-
-const menuVariants: Variants = {
-  hidden: { x: "100%" },
-  visible: {
-    x: 0,
-    transition: {
-      type: "spring",
-      damping: 30,
-      stiffness: 300,
-      when: "beforeChildren",
-      staggerChildren: 0.05,
-    },
-  },
-  exit: {
-    x: "100%",
-    transition: {
-      type: "spring",
-      damping: 30,
-      stiffness: 300,
-    },
-  },
-};
-
-const headerVariants: Variants = {
-  hidden: { opacity: 0, y: -20 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.3, ease: easeOutCubic },
-  },
-};
-
-const navItemVariants: Variants = {
-  hidden: { opacity: 0, x: 30 },
-  visible: {
-    opacity: 1,
-    x: 0,
-    transition: { duration: 0.3, ease: easeOutCubic },
-  },
-};
-
-const footerVariants: Variants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.4, ease: easeOutCubic, delay: 0.2 },
-  },
-};
 
 const MobileNav: FC<MobileNavProps> = ({ onClose, links, onContactClick }) => {
   const location = useLocation();
@@ -138,7 +83,7 @@ const MobileNav: FC<MobileNavProps> = ({ onClose, links, onContactClick }) => {
         aria-modal="true"
         aria-label="Mobile navigation menu"
       >
-        <MotionMobileMenuHeader variants={headerVariants}>
+        <MotionMobileMenuHeader variants={mobileHeaderVariants}>
           <DrawerLogo variant="h6">{LOGO_TEXT}</DrawerLogo>
           <MotionCloseButton
             onClick={onClose}
@@ -155,7 +100,7 @@ const MobileNav: FC<MobileNavProps> = ({ onClose, links, onContactClick }) => {
             {links.map((link) => {
               const isActive = location.pathname === link.path;
               return (
-                <motion.div key={link.path} variants={navItemVariants}>
+                <motion.div key={link.path} variants={mobileNavItemVariants}>
                   <DrawerNavItem
                     to={link.path}
                     onClick={onClose}
@@ -164,8 +109,8 @@ const MobileNav: FC<MobileNavProps> = ({ onClose, links, onContactClick }) => {
                     {isActive && (
                       <MotionActiveNavItem
                         layoutId="activeNavIndicator"
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
+                        initial={activeNavIndicatorVariants.initial}
+                        animate={activeNavIndicatorVariants.animate}
                         transition={{ duration: 0.3 }}
                       />
                     )}
@@ -177,7 +122,7 @@ const MobileNav: FC<MobileNavProps> = ({ onClose, links, onContactClick }) => {
           </NavItemsContainer>
         </MobileMenuContent>
 
-        <MotionMobileMenuFooter variants={footerVariants}>
+        <MotionMobileMenuFooter variants={mobileFooterVariants}>
           <MotionDrawerContactButton
             to={CTA_LINK.path}
             onClick={(e: React.MouseEvent<HTMLAnchorElement>) => {

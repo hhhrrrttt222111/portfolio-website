@@ -8,6 +8,7 @@ import {
   ProgressBar,
   ProgressFill,
 } from "./Loader.styles";
+import { loaderContainerVariants, loaderProgressVariants } from "@/animations";
 
 const orbitNodes = [
   { angle: 0, distance: 40, delay: 0 },
@@ -21,8 +22,8 @@ const Loader = () => {
   return (
     <LoaderRoot role="status" aria-label="Loading content" aria-live="polite">
       <motion.div
-        initial={{ opacity: 0, scale: 0.8 }}
-        animate={{ opacity: 1, scale: 1 }}
+        initial={loaderContainerVariants.initial}
+        animate={loaderContainerVariants.animate}
         transition={{ duration: 0.5, ease: "easeOut" }}
       >
         <NetworkContainer>
@@ -39,8 +40,8 @@ const Loader = () => {
       </motion.div>
 
       <motion.div
-        initial={{ opacity: 0, width: 0 }}
-        animate={{ opacity: 1, width: 200 }}
+        initial={loaderProgressVariants.initial}
+        animate={loaderProgressVariants.animate}
         transition={{ duration: 0.5, delay: 0.5 }}
       >
         <ProgressBar>

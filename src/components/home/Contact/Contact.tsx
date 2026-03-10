@@ -10,6 +10,12 @@ import ErrorIcon from "@mui/icons-material/Error";
 import { motion, useReducedMotion, AnimatePresence } from "framer-motion";
 import { useEmailJS } from "@/hooks";
 import {
+  staggerContactContainerVariants,
+  staggerContactItemVariants,
+  paperPlaneVariants,
+  snackbarVariants,
+} from "@/animations";
+import {
   ContactRoot,
   ContactTitle,
   ContactSubtitle,
@@ -28,56 +34,6 @@ import {
 } from "./Contact.styles";
 
 const MotionSendButton = motion.create(SendButton);
-
-const containerVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: { staggerChildren: 0.12 },
-  },
-};
-
-const itemVariants = {
-  hidden: { opacity: 0, y: 30 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" as const } },
-};
-
-const paperPlaneVariants = {
-  initial: { scale: 0, rotate: -45, opacity: 0 },
-  animate: {
-    scale: [0, 1.2, 1],
-    rotate: [-45, 0, 15],
-    opacity: [0, 1, 1],
-    transition: { duration: 0.5, ease: "easeOut" as const },
-  },
-  fly: {
-    x: [0, 100, 300],
-    y: [0, -150, -400],
-    rotate: [15, 25, 45],
-    opacity: [1, 1, 0],
-    scale: [1, 0.8, 0.3],
-    transition: { duration: 1.2, ease: "easeIn" as const, delay: 0.3 },
-  },
-};
-
-const snackbarVariants = {
-  hidden: { opacity: 0, y: 50, scale: 0.9 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    scale: 1,
-    transition: {
-      duration: 0.4,
-      ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number],
-    },
-  },
-  exit: {
-    opacity: 0,
-    y: 20,
-    scale: 0.95,
-    transition: { duration: 0.3 },
-  },
-};
 
 type SnackbarState = {
   open: boolean;
@@ -138,23 +94,23 @@ const Contact = () => {
     <ContactRoot id="contact" data-testid="contact-section">
       <Container maxWidth="lg">
         <motion.div
-          variants={prefersReduced ? undefined : containerVariants}
+          variants={prefersReduced ? undefined : staggerContactContainerVariants}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
-          <motion.div variants={prefersReduced ? undefined : itemVariants}>
+          <motion.div variants={prefersReduced ? undefined : staggerContactItemVariants}>
             <ContactTitle>Get In Touch</ContactTitle>
           </motion.div>
 
-          <motion.div variants={prefersReduced ? undefined : itemVariants}>
+          <motion.div variants={prefersReduced ? undefined : staggerContactItemVariants}>
             <ContactSubtitle>
               Have a project in mind or just want to say hello? Drop me a message and I&apos;ll get
               back to you as soon as possible.
             </ContactSubtitle>
           </motion.div>
 
-          <motion.div variants={prefersReduced ? undefined : itemVariants}>
+          <motion.div variants={prefersReduced ? undefined : staggerContactItemVariants}>
             <ContactWrapper>
               <InfoSection>
                 <FloatingIcon>

@@ -1,10 +1,11 @@
 import { useMemo } from "react";
-import { motion, useReducedMotion, type Variants } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import Lottie from "lottie-react";
 import type { Blog } from "@/constants/blogs";
+import { blogSectionVariants, blogHeaderVariants } from "@/animations";
 import BlogCard from "../BlogCard/BlogCard";
 import {
   SectionWrapper,
@@ -25,29 +26,6 @@ import {
   LiteraryLottiePosition,
   ButtonContainer,
 } from "./BlogSection.styles";
-
-const sectionVariants: Variants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      duration: 0.6,
-      staggerChildren: 0.1,
-    },
-  },
-};
-
-const headerVariants: Variants = {
-  hidden: { opacity: 0, y: 30 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.6,
-      ease: [0.25, 0.46, 0.45, 0.94] as const,
-    },
-  },
-};
 
 const hackerAnimation = {
   v: "5.7.4",
@@ -437,7 +415,7 @@ const BlogSection = ({ blog }: BlogSectionProps) => {
 
   return (
     <motion.div
-      variants={prefersReduced ? undefined : sectionVariants}
+      variants={prefersReduced ? undefined : blogSectionVariants}
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.1 }}
@@ -472,7 +450,7 @@ const BlogSection = ({ blog }: BlogSectionProps) => {
           )}
 
           <Container maxWidth="lg">
-            <motion.div variants={prefersReduced ? undefined : headerVariants}>
+            <motion.div variants={prefersReduced ? undefined : blogHeaderVariants}>
               <SectionHeader variant={blog.theme}>
                 <SectionTitle variant={blog.theme} id={`${blog.id}-title`}>
                   {blog.name}

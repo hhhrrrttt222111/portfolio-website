@@ -1,0 +1,22 @@
+{
+  "all": true,
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": [
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "src/**/index.ts",
+    "src/main.tsx",
+    "src/vite-env.d.ts",
+    "src/setupTests.ts",
+    "src/types/**/*.d.ts",
+    "dist/**",
+    "coverage/**"
+  ],
+  "reporter": ["text", "html", "lcov"],
+  "check-coverage": true,
+  "lines": 80,
+  "functions": 79,
+  "branches": 70,
+  "statements": 80,
+  "report-dir": "./coverage"
+}

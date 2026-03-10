@@ -27,3 +27,6 @@ dist-ssr
 
 .env
 .env.test
+
+.nyc_output
+coverage

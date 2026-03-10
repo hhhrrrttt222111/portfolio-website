@@ -4,6 +4,11 @@ import { motion, useInView } from "framer-motion";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { PROJECTS } from "@/constants/projects";
 import {
+  projectsContainerVariants,
+  projectCardVariants,
+  projectHeaderVariants,
+} from "@/animations";
+import {
   SectionRoot,
   HexagonGrid,
   SectionHeader,
@@ -19,41 +24,6 @@ import {
   GitHubLink,
   FloatingParticle,
 } from "./Projects.styles";
-
-const containerVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.15,
-    },
-  },
-};
-
-const cardVariants = {
-  hidden: { opacity: 0, y: 40, scale: 0.95 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    scale: 1,
-    transition: {
-      duration: 0.6,
-      ease: [0.25, 0.8, 0.25, 1] as const,
-    },
-  },
-};
-
-const headerVariants = {
-  hidden: { opacity: 0, y: -30 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.8,
-      ease: "easeOut" as const,
-    },
-  },
-};
 
 const Projects = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -75,7 +45,7 @@ const Projects = () => {
         <motion.div
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
-          variants={headerVariants}
+          variants={projectHeaderVariants}
         >
           <SectionHeader>
             <SectionTitle>Projects</SectionTitle>
@@ -86,11 +56,11 @@ const Projects = () => {
         <motion.div
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
-          variants={containerVariants}
+          variants={projectsContainerVariants}
         >
           <ProjectsGrid>
             {PROJECTS.map((project, index) => (
-              <motion.div key={project.id} variants={cardVariants}>
+              <motion.div key={project.id} variants={projectCardVariants}>
                 <ProjectCard
                   onClick={() => handleProjectClick(project.githubUrl)}
                   role="button"

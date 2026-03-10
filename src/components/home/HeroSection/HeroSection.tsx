@@ -1,5 +1,5 @@
 import { useRef, useCallback, useState } from "react";
-import { motion, useMotionValue, useSpring, useReducedMotion, type Variants } from "framer-motion";
+import { motion, useMotionValue, useSpring, useReducedMotion } from "framer-motion";
 import {
   HeroRoot,
   PendulumAnchor,
@@ -14,101 +14,28 @@ import {
   GrainOverlay,
   VignetteOverlay,
 } from "./HeroSection.styles";
-
-const SWING_CLAMP = 45;
-const HOVER_SENSITIVITY = 60;
-const DRAG_SENSITIVITY = 60;
-const SPRING_CONFIG = { stiffness: 60, damping: 8, mass: 0.8 };
-
-const containerVariants: Variants = {
-  hidden: {},
-  visible: {
-    transition: { staggerChildren: 0.1 },
-  },
-};
-
-const dropVariants: Variants = {
-  hidden: { y: "-100%", opacity: 0 },
-  visible: {
-    y: 0,
-    opacity: 1,
-    transition: {
-      type: "spring",
-      stiffness: 50,
-      damping: 14,
-      mass: 1.4,
-      duration: 1.2,
-    },
-  },
-};
-
-const cordVariants: Variants = {
-  hidden: { scaleY: 0 },
-  visible: {
-    scaleY: 1,
-    transition: { duration: 0.5, ease: "easeOut" },
-  },
-};
-
-const phoneBodyVariants: Variants = {
-  hidden: { opacity: 0, scale: 0.6 },
-  visible: {
-    opacity: 1,
-    scale: 1,
-    transition: {
-      type: "spring",
-      stiffness: 80,
-      damping: 10,
-      delay: 0.3,
-    },
-  },
-};
-
-const titleVariants: Variants = {
-  hidden: { opacity: 0, y: 40 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94], delay: 0.9 },
-  },
-};
-
-const yearVariants: Variants = {
-  hidden: { opacity: 0, x: 20 },
-  visible: {
-    opacity: 1,
-    x: 0,
-    transition: { duration: 0.6, ease: "easeOut", delay: 1.2 },
-  },
-};
-
-const subtitleVariants: Variants = {
-  hidden: { opacity: 0, y: 10 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.5, ease: "easeOut", delay: 1.4 },
-  },
-};
-
-const grainVariants: Variants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: { duration: 1.5, delay: 0.2 },
-  },
-};
-
-const clamp = (val: number, min: number, max: number) => Math.min(Math.max(val, min), max);
-
-const getCurrentYear = () => new Date().getFullYear();
+import {
+  heroContainerVariants,
+  dropVariants,
+  cordVariants,
+  phoneBodyVariants,
+  heroTitleVariants,
+  yearVariants,
+  subtitleVariants,
+  grainVariants,
+  HERO_SWING_CLAMP,
+  HERO_HOVER_SENSITIVITY,
+  HERO_DRAG_SENSITIVITY,
+  HERO_SPRING_CONFIG,
+} from "@/animations";
+import { clamp, getCurrentYear } from "@/utils";
 
 const HeroSection = () => {
   const prefersReduced = useReducedMotion();
   const skip = !!prefersReduced;
 
   const swingTarget = useMotionValue(0);
-  const swingRotate = useSpring(swingTarget, SPRING_CONFIG);
+  const swingRotate = useSpring(swingTarget, HERO_SPRING_CONFIG);
 
   const sectionRef = useRef<HTMLDivElement>(null);
   const dragging = useRef(false);
@@ -124,7 +51,9 @@ const HeroSection = () => {
       const centerX = rect.left + rect.width / 2;
       const delta = e.clientX - centerX;
       const halfWidth = rect.width / 2;
-      swingTarget.set(clamp((delta / halfWidth) * HOVER_SENSITIVITY, -SWING_CLAMP, SWING_CLAMP));
+      swingTarget.set(
+        clamp((delta / halfWidth) * HERO_HOVER_SENSITIVITY, -HERO_SWING_CLAMP, HERO_SWING_CLAMP),
+      );
     },
     [skip, swingTarget],
   );
@@ -150,7 +79,9 @@ const HeroSection = () => {
     (e: React.PointerEvent) => {
       if (!dragging.current || skip) return;
       const delta = e.clientX - dragStartX.current;
-      swingTarget.set(clamp((delta / 100) * DRAG_SENSITIVITY, -SWING_CLAMP, SWING_CLAMP));
+      swingTarget.set(
+        clamp((delta / 100) * HERO_DRAG_SENSITIVITY, -HERO_SWING_CLAMP, HERO_SWING_CLAMP),
+      );
     },
     [skip, swingTarget],
   );
@@ -169,7 +100,7 @@ const HeroSection = () => {
       onMouseLeave={onSectionMouseLeave}
     >
       <motion.div
-        variants={containerVariants}
+        variants={heroContainerVariants}
         initial={skip ? false : "hidden"}
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
@@ -219,7 +150,7 @@ const HeroSection = () => {
         {/* Text content — pushed to the bottom */}
         <HeroContent>
           <TitleRow>
-            <motion.div variants={titleVariants}>
+            <motion.div variants={heroTitleVariants}>
               <HeroTitle>portfólio</HeroTitle>
             </motion.div>
             <motion.div variants={yearVariants}>

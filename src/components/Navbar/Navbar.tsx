@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
 import { useLocation, useNavigate } from "react-router-dom";
-import { motion, AnimatePresence, type Variants } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import MobileNav from "./MobileNav";
 import {
   NavbarRoot,
@@ -21,6 +21,15 @@ import {
   HamburgerLine,
 } from "./Navbar.styles";
 import { NAV_LINKS, LOGO_TEXT, CTA_LINK } from "@/constants";
+import {
+  easeOutCubic,
+  navItemVariants,
+  logoVariants,
+  ctaVariants,
+  navActiveIndicatorVariants,
+  navLinkUnderlineVariants,
+  getHamburgerLineVariants,
+} from "@/animations";
 
 const MotionNavLinkUnderline = motion.create(NavLinkUnderline);
 const MotionActiveIndicator = motion.create(ActiveIndicator);
@@ -29,46 +38,6 @@ const MotionHamburgerLine = motion.create(HamburgerLine);
 const MotionNavLinkWrapper = motion.create(NavLinkWrapper);
 
 const SCROLL_THRESHOLD = 50;
-
-const easeOutCubic: [number, number, number, number] = [0.4, 0, 0.2, 1];
-
-const navItemVariants: Variants = {
-  hidden: { opacity: 0, y: -10 },
-  visible: (i: number) => ({
-    opacity: 1,
-    y: 0,
-    transition: {
-      delay: i * 0.1,
-      duration: 0.4,
-      ease: easeOutCubic,
-    },
-  }),
-};
-
-const logoVariants: Variants = {
-  hidden: { opacity: 0, x: -20 },
-  visible: {
-    opacity: 1,
-    x: 0,
-    transition: {
-      duration: 0.5,
-      ease: easeOutCubic,
-    },
-  },
-};
-
-const ctaVariants: Variants = {
-  hidden: { opacity: 0, scale: 0.9 },
-  visible: {
-    opacity: 1,
-    scale: 1,
-    transition: {
-      delay: 0.3,
-      duration: 0.4,
-      ease: easeOutCubic,
-    },
-  },
-};
 
 interface NavLinkItemProps {
   link: { label: string; path: string };
@@ -91,9 +60,9 @@ const NavLinkItem = ({ link, index, isActive }: NavLinkItemProps) => {
       <AnimatePresence>
         {isActive && (
           <MotionActiveIndicator
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            exit={{ opacity: 0, scale: 0.8 }}
+            initial={navActiveIndicatorVariants.initial}
+            animate={navActiveIndicatorVariants.animate}
+            exit={navActiveIndicatorVariants.exit}
             transition={{ duration: 0.25, ease: easeOutCubic }}
             layoutId="activeNavBackground"
           />
@@ -107,9 +76,9 @@ const NavLinkItem = ({ link, index, isActive }: NavLinkItemProps) => {
       <AnimatePresence>
         {isHovered && !isActive && (
           <MotionNavLinkUnderline
-            initial={{ width: 0, opacity: 0 }}
-            animate={{ width: "50%", opacity: 1 }}
-            exit={{ width: 0, opacity: 0 }}
+            initial={navLinkUnderlineVariants.initial}
+            animate={navLinkUnderlineVariants.animate}
+            exit={navLinkUnderlineVariants.exit}
             transition={{ duration: 0.2, ease: easeOutCubic }}
           />
         )}
@@ -118,31 +87,25 @@ const NavLinkItem = ({ link, index, isActive }: NavLinkItemProps) => {
   );
 };
 
-const HamburgerIcon = ({ isOpen }: { isOpen: boolean }) => (
-  <HamburgerIconWrapper>
-    <MotionHamburgerLine
-      animate={{
-        rotate: isOpen ? 45 : 0,
-        y: isOpen ? 0 : -6,
-      }}
-      transition={{ duration: 0.3, ease: easeOutCubic }}
-    />
-    <MotionHamburgerLine
-      animate={{
-        opacity: isOpen ? 0 : 1,
-        scaleX: isOpen ? 0 : 1,
-      }}
-      transition={{ duration: 0.2, ease: easeOutCubic }}
-    />
-    <MotionHamburgerLine
-      animate={{
-        rotate: isOpen ? -45 : 0,
-        y: isOpen ? 0 : 6,
-      }}
-      transition={{ duration: 0.3, ease: easeOutCubic }}
-    />
-  </HamburgerIconWrapper>
-);
+const HamburgerIcon = ({ isOpen }: { isOpen: boolean }) => {
+  const hamburgerVariants = getHamburgerLineVariants(isOpen);
+  return (
+    <HamburgerIconWrapper>
+      <MotionHamburgerLine
+        animate={hamburgerVariants.top}
+        transition={{ duration: 0.3, ease: easeOutCubic }}
+      />
+      <MotionHamburgerLine
+        animate={hamburgerVariants.middle}
+        transition={{ duration: 0.2, ease: easeOutCubic }}
+      />
+      <MotionHamburgerLine
+        animate={hamburgerVariants.bottom}
+        transition={{ duration: 0.3, ease: easeOutCubic }}
+      />
+    </HamburgerIconWrapper>
+  );
+};
 
 const SCROLL_PADDING = 100;
 

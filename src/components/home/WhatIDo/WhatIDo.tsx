@@ -1,16 +1,10 @@
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import { motion, type Variants } from "framer-motion";
+import { motion } from "framer-motion";
 import { WHAT_I_DO_CARDS } from "@/constants";
+import { sectionStaggerVariants } from "@/animations";
 import { SectionRoot, SectionTitle, SectionSubtitle } from "./WhatIDo.styles";
 import ServiceCard from "./ServiceCard";
-
-const sectionVariants: Variants = {
-  hidden: {},
-  visible: {
-    transition: { staggerChildren: 0.15 },
-  },
-};
 
 const WhatIDo = () => {
   return (
@@ -30,7 +24,7 @@ const WhatIDo = () => {
         </motion.div>
 
         <motion.div
-          variants={sectionVariants}
+          variants={sectionStaggerVariants}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.15 }}

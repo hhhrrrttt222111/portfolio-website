@@ -6,6 +6,12 @@ import gsap from "gsap";
 import landingImage from "@/assets/png/landing-bg-removed.png";
 import FlowingBackground from "@/components/ui/FlowingBackground/FlowingBackground";
 import {
+  landingContainerVariants,
+  landingItemVariants,
+  landingImageVariants,
+  highlightStyle,
+} from "@/animations";
+import {
   LandingRoot,
   TextContent,
   HeroHeading,
@@ -17,50 +23,6 @@ import {
 
 const MotionStack = motion.create(Stack);
 const MotionImageWrapper = motion.create(ImageWrapper);
-
-const containerVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.15,
-      delayChildren: 0.2,
-    },
-  },
-};
-
-const itemVariants = {
-  hidden: { opacity: 0, y: 30 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.6,
-      ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number],
-    },
-  },
-};
-
-const imageVariants = {
-  hidden: { opacity: 0, scale: 0.9, x: 50 },
-  visible: {
-    opacity: 1,
-    scale: 1,
-    x: 0,
-    transition: {
-      duration: 0.8,
-      ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number],
-      delay: 0.4,
-    },
-  },
-};
-
-const highlightStyle = {
-  backgroundImage: "linear-gradient(transparent 85%, currentColor 85%)",
-  backgroundRepeat: "no-repeat",
-  backgroundPosition: "0 0",
-  backgroundSize: "0% 100%",
-};
 
 const Landing = () => {
   const headingRef = useRef<HTMLHeadingElement>(null);
@@ -126,11 +88,11 @@ const Landing = () => {
           <MotionStack
             justifyContent="center"
             spacing={4}
-            variants={containerVariants}
+            variants={landingContainerVariants}
             initial="hidden"
             animate="visible"
           >
-            <MotionStack spacing={2} variants={itemVariants}>
+            <MotionStack spacing={2} variants={landingItemVariants}>
               <Subtitle>Hey, I&apos;m a</Subtitle>
               <HeroHeading ref={headingRef}>
                 {splitText("Freelance")}
@@ -158,7 +120,7 @@ const Landing = () => {
               </HeroHeading>
             </MotionStack>
 
-            <MotionStack spacing={1.5} sx={{ maxWidth: 580 }} variants={itemVariants}>
+            <MotionStack spacing={1.5} sx={{ maxWidth: 580 }} variants={landingItemVariants}>
               <TagLine>
                 Great design should feel <span className="accent">invisible.</span> I build modern,
                 scalable web applications that are <span className="accent">fast</span>,{" "}
@@ -173,7 +135,7 @@ const Landing = () => {
           </MotionStack>
         </TextContent>
 
-        <MotionImageWrapper variants={imageVariants} initial="hidden" animate="visible">
+        <MotionImageWrapper variants={landingImageVariants} initial="hidden" animate="visible">
           <img src={landingImage} alt="Portrait" loading="eager" />
         </MotionImageWrapper>
       </Stack>

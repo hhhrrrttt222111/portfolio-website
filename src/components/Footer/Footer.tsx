@@ -4,6 +4,7 @@ import { useTheme } from "@mui/material/styles";
 import { motion, useReducedMotion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { SOCIAL_LINKS, SUBSTACK_LINK } from "@/constants";
+import { iconFadeVariants, staggerFastContainerVariants } from "@/animations";
 import {
   FooterRoot,
   WaveContainer,
@@ -19,11 +20,6 @@ const WAVE_PATHS = [
   "M0,80 C320,30 640,130 960,60 C1280,10 1600,110 1920,50 L1920,0 L0,0 Z",
   "M0,48 C320,100 640,10 960,72 C1280,130 1600,30 1920,88 L1920,0 L0,0 Z",
 ];
-
-const iconVariants = {
-  hidden: { opacity: 0, scale: 0.6 },
-  visible: { opacity: 1, scale: 1, transition: { duration: 0.4, ease: "easeOut" as const } },
-};
 
 const SubstackIcon = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em">
@@ -80,16 +76,13 @@ const Footer = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
-            variants={{
-              hidden: { opacity: 0 },
-              visible: { opacity: 1, transition: { staggerChildren: 0.06 } },
-            }}
+            variants={staggerFastContainerVariants}
           >
             <SocialGrid>
               {SOCIAL_LINKS.map((link) => (
                 <motion.div
                   key={link.name}
-                  variants={prefersReduced ? undefined : iconVariants}
+                  variants={prefersReduced ? undefined : iconFadeVariants}
                   whileHover={prefersReduced ? undefined : { y: -4, scale: 1.08 }}
                   whileTap={{ scale: 0.95 }}
                 >
@@ -118,7 +111,7 @@ const Footer = () => {
               ))}
               <motion.div
                 key={SUBSTACK_LINK.name}
-                variants={prefersReduced ? undefined : iconVariants}
+                variants={prefersReduced ? undefined : iconFadeVariants}
                 whileHover={prefersReduced ? undefined : { y: -4, scale: 1.08 }}
                 whileTap={{ scale: 0.95 }}
               >

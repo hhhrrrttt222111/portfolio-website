@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Container from "@mui/material/Container";
 import { motion, useReducedMotion } from "framer-motion";
 import { BLOG_POSTS, type LegacyBlogPost } from "@/constants";
+import { sectionHeaderVariants, sectionItemVariants } from "@/animations";
 import {
   SectionRoot,
   SectionTitle,
@@ -11,16 +12,6 @@ import {
 } from "./BlogPreview.styles";
 import BlogCard from "./BlogCard";
 
-const headerVariants = {
-  hidden: { opacity: 0 },
-  visible: { opacity: 1, transition: { staggerChildren: 0.15 } },
-};
-
-const itemVariants = {
-  hidden: { opacity: 0, y: 24 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" as const } },
-};
-
 const BlogPreview = () => {
   const prefersReduced = useReducedMotion();
 
@@ -28,16 +19,16 @@ const BlogPreview = () => {
     <SectionRoot data-testid="blog-preview">
       <Container maxWidth="lg" sx={{ position: "relative", zIndex: 1 }}>
         <motion.div
-          variants={prefersReduced ? undefined : headerVariants}
+          variants={prefersReduced ? undefined : sectionHeaderVariants}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
         >
-          <motion.div variants={prefersReduced ? undefined : itemVariants}>
+          <motion.div variants={prefersReduced ? undefined : sectionItemVariants}>
             <SectionTitle>From the Desk</SectionTitle>
           </motion.div>
 
-          <motion.div variants={prefersReduced ? undefined : itemVariants}>
+          <motion.div variants={prefersReduced ? undefined : sectionItemVariants}>
             <SectionSubtitle>
               Musings on cybersecurity, hacking tools, and the books that shaped my thinking. Here
               are a few pieces.

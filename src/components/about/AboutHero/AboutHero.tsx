@@ -1,8 +1,15 @@
-import { motion, useReducedMotion, type Variants } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import { Link } from "react-router-dom";
+import {
+  aboutContainerVariants,
+  aboutFadeUpVariants,
+  aboutFadeUpDelayVariants,
+  scrollCueVariants,
+  bounceVariants,
+} from "@/animations";
 import {
   HeroRoot,
   BlobContainer,
@@ -15,44 +22,6 @@ import {
   ScrollCue,
 } from "./AboutHero.styles";
 import JourneyTimeline from "../JourneyTimeline/JourneyTimeline";
-
-const containerVariants: Variants = {
-  hidden: {},
-  visible: { transition: { staggerChildren: 0.15 } },
-};
-
-const fadeUp: Variants = {
-  hidden: { opacity: 0, y: 30 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] },
-  },
-};
-
-const fadeUpDelay: Variants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.7, ease: "easeOut", delay: 0.3 },
-  },
-};
-
-const scrollCueVariants: Variants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: { duration: 0.6, delay: 1.8 },
-  },
-};
-
-const bounceVariants: Variants = {
-  visible: {
-    y: [0, 6, 0],
-    transition: { duration: 1.5, repeat: Infinity, ease: "easeInOut" },
-  },
-};
 
 const AboutHero = () => {
   const prefersReduced = useReducedMotion();
@@ -68,22 +37,22 @@ const AboutHero = () => {
 
       <Container maxWidth="lg" sx={{ display: "flex", justifyContent: "center" }}>
         <motion.div
-          variants={containerVariants}
+          variants={aboutContainerVariants}
           initial={skip ? false : "hidden"}
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
           style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
         >
           <HeroContent>
-            <motion.div variants={fadeUp}>
+            <motion.div variants={aboutFadeUpVariants}>
               <HeroSubheading>About Me</HeroSubheading>
             </motion.div>
 
-            <motion.div variants={fadeUp}>
+            <motion.div variants={aboutFadeUpVariants}>
               <HeroHeading>Hi, I'm Hemanth. I design thoughtful digital experiences.</HeroHeading>
             </motion.div>
 
-            <motion.div variants={fadeUp}>
+            <motion.div variants={aboutFadeUpVariants}>
               <HeroParagraph>
                 I’ve been fascinated by computers for as long as I can remember. What started as
                 curiosity in a school computer lab—tinkering with HTML and exploring how websites
@@ -112,7 +81,7 @@ const AboutHero = () => {
               </HeroParagraph>
             </motion.div>
 
-            <motion.div variants={fadeUpDelay}>
+            <motion.div variants={aboutFadeUpDelayVariants}>
               <ReadingNote>
                 <Typography variant="body2" sx={{ color: "text.secondary", lineHeight: 1.7 }}>
                   When I'm not coding, you'll find me buried in a book. I'm an avid reader —
