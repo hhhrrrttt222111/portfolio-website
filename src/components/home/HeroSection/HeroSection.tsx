@@ -7,10 +7,11 @@ import {
   PhoneWrapper,
   CordSvg,
   PhoneIcon,
+  NameText,
   HeroTitle,
   YearText,
   TitleRow,
-  SubtitleText,
+  Divider,
   GrainOverlay,
   VignetteOverlay,
 } from "./HeroSection.styles";
@@ -19,9 +20,10 @@ import {
   dropVariants,
   cordVariants,
   phoneBodyVariants,
+  nameVariants,
   heroTitleVariants,
+  dividerVariants,
   yearVariants,
-  subtitleVariants,
   grainVariants,
   HERO_SWING_CLAMP,
   HERO_HOVER_SENSITIVITY,
@@ -147,20 +149,22 @@ const HeroSection = () => {
           </motion.div>
         </PendulumAnchor>
 
-        {/* Text content — pushed to the bottom */}
         <HeroContent>
+          <motion.div variants={nameVariants}>
+            <NameText>Hemanth R.</NameText>
+          </motion.div>
+
           <TitleRow>
             <motion.div variants={heroTitleVariants}>
               <HeroTitle>portfólio</HeroTitle>
+            </motion.div>
+            <motion.div variants={dividerVariants}>
+              <Divider />
             </motion.div>
             <motion.div variants={yearVariants}>
               <YearText>{getCurrentYear()}</YearText>
             </motion.div>
           </TitleRow>
-
-          <motion.div variants={subtitleVariants}>
-            <SubtitleText>[ Hemanth R ]</SubtitleText>
-          </motion.div>
         </HeroContent>
 
         <motion.div variants={grainVariants}>

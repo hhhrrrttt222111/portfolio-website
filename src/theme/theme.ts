@@ -3,6 +3,7 @@ import type { PaletteMode } from "@mui/material";
 
 const fontFamilies = {
   heading: "'Space Grotesk', 'Helvetica Neue', sans-serif",
+  display: "'Instrument Serif', Georgia, serif",
   body: "'Syne', 'Helvetica Neue', sans-serif",
   mono: "'JetBrains Mono', 'Fira Code', 'Consolas', monospace",
 };

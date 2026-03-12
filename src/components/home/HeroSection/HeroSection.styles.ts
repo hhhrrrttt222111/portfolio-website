@@ -1,6 +1,5 @@
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
 import { fontFamilies } from "@/theme/theme";
 
 export const HeroRoot = styled("section")(({ theme }) => ({
@@ -26,9 +25,9 @@ export const PendulumAnchor = styled(Box)({
   zIndex: 1,
 });
 
-export const HeroContent = styled(Box)({
+export const HeroContent = styled(Box)(({ theme }) => ({
   position: "absolute",
-  bottom: "20%",
+  bottom: "12%",
   left: 0,
   right: 0,
   display: "flex",
@@ -36,7 +35,8 @@ export const HeroContent = styled(Box)({
   alignItems: "center",
   zIndex: 1,
   textAlign: "center",
-});
+  padding: theme.spacing(0, 2),
+}));
 
 export const PhoneWrapper = styled(Box)({
   display: "flex",
@@ -60,53 +60,84 @@ export const PhoneIcon = styled(Box)({
   },
 });
 
-export const HeroTitle = styled("h1")(({ theme }) => ({
-  fontFamily: fontFamilies.heading,
-  fontWeight: 700,
-  fontSize: "2.5rem",
-  color: theme.palette.text.primary,
-  marginTop: theme.spacing(3),
+export const NameText = styled("h1")(({ theme }) => ({
+  fontFamily: fontFamilies.display,
+  fontWeight: 400,
+  fontSize: "3.5rem",
+  fontStyle: "italic",
   letterSpacing: "-0.03em",
+  color: theme.palette.text.primary,
   margin: 0,
+  lineHeight: 0.95,
   [theme.breakpoints.up("sm")]: {
-    fontSize: "3.5rem",
+    fontSize: "5.5rem",
   },
   [theme.breakpoints.up("md")]: {
-    fontSize: "4.5rem",
+    fontSize: "7rem",
+  },
+  [theme.breakpoints.up("lg")]: {
+    fontSize: "8rem",
+  },
+}));
+
+export const RoleText = styled("span")(({ theme }) => ({
+  fontFamily: fontFamilies.mono,
+  fontWeight: 400,
+  fontSize: "0.65rem",
+  letterSpacing: "0.2em",
+  textTransform: "uppercase",
+  color: theme.palette.primary.main,
+  display: "inline-block",
+  padding: theme.spacing(0.75, 2),
+  border: `1px solid ${theme.palette.primary.main}`,
+  borderRadius: 100,
+  marginBottom: theme.spacing(2),
+  [theme.breakpoints.up("sm")]: {
+    fontSize: "0.7rem",
+    padding: theme.spacing(1, 2.5),
+  },
+}));
+
+export const TitleRow = styled(Box)(({ theme }) => ({
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  gap: theme.spacing(2),
+  marginTop: theme.spacing(2),
+  [theme.breakpoints.up("sm")]: {
+    gap: theme.spacing(3),
+  },
+}));
+
+export const HeroTitle = styled("span")(({ theme }) => ({
+  fontFamily: fontFamilies.body,
+  fontWeight: 400,
+  fontSize: "0.85rem",
+  color: theme.palette.text.secondary,
+  letterSpacing: "0.05em",
+  [theme.breakpoints.up("sm")]: {
+    fontSize: "1rem",
+  },
+}));
+
+export const Divider = styled("span")(({ theme }) => ({
+  width: 40,
+  height: 1,
+  backgroundColor: theme.palette.text.secondary,
+  opacity: 0.4,
+  [theme.breakpoints.up("sm")]: {
+    width: 60,
   },
 }));
 
 export const YearText = styled("span")(({ theme }) => ({
   fontFamily: fontFamilies.mono,
   fontWeight: 400,
-  fontSize: "1.25rem",
+  fontSize: "0.85rem",
   color: theme.palette.text.secondary,
-  marginLeft: theme.spacing(2),
+  letterSpacing: "0.05em",
   [theme.breakpoints.up("sm")]: {
-    fontSize: "1.5rem",
-  },
-  [theme.breakpoints.up("md")]: {
-    fontSize: "1.75rem",
-  },
-}));
-
-export const TitleRow = styled(Box)({
-  display: "flex",
-  alignItems: "baseline",
-  justifyContent: "center",
-  gap: 12,
-});
-
-export const SubtitleText = styled(Typography)(({ theme }) => ({
-  fontFamily: fontFamilies.body,
-  fontWeight: 400,
-  fontSize: "0.75rem",
-  letterSpacing: "0.15em",
-  color: theme.palette.text.secondary,
-  marginTop: theme.spacing(0.5),
-  textTransform: "lowercase",
-  [theme.breakpoints.up("sm")]: {
-    fontSize: "0.85rem",
+    fontSize: "1rem",
   },
 }));
 

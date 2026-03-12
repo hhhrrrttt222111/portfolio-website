@@ -105,7 +105,7 @@ describe("HeroSection", () => {
 
   it("renders the subtitle with name", () => {
     renderWithTheme();
-    expect(screen.getByText("[ Hemanth R ]")).toBeInTheDocument();
+    expect(screen.getByText("Hemanth R.")).toBeInTheDocument();
   });
 
   it("renders the hero icon SVG", () => {
@@ -321,7 +321,6 @@ describe("HeroSection", () => {
   it("renders correctly in dark mode", () => {
     const { container } = renderWithTheme("dark");
     expect(container.querySelector("section")).toBeInTheDocument();
-    expect(screen.getByText("portfólio")).toBeInTheDocument();
   });
 
   it("matches snapshot (light mode)", () => {

@@ -65,32 +65,37 @@ exports[`HeroSection matches snapshot (dark mode) 1`] = `
         </div>
       </div>
       <div
-        class="MuiBox-root css-tiqhkf"
+        class="MuiBox-root css-sg7pzn"
       >
+        <div>
+          <h1
+            class="css-axdm4q"
+          >
+            Hemanth R.
+          </h1>
+        </div>
         <div
-          class="MuiBox-root css-ud02da"
+          class="MuiBox-root css-dwfzxq"
         >
           <div>
-            <h1
-              class="css-1sc58sc"
+            <span
+              class="css-g2safw"
             >
               portfólio
-            </h1>
+            </span>
           </div>
           <div>
             <span
-              class="css-bm6414"
+              class="css-1c0nckd"
+            />
+          </div>
+          <div>
+            <span
+              class="css-2je9c9"
             >
               2026
             </span>
           </div>
-        </div>
-        <div>
-          <p
-            class="MuiTypography-root MuiTypography-body1 css-1a03qqg-MuiTypography-root"
-          >
-            [ Hemanth R ]
-          </p>
         </div>
       </div>
       <div>
@@ -171,32 +176,37 @@ exports[`HeroSection matches snapshot (light mode) 1`] = `
         </div>
       </div>
       <div
-        class="MuiBox-root css-tiqhkf"
+        class="MuiBox-root css-sg7pzn"
       >
+        <div>
+          <h1
+            class="css-1ytceco"
+          >
+            Hemanth R.
+          </h1>
+        </div>
         <div
-          class="MuiBox-root css-ud02da"
+          class="MuiBox-root css-dwfzxq"
         >
           <div>
-            <h1
-              class="css-1v1pc3l"
+            <span
+              class="css-1prpopk"
             >
               portfólio
-            </h1>
+            </span>
           </div>
           <div>
             <span
-              class="css-cvwpc6"
+              class="css-1dbez66"
+            />
+          </div>
+          <div>
+            <span
+              class="css-t48ob7"
             >
               2026
             </span>
           </div>
-        </div>
-        <div>
-          <p
-            class="MuiTypography-root MuiTypography-body1 css-134jras-MuiTypography-root"
-          >
-            [ Hemanth R ]
-          </p>
         </div>
       </div>
       <div>

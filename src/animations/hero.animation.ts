@@ -45,30 +45,39 @@ export const phoneBodyVariants: Variants = {
   },
 };
 
-export const heroTitleVariants: Variants = {
-  hidden: { opacity: 0, y: 40 },
+export const nameVariants: Variants = {
+  hidden: { opacity: 0, y: 60 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.8, ease: easeOutQuart, delay: 0.9 },
+    transition: { duration: 1, ease: easeOutQuart, delay: 0.9 },
+  },
+};
+
+export const heroTitleVariants: Variants = {
+  hidden: { opacity: 0, x: -30 },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: { duration: 0.6, ease: easeOutQuart, delay: 1.4 },
+  },
+};
+
+export const dividerVariants: Variants = {
+  hidden: { opacity: 0, scaleX: 0 },
+  visible: {
+    opacity: 1,
+    scaleX: 1,
+    transition: { duration: 0.5, ease: "easeOut", delay: 1.5 },
   },
 };
 
 export const yearVariants: Variants = {
-  hidden: { opacity: 0, x: 20 },
+  hidden: { opacity: 0, x: 30 },
   visible: {
     opacity: 1,
     x: 0,
-    transition: { duration: 0.6, ease: "easeOut", delay: 1.2 },
-  },
-};
-
-export const subtitleVariants: Variants = {
-  hidden: { opacity: 0, y: 10 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.5, ease: "easeOut", delay: 1.4 },
+    transition: { duration: 0.6, ease: "easeOut", delay: 1.6 },
   },
 };
 
