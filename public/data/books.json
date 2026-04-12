@@ -1,5 +1,14 @@
 [
   {
+    "title": "The Glass Palace",
+    "author": "Amitav Ghosh",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1520866736l/77103.jpg",
+    "rating": 3,
+    "avgRating": 3.99,
+    "readDate": "2026-04-11",
+    "link": "https://www.goodreads.com/review/show/8463406551?utm_medium=api&utm_source=rss"
+  },
+  {
     "title": "The Complete Maus",
     "author": "Art Spiegelman",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327354180l/15195.jpg",
