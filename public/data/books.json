@@ -1,5 +1,14 @@
 [
   {
+    "title": "The Three-Body Problem (Remembrance of Earth’s Past, #1)",
+    "author": "Liu Cixin",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415428227l/20518872.jpg",
+    "rating": 4,
+    "avgRating": 4.07,
+    "readDate": "2026-06-22",
+    "link": "https://www.goodreads.com/review/show/8698333185?utm_medium=api&utm_source=rss"
+  },
+  {
     "title": "The Bridge of San Luis Rey",
     "author": "Thornton Wilder",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348937011l/92508.jpg",
@@ -130,7 +139,7 @@
     "author": "Art Spiegelman",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327354180l/15195.jpg",
     "rating": 5,
-    "avgRating": 4.58,
+    "avgRating": 4.57,
     "readDate": "2026-03-28",
     "link": "https://www.goodreads.com/review/show/8473805323?utm_medium=api&utm_source=rss"
   },
