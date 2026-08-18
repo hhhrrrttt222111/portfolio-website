@@ -1,5 +1,14 @@
 [
   {
+    "title": "The World Needs Your F*cking Ideas: How to Start a Business That Will Save Our Universe",
+    "author": "Benjamin VandenWymelenberg",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1556550378l/45360589.jpg",
+    "rating": 4,
+    "avgRating": 3.82,
+    "readDate": "2026-08-17",
+    "link": "https://www.goodreads.com/review/show/8863526257?utm_medium=api&utm_source=rss"
+  },
+  {
     "title": "The Trackers",
     "author": "Charles Frazier",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1675640849l/61609871.jpg",
@@ -355,7 +364,7 @@
     "author": "Arundhati Roy",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590240633l/53466059.jpg",
     "rating": 5,
-    "avgRating": 4.11,
+    "avgRating": 4.1,
     "readDate": "2026-01-23",
     "link": "https://www.goodreads.com/review/show/8281775517?utm_medium=api&utm_source=rss"
   },
@@ -1345,7 +1354,7 @@
     "author": "Paulo Coelho",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1533413985l/41045007.jpg",
     "rating": 4,
-    "avgRating": 3.75,
+    "avgRating": 3.76,
     "readDate": "2024-11-01",
     "link": "https://www.goodreads.com/review/show/7052847797?utm_medium=api&utm_source=rss"
   },
@@ -1591,6 +1600,15 @@
     "avgRating": 3.28,
     "readDate": "2024-01-01",
     "link": "https://www.goodreads.com/review/show/6881850998?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Nemesis (Miss Marple, #11)",
+    "author": "Agatha Christie",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1389760569l/31304.jpg",
+    "rating": 0,
+    "avgRating": 3.86,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/8866858050?utm_medium=api&utm_source=rss"
   },
   {
     "title": "Swami and Friends (Phoenix Fiction)",
@@ -2110,7 +2128,7 @@
     "author": "Dan    Brown",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1534070883l/6411961.jpg",
     "rating": 4,
-    "avgRating": 3.75,
+    "avgRating": 3.76,
     "readDate": "",
     "link": "https://www.goodreads.com/review/show/6884050330?utm_medium=api&utm_source=rss"
   },
