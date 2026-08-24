@@ -904,7 +904,7 @@
     "author": "Shashi Tharoor",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348894898l/663816.jpg",
     "rating": 4,
-    "avgRating": 3.58,
+    "avgRating": 3.59,
     "readDate": "2025-05-27",
     "link": "https://www.goodreads.com/review/show/7589774865?utm_medium=api&utm_source=rss"
   },
@@ -1048,7 +1048,7 @@
     "author": "Patrick King",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590614400l/53512231.jpg",
     "rating": 4,
-    "avgRating": 3.49,
+    "avgRating": 3.48,
     "readDate": "2025-03-30",
     "link": "https://www.goodreads.com/review/show/7446761049?utm_medium=api&utm_source=rss"
   },
@@ -1579,7 +1579,7 @@
     "author": "Adam Tooze",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630755364l/53491553.jpg",
     "rating": 5,
-    "avgRating": 3.8,
+    "avgRating": 3.79,
     "readDate": "2024-01-01",
     "link": "https://www.goodreads.com/review/show/7148900176?utm_medium=api&utm_source=rss"
   },
@@ -1609,6 +1609,204 @@
     "avgRating": 3.28,
     "readDate": "2024-01-01",
     "link": "https://www.goodreads.com/review/show/6881850998?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Secret Seven (The Secret Seven, #1)",
+    "author": "Enid Blyton",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415581606l/17496.jpg",
+    "rating": 0,
+    "avgRating": 3.9,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/8883687963?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Five Go to Demon's Rocks (Famous Five, #19)",
+    "author": "Enid Blyton",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1419179640l/319975.jpg",
+    "rating": 0,
+    "avgRating": 4,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/8883687501?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Five Are Together Again (Famous Five, #21)",
+    "author": "Enid Blyton",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1419183692l/557208.jpg",
+    "rating": 0,
+    "avgRating": 3.97,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/8883687421?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Five on a Secret Trail (Famous Five, #15)",
+    "author": "Enid Blyton",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1345299615l/557226.jpg",
+    "rating": 0,
+    "avgRating": 3.98,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/8883687317?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Five Have a Mystery to Solve (Famous Five, #20)",
+    "author": "Enid Blyton",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348519845l/17494.jpg",
+    "rating": 0,
+    "avgRating": 3.97,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/8883687202?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Five Have Plenty of Fun (Famous Five, #14)",
+    "author": "Enid Blyton",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348504122l/557228.jpg",
+    "rating": 0,
+    "avgRating": 4,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/8883687122?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Five Get into a Fix (Famous Five, #17)",
+    "author": "Enid Blyton",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563965391l/17493.jpg",
+    "rating": 0,
+    "avgRating": 3.99,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/8883687007?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Five on Finniston Farm (Famous Five, #18)",
+    "author": "Enid Blyton",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1319191557l/557231.jpg",
+    "rating": 0,
+    "avgRating": 4.03,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/8883686868?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Five Have a Wonderful Time (Famous Five, #11)",
+    "author": "Enid Blyton",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348488737l/557212.jpg",
+    "rating": 0,
+    "avgRating": 4,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/8883686765?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Five Fall Into Adventure (The Famous Five, #9)",
+    "author": "Enid Blyton",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1419180671l/319976.jpg",
+    "rating": 0,
+    "avgRating": 4.02,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/8883686661?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Five on a Hike Together (Famous Five, #10)",
+    "author": "Enid Blyton",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408926735l/735321.jpg",
+    "rating": 0,
+    "avgRating": 4.02,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/8883686559?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Five Go Down to the Sea (Famous Five, #12)",
+    "author": "Enid Blyton",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1322759423l/557229.jpg",
+    "rating": 0,
+    "avgRating": 3.98,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/8883686463?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Five Go to Mystery Moor (The Famous Five, #13)",
+    "author": "Enid Blyton",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348500568l/17483.jpg",
+    "rating": 0,
+    "avgRating": 4.01,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/8883686368?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Five Go Off to Camp (Famous Five, #7)",
+    "author": "Enid Blyton",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408923348l/557188.jpg",
+    "rating": 0,
+    "avgRating": 3.99,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/8883686229?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Five Get Into Trouble (Famous Five, #8)",
+    "author": "Enid Blyton",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408925457l/557220.jpg",
+    "rating": 0,
+    "avgRating": 4.01,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/8883686084?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Five on Kirrin Island Again (Famous Five, #6)",
+    "author": "Enid Blyton",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408925749l/557184.jpg",
+    "rating": 0,
+    "avgRating": 4.06,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/8883685985?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Five Go Off in a Caravan (Famous Five, #5)",
+    "author": "Enid Blyton",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348472207l/74996.jpg",
+    "rating": 0,
+    "avgRating": 4.03,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/8883685878?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Five Go to Smuggler's Top (Famous Five, #4)",
+    "author": "Enid Blyton",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408924745l/17478.jpg",
+    "rating": 0,
+    "avgRating": 4.11,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/8883685780?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Five Run Away Together (Famous Five, #3)",
+    "author": "Enid Blyton",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1319213384l/74997.jpg",
+    "rating": 0,
+    "avgRating": 4.11,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/8883685686?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Five Go Adventuring Again (Famous Five, #2)",
+    "author": "Enid Blyton",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408923873l/17487.jpg",
+    "rating": 0,
+    "avgRating": 4.08,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/8883685622?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "Five on a Treasure Island (Famous Five, #1)",
+    "author": "Enid Blyton",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408926754l/17488.jpg",
+    "rating": 0,
+    "avgRating": 4.13,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/8883685489?utm_medium=api&utm_source=rss"
+  },
+  {
+    "title": "The Rockingdown Mystery (Barney Mysteries, #1)",
+    "author": "Enid Blyton",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1183300322l/1398867.jpg",
+    "rating": 0,
+    "avgRating": 4.07,
+    "readDate": "",
+    "link": "https://www.goodreads.com/review/show/8883681453?utm_medium=api&utm_source=rss"
   },
   {
     "title": "Nemesis (Miss Marple, #11)",
