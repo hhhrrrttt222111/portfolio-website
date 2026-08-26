@@ -1,5 +1,14 @@
 [
   {
+    "title": "Mother Mary Comes to Me",
+    "author": "Arundhati Roy",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1767714443l/224004055.jpg",
+    "rating": 5,
+    "avgRating": 4.36,
+    "readDate": "2026-08-25",
+    "link": "https://www.goodreads.com/review/show/8881388248?utm_medium=api&utm_source=rss"
+  },
+  {
     "title": "Sense and Sensibility",
     "author": "Jane Austen",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397245675l/14935.jpg",
@@ -58,7 +67,7 @@
     "author": "Fyodor Dostoevsky",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1450699039l/1772910.jpg",
     "rating": 5,
-    "avgRating": 4.12,
+    "avgRating": 4.11,
     "readDate": "2026-07-19",
     "link": "https://www.goodreads.com/review/show/7379590134?utm_medium=api&utm_source=rss"
   },
@@ -157,7 +166,7 @@
     "author": "R.F. Kuang",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1762103964l/210223811.jpg",
     "rating": 4,
-    "avgRating": 3.7,
+    "avgRating": 3.69,
     "readDate": "2026-06-09",
     "link": "https://www.goodreads.com/review/show/8653023343?utm_medium=api&utm_source=rss"
   },
@@ -1291,7 +1300,7 @@
     "author": "Luke Coutinho",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1683083090l/144026501.jpg",
     "rating": 4,
-    "avgRating": 4.2,
+    "avgRating": 4.19,
     "readDate": "2024-12-09",
     "link": "https://www.goodreads.com/review/show/7052879188?utm_medium=api&utm_source=rss"
   },
@@ -1786,7 +1795,7 @@
     "author": "Enid Blyton",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408923873l/17487.jpg",
     "rating": 0,
-    "avgRating": 4.08,
+    "avgRating": 4.07,
     "readDate": "",
     "link": "https://www.goodreads.com/review/show/8883685622?utm_medium=api&utm_source=rss"
   },
