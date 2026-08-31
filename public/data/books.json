@@ -1,5 +1,14 @@
 [
   {
+    "title": "Problem at Pollensa Bay and Other Stories",
+    "author": "Agatha Christie",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396227981l/735107.jpg",
+    "rating": 4,
+    "avgRating": 3.59,
+    "readDate": "2026-08-30",
+    "link": "https://www.goodreads.com/review/show/8902639526?utm_medium=api&utm_source=rss"
+  },
+  {
     "title": "Alibaba: The House That Jack Ma Built",
     "author": "Duncan Clark",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442823028l/25817524.jpg",
@@ -1588,7 +1597,7 @@
     "author": "Morgan Housel",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581527774l/41881472.jpg",
     "rating": 4,
-    "avgRating": 4.26,
+    "avgRating": 4.25,
     "readDate": "2024-04-01",
     "link": "https://www.goodreads.com/review/show/7157139076?utm_medium=api&utm_source=rss"
   },
@@ -1795,7 +1804,7 @@
     "author": "Enid Blyton",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408924745l/17478.jpg",
     "rating": 0,
-    "avgRating": 4.11,
+    "avgRating": 4.1,
     "readDate": "",
     "link": "https://www.goodreads.com/review/show/8883685780?utm_medium=api&utm_source=rss"
   },
