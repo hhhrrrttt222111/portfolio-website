@@ -1,5 +1,14 @@
 [
   {
+    "title": "The Night Manager",
+    "author": "John le Carré",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348724026l/1735330.jpg",
+    "rating": 3,
+    "avgRating": 3.82,
+    "readDate": "2026-09-05",
+    "link": "https://www.goodreads.com/review/show/8913201743?utm_medium=api&utm_source=rss"
+  },
+  {
     "title": "The Pilgrim&apos;s Progress",
     "author": "John Bunyan",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405982367l/29797.jpg",
@@ -643,7 +652,7 @@
     "author": "William Dalrymple",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677706997l/124430.jpg",
     "rating": 5,
-    "avgRating": 4.12,
+    "avgRating": 4.13,
     "readDate": "2025-10-10",
     "link": "https://www.goodreads.com/review/show/7966012218?utm_medium=api&utm_source=rss"
   },
@@ -670,7 +679,7 @@
     "author": "Alex Gray",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1361731201l/1639457.jpg",
     "rating": 3,
-    "avgRating": 3.63,
+    "avgRating": 3.62,
     "readDate": "2025-09-14",
     "link": "https://www.goodreads.com/review/show/7911014070?utm_medium=api&utm_source=rss"
   },
@@ -1201,7 +1210,7 @@
     "author": "George S. Clason",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543897827l/43097201.jpg",
     "rating": 4,
-    "avgRating": 4.18,
+    "avgRating": 4.17,
     "readDate": "2025-02-17",
     "link": "https://www.goodreads.com/review/show/7325860503?utm_medium=api&utm_source=rss"
   },
@@ -1759,7 +1768,7 @@
     "author": "Enid Blyton",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1322759423l/557229.jpg",
     "rating": 0,
-    "avgRating": 3.99,
+    "avgRating": 3.98,
     "readDate": "",
     "link": "https://www.goodreads.com/review/show/8883686463?utm_medium=api&utm_source=rss"
   },
@@ -1804,7 +1813,7 @@
     "author": "Enid Blyton",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348472207l/74996.jpg",
     "rating": 0,
-    "avgRating": 4.04,
+    "avgRating": 4.03,
     "readDate": "",
     "link": "https://www.goodreads.com/review/show/8883685878?utm_medium=api&utm_source=rss"
   },
