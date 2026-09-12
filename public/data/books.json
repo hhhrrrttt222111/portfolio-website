@@ -1,5 +1,14 @@
 [
   {
+    "title": "Shoe Dog: A Memoir by the Creator of Nike",
+    "author": "Phil Knight",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1457284880l/27220736.jpg",
+    "rating": 5,
+    "avgRating": 4.43,
+    "readDate": "2026-09-11",
+    "link": "https://www.goodreads.com/review/show/8920025838?utm_medium=api&utm_source=rss"
+  },
+  {
     "title": "The Night Manager",
     "author": "John le Carré",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348724026l/1735330.jpg",
@@ -1246,7 +1255,7 @@
     "author": "Nidhi  Upadhyay",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1728181805l/220151640.jpg",
     "rating": 5,
-    "avgRating": 4.01,
+    "avgRating": 4,
     "readDate": "2025-02-10",
     "link": "https://www.goodreads.com/review/show/7301096886?utm_medium=api&utm_source=rss"
   },
