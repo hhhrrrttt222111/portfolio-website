@@ -1,5 +1,14 @@
 [
   {
+    "title": "Win (Windsor Horne Lockwood III, #1)",
+    "author": "Harlan Coben",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595212883l/53916157.jpg",
+    "rating": 4,
+    "avgRating": 3.95,
+    "readDate": "2026-10-16",
+    "link": "https://www.goodreads.com/review/show/9019319844?utm_medium=api&utm_source=rss"
+  },
+  {
     "title": "While the Light Lasts (Hercule Poirot, #45)",
     "author": "Agatha Christie",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1566933509l/910046.jpg",
@@ -58,7 +67,7 @@
     "author": "Chitra Banerjee Divakaruni",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545301594l/43293099.jpg",
     "rating": 5,
-    "avgRating": 4.21,
+    "avgRating": 4.22,
     "readDate": "2026-09-19",
     "link": "https://www.goodreads.com/review/show/8942616989?utm_medium=api&utm_source=rss"
   },
@@ -1138,7 +1147,7 @@
     "author": "Patrick King",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1607355306l/56199402.jpg",
     "rating": 4,
-    "avgRating": 3.41,
+    "avgRating": 3.42,
     "readDate": "2025-04-20",
     "link": "https://www.goodreads.com/review/show/7501519295?utm_medium=api&utm_source=rss"
   },
