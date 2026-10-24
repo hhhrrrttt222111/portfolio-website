@@ -1,5 +1,14 @@
 [
   {
+    "title": "Blue Moon (Jack Reacher, #24)",
+    "author": "Lee Child",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1552099648l/43903354.jpg",
+    "rating": 4,
+    "avgRating": 4.01,
+    "readDate": "2026-10-23",
+    "link": "https://www.goodreads.com/review/show/9042328843?utm_medium=api&utm_source=rss"
+  },
+  {
     "title": "1984",
     "author": "George Orwell",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657781256l/61439040.jpg",
@@ -85,7 +94,7 @@
     "author": "Chitra Banerjee Divakaruni",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545301594l/43293099.jpg",
     "rating": 5,
-    "avgRating": 4.22,
+    "avgRating": 4.21,
     "readDate": "2026-09-19",
     "link": "https://www.goodreads.com/review/show/8942616989?utm_medium=api&utm_source=rss"
   },
@@ -238,7 +247,7 @@
     "author": "Marjan Kamali",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565240217l/51036155.jpg",
     "rating": 5,
-    "avgRating": 4.19,
+    "avgRating": 4.18,
     "readDate": "2026-07-14",
     "link": "https://www.goodreads.com/review/show/8757409907?utm_medium=api&utm_source=rss"
   },
@@ -760,7 +769,7 @@
     "author": "William Dalrymple",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677706997l/124430.jpg",
     "rating": 5,
-    "avgRating": 4.13,
+    "avgRating": 4.12,
     "readDate": "2025-10-10",
     "link": "https://www.goodreads.com/review/show/7966012218?utm_medium=api&utm_source=rss"
   },
@@ -1354,7 +1363,7 @@
     "author": "Nidhi  Upadhyay",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1728181805l/220151640.jpg",
     "rating": 5,
-    "avgRating": 3.98,
+    "avgRating": 3.99,
     "readDate": "2025-02-10",
     "link": "https://www.goodreads.com/review/show/7301096886?utm_medium=api&utm_source=rss"
   },
@@ -1453,7 +1462,7 @@
     "author": "Luke Coutinho",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1683083090l/144026501.jpg",
     "rating": 4,
-    "avgRating": 4.19,
+    "avgRating": 4.18,
     "readDate": "2024-12-09",
     "link": "https://www.goodreads.com/review/show/7052879188?utm_medium=api&utm_source=rss"
   },
@@ -1507,7 +1516,7 @@
     "author": "Paulo Coelho",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1722247409l/216950113.jpg",
     "rating": 0,
-    "avgRating": 3.85,
+    "avgRating": 3.86,
     "readDate": "2024-11-01",
     "link": "https://www.goodreads.com/review/show/6966394038?utm_medium=api&utm_source=rss"
   },
@@ -1858,7 +1867,7 @@
     "author": "Enid Blyton",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348488737l/557212.jpg",
     "rating": 0,
-    "avgRating": 3.99,
+    "avgRating": 4,
     "readDate": "",
     "link": "https://www.goodreads.com/review/show/8883686765?utm_medium=api&utm_source=rss"
   },
@@ -2353,7 +2362,7 @@
     "author": "Rick Riordan",
     "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1530819367l/40727118.jpg",
     "rating": 5,
-    "avgRating": 4.22,
+    "avgRating": 4.23,
     "readDate": "",
     "link": "https://www.goodreads.com/review/show/6884068725?utm_medium=api&utm_source=rss"
   },
